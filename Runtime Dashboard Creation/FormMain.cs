@@ -35,7 +35,7 @@ namespace Runtime_Dashboard_Creation
             textElement.Height = 100;
             textElement.Text = "Sample Text";
             textElement.Border.Side = StiBorderSides.All;
-            textElement.Brush = new StiSolidBrush(Color.LightGray);
+            textElement.BackColor = Color.LightGray;
 
             dashboard.Components.Add(textElement);
 
