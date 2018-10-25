@@ -593,6 +593,7 @@
     <StiZipCode>Почтовый индекс</StiZipCode>
   </Components>
   <Dashboard>
+    <AddRange>Добавить диапазон</AddRange>
     <AfterGroupingData>Применить после группировки</AfterGroupingData>
     <Blanks>(Пробелы)</Blanks>
     <BooleanFilters>Булевские фильтры</BooleanFilters>
@@ -629,12 +630,15 @@
     <Nulls>(Nulls)</Nulls>
     <NumberFilters>Числовые фильтры</NumberFilters>
     <ParentElement>Главный элемент</ParentElement>
+    <RangeMode>Режим диапазона</RangeMode>
+    <RangeType>Тип диапазона</RangeType>
     <RemoveActions>Удалить действия</RemoveActions>
     <RemoveAllFields>Удалить все поля</RemoveAllFields>
     <RemoveField>Удалить поле</RemoveField>
     <ReplaceValues>Заменить значения</ReplaceValues>
     <RowsCount>Количество строк</RowsCount>
     <SelectAll>(В&amp;ыбрать все)</SelectAll>
+    <ShowAllValue>Показывать (Все) элемент</ShowAllValue>
     <ShowAsPercentages>Показать в процентах</ShowAsPercentages>
     <SkipFirstRows>Пропустить первые строки</SkipFirstRows>
     <SortAZ>Сортировка от А до Я</SortAZ>
@@ -2798,6 +2802,10 @@
     <StiFormStartModeOnStart>В начале</StiFormStartModeOnStart>
     <StiGaugeCalculationModeAuto>Авто</StiGaugeCalculationModeAuto>
     <StiGaugeCalculationModeCustom>По выбору</StiGaugeCalculationModeCustom>
+    <StiGaugeRangeModePercentage>Процент</StiGaugeRangeModePercentage>
+    <StiGaugeRangeModeValue>Значение</StiGaugeRangeModeValue>
+    <StiGaugeRangeTypeColor>Цвет</StiGaugeRangeTypeColor>
+    <StiGaugeRangeTypeNone>Нет</StiGaugeRangeTypeNone>
     <StiGaugeTypeFullCircular>Полный циферблат</StiGaugeTypeFullCircular>
     <StiGaugeTypeHalfCircular>Половина циферблата</StiGaugeTypeHalfCircular>
     <StiGaugeTypeLinear>Линейный</StiGaugeTypeLinear>
@@ -3815,6 +3823,7 @@
     <ShiftMode>Режим смещения</ShiftMode>
     <ShortName>Короткое имя</ShortName>
     <ShortValue>Короткое значение</ShortValue>
+    <ShowAllValue>Показывать все значения</ShowAllValue>
     <ShowBehind>Показывать сзади</ShowBehind>
     <ShowDialog>Показывать диалог</ShowDialog>
     <ShowEdgeValues>Показывать крайние значения</ShowEdgeValues>
@@ -4125,6 +4134,7 @@
     <BusinessObjects>Бизнес-объекты</BusinessObjects>
     <Categorized>По категориям</Categorized>
     <Charts>Диаграммы</Charts>
+    <Checking>Проверка...</Checking>
     <ClickForMoreDetails>Нажмите для просмотра</ClickForMoreDetails>
     <CollapseAll>Свернуть все</CollapseAll>
     <Collection>Коллекция</Collection>
