@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Register Data for Dashboard
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Export Dashboard", "Export Dashboard\Export Dashboard.csproj", "{39275308-5B7E-4E5E-8068-2B09E7C32DC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Add a Custom Function", "Add a Custom Function\Add a Custom Function.csproj", "{4E693727-1C04-45B6-8655-132A5298EA42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{39275308-5B7E-4E5E-8068-2B09E7C32DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39275308-5B7E-4E5E-8068-2B09E7C32DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39275308-5B7E-4E5E-8068-2B09E7C32DC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E693727-1C04-45B6-8655-132A5298EA42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E693727-1C04-45B6-8655-132A5298EA42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E693727-1C04-45B6-8655-132A5298EA42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E693727-1C04-45B6-8655-132A5298EA42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
