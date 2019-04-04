@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Export Dashboard", "Export 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Add a Custom Function", "Add a Custom Function\Add a Custom Function.csproj", "{4E693727-1C04-45B6-8655-132A5298EA42}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous Export", "Asynchronous Export\Asynchronous Export.csproj", "{637BE8CD-B5B7-498A-8A71-CED2AD876B96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{4E693727-1C04-45B6-8655-132A5298EA42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E693727-1C04-45B6-8655-132A5298EA42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E693727-1C04-45B6-8655-132A5298EA42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{637BE8CD-B5B7-498A-8A71-CED2AD876B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{637BE8CD-B5B7-498A-8A71-CED2AD876B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{637BE8CD-B5B7-498A-8A71-CED2AD876B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{637BE8CD-B5B7-498A-8A71-CED2AD876B96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
