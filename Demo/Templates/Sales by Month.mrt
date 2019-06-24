@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <StiSerializer version="1.02" type="Net" application="StiReport">
+  <CalculationMode>Interpretation</CalculationMode>
   <Dictionary Ref="1" type="Dictionary" isKey="true">
     <BusinessObjects isList="true" count="0" />
     <Databases isList="true" count="1">
@@ -10,7 +11,7 @@
         <PathData>resource://fastfood</PathData>
       </fastfood>
     </Databases>
-    <DataSources isList="true" count="5">
+    <DataSources isList="true" count="4">
       <Products Ref="3" type="DataTableSource" isKey="true">
         <Alias>Products</Alias>
         <Columns isList="true" count="7">
@@ -84,29 +85,6 @@
         <Name>TargetSales</Name>
         <NameInSource>fastfood.TargetSales</NameInSource>
       </TargetSales>
-      <Data1 Ref="7" type="Stimulsoft.Report.Dictionary.StiDataTransformation" isKey="true">
-        <Actions isList="true" count="0" />
-        <Alias>Data1</Alias>
-        <Columns isList="true" count="7">
-          <value>TRANSFORM,Burger_x0020_King,Burger_x0020_King,System.Double,Sum_x0028_SalesbyMonth.BurgerKing_x0029_,c2a261cf0d6c4028b9dec9b38bfbacd5,Measure</value>
-          <value>TRANSFORM,McDonald_x0027_s,McDonald_x0027_s,System.Double,Sum_x0028__x005B_SalesbyMonth.McDonald_x0027_s_x005D__x0029_,_x0039_ab7331cac6b4b82868680c381aeb80a,Measure</value>
-          <value>TRANSFORM,MonthID,MonthID,System.Double,Sum_x0028_SalesbyMonth.MonthID_x0029_,_x0035_c3a96f6100c4dcea1656b1357ca5564,Measure</value>
-          <value>TRANSFORM,MonthName,MonthName,System.String,SalesbyMonth.MonthName,fc6716bd56d04c2bbe7842e55359b7c5,Dimension</value>
-          <value>TRANSFORM,State,State,System.String,SalesbyMonth.State,a57af6c4db2a46c2a225bc5475ab4b78,Dimension</value>
-          <value>TRANSFORM,StateID,StateID,System.Double,Sum_x0028_SalesbyMonth.StateID_x0029_,e1b5207256bc4fc9a69e829dbbfa41a7,Measure</value>
-          <value>TRANSFORM,Wendy_x0027_s,Wendy_x0027_s,System.Double,Sum_x0028__x005B_SalesbyMonth.Wendy_x0027_s_x005D__x0029_,_x0035_8d08706623341f09bac6f7a1fead122,Measure</value>
-        </Columns>
-        <Dictionary isRef="1" />
-        <Filters isList="true" count="0" />
-        <Key>a3fe914c28404e12b95cf98878bcdbef</Key>
-        <Name>Data1</Name>
-        <NameInSource>Category</NameInSource>
-        <Sorts isList="true" count="1">
-          <Item7 Ref="8" type="Stimulsoft.Data.Engine.StiDataSortRule" isKey="true">
-            <Key>5c3a96f6100c4dcea1656b1357ca5564</Key>
-          </Item7>
-        </Sorts>
-      </Data1>
     </DataSources>
     <Relations isList="true" count="0" />
     <Report isRef="0" />
@@ -120,31 +98,36 @@
   <Key>a7732b84e46a40469e67f68bc31e8570</Key>
   <MetaTags isList="true" count="0" />
   <Pages isList="true" count="1">
-    <DashboardSalesByMonth Ref="9" type="Stimulsoft.Dashboard.Components.StiDashboard" isKey="true">
+    <DashboardSalesByMonth Ref="7" type="Stimulsoft.Dashboard.Components.StiDashboard" isKey="true">
       <Alias>Sales by Month</Alias>
       <BackColor>Transparent</BackColor>
       <Components isList="true" count="4">
-        <RegionMap1 Ref="10" type="Stimulsoft.Dashboard.Components.RegionMap.StiRegionMapElement" isKey="true">
+        <RegionMap1 Ref="8" type="Stimulsoft.Dashboard.Components.RegionMap.StiRegionMapElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>560,40,640,300</ClientRectangle>
           <DataFilters isList="true" count="0" />
           <DataFrom>DataColumns</DataFrom>
           <Guid>8ae5755bde3148feb58c03862ecde210</Guid>
-          <KeyMeter Ref="11" type="Stimulsoft.Dashboard.Components.RegionMap.StiKeyMapMeter" isKey="true">
-            <Expression>Data1.State</Expression>
-            <Key>b7b471ef7c3b46f3b247adb3b54ef1c6</Key>
+          <KeyMeter Ref="9" type="Stimulsoft.Dashboard.Components.RegionMap.StiKeyMapMeter" isKey="true">
+            <Expression>SalesbyMonth.State</Expression>
+            <Key>32a72927d4154cf4b4c6db8fcf84b4b0</Key>
+            <Label>State</Label>
           </KeyMeter>
+          <Layout Ref="10" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
           <MapType>Heatmap</MapType>
           <Margin>3,3,3,3</Margin>
           <Name>RegionMap1</Name>
-          <NameMeter Ref="12" type="Stimulsoft.Dashboard.Components.RegionMap.StiNameMapMeter" isKey="true">
-            <Expression>Data1.State</Expression>
-            <Key>7943f02f9ade4624b687221dc6dfd70c</Key>
+          <NameMeter Ref="11" type="Stimulsoft.Dashboard.Components.RegionMap.StiNameMapMeter" isKey="true">
+            <Expression>SalesbyMonth.State</Expression>
+            <Key>accadedd430d44a1af27b1997acef164</Key>
+            <Label>State</Label>
           </NameMeter>
           <Padding>5,5,5,5</Padding>
-          <Page isRef="9" />
-          <Parent isRef="9" />
-          <Title Ref="13" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <ShowName>Short</ShowName>
+          <ShowValue>False</ShowValue>
+          <Title Ref="12" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
@@ -154,24 +137,27 @@
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <ValueMeter Ref="14" type="Stimulsoft.Dashboard.Components.RegionMap.StiValueMapMeter" isKey="true">
-            <Expression>Data1.StateID</Expression>
-            <Key>51c8c8a1e34747bab4f05e6265d675ac</Key>
-            <Label>State ID</Label>
+          <ValueMeter Ref="13" type="Stimulsoft.Dashboard.Components.RegionMap.StiValueMapMeter" isKey="true">
+            <Expression>Sum(SalesbyMonth.StateID)</Expression>
+            <Key>6fe4741ed056435ca7f7c437d0ee17f5</Key>
+            <Label>StateID</Label>
           </ValueMeter>
         </RegionMap1>
-        <Chart1 Ref="15" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
-          <Arguments isList="true" count="2">
-            <Item11 Ref="16" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
-              <Expression>Data1.MonthName</Expression>
-              <Key>fcbabfa049fe44fd942627f7d66e54fe</Key>
-              <Label>Month Name</Label>
-            </Item11>
-            <Item12 Ref="17" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
-              <Expression>Data1.MonthID</Expression>
-              <Key>ca3ac6bfcf0243bb995720b332f60347</Key>
-              <Label>Month ID</Label>
-            </Item12>
+        <Chart1 Ref="14" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+          <Area Ref="15" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
+            <InterlacingHor Ref="16" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingHor>
+            <InterlacingVert Ref="17" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingVert>
+          </Area>
+          <Arguments isList="true" count="1">
+            <Item9 Ref="18" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
+              <Expression>SalesbyMonth.MonthName</Expression>
+              <Key>620a1549cd7f49f5b3b8a7fe62293118</Key>
+              <Label>MonthName</Label>
+            </Item9>
           </Arguments>
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,340,1200,260</ClientRectangle>
@@ -180,80 +166,142 @@
           <EndValues isList="true" count="0" />
           <Guid>864d7a95b74041bd99f18622c1c2d95a</Guid>
           <HighValues isList="true" count="0" />
+          <Labels Ref="19" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
+            <Font>Arial,8</Font>
+            <ForeColor>Transparent</ForeColor>
+          </Labels>
+          <Layout Ref="20" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
+          <Legend Ref="21" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
+            <Labels Ref="22" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="23" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+            </Title>
+          </Legend>
           <LowValues isList="true" count="0" />
           <Margin>3,3,3,3</Margin>
           <Name>Chart1</Name>
+          <NegativeSeriesColors />
           <Padding>5,5,5,5</Padding>
-          <Page isRef="9" />
-          <Parent isRef="9" />
-          <Title Ref="18" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <SeriesColors />
+          <Title Ref="24" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>Sales by Month</Text>
           </Title>
+          <TopN Ref="25" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="1">
-            <Item13 Ref="19" type="Stimulsoft.Data.Engine.StiDataSortRule" isKey="true">
+            <Item10 Ref="26" type="Stimulsoft.Data.Engine.StiDataSortRule" isKey="true">
               <Key>MonthID</Key>
-            </Item13>
+            </Item10>
           </TransformSorts>
+          <ValueFormat Ref="27" type="CurrencyFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>0</NegativePattern>
+            <PositivePattern>0</PositivePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
           <Values isList="true" count="3">
-            <Item14 Ref="20" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
-              <Expression>Sum([Data1.McDonald's])</Expression>
-              <Key>22d2fe2d63fd4d1fb2ce56ddb3774bb6</Key>
-            </Item14>
-            <Item15 Ref="21" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
-              <Expression>Sum([Data1.Wendy's])</Expression>
-              <Key>51d9eb91a4d7453ca4395271691a0ecb</Key>
-            </Item15>
-            <Item16 Ref="22" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
-              <Expression>Sum([Data1.Burger King])</Expression>
-              <Key>dfa736f704404120b86f7df9e50b7ea3</Key>
-            </Item16>
+            <Item11 Ref="28" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+              <Expression>Sum([SalesbyMonth.McDonald's])</Expression>
+              <Key>aa4a2220fe42459bb2bcd3164d9e0639</Key>
+              <Label>McDonald's</Label>
+            </Item11>
+            <Item12 Ref="29" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+              <Expression>Sum([SalesbyMonth.Wendy's])</Expression>
+              <Key>44bc80a292884446969b4311ab3b67df</Key>
+              <Label>Wendy's</Label>
+            </Item12>
+            <Item13 Ref="30" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+              <Expression>Sum(SalesbyMonth.BurgerKing)</Expression>
+              <Key>c552214824e047788dd4460a30887d19</Key>
+              <Label>Burger King</Label>
+            </Item13>
           </Values>
           <Weights isList="true" count="0" />
         </Chart1>
-        <PivotTable1 Ref="23" type="Stimulsoft.Dashboard.Components.PivotTable.StiPivotTableElement" isKey="true">
+        <PivotTable1 Ref="31" type="Stimulsoft.Dashboard.Components.PivotTable.StiPivotTableElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,40,560,300</ClientRectangle>
-          <Columns isList="true" count="1">
-            <Item18 Ref="24" type="Stimulsoft.Dashboard.Components.PivotTable.StiPivotColumn" isKey="true">
-              <Expression>Data1.State</Expression>
-              <Key>b69b93fcd49947d0bbfcdab1e56f9695</Key>
-            </Item18>
+          <Columns isList="true" count="2">
+            <Item15 Ref="32" type="Stimulsoft.Dashboard.Components.PivotTable.StiPivotColumn" isKey="true">
+              <Expression>SalesbyMonth.State</Expression>
+              <Key>8cb776044fb440ed9c4fe674e8ac89cb</Key>
+              <Label>State</Label>
+              <TopN Ref="33" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+            </Item15>
+            <Item16 Ref="34" type="Stimulsoft.Dashboard.Components.PivotTable.StiPivotColumn" isKey="true">
+              <Expression>SalesbyMonth.MonthName</Expression>
+              <Key>09882724aa634d3787017f2aebf0e8ea</Key>
+              <Label>MonthName</Label>
+              <TopN Ref="35" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+            </Item16>
           </Columns>
           <DataFilters isList="true" count="0" />
           <Guid>a11b1d1f0f404b319bd01a9cbeb51807</Guid>
+          <Layout Ref="36" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
           <Margin>3,3,3,3</Margin>
           <Name>PivotTable1</Name>
           <Padding>5,5,5,5</Padding>
-          <Page isRef="9" />
-          <Parent isRef="9" />
+          <Page isRef="7" />
+          <Parent isRef="7" />
           <Rows isList="true" count="1">
-            <Item19 Ref="25" type="Stimulsoft.Dashboard.Components.PivotTable.StiPivotRow" isKey="true">
-              <Expression>Data1.MonthName</Expression>
-              <Key>b690969a151e41baadd92286f20718f6</Key>
-              <Label>Month Name</Label>
-            </Item19>
+            <Item17 Ref="37" type="Stimulsoft.Dashboard.Components.PivotTable.StiPivotRow" isKey="true">
+              <Expression>SalesbyMonth.MonthName</Expression>
+              <Key>d8d3eb6c0a3f4a8abe59d8d1b200d62d</Key>
+              <Label>MonthName</Label>
+              <TopN Ref="38" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+            </Item17>
           </Rows>
           <Summaries isList="true" count="3">
-            <Item20 Ref="26" type="Stimulsoft.Dashboard.Components.PivotTable.StiPivotSummary" isKey="true">
-              <Expression>Sum([Data1.McDonald's])</Expression>
-              <Key>651680d2287d46a5a13c1db2f491cd36</Key>
+            <Item18 Ref="39" type="Stimulsoft.Dashboard.Components.PivotTable.StiPivotSummary" isKey="true">
+              <Expression>Sum([SalesbyMonth.McDonald's])</Expression>
+              <Key>d1e84c7c4486466bba328b2a2e1259fe</Key>
+              <Label>McDonald's</Label>
+              <TextFormat Ref="40" type="CurrencyFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>0</NegativePattern>
+                <PositivePattern>0</PositivePattern>
+                <State>DecimalDigits, Abbreviation</State>
+              </TextFormat>
+            </Item18>
+            <Item19 Ref="41" type="Stimulsoft.Dashboard.Components.PivotTable.StiPivotSummary" isKey="true">
+              <Expression>Sum([SalesbyMonth.Wendy's])</Expression>
+              <Key>7c1d2db742754d41a12d85e87f7d5af3</Key>
+              <Label>Wendy's</Label>
+              <TextFormat Ref="42" type="CurrencyFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>0</NegativePattern>
+                <PositivePattern>0</PositivePattern>
+                <State>DecimalDigits, Abbreviation</State>
+              </TextFormat>
+            </Item19>
+            <Item20 Ref="43" type="Stimulsoft.Dashboard.Components.PivotTable.StiPivotSummary" isKey="true">
+              <Expression>Sum(SalesbyMonth.BurgerKing)</Expression>
+              <Key>8a97f315658f493fa571edc2a40f28b3</Key>
+              <Label>Burger King</Label>
+              <TextFormat Ref="44" type="CurrencyFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>0</NegativePattern>
+                <PositivePattern>0</PositivePattern>
+                <State>DecimalDigits, Abbreviation</State>
+              </TextFormat>
             </Item20>
-            <Item21 Ref="27" type="Stimulsoft.Dashboard.Components.PivotTable.StiPivotSummary" isKey="true">
-              <Expression>Sum([Data1.Wendy's])</Expression>
-              <Key>9dd60266333d4007b1c3a2a4348ba623</Key>
-            </Item21>
-            <Item22 Ref="28" type="Stimulsoft.Dashboard.Components.PivotTable.StiPivotSummary" isKey="true">
-              <Expression>Sum([Data1.Burger King])</Expression>
-              <Key>50d844c6991648c0bd63020df16137c4</Key>
-            </Item22>
           </Summaries>
-          <Title Ref="29" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="45" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
@@ -264,7 +312,7 @@
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
         </PivotTable1>
-        <Text1 Ref="30" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+        <Text1 Ref="46" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,0,1200,40</ClientRectangle>
           <ForeColor>Transparent</ForeColor>
@@ -272,10 +320,10 @@
           <Margin>3,3,3,3</Margin>
           <Name>Text1</Name>
           <Padding>0,0,0,0</Padding>
-          <Page isRef="9" />
-          <Parent isRef="9" />
-          <Text>&lt;font face="Segoe UI" size="36"&gt;&lt;text-align="Center"&gt;Sales by Month in States&lt;/text-align&gt;&lt;/font&gt;</Text>
-          <Title Ref="31" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Text>&lt;font face="Arial" size="12"&gt;&lt;text-align="Center"&gt;Sales by Month in United States&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="47" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,11</Font>
             <ForeColor>Transparent</ForeColor>
@@ -285,14 +333,12 @@
         </Text1>
       </Components>
       <Guid>9a260b5993e04e208a303cd73f9ff5dc</Guid>
-      <Height>600</Height>
       <Name>DashboardSalesByMonth</Name>
       <Report isRef="0" />
       <Style>SlateGray</Style>
-      <Width>1200</Width>
     </DashboardSalesByMonth>
   </Pages>
-  <PrinterSettings Ref="32" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <PreviewSettings>25116671</PreviewSettings>
   <ReferencedAssemblies isList="true" count="8">
     <value>System.Dll</value>
     <value>System.Drawing.Dll</value>
@@ -305,13 +351,13 @@
   </ReferencedAssemblies>
   <ReportAlias>Sales by Month</ReportAlias>
   <ReportAuthor>Stimulsoft</ReportAuthor>
-  <ReportChanged>10/6/2018 2:57:40 PM</ReportChanged>
+  <ReportChanged>5/15/2019 12:35:02 PM</ReportChanged>
   <ReportCreated>9/4/2018 4:10:48 PM</ReportCreated>
-  <ReportFile>D:\Stimulsoft\.Dashboards\Sales by Month.mrt</ReportFile>
-  <ReportGuid>a0727c7ffc8f40d2be24ecbedf09f729</ReportGuid>
-  <ReportName>SalesByMonth</ReportName>
+  <ReportFile>Sales by Month.mrt</ReportFile>
+  <ReportGuid>a54be9d0d9c84292852be33734f4d42e</ReportGuid>
+  <ReportName>Sales by Month</ReportName>
   <ReportUnit>Inches</ReportUnit>
-  <ReportVersion>2018.3.1.0</ReportVersion>
+  <ReportVersion>2019.3.2.0</ReportVersion>
   <Script>using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -324,9 +370,9 @@ using Stimulsoft.Report.Components;
 
 namespace Reports
 {
-    public class SalesByMonth : Stimulsoft.Report.StiReport
+    public class Sales_by_Month : Stimulsoft.Report.StiReport
     {
-        public SalesByMonth()        {
+        public Sales_by_Month()        {
             this.InitializeComponent();
         }
 

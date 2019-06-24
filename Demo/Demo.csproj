@@ -33,67 +33,88 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="LibExcel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.2.1\lib\net40\LibExcel.dll</HintPath>
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.3.2\lib\net45\LibExcel.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Base, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.2.1\lib\net40\Stimulsoft.Base.dll</HintPath>
+    <Reference Include="Microsoft.OData.Client, Version=7.5.4.30215, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.OData.Client.7.5.4\lib\net45\Microsoft.OData.Client.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Controls, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Net.2019.2.1\lib\net40\Stimulsoft.Controls.dll</HintPath>
+    <Reference Include="Microsoft.OData.Core, Version=7.5.4.30215, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.OData.Core.7.5.4\lib\portable-net45+win8+wpa81\Microsoft.OData.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Controls.Win, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Net.2019.2.1\lib\net40\Stimulsoft.Controls.Win.dll</HintPath>
+    <Reference Include="Microsoft.OData.Edm, Version=7.5.4.30215, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.OData.Edm.7.5.4\lib\portable-net45+win8+wpa81\Microsoft.OData.Edm.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Dashboard, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2019.2.1\lib\net40\Stimulsoft.Dashboard.dll</HintPath>
+    <Reference Include="Microsoft.Spatial, Version=7.5.4.30215, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Spatial.7.5.4\lib\portable-net45+win8+wpa81\Microsoft.Spatial.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Dashboard.Design, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2019.2.1\lib\net40\Stimulsoft.Dashboard.Design.dll</HintPath>
+    <Reference Include="Stimulsoft.Base, Version=2019.3.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.3.2\lib\net45\Stimulsoft.Base.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Dashboard.Drawing, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2019.2.1\lib\net40\Stimulsoft.Dashboard.Drawing.dll</HintPath>
+    <Reference Include="Stimulsoft.Controls, Version=2019.3.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Net.2019.3.2\lib\net45\Stimulsoft.Controls.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Dashboard.Export, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2019.2.1\lib\net40\Stimulsoft.Dashboard.Export.dll</HintPath>
+    <Reference Include="Stimulsoft.Controls.Win, Version=2019.3.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Net.2019.3.2\lib\net45\Stimulsoft.Controls.Win.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Dashboard.Viewer, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2019.2.1\lib\net40\Stimulsoft.Dashboard.Viewer.dll</HintPath>
+    <Reference Include="Stimulsoft.Dashboard, Version=2019.3.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2019.3.2\lib\net45\Stimulsoft.Dashboard.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Data, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.2.1\lib\net40\Stimulsoft.Data.dll</HintPath>
+    <Reference Include="Stimulsoft.Dashboard.Design, Version=2019.3.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2019.3.2\lib\net45\Stimulsoft.Dashboard.Design.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Database, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Net.2019.2.1\lib\net40\Stimulsoft.Database.dll</HintPath>
+    <Reference Include="Stimulsoft.Dashboard.Drawing, Version=2019.3.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2019.3.2\lib\net45\Stimulsoft.Dashboard.Drawing.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Design, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Net.2019.2.1\lib\net40\Stimulsoft.Design.dll</HintPath>
+    <Reference Include="Stimulsoft.Dashboard.Drawing.Wpf, Version=2019.3.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2019.3.2\lib\net45\Stimulsoft.Dashboard.Drawing.Wpf.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Editor, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Net.2019.2.1\lib\net40\Stimulsoft.Editor.dll</HintPath>
+    <Reference Include="Stimulsoft.Dashboard.Export, Version=2019.3.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2019.3.2\lib\net45\Stimulsoft.Dashboard.Export.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Map, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.2.1\lib\net40\Stimulsoft.Map.dll</HintPath>
+    <Reference Include="Stimulsoft.Dashboard.Viewer, Version=2019.3.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2019.3.2\lib\net45\Stimulsoft.Dashboard.Viewer.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.2.1\lib\net40\Stimulsoft.Report.dll</HintPath>
+    <Reference Include="Stimulsoft.Dashboard.Viewer.Wpf, Version=2019.3.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2019.3.2\lib\net45\Stimulsoft.Dashboard.Viewer.Wpf.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Check, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.2.1\lib\net40\Stimulsoft.Report.Check.dll</HintPath>
+    <Reference Include="Stimulsoft.Data, Version=2019.3.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.3.2\lib\net45\Stimulsoft.Data.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Design, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Net.2019.2.1\lib\net40\Stimulsoft.Report.Design.dll</HintPath>
+    <Reference Include="Stimulsoft.Data.OData, Version=2019.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Data.OData.2019.2.3\lib\net45\Stimulsoft.Data.OData.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Helper, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.2.1\lib\net40\Stimulsoft.Report.Helper.dll</HintPath>
+    <Reference Include="Stimulsoft.Database, Version=2019.3.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Net.2019.3.2\lib\net45\Stimulsoft.Database.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Web, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Net.2019.2.1\lib\net40\Stimulsoft.Report.Web.dll</HintPath>
+    <Reference Include="Stimulsoft.Design, Version=2019.3.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Net.2019.3.2\lib\net45\Stimulsoft.Design.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Win, Version=2019.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Net.2019.2.1\lib\net40\Stimulsoft.Report.Win.dll</HintPath>
+    <Reference Include="Stimulsoft.Editor, Version=2019.3.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Net.2019.3.2\lib\net45\Stimulsoft.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Map, Version=2019.3.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.3.2\lib\net45\Stimulsoft.Map.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report, Version=2019.3.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.3.2\lib\net45\Stimulsoft.Report.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Check, Version=2019.3.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.3.2\lib\net45\Stimulsoft.Report.Check.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Design, Version=2019.3.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Net.2019.3.2\lib\net45\Stimulsoft.Report.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Helper, Version=2019.3.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.3.2\lib\net45\Stimulsoft.Report.Helper.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Web, Version=2019.3.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Net.2019.3.2\lib\net45\Stimulsoft.Report.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Win, Version=2019.3.2.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Net.2019.3.2\lib\net45\Stimulsoft.Report.Win.dll</HintPath>
     </Reference>
     <Reference Include="Svg, Version=2.2.1.39233, Culture=neutral, PublicKeyToken=12a0bac221edeae2, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.2.1\lib\net40\Svg.dll</HintPath>
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2019.3.2\lib\net45\Svg.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -144,10 +165,13 @@
     <None Include="Templates\Exchange Tenders.mrt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Templates\Fast Food Lanch.mrt">
+    <None Include="Templates\Fast Food Lunch.mrt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Templates\Financial.mrt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Fitness Stats.mrt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Templates\Global Internet Usage.mrt">
@@ -165,6 +189,9 @@
     <None Include="Templates\Orders.mrt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Templates\Patient Health Story.mrt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Templates\Population by State.mrt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -174,7 +201,13 @@
     <None Include="Templates\Restaurant Attendance Tracking.mrt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Templates\Sales by Companies.mrt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Templates\Sales by Month.mrt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Sales Details.mrt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Templates\Sales Overview.mrt">
@@ -186,7 +219,16 @@
     <None Include="Templates\Sales Statistics.mrt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Templates\Social Networks Statistics.mrt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Templates\Tickets Statistics.mrt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Traffic Analytics.mrt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\User Activity Stats.mrt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Templates\Vehicle Production.mrt">

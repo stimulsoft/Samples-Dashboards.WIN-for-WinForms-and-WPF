@@ -1,7 +1,7 @@
 ﻿using Stimulsoft.Dashboard.Components;
 using Stimulsoft.Dashboard.Viewer;
-using Stimulsoft.Dashboard.Viewer.Controls;
 using Stimulsoft.Report;
+using Stimulsoft.Report.Dashboard.Styles;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,8 +9,7 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace Demo
@@ -27,7 +26,7 @@ namespace Demo
             Report = report;
 
             FillReportsList();
-            listBoxReports.SelectedItem = listBoxReports.Items.Cast<object>().FirstOrDefault();
+            listBoxDashboards.SelectedItem = listBoxDashboards.Items.Cast<object>().FirstOrDefault();
         }
 
         #region Fields
@@ -66,7 +65,14 @@ namespace Demo
         #region Handlers
         private void Reports_SelectedIndexChanged(object sender, EventArgs e)
         {
-            var report = reports[listBoxReports.SelectedIndex];
+            var report = reports[listBoxDashboards.SelectedIndex];
+
+            var dashboard = report.Pages[0] as StiDashboard;
+            BackColor = dashboard != null ? StiDashboardStyleHelper.GetDashboardBackColor(dashboard, true) : SystemColors.Control;
+            listBoxDashboards.Colors.BackColor = dashboard != null ? StiDashboardStyleHelper.GetDashboardBackColor(dashboard, true) : Color.White;
+            listBoxDashboards.Colors.ForeColor = dashboard != null ? StiDashboardStyleHelper.GetForeColor(dashboard) : Color.DimGray;
+            listBoxDashboards.Invalidate();
+
             Report = report;
         }
         #endregion
@@ -78,9 +84,8 @@ namespace Demo
             if (!dir.Exists) return;
 
             reports.Clear();
-            listBoxReports.Items.Clear();
+            listBoxDashboards.Items.Clear();
             
-
             var files = dir.GetFiles("*.mrt");
             foreach (var file in files)
             {
@@ -88,7 +93,7 @@ namespace Demo
                 report.Load(file.FullName);
 
                 reports.Add(report);
-                listBoxReports.Items.Add(Path.GetFileNameWithoutExtension(file.FullName));
+                listBoxDashboards.Items.Add(Path.GetFileNameWithoutExtension(file.FullName));
             }
         }
 
@@ -108,7 +113,7 @@ namespace Demo
 
         private void buttonEditDashboard_Click(object sender, EventArgs e)
         {
-            var report = reports[listBoxReports.SelectedIndex];
+            var report = reports[listBoxDashboards.SelectedIndex];
             var originalReportClone = report.Clone() as StiReport;
             originalReportClone.Design();
         }

@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <StiSerializer version="1.02" type="Net" application="StiReport">
+  <CalculationMode>Interpretation</CalculationMode>
   <Dictionary Ref="1" type="Dictionary" isKey="true">
     <BusinessObjects isList="true" count="0" />
     <Databases isList="true" count="1">
@@ -14,15 +15,16 @@
       <GlobalInternetUsers Ref="3" type="DataTableSource" isKey="true">
         <Alias>GlobalInternetUsers</Alias>
         <Columns isList="true" count="7">
-          <value>ContinentID,System.Double</value>
           <value>Continent_Name,System.String</value>
-          <value>CountryID,System.Double</value>
+          <value>ContinentID,System.Double</value>
           <value>Country_Name,System.String</value>
-          <value>PopulationinMillions,System.Double</value>
-          <value>InternetusersinPercent,System.Object</value>
+          <value>CountryID,System.Double</value>
           <value>InternetUsersinMillions,System.Double</value>
+          <value>InternetusersinPercent,System.Object</value>
+          <value>PopulationinMillions,System.Double</value>
         </Columns>
         <Dictionary isRef="1" />
+        <Key>ec599de21d1a4d4c9eaf20f633eb195c</Key>
         <Name>GlobalInternetUsers</Name>
         <NameInSource>Countries-by-continent2.GlobalInternetUsers</NameInSource>
       </GlobalInternetUsers>
@@ -54,11 +56,12 @@
             <Key>e62114935f73430287468c62b118aaae</Key>
             <Label>Country Name</Label>
           </KeyMeter>
+          <Layout Ref="7" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
           <MapID>World</MapID>
           <MapType>Heatmap</MapType>
           <Margin>3,3,3,3</Margin>
           <Name>RegionMap1</Name>
-          <NameMeter Ref="7" type="Stimulsoft.Dashboard.Components.RegionMap.StiNameMapMeter" isKey="true">
+          <NameMeter Ref="8" type="Stimulsoft.Dashboard.Components.RegionMap.StiNameMapMeter" isKey="true">
             <Expression>GlobalInternetUsers.Country_Name</Expression>
             <Key>2dc82f0ad163440a88977e4ceae85a1c</Key>
             <Label>Country Name</Label>
@@ -66,7 +69,8 @@
           <Padding>5,5,5,5</Padding>
           <Page isRef="4" />
           <Parent isRef="4" />
-          <Title Ref="8" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <ShowName>Short</ShowName>
+          <Title Ref="9" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
@@ -77,49 +81,64 @@
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <ValueMeter Ref="9" type="Stimulsoft.Dashboard.Components.RegionMap.StiValueMapMeter" isKey="true">
+          <ValueMeter Ref="10" type="Stimulsoft.Dashboard.Components.RegionMap.StiValueMapMeter" isKey="true">
             <Expression>GlobalInternetUsers.InternetUsersinMillions</Expression>
             <Key>f3f489b9096e42b29bd3930f502f67d0</Key>
             <Label>InternetUsers in Millions</Label>
           </ValueMeter>
         </RegionMap1>
-        <PivotTable1 Ref="10" type="Stimulsoft.Dashboard.Components.PivotTable.StiPivotTableElement" isKey="true">
+        <PivotTable1 Ref="11" type="Stimulsoft.Dashboard.Components.PivotTable.StiPivotTableElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>440,380,760,220</ClientRectangle>
           <Columns isList="true" count="1">
-            <Item6 Ref="11" type="Stimulsoft.Dashboard.Components.PivotTable.StiPivotColumn" isKey="true">
+            <Item6 Ref="12" type="Stimulsoft.Dashboard.Components.PivotTable.StiPivotColumn" isKey="true">
               <Expression>GlobalInternetUsers.Country_Name</Expression>
               <Key>90815c56520540878b9a31c4422f74b0</Key>
               <Label>Country Name</Label>
+              <TopN Ref="13" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
             </Item6>
           </Columns>
           <DataFilters isList="true" count="0" />
           <Guid>d51b3d45c1e04c7ca5c8a9324cdc1ab5</Guid>
+          <Layout Ref="14" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
           <Margin>3,3,3,3</Margin>
           <Name>PivotTable1</Name>
           <Padding>5,5,5,5</Padding>
           <Page isRef="4" />
           <Parent isRef="4" />
           <Rows isList="true" count="1">
-            <Item7 Ref="12" type="Stimulsoft.Dashboard.Components.PivotTable.StiPivotRow" isKey="true">
+            <Item7 Ref="15" type="Stimulsoft.Dashboard.Components.PivotTable.StiPivotRow" isKey="true">
               <Expression>GlobalInternetUsers.Continent_Name</Expression>
               <Key>36558aff92cc42d893514bdce48b1a37</Key>
               <Label>Continent Name</Label>
+              <TopN Ref="16" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
             </Item7>
           </Rows>
           <Summaries isList="true" count="2">
-            <Item8 Ref="13" type="Stimulsoft.Dashboard.Components.PivotTable.StiPivotSummary" isKey="true">
+            <Item8 Ref="17" type="Stimulsoft.Dashboard.Components.PivotTable.StiPivotSummary" isKey="true">
               <Expression>Sum(GlobalInternetUsers.InternetUsersinMillions)</Expression>
               <Key>dde36384b6c64e5bb9792068601e5d9b</Key>
               <Label>InternetUsers in Millions</Label>
+              <TextFormat Ref="18" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits, Abbreviation</State>
+              </TextFormat>
             </Item8>
-            <Item9 Ref="14" type="Stimulsoft.Dashboard.Components.PivotTable.StiPivotSummary" isKey="true">
+            <Item9 Ref="19" type="Stimulsoft.Dashboard.Components.PivotTable.StiPivotSummary" isKey="true">
               <Expression>Sum(GlobalInternetUsers.PopulationinMillions)</Expression>
               <Key>21d1dc84222445c68a332b1fa20ff38a</Key>
               <Label>Population in Millions</Label>
+              <TextFormat Ref="20" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits, Abbreviation</State>
+              </TextFormat>
             </Item9>
           </Summaries>
-          <Title Ref="15" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="21" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
@@ -130,40 +149,43 @@
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
         </PivotTable1>
-        <Progress1 Ref="16" type="Stimulsoft.Dashboard.Components.Progress.StiProgressElement" isKey="true">
+        <Progress1 Ref="22" type="Stimulsoft.Dashboard.Components.Progress.StiProgressElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,400,440,200</ClientRectangle>
           <DataFilters isList="true" count="0" />
           <Font>Arial,13</Font>
           <ForeColor>Transparent</ForeColor>
           <Guid>77ececf1cd734f0480634a6225ab86b0</Guid>
+          <Layout Ref="23" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
           <Margin>3,3,3,3</Margin>
           <Name>Progress1</Name>
           <Padding>5,5,5,5</Padding>
           <Page isRef="4" />
           <Parent isRef="4" />
-          <Target Ref="17" type="Stimulsoft.Dashboard.Components.Progress.StiTargetProgressMeter" isKey="true">
+          <SeriesColors />
+          <Target Ref="24" type="Stimulsoft.Dashboard.Components.Progress.StiTargetProgressMeter" isKey="true">
             <Expression>Sum(GlobalInternetUsers.PopulationinMillions)</Expression>
             <Key>7f78bc97dc1246dc88696d5df094e7b5</Key>
             <Label>Population in Millions</Label>
           </Target>
-          <Title Ref="18" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="25" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>Internet Users by Country</Text>
           </Title>
+          <TopN Ref="26" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <Value Ref="19" type="Stimulsoft.Dashboard.Components.Progress.StiValueProgressMeter" isKey="true">
+          <Value Ref="27" type="Stimulsoft.Dashboard.Components.Progress.StiValueProgressMeter" isKey="true">
             <Expression>Sum(GlobalInternetUsers.InternetUsersinMillions)</Expression>
             <Key>42e7aa3c8174405fbb6af57f15ca664f</Key>
             <Label>Internet Users in Millions</Label>
           </Value>
         </Progress1>
-        <Text1 Ref="20" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+        <Text1 Ref="28" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,0,1200,40</ClientRectangle>
           <ForeColor>Transparent</ForeColor>
@@ -174,7 +196,7 @@
           <Page isRef="4" />
           <Parent isRef="4" />
           <Text>&lt;font face="Segoe UI" size="36"&gt;&lt;text-align="Center"&gt;Global Internet Usage&lt;/text-align&gt;&lt;/font&gt;</Text>
-          <Title Ref="21" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="29" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,11</Font>
             <ForeColor>Transparent</ForeColor>
@@ -182,13 +204,14 @@
             <Visible>False</Visible>
           </Title>
         </Text1>
-        <Gauge1 Ref="22" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement" isKey="true">
+        <Gauge1 Ref="30" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,220,440,180</ClientRectangle>
           <DataFilters isList="true" count="0" />
           <Font>Arial,13</Font>
           <ForeColor>Transparent</ForeColor>
           <Guid>f1d0120b488848ad8c940d22d4e75cfe</Guid>
+          <Layout Ref="31" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
           <Margin>3,3,3,3</Margin>
           <Maximum>100</Maximum>
           <Minimum>0</Minimum>
@@ -197,7 +220,7 @@
           <Page isRef="4" />
           <Parent isRef="4" />
           <Ranges isList="true" count="0" />
-          <Title Ref="23" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="32" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
@@ -207,13 +230,13 @@
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <Value Ref="24" type="Stimulsoft.Dashboard.Components.Gauge.StiValueGaugeMeter" isKey="true">
+          <Value Ref="33" type="Stimulsoft.Dashboard.Components.Gauge.StiValueGaugeMeter" isKey="true">
             <Expression>Sum(GlobalInternetUsers.PopulationinMillions)</Expression>
             <Key>87904ca83dc649b1a58f2116aa179da1</Key>
             <Label>PopulationinMillions</Label>
           </Value>
         </Gauge1>
-        <TreeView1 Ref="25" type="Stimulsoft.Dashboard.Components.TreeView.StiTreeViewElement" isKey="true">
+        <TreeView1 Ref="34" type="Stimulsoft.Dashboard.Components.TreeView.StiTreeViewElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,40,440,180</ClientRectangle>
           <DataFilters isList="true" count="0" />
@@ -221,12 +244,12 @@
           <ForeColor>Transparent</ForeColor>
           <Guid>c0e11a3801044dfeadad5a5000928d95</Guid>
           <KeyMeters isList="true" count="2">
-            <Item14 Ref="26" type="Stimulsoft.Dashboard.Components.TreeView.StiKeyTreeViewMeter" isKey="true">
+            <Item14 Ref="35" type="Stimulsoft.Dashboard.Components.TreeView.StiKeyTreeViewMeter" isKey="true">
               <Expression>GlobalInternetUsers.Continent_Name</Expression>
               <Key>d58839eed7184ab38826ab6e36ba5c15</Key>
               <Label>Continent_Name</Label>
             </Item14>
-            <Item15 Ref="27" type="Stimulsoft.Dashboard.Components.TreeView.StiKeyTreeViewMeter" isKey="true">
+            <Item15 Ref="36" type="Stimulsoft.Dashboard.Components.TreeView.StiKeyTreeViewMeter" isKey="true">
               <Expression>GlobalInternetUsers.Country_Name</Expression>
               <Key>7cc97847f8ca462bb510e9bba48d34eb</Key>
               <Label>Country_Name</Label>
@@ -237,7 +260,7 @@
           <Padding>5,5,5,5</Padding>
           <Page isRef="4" />
           <Parent isRef="4" />
-          <Title Ref="28" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="37" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,11</Font>
             <ForeColor>Transparent</ForeColor>
@@ -254,7 +277,7 @@
       <Report isRef="0" />
     </DashboardGlobalInternetUsage>
   </Pages>
-  <PrinterSettings Ref="29" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <PreviewSettings>25108991</PreviewSettings>
   <ReferencedAssemblies isList="true" count="8">
     <value>System.Dll</value>
     <value>System.Drawing.Dll</value>
@@ -267,12 +290,13 @@
   </ReferencedAssemblies>
   <ReportAlias>Global Internet Usage</ReportAlias>
   <ReportAuthor>Stimulsoft</ReportAuthor>
-  <ReportChanged>10/6/2018 3:11:50 PM</ReportChanged>
+  <ReportChanged>5/15/2019 12:30:10 PM</ReportChanged>
   <ReportCreated>8/31/2018 2:19:45 PM</ReportCreated>
-  <ReportGuid>14b36a1df2ad40b39d65ad450b8f3ade</ReportGuid>
-  <ReportName>GlobalInternetUsage</ReportName>
+  <ReportFile>D:\Stimulsoft\.Dashboards\Global Internet Usage.mrt</ReportFile>
+  <ReportGuid>d3edbf2a57a04a8b940fee242cc74510</ReportGuid>
+  <ReportName>Global Internet Usage</ReportName>
   <ReportUnit>Inches</ReportUnit>
-  <ReportVersion>2018.3.1.0</ReportVersion>
+  <ReportVersion>2019.3.1.0</ReportVersion>
   <Script>using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -285,9 +309,9 @@ using Stimulsoft.Report.Components;
 
 namespace Reports
 {
-    public class GlobalInternetUsage : Stimulsoft.Report.StiReport
+    public class Global_Internet_Usage : Stimulsoft.Report.StiReport
     {
-        public GlobalInternetUsage()        {
+        public Global_Internet_Usage()        {
             this.InitializeComponent();
         }
 

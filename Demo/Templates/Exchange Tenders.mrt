@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <StiSerializer version="1.02" type="Net" application="StiReport">
+  <CalculationMode>Interpretation</CalculationMode>
   <Culture>en-US</Culture>
   <Dictionary Ref="1" type="Dictionary" isKey="true">
     <BusinessObjects isList="true" count="0" />
@@ -15,70 +16,75 @@
       <Apple Ref="3" type="DataTableSource" isKey="true">
         <Alias>Apple</Alias>
         <Columns isList="true" count="6">
-          <value>Date,System.DateTime</value>
           <value>Close,System.Double</value>
-          <value>Volume,System.Double</value>
-          <value>Open,System.Double</value>
+          <value>Date,System.DateTime</value>
           <value>High,System.Double</value>
           <value>Low,System.Double</value>
+          <value>Open,System.Double</value>
+          <value>Volume,System.Double</value>
         </Columns>
         <Dictionary isRef="1" />
+        <Key>15724cf6616b4f7f84e808e8c1f2d2e8</Key>
         <Name>Apple</Name>
         <NameInSource>Finance.Apple</NameInSource>
       </Apple>
       <Boeing Ref="4" type="DataTableSource" isKey="true">
         <Alias>Boeing</Alias>
         <Columns isList="true" count="6">
-          <value>Date,System.DateTime</value>
-          <value>Volume,System.Double</value>
-          <value>Open,System.Double</value>
           <value>Close,System.Double</value>
+          <value>Date,System.DateTime</value>
           <value>High,System.Double</value>
           <value>Low,System.Double</value>
+          <value>Open,System.Double</value>
+          <value>Volume,System.Double</value>
         </Columns>
         <Dictionary isRef="1" />
+        <Key>05cac8b0c0674a9089eccd6028dcf590</Key>
         <Name>Boeing</Name>
         <NameInSource>Finance.Boeing</NameInSource>
       </Boeing>
       <Dell Ref="5" type="DataTableSource" isKey="true">
         <Alias>Dell</Alias>
         <Columns isList="true" count="6">
-          <value>Date,System.DateTime</value>
           <value>Close,System.Double</value>
-          <value>Volume,System.Double</value>
-          <value>Open,System.Double</value>
+          <value>Date,System.DateTime</value>
           <value>High,System.Double</value>
           <value>Low,System.Double</value>
+          <value>Open,System.Double</value>
+          <value>Volume,System.Double</value>
         </Columns>
         <Dictionary isRef="1" />
+        <Key>6156f9c2b1814a17b1419fa79498b5ea</Key>
         <Name>Dell</Name>
         <NameInSource>Finance.Dell</NameInSource>
       </Dell>
       <IBM Ref="6" type="DataTableSource" isKey="true">
         <Alias>IBM</Alias>
         <Columns isList="true" count="6">
-          <value>Date,System.DateTime</value>
           <value>Close,System.Double</value>
-          <value>Volume,System.Double</value>
-          <value>Open,System.Double</value>
+          <value>Date,System.DateTime</value>
           <value>High,System.Double</value>
           <value>Low,System.Double</value>
+          <value>Open,System.Double</value>
+          <value>Volume,System.Double</value>
         </Columns>
         <Dictionary isRef="1" />
+        <Key>9fa008f499a34a68bddfe0db60448b15</Key>
         <Name>IBM</Name>
         <NameInSource>Finance.IBM</NameInSource>
       </IBM>
       <Microsoft Ref="7" type="DataTableSource" isKey="true">
         <Alias>Microsoft</Alias>
         <Columns isList="true" count="6">
-          <value>Date,System.DateTime</value>
           <value>Close,System.Double</value>
-          <value>Volume,System.Double</value>
-          <value>Open,System.Double</value>
+          <value>Date,System.DateTime</value>
           <value>High,System.Double</value>
           <value>Low,System.Double</value>
+          <value>Open,System.Double</value>
+          <value>Volume,System.Double</value>
         </Columns>
         <Dictionary isRef="1" />
+        <Key>0ac40ffcbc594e7897a8f2ccc32690f2</Key>
         <Name>Microsoft</Name>
         <NameInSource>Finance.Microsoft</NameInSource>
       </Microsoft>
@@ -105,51 +111,65 @@
           <Columns isList="true" count="4">
             <Item9 Ref="10" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
               <Expression>Apple.Date</Expression>
+              <ForeColor>Transparent</ForeColor>
               <HorAlignment>Center</HorAlignment>
               <Key>bdf174a50a5a43b2a7885808a00abbc4</Key>
               <TextFormat Ref="11" type="DateFormat" isKey="true" />
             </Item9>
             <Item10 Ref="12" type="Stimulsoft.Dashboard.Components.Table.StiIndicatorColumn" isKey="true">
               <Expression>Sum(Apple.Open - Apple.Close)</Expression>
+              <ForeColor>Transparent</ForeColor>
               <HorAlignment>Right</HorAlignment>
               <Key>955bfda9a0aa477a933269bd8bcb64ca</Key>
               <Label>Open vs Close</Label>
-              <TextFormat Ref="13" type="NumberFormat" isKey="true">
+              <TextFormat Ref="13" type="CurrencyFormat" isKey="true">
                 <DecimalDigits>2</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
-                <NegativePattern>1</NegativePattern>
+                <NegativePattern>0</NegativePattern>
+                <PositivePattern>0</PositivePattern>
               </TextFormat>
             </Item10>
             <Item11 Ref="14" type="Stimulsoft.Dashboard.Components.Table.StiDataBarsColumn" isKey="true">
               <Expression>Sum(Apple.High - Apple.Low)</Expression>
+              <ForeColor>Transparent</ForeColor>
               <HorAlignment>Right</HorAlignment>
               <Key>2ac8d16a54184c7c9043aeeb238c297e</Key>
               <Label>High vs Low</Label>
-              <TextFormat Ref="15" type="NumberFormat" isKey="true">
+              <TextFormat Ref="15" type="CurrencyFormat" isKey="true">
                 <DecimalDigits>2</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
-                <NegativePattern>1</NegativePattern>
+                <NegativePattern>0</NegativePattern>
+                <PositivePattern>0</PositivePattern>
               </TextFormat>
             </Item11>
             <Item12 Ref="16" type="Stimulsoft.Dashboard.Components.Table.StiColorScaleColumn" isKey="true">
               <Expression>Sum(Apple.Volume)</Expression>
+              <ForeColor>Transparent</ForeColor>
               <HorAlignment>Right</HorAlignment>
               <Key>a0390330647b43ea9ee2bfb3c4861f07</Key>
-              <TextFormat Ref="17" type="NumberFormat" isKey="true">
-                <DecimalDigits>2</DecimalDigits>
+              <TextFormat Ref="17" type="CurrencyFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
-                <NegativePattern>1</NegativePattern>
+                <NegativePattern>0</NegativePattern>
+                <PositivePattern>0</PositivePattern>
+                <State>DecimalDigits, Abbreviation</State>
               </TextFormat>
             </Item12>
           </Columns>
           <DataFilters isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <ForeColor>Transparent</ForeColor>
           <Guid>f6ce4c62093e4ee7988619b4bf405de3</Guid>
+          <HeaderFont>Arial,10</HeaderFont>
+          <HeaderForeColor>Transparent</HeaderForeColor>
+          <Layout Ref="18" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
           <Margin>3,3,3,3</Margin>
           <Name>TableApple</Name>
           <Padding>5,5,5,5</Padding>
           <Page isRef="8" />
           <Parent isRef="8" />
-          <Title Ref="18" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <SizeMode>Fit</SizeMode>
+          <Title Ref="19" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
@@ -162,9 +182,18 @@
           <UserFilters isList="true" count="0" />
           <UserSorts isList="true" count="0" />
         </TableApple>
-        <Chart1 Ref="19" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+        <Chart1 Ref="20" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+          <Area Ref="21" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
+            <InterlacingHor Ref="22" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingHor>
+            <InterlacingVert Ref="23" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingVert>
+          </Area>
+          <ArgumentFormat Ref="24" type="DateFormat" isKey="true" />
           <Arguments isList="true" count="1">
-            <Item14 Ref="20" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
+            <Item14 Ref="25" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
               <Expression>Apple.Date</Expression>
               <Key>a89774b6e1754099a8489f5c0a37f630</Key>
             </Item14>
@@ -172,7 +201,7 @@
           <BackColor>Transparent</BackColor>
           <ClientRectangle>500,40,700,280</ClientRectangle>
           <CloseValues isList="true" count="1">
-            <Item15 Ref="21" type="Stimulsoft.Dashboard.Components.Chart.StiCloseValueChartMeter" isKey="true">
+            <Item15 Ref="26" type="Stimulsoft.Dashboard.Components.Chart.StiCloseValueChartMeter" isKey="true">
               <Expression>Sum(Apple.Close)</Expression>
               <Key>ea3787f40ccf486a99e8c13616a75c79</Key>
               <Label>Close</Label>
@@ -182,34 +211,59 @@
           <EndValues isList="true" count="0" />
           <Guid>10e1f1916e2e45d49200f7cfbf5ee275</Guid>
           <HighValues isList="true" count="1">
-            <Item16 Ref="22" type="Stimulsoft.Dashboard.Components.Chart.StiHighValueChartMeter" isKey="true">
+            <Item16 Ref="27" type="Stimulsoft.Dashboard.Components.Chart.StiHighValueChartMeter" isKey="true">
               <Expression>Sum(Apple.High)</Expression>
               <Key>977c467f7a0746af8e43442f45a6fea0</Key>
             </Item16>
           </HighValues>
+          <Labels Ref="28" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
+            <Font>Arial,8</Font>
+            <ForeColor>Transparent</ForeColor>
+          </Labels>
+          <Layout Ref="29" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
+          <Legend Ref="30" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
+            <Labels Ref="31" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="32" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+            </Title>
+          </Legend>
           <LowValues isList="true" count="1">
-            <Item17 Ref="23" type="Stimulsoft.Dashboard.Components.Chart.StiLowValueChartMeter" isKey="true">
+            <Item17 Ref="33" type="Stimulsoft.Dashboard.Components.Chart.StiLowValueChartMeter" isKey="true">
               <Expression>Sum(Apple.Low)</Expression>
               <Key>cfc956f41ae542f999d732f5ceeb9579</Key>
             </Item17>
           </LowValues>
           <Margin>3,3,3,3</Margin>
           <Name>Chart1</Name>
+          <NegativeSeriesColors />
           <Padding>5,5,5,5</Padding>
           <Page isRef="8" />
           <Parent isRef="8" />
-          <Title Ref="24" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <SeriesColors />
+          <Title Ref="34" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,11</Font>
             <ForeColor>Transparent</ForeColor>
             <Text>Диаграмма</Text>
             <Visible>False</Visible>
           </Title>
+          <TopN Ref="35" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
+          <ValueFormat Ref="36" type="CurrencyFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>0</NegativePattern>
+            <PositivePattern>0</PositivePattern>
+            <State>DecimalDigits, CurrencySymbol</State>
+          </ValueFormat>
           <Values isList="true" count="1">
-            <Item18 Ref="25" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item18 Ref="37" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum(Apple.Open)</Expression>
               <Key>c6d26a9e4f3f485d8fc0269a303aa304</Key>
               <SeriesType>Stock</SeriesType>
@@ -217,45 +271,62 @@
           </Values>
           <Weights isList="true" count="0" />
         </Chart1>
-        <Indicator1 Ref="26" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+        <Indicator1 Ref="38" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,80,500,240</ClientRectangle>
           <DataFilters isList="true" count="0" />
           <Font>Arial,13</Font>
           <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
           <Guid>d13b62beb2534ad99e4c6b248875502c</Guid>
-          <Icon>Rating4</Icon>
+          <Layout Ref="39" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
           <Margin>3,3,3,3</Margin>
           <Name>Indicator1</Name>
           <Padding>5,5,5,5</Padding>
           <Page isRef="8" />
           <Parent isRef="8" />
-          <Series Ref="27" type="Stimulsoft.Dashboard.Components.Indicator.StiSeriesIndicatorMeter" isKey="true">
+          <Series Ref="40" type="Stimulsoft.Dashboard.Components.Indicator.StiSeriesIndicatorMeter" isKey="true">
             <Expression>Apple.Date</Expression>
             <Key>9d1f585557374e33b7daef34a962d8e0</Key>
           </Series>
-          <Target Ref="28" type="Stimulsoft.Dashboard.Components.Indicator.StiTargetIndicatorMeter" isKey="true">
+          <Target Ref="41" type="Stimulsoft.Dashboard.Components.Indicator.StiTargetIndicatorMeter" isKey="true">
             <Expression>Sum(Apple.Open)</Expression>
             <Key>54c07df681c544c8a13644ecbe5a188b</Key>
           </Target>
-          <Title Ref="29" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <TextFormat Ref="42" type="CurrencyFormat" isKey="true">
+            <DecimalDigits>2</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>0</NegativePattern>
+            <PositivePattern>0</PositivePattern>
+          </TextFormat>
+          <Title Ref="43" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>Price Growth</Text>
           </Title>
+          <TopN Ref="44" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <Value Ref="30" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+          <Value Ref="45" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
             <Expression>Sum(Apple.Close)</Expression>
             <Key>4ea88b3ea8f24cf28a2635a4bbf22c20</Key>
           </Value>
         </Indicator1>
-        <Chart2 Ref="31" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+        <Chart2 Ref="46" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+          <Area Ref="47" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
+            <InterlacingHor Ref="48" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingHor>
+            <InterlacingVert Ref="49" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingVert>
+          </Area>
+          <ArgumentFormat Ref="50" type="DateFormat" isKey="true" />
           <Arguments isList="true" count="1">
-            <Item21 Ref="32" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
+            <Item21 Ref="51" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
               <Expression>Apple.Date</Expression>
               <Key>fc636a0c96254832b94707696b936341</Key>
             </Item21>
@@ -267,31 +338,56 @@
           <EndValues isList="true" count="0" />
           <Guid>35bbfc6c9c6e4a41a3958f7bfd53732f</Guid>
           <HighValues isList="true" count="0" />
+          <Labels Ref="52" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
+            <Font>Arial,8</Font>
+            <ForeColor>Transparent</ForeColor>
+          </Labels>
+          <Layout Ref="53" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
+          <Legend Ref="54" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
+            <Labels Ref="55" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="56" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+            </Title>
+          </Legend>
           <LowValues isList="true" count="0" />
           <Margin>3,3,3,3</Margin>
           <Name>Chart2</Name>
+          <NegativeSeriesColors />
           <Padding>5,5,5,5</Padding>
           <Page isRef="8" />
           <Parent isRef="8" />
-          <Title Ref="33" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <SeriesColors />
+          <Title Ref="57" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>Volume of All Shares</Text>
           </Title>
+          <TopN Ref="58" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
+          <ValueFormat Ref="59" type="CurrencyFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>0</NegativePattern>
+            <PositivePattern>0</PositivePattern>
+            <State>DecimalDigits, CurrencySymbol, Abbreviation</State>
+          </ValueFormat>
           <Values isList="true" count="1">
-            <Item22 Ref="34" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item22 Ref="60" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum(Apple.Volume)</Expression>
               <Key>18d89b9621ef475baaae0c4e88984801</Key>
             </Item22>
           </Values>
           <Weights isList="true" count="0" />
         </Chart2>
-        <Text1 Ref="35" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+        <Text1 Ref="61" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,0,1200,40</ClientRectangle>
           <ForeColor>Transparent</ForeColor>
@@ -302,7 +398,7 @@
           <Page isRef="8" />
           <Parent isRef="8" />
           <Text>&lt;font face="Segoe UI" size="36"&gt;&lt;text-align="Center"&gt;Exchange Tenders&lt;/text-align&gt;&lt;/font&gt;</Text>
-          <Title Ref="36" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="62" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,11</Font>
             <ForeColor>Transparent</ForeColor>
@@ -310,7 +406,7 @@
             <Visible>False</Visible>
           </Title>
         </Text1>
-        <DatePicker1 Ref="37" type="Stimulsoft.Dashboard.Components.DatePicker.StiDatePickerElement" isKey="true">
+        <DatePicker1 Ref="63" type="Stimulsoft.Dashboard.Components.DatePicker.StiDatePickerElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,40,500,40</ClientRectangle>
           <Condition>LessThan</Condition>
@@ -324,8 +420,8 @@
           <Page isRef="8" />
           <Parent isRef="8" />
           <SelectionMode>AutoRange</SelectionMode>
-          <TextFormat Ref="38" type="DateFormat" isKey="true" />
-          <ValueMeter Ref="39" type="Stimulsoft.Dashboard.Components.DatePicker.StiValueDatePickerMeter" isKey="true">
+          <TextFormat Ref="64" type="DateFormat" isKey="true" />
+          <ValueMeter Ref="65" type="Stimulsoft.Dashboard.Components.DatePicker.StiValueDatePickerMeter" isKey="true">
             <Expression>Apple.Date</Expression>
             <Key>b032675e0eae4f698d8916d70ba7f10e</Key>
           </ValueMeter>
@@ -334,63 +430,77 @@
       <Guid>79def813a4b14aaa8a82b708f15e1c76</Guid>
       <Name>DashboardApple</Name>
       <Report isRef="0" />
-      <Style>SlateGray</Style>
+      <Style>DarkTurquoise</Style>
     </DashboardApple>
-    <DashboardBoeing Ref="40" type="Stimulsoft.Dashboard.Components.StiDashboard" isKey="true">
+    <DashboardBoeing Ref="66" type="Stimulsoft.Dashboard.Components.StiDashboard" isKey="true">
       <Alias>Boeing</Alias>
       <BackColor>Transparent</BackColor>
       <Components isList="true" count="6">
-        <Table1 Ref="41" type="Stimulsoft.Dashboard.Components.Table.StiTableElement" isKey="true">
+        <Table1 Ref="67" type="Stimulsoft.Dashboard.Components.Table.StiTableElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,320,500,280</ClientRectangle>
           <Columns isList="true" count="4">
-            <Item27 Ref="42" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
+            <Item27 Ref="68" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
               <Expression>Boeing.Date</Expression>
+              <ForeColor>Transparent</ForeColor>
               <HorAlignment>Center</HorAlignment>
               <Key>bdf174a50a5a43b2a7885808a00abbc4</Key>
-              <TextFormat Ref="43" type="DateFormat" isKey="true" />
+              <TextFormat Ref="69" type="DateFormat" isKey="true" />
             </Item27>
-            <Item28 Ref="44" type="Stimulsoft.Dashboard.Components.Table.StiIndicatorColumn" isKey="true">
+            <Item28 Ref="70" type="Stimulsoft.Dashboard.Components.Table.StiIndicatorColumn" isKey="true">
               <Expression>Sum(Boeing.Open - Boeing.Close)</Expression>
+              <ForeColor>Transparent</ForeColor>
               <HorAlignment>Right</HorAlignment>
               <Key>955bfda9a0aa477a933269bd8bcb64ca</Key>
               <Label>Open vs Close</Label>
-              <TextFormat Ref="45" type="NumberFormat" isKey="true">
+              <TextFormat Ref="71" type="CurrencyFormat" isKey="true">
                 <DecimalDigits>2</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
-                <NegativePattern>1</NegativePattern>
+                <NegativePattern>0</NegativePattern>
+                <PositivePattern>0</PositivePattern>
               </TextFormat>
             </Item28>
-            <Item29 Ref="46" type="Stimulsoft.Dashboard.Components.Table.StiDataBarsColumn" isKey="true">
+            <Item29 Ref="72" type="Stimulsoft.Dashboard.Components.Table.StiDataBarsColumn" isKey="true">
               <Expression>Sum(Boeing.High - Boeing.Low)</Expression>
+              <ForeColor>Transparent</ForeColor>
               <HorAlignment>Right</HorAlignment>
               <Key>2ac8d16a54184c7c9043aeeb238c297e</Key>
               <Label>High vs Low</Label>
-              <TextFormat Ref="47" type="NumberFormat" isKey="true">
+              <TextFormat Ref="73" type="CurrencyFormat" isKey="true">
                 <DecimalDigits>2</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
-                <NegativePattern>1</NegativePattern>
+                <NegativePattern>0</NegativePattern>
+                <PositivePattern>0</PositivePattern>
               </TextFormat>
             </Item29>
-            <Item30 Ref="48" type="Stimulsoft.Dashboard.Components.Table.StiColorScaleColumn" isKey="true">
+            <Item30 Ref="74" type="Stimulsoft.Dashboard.Components.Table.StiColorScaleColumn" isKey="true">
               <Expression>Sum(Boeing.Volume)</Expression>
+              <ForeColor>Transparent</ForeColor>
               <HorAlignment>Right</HorAlignment>
               <Key>a0390330647b43ea9ee2bfb3c4861f07</Key>
-              <TextFormat Ref="49" type="NumberFormat" isKey="true">
-                <DecimalDigits>2</DecimalDigits>
+              <TextFormat Ref="75" type="CurrencyFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
-                <NegativePattern>1</NegativePattern>
+                <NegativePattern>0</NegativePattern>
+                <PositivePattern>0</PositivePattern>
+                <State>DecimalDigits, Abbreviation</State>
               </TextFormat>
             </Item30>
           </Columns>
           <DataFilters isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <ForeColor>Transparent</ForeColor>
           <Guid>f6ce4c62093e4ee7988619b4bf405de3</Guid>
+          <HeaderFont>Arial,10</HeaderFont>
+          <HeaderForeColor>Transparent</HeaderForeColor>
+          <Layout Ref="76" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
           <Margin>3,3,3,3</Margin>
           <Name>Table1</Name>
           <Padding>5,5,5,5</Padding>
-          <Page isRef="40" />
-          <Parent isRef="40" />
-          <Title Ref="50" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Page isRef="66" />
+          <Parent isRef="66" />
+          <SizeMode>Fit</SizeMode>
+          <Title Ref="77" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
@@ -403,9 +513,18 @@
           <UserFilters isList="true" count="0" />
           <UserSorts isList="true" count="0" />
         </Table1>
-        <Chart3 Ref="51" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+        <Chart3 Ref="78" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+          <Area Ref="79" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
+            <InterlacingHor Ref="80" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingHor>
+            <InterlacingVert Ref="81" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingVert>
+          </Area>
+          <ArgumentFormat Ref="82" type="DateFormat" isKey="true" />
           <Arguments isList="true" count="1">
-            <Item32 Ref="52" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
+            <Item32 Ref="83" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
               <Expression>Boeing.Date</Expression>
               <Key>6fd71c712cba4acebaa6f3b9e1efcea3</Key>
               <Label>Date</Label>
@@ -414,7 +533,7 @@
           <BackColor>Transparent</BackColor>
           <ClientRectangle>500,40,700,280</ClientRectangle>
           <CloseValues isList="true" count="1">
-            <Item33 Ref="53" type="Stimulsoft.Dashboard.Components.Chart.StiCloseValueChartMeter" isKey="true">
+            <Item33 Ref="84" type="Stimulsoft.Dashboard.Components.Chart.StiCloseValueChartMeter" isKey="true">
               <Expression>Sum(Boeing.Close)</Expression>
               <Key>4c593ee0b2084927b4228ec5a6a661f0</Key>
               <Label>Close</Label>
@@ -424,14 +543,29 @@
           <EndValues isList="true" count="0" />
           <Guid>10e1f1916e2e45d49200f7cfbf5ee275</Guid>
           <HighValues isList="true" count="1">
-            <Item34 Ref="54" type="Stimulsoft.Dashboard.Components.Chart.StiHighValueChartMeter" isKey="true">
+            <Item34 Ref="85" type="Stimulsoft.Dashboard.Components.Chart.StiHighValueChartMeter" isKey="true">
               <Expression>Sum(Boeing.High)</Expression>
               <Key>3aed534a72c144a09bfff09a9970655e</Key>
               <Label>High</Label>
             </Item34>
           </HighValues>
+          <Labels Ref="86" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
+            <Font>Arial,8</Font>
+            <ForeColor>Transparent</ForeColor>
+          </Labels>
+          <Layout Ref="87" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
+          <Legend Ref="88" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
+            <Labels Ref="89" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="90" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+            </Title>
+          </Legend>
           <LowValues isList="true" count="1">
-            <Item35 Ref="55" type="Stimulsoft.Dashboard.Components.Chart.StiLowValueChartMeter" isKey="true">
+            <Item35 Ref="91" type="Stimulsoft.Dashboard.Components.Chart.StiLowValueChartMeter" isKey="true">
               <Expression>Sum(Boeing.Low)</Expression>
               <Key>9d1029d0363d447eabc619ef00f58408</Key>
               <Label>Low</Label>
@@ -439,21 +573,31 @@
           </LowValues>
           <Margin>3,3,3,3</Margin>
           <Name>Chart3</Name>
+          <NegativeSeriesColors />
           <Padding>5,5,5,5</Padding>
-          <Page isRef="40" />
-          <Parent isRef="40" />
-          <Title Ref="56" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Page isRef="66" />
+          <Parent isRef="66" />
+          <SeriesColors />
+          <Title Ref="92" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,11</Font>
             <ForeColor>Transparent</ForeColor>
             <Text>Диаграмма</Text>
             <Visible>False</Visible>
           </Title>
+          <TopN Ref="93" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
+          <ValueFormat Ref="94" type="CurrencyFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>0</NegativePattern>
+            <PositivePattern>0</PositivePattern>
+            <State>DecimalDigits, CurrencySymbol</State>
+          </ValueFormat>
           <Values isList="true" count="1">
-            <Item36 Ref="57" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item36 Ref="95" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum(Boeing.Open)</Expression>
               <Key>2ceeba4cbc67468989fb41227d47fc76</Key>
               <Label>Open</Label>
@@ -462,46 +606,63 @@
           </Values>
           <Weights isList="true" count="0" />
         </Chart3>
-        <Indicator2 Ref="58" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+        <Indicator2 Ref="96" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,80,500,240</ClientRectangle>
           <DataFilters isList="true" count="0" />
           <Font>Arial,13</Font>
           <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
           <Guid>d13b62beb2534ad99e4c6b248875502c</Guid>
-          <Icon>Rating4</Icon>
+          <Layout Ref="97" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
           <Margin>3,3,3,3</Margin>
           <Name>Indicator2</Name>
           <Padding>5,5,5,5</Padding>
-          <Page isRef="40" />
-          <Parent isRef="40" />
-          <Series Ref="59" type="Stimulsoft.Dashboard.Components.Indicator.StiSeriesIndicatorMeter" isKey="true">
+          <Page isRef="66" />
+          <Parent isRef="66" />
+          <Series Ref="98" type="Stimulsoft.Dashboard.Components.Indicator.StiSeriesIndicatorMeter" isKey="true">
             <Expression>Boeing.Date</Expression>
             <Key>9d1f585557374e33b7daef34a962d8e0</Key>
           </Series>
-          <Target Ref="60" type="Stimulsoft.Dashboard.Components.Indicator.StiTargetIndicatorMeter" isKey="true">
+          <Target Ref="99" type="Stimulsoft.Dashboard.Components.Indicator.StiTargetIndicatorMeter" isKey="true">
             <Expression>Sum(Boeing.Open)</Expression>
             <Key>54c07df681c544c8a13644ecbe5a188b</Key>
           </Target>
-          <Title Ref="61" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <TextFormat Ref="100" type="CurrencyFormat" isKey="true">
+            <DecimalDigits>2</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>0</NegativePattern>
+            <PositivePattern>0</PositivePattern>
+          </TextFormat>
+          <Title Ref="101" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>Price Growth</Text>
           </Title>
+          <TopN Ref="102" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <Value Ref="62" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+          <Value Ref="103" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
             <Expression>Sum(Boeing.Close)</Expression>
             <Key>550c377b7c744897a33a83bcbc4b8edb</Key>
             <Label>Close</Label>
           </Value>
         </Indicator2>
-        <Chart4 Ref="63" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+        <Chart4 Ref="104" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+          <Area Ref="105" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
+            <InterlacingHor Ref="106" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingHor>
+            <InterlacingVert Ref="107" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingVert>
+          </Area>
+          <ArgumentFormat Ref="108" type="DateFormat" isKey="true" />
           <Arguments isList="true" count="1">
-            <Item39 Ref="64" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
+            <Item39 Ref="109" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
               <Expression>Boeing.Date</Expression>
               <Key>fc636a0c96254832b94707696b936341</Key>
             </Item39>
@@ -513,31 +674,56 @@
           <EndValues isList="true" count="0" />
           <Guid>35bbfc6c9c6e4a41a3958f7bfd53732f</Guid>
           <HighValues isList="true" count="0" />
+          <Labels Ref="110" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
+            <Font>Arial,8</Font>
+            <ForeColor>Transparent</ForeColor>
+          </Labels>
+          <Layout Ref="111" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
+          <Legend Ref="112" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
+            <Labels Ref="113" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="114" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+            </Title>
+          </Legend>
           <LowValues isList="true" count="0" />
           <Margin>3,3,3,3</Margin>
           <Name>Chart4</Name>
+          <NegativeSeriesColors />
           <Padding>5,5,5,5</Padding>
-          <Page isRef="40" />
-          <Parent isRef="40" />
-          <Title Ref="65" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Page isRef="66" />
+          <Parent isRef="66" />
+          <SeriesColors />
+          <Title Ref="115" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>Volume of All Shares</Text>
           </Title>
+          <TopN Ref="116" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
+          <ValueFormat Ref="117" type="CurrencyFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>0</NegativePattern>
+            <PositivePattern>0</PositivePattern>
+            <State>DecimalDigits, CurrencySymbol, Abbreviation</State>
+          </ValueFormat>
           <Values isList="true" count="1">
-            <Item40 Ref="66" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item40 Ref="118" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum(Boeing.Volume)</Expression>
               <Key>18d89b9621ef475baaae0c4e88984801</Key>
             </Item40>
           </Values>
           <Weights isList="true" count="0" />
         </Chart4>
-        <Text2 Ref="67" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+        <Text2 Ref="119" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,0,1200,40</ClientRectangle>
           <ForeColor>Transparent</ForeColor>
@@ -545,10 +731,10 @@
           <Margin>3,3,3,3</Margin>
           <Name>Text2</Name>
           <Padding>0,0,0,0</Padding>
-          <Page isRef="40" />
-          <Parent isRef="40" />
+          <Page isRef="66" />
+          <Parent isRef="66" />
           <Text>&lt;font face="Segoe UI" size="36"&gt;&lt;text-align="Center"&gt;Exchange Tenders&lt;/text-align&gt;&lt;/font&gt;</Text>
-          <Title Ref="68" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="120" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,11</Font>
             <ForeColor>Transparent</ForeColor>
@@ -556,7 +742,7 @@
             <Visible>False</Visible>
           </Title>
         </Text2>
-        <DatePicker2 Ref="69" type="Stimulsoft.Dashboard.Components.DatePicker.StiDatePickerElement" isKey="true">
+        <DatePicker2 Ref="121" type="Stimulsoft.Dashboard.Components.DatePicker.StiDatePickerElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,40,500,40</ClientRectangle>
           <Condition>LessThan</Condition>
@@ -567,11 +753,11 @@
           <Margin>3,3,3,3</Margin>
           <Name>DatePicker2</Name>
           <Padding>5,5,5,5</Padding>
-          <Page isRef="40" />
-          <Parent isRef="40" />
+          <Page isRef="66" />
+          <Parent isRef="66" />
           <SelectionMode>AutoRange</SelectionMode>
-          <TextFormat Ref="70" type="DateFormat" isKey="true" />
-          <ValueMeter Ref="71" type="Stimulsoft.Dashboard.Components.DatePicker.StiValueDatePickerMeter" isKey="true">
+          <TextFormat Ref="122" type="DateFormat" isKey="true" />
+          <ValueMeter Ref="123" type="Stimulsoft.Dashboard.Components.DatePicker.StiValueDatePickerMeter" isKey="true">
             <Expression>Boeing.Date</Expression>
             <Key>20968cd6843a4f40b0369b69592f094b</Key>
             <Label>Date</Label>
@@ -583,62 +769,76 @@
       <Report isRef="0" />
       <Style>SlateGray</Style>
     </DashboardBoeing>
-    <DashboardDell Ref="72" type="Stimulsoft.Dashboard.Components.StiDashboard" isKey="true">
+    <DashboardDell Ref="124" type="Stimulsoft.Dashboard.Components.StiDashboard" isKey="true">
       <Alias>Dell</Alias>
       <BackColor>Transparent</BackColor>
       <Components isList="true" count="6">
-        <Table2 Ref="73" type="Stimulsoft.Dashboard.Components.Table.StiTableElement" isKey="true">
+        <Table2 Ref="125" type="Stimulsoft.Dashboard.Components.Table.StiTableElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,320,500,280</ClientRectangle>
           <Columns isList="true" count="4">
-            <Item45 Ref="74" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
+            <Item45 Ref="126" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
               <Expression>Dell.Date</Expression>
+              <ForeColor>Transparent</ForeColor>
               <HorAlignment>Center</HorAlignment>
               <Key>a5fe1dab5a114117a875a5576226023f</Key>
               <Label>Date</Label>
-              <TextFormat Ref="75" type="DateFormat" isKey="true" />
+              <TextFormat Ref="127" type="DateFormat" isKey="true" />
             </Item45>
-            <Item46 Ref="76" type="Stimulsoft.Dashboard.Components.Table.StiIndicatorColumn" isKey="true">
+            <Item46 Ref="128" type="Stimulsoft.Dashboard.Components.Table.StiIndicatorColumn" isKey="true">
               <Expression>Sum(Dell.Open - Dell.Close)</Expression>
+              <ForeColor>Transparent</ForeColor>
               <HorAlignment>Right</HorAlignment>
               <Key>955bfda9a0aa477a933269bd8bcb64ca</Key>
               <Label>Open vs Close</Label>
-              <TextFormat Ref="77" type="NumberFormat" isKey="true">
+              <TextFormat Ref="129" type="CurrencyFormat" isKey="true">
                 <DecimalDigits>2</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
-                <NegativePattern>1</NegativePattern>
+                <NegativePattern>0</NegativePattern>
+                <PositivePattern>0</PositivePattern>
               </TextFormat>
             </Item46>
-            <Item47 Ref="78" type="Stimulsoft.Dashboard.Components.Table.StiDataBarsColumn" isKey="true">
+            <Item47 Ref="130" type="Stimulsoft.Dashboard.Components.Table.StiDataBarsColumn" isKey="true">
               <Expression>Sum(Dell.High - Dell.Low)</Expression>
+              <ForeColor>Transparent</ForeColor>
               <HorAlignment>Right</HorAlignment>
               <Key>2ac8d16a54184c7c9043aeeb238c297e</Key>
               <Label>High vs Low</Label>
-              <TextFormat Ref="79" type="NumberFormat" isKey="true">
+              <TextFormat Ref="131" type="CurrencyFormat" isKey="true">
                 <DecimalDigits>2</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
-                <NegativePattern>1</NegativePattern>
+                <NegativePattern>0</NegativePattern>
+                <PositivePattern>0</PositivePattern>
               </TextFormat>
             </Item47>
-            <Item48 Ref="80" type="Stimulsoft.Dashboard.Components.Table.StiColorScaleColumn" isKey="true">
+            <Item48 Ref="132" type="Stimulsoft.Dashboard.Components.Table.StiColorScaleColumn" isKey="true">
               <Expression>Sum(Dell.Volume)</Expression>
+              <ForeColor>Transparent</ForeColor>
               <HorAlignment>Right</HorAlignment>
               <Key>a0390330647b43ea9ee2bfb3c4861f07</Key>
-              <TextFormat Ref="81" type="NumberFormat" isKey="true">
-                <DecimalDigits>2</DecimalDigits>
+              <TextFormat Ref="133" type="CurrencyFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
-                <NegativePattern>1</NegativePattern>
+                <NegativePattern>0</NegativePattern>
+                <PositivePattern>0</PositivePattern>
+                <State>DecimalDigits, Abbreviation</State>
               </TextFormat>
             </Item48>
           </Columns>
           <DataFilters isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <ForeColor>Transparent</ForeColor>
           <Guid>f6ce4c62093e4ee7988619b4bf405de3</Guid>
+          <HeaderFont>Arial,10</HeaderFont>
+          <HeaderForeColor>Transparent</HeaderForeColor>
+          <Layout Ref="134" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
           <Margin>3,3,3,3</Margin>
           <Name>Table2</Name>
           <Padding>5,5,5,5</Padding>
-          <Page isRef="72" />
-          <Parent isRef="72" />
-          <Title Ref="82" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Page isRef="124" />
+          <Parent isRef="124" />
+          <SizeMode>Fit</SizeMode>
+          <Title Ref="135" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
@@ -650,14 +850,23 @@
           <TransformSorts isList="true" count="0" />
           <UserFilters isList="true" count="0" />
           <UserSorts isList="true" count="1">
-            <Item49 Ref="83" type="Stimulsoft.Data.Engine.StiDataSortRule" isKey="true">
+            <Item49 Ref="136" type="Stimulsoft.Data.Engine.StiDataSortRule" isKey="true">
               <Key>2ac8d16a54184c7c9043aeeb238c297e</Key>
             </Item49>
           </UserSorts>
         </Table2>
-        <Chart5 Ref="84" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+        <Chart5 Ref="137" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+          <Area Ref="138" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
+            <InterlacingHor Ref="139" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingHor>
+            <InterlacingVert Ref="140" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingVert>
+          </Area>
+          <ArgumentFormat Ref="141" type="DateFormat" isKey="true" />
           <Arguments isList="true" count="1">
-            <Item51 Ref="85" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
+            <Item51 Ref="142" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
               <Expression>Dell.Date</Expression>
               <Key>93ca77d36ae7433ca121d432a251a881</Key>
               <Label>Date</Label>
@@ -666,7 +875,7 @@
           <BackColor>Transparent</BackColor>
           <ClientRectangle>500,40,700,280</ClientRectangle>
           <CloseValues isList="true" count="1">
-            <Item52 Ref="86" type="Stimulsoft.Dashboard.Components.Chart.StiCloseValueChartMeter" isKey="true">
+            <Item52 Ref="143" type="Stimulsoft.Dashboard.Components.Chart.StiCloseValueChartMeter" isKey="true">
               <Expression>Sum(Dell.Close)</Expression>
               <Key>cfbf87e59a014cb880675b8cdc3254ca</Key>
               <Label>Close</Label>
@@ -676,14 +885,29 @@
           <EndValues isList="true" count="0" />
           <Guid>10e1f1916e2e45d49200f7cfbf5ee275</Guid>
           <HighValues isList="true" count="1">
-            <Item53 Ref="87" type="Stimulsoft.Dashboard.Components.Chart.StiHighValueChartMeter" isKey="true">
+            <Item53 Ref="144" type="Stimulsoft.Dashboard.Components.Chart.StiHighValueChartMeter" isKey="true">
               <Expression>Sum(Dell.High)</Expression>
               <Key>6f69383a11fd44b0b9dd45aa0d2a4f98</Key>
               <Label>High</Label>
             </Item53>
           </HighValues>
+          <Labels Ref="145" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
+            <Font>Arial,8</Font>
+            <ForeColor>Transparent</ForeColor>
+          </Labels>
+          <Layout Ref="146" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
+          <Legend Ref="147" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
+            <Labels Ref="148" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="149" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+            </Title>
+          </Legend>
           <LowValues isList="true" count="1">
-            <Item54 Ref="88" type="Stimulsoft.Dashboard.Components.Chart.StiLowValueChartMeter" isKey="true">
+            <Item54 Ref="150" type="Stimulsoft.Dashboard.Components.Chart.StiLowValueChartMeter" isKey="true">
               <Expression>Sum(Dell.Low)</Expression>
               <Key>66688f99b260432eb399d582397b12c4</Key>
               <Label>Low</Label>
@@ -691,21 +915,31 @@
           </LowValues>
           <Margin>3,3,3,3</Margin>
           <Name>Chart5</Name>
+          <NegativeSeriesColors />
           <Padding>5,5,5,5</Padding>
-          <Page isRef="72" />
-          <Parent isRef="72" />
-          <Title Ref="89" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Page isRef="124" />
+          <Parent isRef="124" />
+          <SeriesColors />
+          <Title Ref="151" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,11</Font>
             <ForeColor>Transparent</ForeColor>
             <Text>Диаграмма</Text>
             <Visible>False</Visible>
           </Title>
+          <TopN Ref="152" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
+          <ValueFormat Ref="153" type="CurrencyFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>0</NegativePattern>
+            <PositivePattern>0</PositivePattern>
+            <State>DecimalDigits, CurrencySymbol</State>
+          </ValueFormat>
           <Values isList="true" count="1">
-            <Item55 Ref="90" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item55 Ref="154" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum(Dell.Open)</Expression>
               <Key>22ad3b137439484ba54c2f05ad545343</Key>
               <Label>Open</Label>
@@ -714,48 +948,65 @@
           </Values>
           <Weights isList="true" count="0" />
         </Chart5>
-        <Indicator3 Ref="91" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+        <Indicator3 Ref="155" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,80,500,240</ClientRectangle>
           <DataFilters isList="true" count="0" />
           <Font>Arial,13</Font>
           <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
           <Guid>d13b62beb2534ad99e4c6b248875502c</Guid>
-          <Icon>Rating4</Icon>
+          <Layout Ref="156" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
           <Margin>3,3,3,3</Margin>
           <Name>Indicator3</Name>
           <Padding>5,5,5,5</Padding>
-          <Page isRef="72" />
-          <Parent isRef="72" />
-          <Series Ref="92" type="Stimulsoft.Dashboard.Components.Indicator.StiSeriesIndicatorMeter" isKey="true">
+          <Page isRef="124" />
+          <Parent isRef="124" />
+          <Series Ref="157" type="Stimulsoft.Dashboard.Components.Indicator.StiSeriesIndicatorMeter" isKey="true">
             <Expression>Dell.Date</Expression>
             <Key>272988e1625f408c90aa54a40311fda9</Key>
             <Label>Date</Label>
           </Series>
-          <Target Ref="93" type="Stimulsoft.Dashboard.Components.Indicator.StiTargetIndicatorMeter" isKey="true">
+          <Target Ref="158" type="Stimulsoft.Dashboard.Components.Indicator.StiTargetIndicatorMeter" isKey="true">
             <Expression>Sum(Dell.Open)</Expression>
             <Key>915d93ec974245a7b77176c77a6f2662</Key>
             <Label>Open</Label>
           </Target>
-          <Title Ref="94" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <TextFormat Ref="159" type="CurrencyFormat" isKey="true">
+            <DecimalDigits>2</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>0</NegativePattern>
+            <PositivePattern>0</PositivePattern>
+          </TextFormat>
+          <Title Ref="160" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>Price Growth</Text>
           </Title>
+          <TopN Ref="161" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <Value Ref="95" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+          <Value Ref="162" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
             <Expression>Sum(Dell.Close)</Expression>
             <Key>2e62421b033f4efea0c6b94b4d4a2fe9</Key>
             <Label>Close</Label>
           </Value>
         </Indicator3>
-        <Chart6 Ref="96" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+        <Chart6 Ref="163" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+          <Area Ref="164" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
+            <InterlacingHor Ref="165" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingHor>
+            <InterlacingVert Ref="166" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingVert>
+          </Area>
+          <ArgumentFormat Ref="167" type="DateFormat" isKey="true" />
           <Arguments isList="true" count="1">
-            <Item58 Ref="97" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
+            <Item58 Ref="168" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
               <Expression>Dell.Date</Expression>
               <Key>ddb2f3fc48444d9981b0423a05937a8f</Key>
               <Label>Date</Label>
@@ -768,24 +1019,49 @@
           <EndValues isList="true" count="0" />
           <Guid>35bbfc6c9c6e4a41a3958f7bfd53732f</Guid>
           <HighValues isList="true" count="0" />
+          <Labels Ref="169" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
+            <Font>Arial,8</Font>
+            <ForeColor>Transparent</ForeColor>
+          </Labels>
+          <Layout Ref="170" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
+          <Legend Ref="171" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
+            <Labels Ref="172" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="173" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+            </Title>
+          </Legend>
           <LowValues isList="true" count="0" />
           <Margin>3,3,3,3</Margin>
           <Name>Chart6</Name>
+          <NegativeSeriesColors />
           <Padding>5,5,5,5</Padding>
-          <Page isRef="72" />
-          <Parent isRef="72" />
-          <Title Ref="98" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Page isRef="124" />
+          <Parent isRef="124" />
+          <SeriesColors />
+          <Title Ref="174" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>Volume of All Shares</Text>
           </Title>
+          <TopN Ref="175" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
+          <ValueFormat Ref="176" type="CurrencyFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>0</NegativePattern>
+            <PositivePattern>0</PositivePattern>
+            <State>DecimalDigits, CurrencySymbol, Abbreviation</State>
+          </ValueFormat>
           <Values isList="true" count="1">
-            <Item59 Ref="99" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item59 Ref="177" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum(Dell.Volume)</Expression>
               <Key>ebe4525106fd41419264e8bb4129434a</Key>
               <Label>Volume</Label>
@@ -793,7 +1069,7 @@
           </Values>
           <Weights isList="true" count="0" />
         </Chart6>
-        <Text3 Ref="100" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+        <Text3 Ref="178" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,0,1200,40</ClientRectangle>
           <ForeColor>Transparent</ForeColor>
@@ -801,10 +1077,10 @@
           <Margin>3,3,3,3</Margin>
           <Name>Text3</Name>
           <Padding>0,0,0,0</Padding>
-          <Page isRef="72" />
-          <Parent isRef="72" />
+          <Page isRef="124" />
+          <Parent isRef="124" />
           <Text>&lt;font face="Segoe UI" size="36"&gt;&lt;text-align="Center"&gt;Exchange Tenders&lt;/text-align&gt;&lt;/font&gt;</Text>
-          <Title Ref="101" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="179" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,11</Font>
             <ForeColor>Transparent</ForeColor>
@@ -812,7 +1088,7 @@
             <Visible>False</Visible>
           </Title>
         </Text3>
-        <DatePicker3 Ref="102" type="Stimulsoft.Dashboard.Components.DatePicker.StiDatePickerElement" isKey="true">
+        <DatePicker3 Ref="180" type="Stimulsoft.Dashboard.Components.DatePicker.StiDatePickerElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,40,500,40</ClientRectangle>
           <Condition>LessThan</Condition>
@@ -823,11 +1099,11 @@
           <Margin>3,3,3,3</Margin>
           <Name>DatePicker3</Name>
           <Padding>5,5,5,5</Padding>
-          <Page isRef="72" />
-          <Parent isRef="72" />
+          <Page isRef="124" />
+          <Parent isRef="124" />
           <SelectionMode>AutoRange</SelectionMode>
-          <TextFormat Ref="103" type="DateFormat" isKey="true" />
-          <ValueMeter Ref="104" type="Stimulsoft.Dashboard.Components.DatePicker.StiValueDatePickerMeter" isKey="true">
+          <TextFormat Ref="181" type="DateFormat" isKey="true" />
+          <ValueMeter Ref="182" type="Stimulsoft.Dashboard.Components.DatePicker.StiValueDatePickerMeter" isKey="true">
             <Expression>Dell.Date</Expression>
             <Key>9a69605fffe34afd99a9650179c739fd</Key>
             <Label>Date</Label>
@@ -837,64 +1113,78 @@
       <Guid>6942f63648c749d8b8e283aa2aac26db</Guid>
       <Name>DashboardDell</Name>
       <Report isRef="0" />
-      <Style>SlateGray</Style>
+      <Style>DarkBlue</Style>
     </DashboardDell>
-    <DashboardIBM Ref="105" type="Stimulsoft.Dashboard.Components.StiDashboard" isKey="true">
+    <DashboardIBM Ref="183" type="Stimulsoft.Dashboard.Components.StiDashboard" isKey="true">
       <Alias>IBM</Alias>
       <BackColor>Transparent</BackColor>
       <Components isList="true" count="6">
-        <Table3 Ref="106" type="Stimulsoft.Dashboard.Components.Table.StiTableElement" isKey="true">
+        <Table3 Ref="184" type="Stimulsoft.Dashboard.Components.Table.StiTableElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,320,500,280</ClientRectangle>
           <Columns isList="true" count="4">
-            <Item64 Ref="107" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
+            <Item64 Ref="185" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
               <Expression>IBM.Date</Expression>
+              <ForeColor>Transparent</ForeColor>
               <HorAlignment>Center</HorAlignment>
               <Key>a8c564478d9c448d9f9e3cbb1cc3cb21</Key>
               <Label>Date</Label>
-              <TextFormat isRef="75" />
+              <TextFormat isRef="127" />
             </Item64>
-            <Item65 Ref="108" type="Stimulsoft.Dashboard.Components.Table.StiIndicatorColumn" isKey="true">
+            <Item65 Ref="186" type="Stimulsoft.Dashboard.Components.Table.StiIndicatorColumn" isKey="true">
               <Expression>Sum(IBM.Open - IBM.Close)</Expression>
+              <ForeColor>Transparent</ForeColor>
               <HorAlignment>Right</HorAlignment>
               <Key>955bfda9a0aa477a933269bd8bcb64ca</Key>
               <Label>Open vs Close</Label>
-              <TextFormat Ref="109" type="NumberFormat" isKey="true">
+              <TextFormat Ref="187" type="CurrencyFormat" isKey="true">
                 <DecimalDigits>2</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
-                <NegativePattern>1</NegativePattern>
+                <NegativePattern>0</NegativePattern>
+                <PositivePattern>0</PositivePattern>
               </TextFormat>
             </Item65>
-            <Item66 Ref="110" type="Stimulsoft.Dashboard.Components.Table.StiDataBarsColumn" isKey="true">
+            <Item66 Ref="188" type="Stimulsoft.Dashboard.Components.Table.StiDataBarsColumn" isKey="true">
               <Expression>Sum(IBM.High - IBM.Low)</Expression>
+              <ForeColor>Transparent</ForeColor>
               <HorAlignment>Right</HorAlignment>
               <Key>2ac8d16a54184c7c9043aeeb238c297e</Key>
               <Label>High vs Low</Label>
-              <TextFormat Ref="111" type="NumberFormat" isKey="true">
+              <TextFormat Ref="189" type="CurrencyFormat" isKey="true">
                 <DecimalDigits>2</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
-                <NegativePattern>1</NegativePattern>
+                <NegativePattern>0</NegativePattern>
+                <PositivePattern>0</PositivePattern>
               </TextFormat>
             </Item66>
-            <Item67 Ref="112" type="Stimulsoft.Dashboard.Components.Table.StiColorScaleColumn" isKey="true">
+            <Item67 Ref="190" type="Stimulsoft.Dashboard.Components.Table.StiColorScaleColumn" isKey="true">
               <Expression>Sum(IBM.Volume)</Expression>
+              <ForeColor>Transparent</ForeColor>
               <HorAlignment>Right</HorAlignment>
               <Key>a0390330647b43ea9ee2bfb3c4861f07</Key>
-              <TextFormat Ref="113" type="NumberFormat" isKey="true">
-                <DecimalDigits>2</DecimalDigits>
+              <TextFormat Ref="191" type="CurrencyFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
-                <NegativePattern>1</NegativePattern>
+                <NegativePattern>0</NegativePattern>
+                <PositivePattern>0</PositivePattern>
+                <State>DecimalDigits, Abbreviation</State>
               </TextFormat>
             </Item67>
           </Columns>
           <DataFilters isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <ForeColor>Transparent</ForeColor>
           <Guid>f6ce4c62093e4ee7988619b4bf405de3</Guid>
+          <HeaderFont>Arial,10</HeaderFont>
+          <HeaderForeColor>Transparent</HeaderForeColor>
+          <Layout Ref="192" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
           <Margin>3,3,3,3</Margin>
           <Name>Table3</Name>
           <Padding>5,5,5,5</Padding>
-          <Page isRef="105" />
-          <Parent isRef="105" />
-          <Title Ref="114" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Page isRef="183" />
+          <Parent isRef="183" />
+          <SizeMode>Fit</SizeMode>
+          <Title Ref="193" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
@@ -906,17 +1196,26 @@
           <TransformSorts isList="true" count="0" />
           <UserFilters isList="true" count="0" />
           <UserSorts isList="true" count="2">
-            <Item68 Ref="115" type="Stimulsoft.Data.Engine.StiDataSortRule" isKey="true">
+            <Item68 Ref="194" type="Stimulsoft.Data.Engine.StiDataSortRule" isKey="true">
               <Key>2ac8d16a54184c7c9043aeeb238c297e</Key>
             </Item68>
-            <Item69 Ref="116" type="Stimulsoft.Data.Engine.StiDataSortRule" isKey="true">
+            <Item69 Ref="195" type="Stimulsoft.Data.Engine.StiDataSortRule" isKey="true">
               <Key>a0390330647b43ea9ee2bfb3c4861f07</Key>
             </Item69>
           </UserSorts>
         </Table3>
-        <Chart7 Ref="117" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+        <Chart7 Ref="196" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+          <Area Ref="197" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
+            <InterlacingHor Ref="198" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingHor>
+            <InterlacingVert Ref="199" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingVert>
+          </Area>
+          <ArgumentFormat Ref="200" type="DateFormat" isKey="true" />
           <Arguments isList="true" count="1">
-            <Item71 Ref="118" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
+            <Item71 Ref="201" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
               <Expression>IBM.Date</Expression>
               <Key>44f1f7788c5242e686fbf64345b43186</Key>
               <Label>Date</Label>
@@ -925,7 +1224,7 @@
           <BackColor>Transparent</BackColor>
           <ClientRectangle>500,40,700,280</ClientRectangle>
           <CloseValues isList="true" count="1">
-            <Item72 Ref="119" type="Stimulsoft.Dashboard.Components.Chart.StiCloseValueChartMeter" isKey="true">
+            <Item72 Ref="202" type="Stimulsoft.Dashboard.Components.Chart.StiCloseValueChartMeter" isKey="true">
               <Expression>Sum(IBM.Close)</Expression>
               <Key>01b0f43b674845a68597e8e9be88c76b</Key>
               <Label>Close</Label>
@@ -935,14 +1234,29 @@
           <EndValues isList="true" count="0" />
           <Guid>10e1f1916e2e45d49200f7cfbf5ee275</Guid>
           <HighValues isList="true" count="1">
-            <Item73 Ref="120" type="Stimulsoft.Dashboard.Components.Chart.StiHighValueChartMeter" isKey="true">
+            <Item73 Ref="203" type="Stimulsoft.Dashboard.Components.Chart.StiHighValueChartMeter" isKey="true">
               <Expression>Sum(IBM.High)</Expression>
               <Key>bc19fb30057e4df2917f1b4af7456417</Key>
               <Label>High</Label>
             </Item73>
           </HighValues>
+          <Labels Ref="204" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
+            <Font>Arial,8</Font>
+            <ForeColor>Transparent</ForeColor>
+          </Labels>
+          <Layout Ref="205" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
+          <Legend Ref="206" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
+            <Labels Ref="207" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="208" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+            </Title>
+          </Legend>
           <LowValues isList="true" count="1">
-            <Item74 Ref="121" type="Stimulsoft.Dashboard.Components.Chart.StiLowValueChartMeter" isKey="true">
+            <Item74 Ref="209" type="Stimulsoft.Dashboard.Components.Chart.StiLowValueChartMeter" isKey="true">
               <Expression>Sum(IBM.Low)</Expression>
               <Key>1458bec5d98f4f4babafbc3ba4e4234d</Key>
               <Label>Low</Label>
@@ -950,21 +1264,31 @@
           </LowValues>
           <Margin>3,3,3,3</Margin>
           <Name>Chart7</Name>
+          <NegativeSeriesColors />
           <Padding>5,5,5,5</Padding>
-          <Page isRef="105" />
-          <Parent isRef="105" />
-          <Title Ref="122" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Page isRef="183" />
+          <Parent isRef="183" />
+          <SeriesColors />
+          <Title Ref="210" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,11</Font>
             <ForeColor>Transparent</ForeColor>
             <Text>Диаграмма</Text>
             <Visible>False</Visible>
           </Title>
+          <TopN Ref="211" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
+          <ValueFormat Ref="212" type="CurrencyFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>0</NegativePattern>
+            <PositivePattern>0</PositivePattern>
+            <State>DecimalDigits, CurrencySymbol</State>
+          </ValueFormat>
           <Values isList="true" count="1">
-            <Item75 Ref="123" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item75 Ref="213" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum(IBM.Open)</Expression>
               <Key>e80205d40fec4284846bee8f5cd8e38f</Key>
               <Label>Open</Label>
@@ -973,48 +1297,65 @@
           </Values>
           <Weights isList="true" count="0" />
         </Chart7>
-        <Indicator4 Ref="124" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+        <Indicator4 Ref="214" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,80,500,240</ClientRectangle>
           <DataFilters isList="true" count="0" />
           <Font>Arial,13</Font>
           <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
           <Guid>d13b62beb2534ad99e4c6b248875502c</Guid>
-          <Icon>Rating4</Icon>
+          <Layout Ref="215" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
           <Margin>3,3,3,3</Margin>
           <Name>Indicator4</Name>
           <Padding>5,5,5,5</Padding>
-          <Page isRef="105" />
-          <Parent isRef="105" />
-          <Series Ref="125" type="Stimulsoft.Dashboard.Components.Indicator.StiSeriesIndicatorMeter" isKey="true">
+          <Page isRef="183" />
+          <Parent isRef="183" />
+          <Series Ref="216" type="Stimulsoft.Dashboard.Components.Indicator.StiSeriesIndicatorMeter" isKey="true">
             <Expression>IBM.Date</Expression>
             <Key>af365766f8a043ca96f9efc9a0f7fabb</Key>
             <Label>Date</Label>
           </Series>
-          <Target Ref="126" type="Stimulsoft.Dashboard.Components.Indicator.StiTargetIndicatorMeter" isKey="true">
+          <Target Ref="217" type="Stimulsoft.Dashboard.Components.Indicator.StiTargetIndicatorMeter" isKey="true">
             <Expression>Sum(IBM.Open)</Expression>
             <Key>78d7dd0ed7874d37ae35e8ec71427706</Key>
             <Label>Open</Label>
           </Target>
-          <Title Ref="127" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <TextFormat Ref="218" type="CurrencyFormat" isKey="true">
+            <DecimalDigits>2</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>0</NegativePattern>
+            <PositivePattern>0</PositivePattern>
+          </TextFormat>
+          <Title Ref="219" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>Price Growth</Text>
           </Title>
+          <TopN Ref="220" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <Value Ref="128" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+          <Value Ref="221" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
             <Expression>Sum(IBM.Close)</Expression>
             <Key>8c5abd1efb02449f81fdaa68489a8075</Key>
             <Label>Close</Label>
           </Value>
         </Indicator4>
-        <Chart8 Ref="129" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+        <Chart8 Ref="222" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+          <Area Ref="223" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
+            <InterlacingHor Ref="224" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingHor>
+            <InterlacingVert Ref="225" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingVert>
+          </Area>
+          <ArgumentFormat Ref="226" type="DateFormat" isKey="true" />
           <Arguments isList="true" count="1">
-            <Item78 Ref="130" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
+            <Item78 Ref="227" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
               <Expression>IBM.Date</Expression>
               <Key>d9256ce2a7d24a58a537bc3ae8c09287</Key>
               <Label>Date</Label>
@@ -1027,24 +1368,49 @@
           <EndValues isList="true" count="0" />
           <Guid>35bbfc6c9c6e4a41a3958f7bfd53732f</Guid>
           <HighValues isList="true" count="0" />
+          <Labels Ref="228" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
+            <Font>Arial,8</Font>
+            <ForeColor>Transparent</ForeColor>
+          </Labels>
+          <Layout Ref="229" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
+          <Legend Ref="230" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
+            <Labels Ref="231" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="232" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+            </Title>
+          </Legend>
           <LowValues isList="true" count="0" />
           <Margin>3,3,3,3</Margin>
           <Name>Chart8</Name>
+          <NegativeSeriesColors />
           <Padding>5,5,5,5</Padding>
-          <Page isRef="105" />
-          <Parent isRef="105" />
-          <Title Ref="131" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Page isRef="183" />
+          <Parent isRef="183" />
+          <SeriesColors />
+          <Title Ref="233" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>Volume of All Shares</Text>
           </Title>
+          <TopN Ref="234" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
+          <ValueFormat Ref="235" type="CurrencyFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>0</NegativePattern>
+            <PositivePattern>0</PositivePattern>
+            <State>DecimalDigits, CurrencySymbol, Abbreviation</State>
+          </ValueFormat>
           <Values isList="true" count="1">
-            <Item79 Ref="132" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item79 Ref="236" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum(IBM.Volume)</Expression>
               <Key>72e35ffe0b6b42b49c0f3b4a2d5a0366</Key>
               <Label>Volume</Label>
@@ -1052,7 +1418,7 @@
           </Values>
           <Weights isList="true" count="0" />
         </Chart8>
-        <Text4 Ref="133" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+        <Text4 Ref="237" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,0,1200,40</ClientRectangle>
           <ForeColor>Transparent</ForeColor>
@@ -1060,10 +1426,10 @@
           <Margin>3,3,3,3</Margin>
           <Name>Text4</Name>
           <Padding>0,0,0,0</Padding>
-          <Page isRef="105" />
-          <Parent isRef="105" />
+          <Page isRef="183" />
+          <Parent isRef="183" />
           <Text>&lt;font face="Segoe UI" size="36"&gt;&lt;text-align="Center"&gt;Exchange Tenders&lt;/text-align&gt;&lt;/font&gt;</Text>
-          <Title Ref="134" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="238" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,11</Font>
             <ForeColor>Transparent</ForeColor>
@@ -1071,7 +1437,7 @@
             <Visible>False</Visible>
           </Title>
         </Text4>
-        <DatePicker4 Ref="135" type="Stimulsoft.Dashboard.Components.DatePicker.StiDatePickerElement" isKey="true">
+        <DatePicker4 Ref="239" type="Stimulsoft.Dashboard.Components.DatePicker.StiDatePickerElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,40,500,40</ClientRectangle>
           <Condition>LessThan</Condition>
@@ -1082,11 +1448,11 @@
           <Margin>3,3,3,3</Margin>
           <Name>DatePicker4</Name>
           <Padding>5,5,5,5</Padding>
-          <Page isRef="105" />
-          <Parent isRef="105" />
+          <Page isRef="183" />
+          <Parent isRef="183" />
           <SelectionMode>AutoRange</SelectionMode>
-          <TextFormat Ref="136" type="DateFormat" isKey="true" />
-          <ValueMeter Ref="137" type="Stimulsoft.Dashboard.Components.DatePicker.StiValueDatePickerMeter" isKey="true">
+          <TextFormat Ref="240" type="DateFormat" isKey="true" />
+          <ValueMeter Ref="241" type="Stimulsoft.Dashboard.Components.DatePicker.StiValueDatePickerMeter" isKey="true">
             <Expression>IBM.Date</Expression>
             <Key>66aea06d277c4a51a8a7207e49fda0a5</Key>
             <Label>Date</Label>
@@ -1096,64 +1462,78 @@
       <Guid>d8fb6c249ea94be2a0b5edb128f29509</Guid>
       <Name>DashboardIBM</Name>
       <Report isRef="0" />
-      <Style>SlateGray</Style>
+      <Style>DarkGray</Style>
     </DashboardIBM>
-    <DashboardMicrosoft Ref="138" type="Stimulsoft.Dashboard.Components.StiDashboard" isKey="true">
+    <DashboardMicrosoft Ref="242" type="Stimulsoft.Dashboard.Components.StiDashboard" isKey="true">
       <Alias>Microsoft</Alias>
       <BackColor>Transparent</BackColor>
       <Components isList="true" count="6">
-        <Table4 Ref="139" type="Stimulsoft.Dashboard.Components.Table.StiTableElement" isKey="true">
+        <Table4 Ref="243" type="Stimulsoft.Dashboard.Components.Table.StiTableElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,320,500,280</ClientRectangle>
           <Columns isList="true" count="4">
-            <Item84 Ref="140" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
+            <Item84 Ref="244" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
               <Expression>Microsoft.Date</Expression>
+              <ForeColor>Transparent</ForeColor>
               <HorAlignment>Center</HorAlignment>
               <Key>f885ce6185244c06b823e82776842740</Key>
               <Label>Date</Label>
-              <TextFormat isRef="75" />
+              <TextFormat isRef="127" />
             </Item84>
-            <Item85 Ref="141" type="Stimulsoft.Dashboard.Components.Table.StiIndicatorColumn" isKey="true">
+            <Item85 Ref="245" type="Stimulsoft.Dashboard.Components.Table.StiIndicatorColumn" isKey="true">
               <Expression>Sum(Microsoft.Open - Microsoft.Close)</Expression>
+              <ForeColor>Transparent</ForeColor>
               <HorAlignment>Right</HorAlignment>
               <Key>955bfda9a0aa477a933269bd8bcb64ca</Key>
               <Label>Open vs Close</Label>
-              <TextFormat Ref="142" type="NumberFormat" isKey="true">
+              <TextFormat Ref="246" type="CurrencyFormat" isKey="true">
                 <DecimalDigits>2</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
-                <NegativePattern>1</NegativePattern>
+                <NegativePattern>0</NegativePattern>
+                <PositivePattern>0</PositivePattern>
               </TextFormat>
             </Item85>
-            <Item86 Ref="143" type="Stimulsoft.Dashboard.Components.Table.StiDataBarsColumn" isKey="true">
+            <Item86 Ref="247" type="Stimulsoft.Dashboard.Components.Table.StiDataBarsColumn" isKey="true">
               <Expression>Sum(Microsoft.High - Microsoft.Low)</Expression>
+              <ForeColor>Transparent</ForeColor>
               <HorAlignment>Right</HorAlignment>
               <Key>2ac8d16a54184c7c9043aeeb238c297e</Key>
               <Label>High vs Low</Label>
-              <TextFormat Ref="144" type="NumberFormat" isKey="true">
+              <TextFormat Ref="248" type="CurrencyFormat" isKey="true">
                 <DecimalDigits>2</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
-                <NegativePattern>1</NegativePattern>
+                <NegativePattern>0</NegativePattern>
+                <PositivePattern>0</PositivePattern>
               </TextFormat>
             </Item86>
-            <Item87 Ref="145" type="Stimulsoft.Dashboard.Components.Table.StiColorScaleColumn" isKey="true">
+            <Item87 Ref="249" type="Stimulsoft.Dashboard.Components.Table.StiColorScaleColumn" isKey="true">
               <Expression>Sum(Microsoft.Volume)</Expression>
+              <ForeColor>Transparent</ForeColor>
               <HorAlignment>Right</HorAlignment>
               <Key>a0390330647b43ea9ee2bfb3c4861f07</Key>
-              <TextFormat Ref="146" type="NumberFormat" isKey="true">
-                <DecimalDigits>2</DecimalDigits>
+              <TextFormat Ref="250" type="CurrencyFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
-                <NegativePattern>1</NegativePattern>
+                <NegativePattern>0</NegativePattern>
+                <PositivePattern>0</PositivePattern>
+                <State>DecimalDigits, Abbreviation</State>
               </TextFormat>
             </Item87>
           </Columns>
           <DataFilters isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <ForeColor>Transparent</ForeColor>
           <Guid>f6ce4c62093e4ee7988619b4bf405de3</Guid>
+          <HeaderFont>Arial,10</HeaderFont>
+          <HeaderForeColor>Transparent</HeaderForeColor>
+          <Layout Ref="251" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
           <Margin>3,3,3,3</Margin>
           <Name>Table4</Name>
           <Padding>5,5,5,5</Padding>
-          <Page isRef="138" />
-          <Parent isRef="138" />
-          <Title Ref="147" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Page isRef="242" />
+          <Parent isRef="242" />
+          <SizeMode>Fit</SizeMode>
+          <Title Ref="252" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
@@ -1165,14 +1545,23 @@
           <TransformSorts isList="true" count="0" />
           <UserFilters isList="true" count="0" />
           <UserSorts isList="true" count="1">
-            <Item88 Ref="148" type="Stimulsoft.Data.Engine.StiDataSortRule" isKey="true">
+            <Item88 Ref="253" type="Stimulsoft.Data.Engine.StiDataSortRule" isKey="true">
               <Key>2ac8d16a54184c7c9043aeeb238c297e</Key>
             </Item88>
           </UserSorts>
         </Table4>
-        <Chart9 Ref="149" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+        <Chart9 Ref="254" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+          <Area Ref="255" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
+            <InterlacingHor Ref="256" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingHor>
+            <InterlacingVert Ref="257" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingVert>
+          </Area>
+          <ArgumentFormat Ref="258" type="DateFormat" isKey="true" />
           <Arguments isList="true" count="1">
-            <Item90 Ref="150" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
+            <Item90 Ref="259" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
               <Expression>Microsoft.Date</Expression>
               <Key>27f8d63e846c46ada58cce2b14beaa52</Key>
               <Label>Date</Label>
@@ -1181,7 +1570,7 @@
           <BackColor>Transparent</BackColor>
           <ClientRectangle>500,40,700,280</ClientRectangle>
           <CloseValues isList="true" count="1">
-            <Item91 Ref="151" type="Stimulsoft.Dashboard.Components.Chart.StiCloseValueChartMeter" isKey="true">
+            <Item91 Ref="260" type="Stimulsoft.Dashboard.Components.Chart.StiCloseValueChartMeter" isKey="true">
               <Expression>Sum(Microsoft.Close)</Expression>
               <Key>1f994a3243864194992aa4797fee68e4</Key>
               <Label>Close</Label>
@@ -1191,14 +1580,29 @@
           <EndValues isList="true" count="0" />
           <Guid>10e1f1916e2e45d49200f7cfbf5ee275</Guid>
           <HighValues isList="true" count="1">
-            <Item92 Ref="152" type="Stimulsoft.Dashboard.Components.Chart.StiHighValueChartMeter" isKey="true">
+            <Item92 Ref="261" type="Stimulsoft.Dashboard.Components.Chart.StiHighValueChartMeter" isKey="true">
               <Expression>Sum(Microsoft.High)</Expression>
               <Key>440f342a6a3a4f92a323be4e209b930f</Key>
               <Label>High</Label>
             </Item92>
           </HighValues>
+          <Labels Ref="262" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
+            <Font>Arial,8</Font>
+            <ForeColor>Transparent</ForeColor>
+          </Labels>
+          <Layout Ref="263" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
+          <Legend Ref="264" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
+            <Labels Ref="265" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="266" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+            </Title>
+          </Legend>
           <LowValues isList="true" count="1">
-            <Item93 Ref="153" type="Stimulsoft.Dashboard.Components.Chart.StiLowValueChartMeter" isKey="true">
+            <Item93 Ref="267" type="Stimulsoft.Dashboard.Components.Chart.StiLowValueChartMeter" isKey="true">
               <Expression>Sum(Microsoft.Low)</Expression>
               <Key>becd0e66cbdc4dfd959dade6cd7c77be</Key>
               <Label>Low</Label>
@@ -1206,21 +1610,31 @@
           </LowValues>
           <Margin>3,3,3,3</Margin>
           <Name>Chart9</Name>
+          <NegativeSeriesColors />
           <Padding>5,5,5,5</Padding>
-          <Page isRef="138" />
-          <Parent isRef="138" />
-          <Title Ref="154" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Page isRef="242" />
+          <Parent isRef="242" />
+          <SeriesColors />
+          <Title Ref="268" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,11</Font>
             <ForeColor>Transparent</ForeColor>
             <Text>Диаграмма</Text>
             <Visible>False</Visible>
           </Title>
+          <TopN Ref="269" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
+          <ValueFormat Ref="270" type="CurrencyFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>0</NegativePattern>
+            <PositivePattern>0</PositivePattern>
+            <State>DecimalDigits, CurrencySymbol</State>
+          </ValueFormat>
           <Values isList="true" count="1">
-            <Item94 Ref="155" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item94 Ref="271" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum(Microsoft.Open)</Expression>
               <Key>7f993e9c3a0147659bd22accd440fa8b</Key>
               <Label>Open</Label>
@@ -1229,48 +1643,65 @@
           </Values>
           <Weights isList="true" count="0" />
         </Chart9>
-        <Indicator5 Ref="156" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+        <Indicator5 Ref="272" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,80,500,240</ClientRectangle>
           <DataFilters isList="true" count="0" />
           <Font>Arial,13</Font>
           <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
           <Guid>d13b62beb2534ad99e4c6b248875502c</Guid>
-          <Icon>Rating4</Icon>
+          <Layout Ref="273" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
           <Margin>3,3,3,3</Margin>
           <Name>Indicator5</Name>
           <Padding>5,5,5,5</Padding>
-          <Page isRef="138" />
-          <Parent isRef="138" />
-          <Series Ref="157" type="Stimulsoft.Dashboard.Components.Indicator.StiSeriesIndicatorMeter" isKey="true">
+          <Page isRef="242" />
+          <Parent isRef="242" />
+          <Series Ref="274" type="Stimulsoft.Dashboard.Components.Indicator.StiSeriesIndicatorMeter" isKey="true">
             <Expression>Microsoft.Date</Expression>
             <Key>e4d98b5b82d94cb1b8e635aa127a6308</Key>
             <Label>Date</Label>
           </Series>
-          <Target Ref="158" type="Stimulsoft.Dashboard.Components.Indicator.StiTargetIndicatorMeter" isKey="true">
+          <Target Ref="275" type="Stimulsoft.Dashboard.Components.Indicator.StiTargetIndicatorMeter" isKey="true">
             <Expression>Sum(Microsoft.Open)</Expression>
             <Key>18d6019b89994ba29d3d2e889c145edd</Key>
             <Label>Open</Label>
           </Target>
-          <Title Ref="159" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <TextFormat Ref="276" type="CurrencyFormat" isKey="true">
+            <DecimalDigits>2</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>0</NegativePattern>
+            <PositivePattern>0</PositivePattern>
+          </TextFormat>
+          <Title Ref="277" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>Price Growth</Text>
           </Title>
+          <TopN Ref="278" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <Value Ref="160" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+          <Value Ref="279" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
             <Expression>Sum(Microsoft.Close)</Expression>
             <Key>054297d6ed3b4d828e35ce939e39ed29</Key>
             <Label>Close</Label>
           </Value>
         </Indicator5>
-        <Chart10 Ref="161" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+        <Chart10 Ref="280" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+          <Area Ref="281" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
+            <InterlacingHor Ref="282" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingHor>
+            <InterlacingVert Ref="283" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingVert>
+          </Area>
+          <ArgumentFormat Ref="284" type="DateFormat" isKey="true" />
           <Arguments isList="true" count="1">
-            <Item97 Ref="162" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
+            <Item97 Ref="285" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
               <Expression>Microsoft.Date</Expression>
               <Key>f57b7633780a49aa9f91dc99bfb4c799</Key>
               <Label>Date</Label>
@@ -1283,24 +1714,49 @@
           <EndValues isList="true" count="0" />
           <Guid>35bbfc6c9c6e4a41a3958f7bfd53732f</Guid>
           <HighValues isList="true" count="0" />
+          <Labels Ref="286" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
+            <Font>Arial,8</Font>
+            <ForeColor>Transparent</ForeColor>
+          </Labels>
+          <Layout Ref="287" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
+          <Legend Ref="288" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
+            <Labels Ref="289" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="290" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+            </Title>
+          </Legend>
           <LowValues isList="true" count="0" />
           <Margin>3,3,3,3</Margin>
           <Name>Chart10</Name>
+          <NegativeSeriesColors />
           <Padding>5,5,5,5</Padding>
-          <Page isRef="138" />
-          <Parent isRef="138" />
-          <Title Ref="163" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Page isRef="242" />
+          <Parent isRef="242" />
+          <SeriesColors />
+          <Title Ref="291" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>Volume of All Shares</Text>
           </Title>
+          <TopN Ref="292" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
+          <ValueFormat Ref="293" type="CurrencyFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>0</NegativePattern>
+            <PositivePattern>0</PositivePattern>
+            <State>DecimalDigits, CurrencySymbol, Abbreviation</State>
+          </ValueFormat>
           <Values isList="true" count="1">
-            <Item98 Ref="164" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item98 Ref="294" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum(Microsoft.Volume)</Expression>
               <Key>3a484a630927479484778deeb61994b1</Key>
               <Label>Volume</Label>
@@ -1308,7 +1764,7 @@
           </Values>
           <Weights isList="true" count="0" />
         </Chart10>
-        <Text5 Ref="165" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+        <Text5 Ref="295" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,0,1200,40</ClientRectangle>
           <ForeColor>Transparent</ForeColor>
@@ -1316,10 +1772,10 @@
           <Margin>3,3,3,3</Margin>
           <Name>Text5</Name>
           <Padding>0,0,0,0</Padding>
-          <Page isRef="138" />
-          <Parent isRef="138" />
+          <Page isRef="242" />
+          <Parent isRef="242" />
           <Text>&lt;font face="Segoe UI" size="36"&gt;&lt;text-align="Center"&gt;Exchange Tenders&lt;/text-align&gt;&lt;/font&gt;</Text>
-          <Title Ref="166" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="296" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,11</Font>
             <ForeColor>Transparent</ForeColor>
@@ -1327,7 +1783,7 @@
             <Visible>False</Visible>
           </Title>
         </Text5>
-        <DatePicker5 Ref="167" type="Stimulsoft.Dashboard.Components.DatePicker.StiDatePickerElement" isKey="true">
+        <DatePicker5 Ref="297" type="Stimulsoft.Dashboard.Components.DatePicker.StiDatePickerElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,40,500,40</ClientRectangle>
           <Condition>LessThan</Condition>
@@ -1338,11 +1794,11 @@
           <Margin>3,3,3,3</Margin>
           <Name>DatePicker5</Name>
           <Padding>5,5,5,5</Padding>
-          <Page isRef="138" />
-          <Parent isRef="138" />
+          <Page isRef="242" />
+          <Parent isRef="242" />
           <SelectionMode>AutoRange</SelectionMode>
-          <TextFormat Ref="168" type="DateFormat" isKey="true" />
-          <ValueMeter Ref="169" type="Stimulsoft.Dashboard.Components.DatePicker.StiValueDatePickerMeter" isKey="true">
+          <TextFormat Ref="298" type="DateFormat" isKey="true" />
+          <ValueMeter Ref="299" type="Stimulsoft.Dashboard.Components.DatePicker.StiValueDatePickerMeter" isKey="true">
             <Expression>Microsoft.Date</Expression>
             <Key>76d023025fe04e75847da4eec81f6c2d</Key>
             <Label>Date</Label>
@@ -1352,10 +1808,10 @@
       <Guid>698d5dc3d5704142bfb5e7fb5cf8c478</Guid>
       <Name>DashboardMicrosoft</Name>
       <Report isRef="0" />
-      <Style>SlateGray</Style>
+      <Style>Silver</Style>
     </DashboardMicrosoft>
   </Pages>
-  <PrinterSettings Ref="170" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <PreviewSettings>25116671</PreviewSettings>
   <ReferencedAssemblies isList="true" count="8">
     <value>System.Dll</value>
     <value>System.Drawing.Dll</value>
@@ -1368,13 +1824,12 @@
   </ReferencedAssemblies>
   <ReportAlias>Exchange Tenders</ReportAlias>
   <ReportAuthor>Stimulsoft</ReportAuthor>
-  <ReportChanged>10/6/2018 3:10:05 PM</ReportChanged>
+  <ReportChanged>6/10/2019 4:43:43 PM</ReportChanged>
   <ReportCreated>9/3/2018 10:29:51 AM</ReportCreated>
-  <ReportFile>D:\Stimulsoft\.Dashboards\Exchange Tenders.mrt</ReportFile>
-  <ReportGuid>2fbe0847c9984c028e03de9b8e072fab</ReportGuid>
-  <ReportName>ExchangeTenders</ReportName>
+  <ReportGuid>1308290cbc7b421b9a2c26b231f8201a</ReportGuid>
+  <ReportName>Exchange Tenders</ReportName>
   <ReportUnit>Inches</ReportUnit>
-  <ReportVersion>2018.3.1.0</ReportVersion>
+  <ReportVersion>2019.3.1.0</ReportVersion>
   <Script>using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -1387,9 +1842,9 @@ using Stimulsoft.Report.Components;
 
 namespace Reports
 {
-    public class ExchangeTenders : Stimulsoft.Report.StiReport
+    public class Exchange_Tenders : Stimulsoft.Report.StiReport
     {
-        public ExchangeTenders()        {
+        public Exchange_Tenders()        {
             this.InitializeComponent();
         }
 

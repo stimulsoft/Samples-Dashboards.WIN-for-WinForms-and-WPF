@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <StiSerializer version="1.02" type="Net" application="StiReport">
+  <CalculationMode>Interpretation</CalculationMode>
   <Dictionary Ref="1" type="Dictionary" isKey="true">
     <BusinessObjects isList="true" count="0" />
     <Databases isList="true" count="1">
@@ -25,6 +26,7 @@
           <value>Tranferred,System.Double</value>
         </Columns>
         <Dictionary isRef="1" />
+        <Key>ec4fb50f889e4537a8dc10afa738825a</Key>
         <Name>Tickets</Name>
         <NameInSource>Tickets.Tickets</NameInSource>
       </Tickets>
@@ -46,8 +48,16 @@
       <BackColor>Transparent</BackColor>
       <Components isList="true" count="7">
         <Chart1 Ref="5" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+          <Area Ref="6" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
+            <InterlacingHor Ref="7" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingHor>
+            <InterlacingVert Ref="8" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingVert>
+          </Area>
           <Arguments isList="true" count="1">
-            <Item5 Ref="6" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
+            <Item5 Ref="9" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
               <Expression>Sum([Tickets.In Processing])</Expression>
               <Key>8dce2396aa634f6ab3924157a8011046</Key>
             </Item5>
@@ -60,98 +70,137 @@
           <EndValues isList="true" count="0" />
           <Guid>86f4747f2d424b328ee35a215d41eae0</Guid>
           <HighValues isList="true" count="0" />
+          <Labels Ref="10" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
+            <Font>Arial,8</Font>
+            <ForeColor>Transparent</ForeColor>
+          </Labels>
+          <Layout Ref="11" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
+          <Legend Ref="12" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
+            <Labels Ref="13" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="14" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+            </Title>
+          </Legend>
           <LowValues isList="true" count="0" />
           <Margin>3,3,3,3</Margin>
           <Name>Chart1</Name>
+          <NegativeSeriesColors />
           <Padding>5,5,5,5</Padding>
           <Page isRef="4" />
           <Parent isRef="4" />
-          <Series Ref="7" type="Stimulsoft.Dashboard.Components.Chart.StiSeriesChartMeter" isKey="true">
+          <Series Ref="15" type="Stimulsoft.Dashboard.Components.Chart.StiSeriesChartMeter" isKey="true">
             <Expression>Tickets.Name</Expression>
             <Key>9ca4c0cfc99a4b6492945d4c2db3209a</Key>
           </Series>
-          <Title Ref="8" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <SeriesColors />
+          <Title Ref="16" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>All Tickets in {MonthName(Today)}</Text>
           </Title>
+          <TopN Ref="17" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
+          <ValueFormat Ref="18" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits</State>
+          </ValueFormat>
           <Values isList="true" count="1">
-            <Item6 Ref="9" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item6 Ref="19" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum(Tickets.Resolved)</Expression>
               <Key>f08f3254b19e497ea250e110fd552e41</Key>
               <SeriesType>Bubble</SeriesType>
             </Item6>
           </Values>
           <Weights isList="true" count="1">
-            <Item7 Ref="10" type="Stimulsoft.Dashboard.Components.Chart.StiWeightChartMeter" isKey="true">
+            <Item7 Ref="20" type="Stimulsoft.Dashboard.Components.Chart.StiWeightChartMeter" isKey="true">
               <Expression>Sum(Tickets.Tranferred)</Expression>
               <Key>b88bce84a6354d649c71958242a6af81</Key>
             </Item7>
           </Weights>
         </Chart1>
-        <Table1 Ref="11" type="Stimulsoft.Dashboard.Components.Table.StiTableElement" isKey="true">
+        <Table1 Ref="21" type="Stimulsoft.Dashboard.Components.Table.StiTableElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <Border>All;[211:212:213];1;Solid</Border>
           <ClientRectangle>0,40,480,140</ClientRectangle>
           <Columns isList="true" count="5">
-            <Item9 Ref="12" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
+            <Item9 Ref="22" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
               <Expression>Tickets.Name</Expression>
+              <ForeColor>Transparent</ForeColor>
               <Key>841450cec5e741aaac1dee748fd8dc9e</Key>
             </Item9>
-            <Item10 Ref="13" type="Stimulsoft.Dashboard.Components.Table.StiDataBarsColumn" isKey="true">
+            <Item10 Ref="23" type="Stimulsoft.Dashboard.Components.Table.StiDataBarsColumn" isKey="true">
               <Expression>Sum(Tickets.Resolved)</Expression>
+              <ForeColor>Transparent</ForeColor>
               <HorAlignment>Right</HorAlignment>
               <Key>39a120e5871c410ca77c060442a08e41</Key>
-              <TextFormat Ref="14" type="NumberFormat" isKey="true">
-                <DecimalDigits>2</DecimalDigits>
+              <TextFormat Ref="24" type="NumberFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
                 <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits</State>
               </TextFormat>
             </Item10>
-            <Item11 Ref="15" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
+            <Item11 Ref="25" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
               <Expression>Sum(Tickets.Returned)</Expression>
+              <ForeColor>Transparent</ForeColor>
               <HorAlignment>Right</HorAlignment>
               <Key>7209cb636a0a4a9dafad755e989c3aa2</Key>
-              <TextFormat Ref="16" type="NumberFormat" isKey="true">
-                <DecimalDigits>2</DecimalDigits>
+              <TextFormat Ref="26" type="NumberFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
                 <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits</State>
               </TextFormat>
             </Item11>
-            <Item12 Ref="17" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
+            <Item12 Ref="27" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
               <Expression>Sum([Tickets.In Processing])</Expression>
+              <ForeColor>Transparent</ForeColor>
               <HorAlignment>Right</HorAlignment>
               <Key>b1f38640b02443c189566d1e9179e0e4</Key>
-              <TextFormat Ref="18" type="NumberFormat" isKey="true">
-                <DecimalDigits>2</DecimalDigits>
+              <TextFormat Ref="28" type="NumberFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
                 <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits</State>
               </TextFormat>
             </Item12>
-            <Item13 Ref="19" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
+            <Item13 Ref="29" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
               <Expression>Sum(Tickets.Total)</Expression>
+              <ForeColor>Transparent</ForeColor>
               <HorAlignment>Right</HorAlignment>
               <Key>11ee5168138748d598bec7ca5949a4f8</Key>
-              <TextFormat Ref="20" type="NumberFormat" isKey="true">
+              <TextFormat Ref="30" type="NumberFormat" isKey="true">
                 <DecimalDigits>2</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
                 <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits, Abbreviation</State>
               </TextFormat>
             </Item13>
           </Columns>
           <DataFilters isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <ForeColor>Transparent</ForeColor>
           <Guid>7236ec1bcfdb40c3805063a42042b739</Guid>
+          <HeaderFont>Arial,10</HeaderFont>
+          <HeaderForeColor>Transparent</HeaderForeColor>
+          <Layout Ref="31" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
           <Margin>3,3,3,3</Margin>
           <Name>Table1</Name>
           <Padding>5,5,5,5</Padding>
           <Page isRef="4" />
           <Parent isRef="4" />
-          <Title Ref="21" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <SizeMode>Fit</SizeMode>
+          <Title Ref="32" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
@@ -165,7 +214,7 @@
           <UserFilters isList="true" count="0" />
           <UserSorts isList="true" count="0" />
         </Table1>
-        <Progress1 Ref="22" type="Stimulsoft.Dashboard.Components.Progress.StiProgressElement" isKey="true">
+        <Progress1 Ref="33" type="Stimulsoft.Dashboard.Components.Progress.StiProgressElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <Border>All;[211:212:213];1;Solid</Border>
           <ClientRectangle>0,180,480,140</ClientRectangle>
@@ -173,36 +222,39 @@
           <Font>Arial,13,Bold</Font>
           <ForeColor>Transparent</ForeColor>
           <Guid>59a7eae38c45466685132dd30f2cb81b</Guid>
+          <Layout Ref="34" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
           <Margin>3,3,3,3</Margin>
           <Mode>DataBars</Mode>
           <Name>Progress1</Name>
           <Padding>5,5,5,5</Padding>
           <Page isRef="4" />
           <Parent isRef="4" />
-          <Series Ref="23" type="Stimulsoft.Dashboard.Components.Progress.StiSeriesProgressMeter" isKey="true">
+          <Series Ref="35" type="Stimulsoft.Dashboard.Components.Progress.StiSeriesProgressMeter" isKey="true">
             <Expression>Tickets.Name</Expression>
             <Key>86e57a236d464a0895d8ff356588be6a</Key>
           </Series>
-          <Target Ref="24" type="Stimulsoft.Dashboard.Components.Progress.StiTargetProgressMeter" isKey="true">
+          <SeriesColors />
+          <Target Ref="36" type="Stimulsoft.Dashboard.Components.Progress.StiTargetProgressMeter" isKey="true">
             <Expression>Sum(Tickets.Total)</Expression>
             <Key>3194baa19c2a4a7ca0ef3cbb5b667068</Key>
           </Target>
-          <Title Ref="25" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="37" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>Resolved</Text>
           </Title>
+          <TopN Ref="38" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <Value Ref="26" type="Stimulsoft.Dashboard.Components.Progress.StiValueProgressMeter" isKey="true">
+          <Value Ref="39" type="Stimulsoft.Dashboard.Components.Progress.StiValueProgressMeter" isKey="true">
             <Expression>Sum(Tickets.Resolved)</Expression>
             <Key>ab2f2b03fb764385b8d9e3cce86ed25e</Key>
           </Value>
         </Progress1>
-        <Progress2 Ref="27" type="Stimulsoft.Dashboard.Components.Progress.StiProgressElement" isKey="true">
+        <Progress2 Ref="40" type="Stimulsoft.Dashboard.Components.Progress.StiProgressElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <Border>All;[211:212:213];1;Solid</Border>
           <ClientRectangle>0,320,480,140</ClientRectangle>
@@ -210,36 +262,39 @@
           <Font>Arial,13,Bold</Font>
           <ForeColor>Transparent</ForeColor>
           <Guid>e3bdf9b256984c72b7fe7b3cf37172af</Guid>
+          <Layout Ref="41" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
           <Margin>3,3,3,3</Margin>
           <Mode>DataBars</Mode>
           <Name>Progress2</Name>
           <Padding>5,5,5,5</Padding>
           <Page isRef="4" />
           <Parent isRef="4" />
-          <Series Ref="28" type="Stimulsoft.Dashboard.Components.Progress.StiSeriesProgressMeter" isKey="true">
+          <Series Ref="42" type="Stimulsoft.Dashboard.Components.Progress.StiSeriesProgressMeter" isKey="true">
             <Expression>Tickets.Name</Expression>
             <Key>1f0bda328cc949b7a8543cd03801f5d0</Key>
           </Series>
-          <Target Ref="29" type="Stimulsoft.Dashboard.Components.Progress.StiTargetProgressMeter" isKey="true">
+          <SeriesColors />
+          <Target Ref="43" type="Stimulsoft.Dashboard.Components.Progress.StiTargetProgressMeter" isKey="true">
             <Expression>Sum(Tickets.Total)</Expression>
             <Key>4a04177c2ed44dbb98fdfc8a58dd1d7d</Key>
           </Target>
-          <Title Ref="30" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="44" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>Returned</Text>
           </Title>
+          <TopN Ref="45" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <Value Ref="31" type="Stimulsoft.Dashboard.Components.Progress.StiValueProgressMeter" isKey="true">
+          <Value Ref="46" type="Stimulsoft.Dashboard.Components.Progress.StiValueProgressMeter" isKey="true">
             <Expression>Sum(Tickets.Returned)</Expression>
             <Key>ae0a1c7ffef143cf96cde0ff60b44a7e</Key>
           </Value>
         </Progress2>
-        <Progress4 Ref="32" type="Stimulsoft.Dashboard.Components.Progress.StiProgressElement" isKey="true">
+        <Progress4 Ref="47" type="Stimulsoft.Dashboard.Components.Progress.StiProgressElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <Border>All;[211:212:213];1;Solid</Border>
           <ClientRectangle>0,460,480,140</ClientRectangle>
@@ -247,49 +302,53 @@
           <Font>Arial,13,Bold</Font>
           <ForeColor>Transparent</ForeColor>
           <Guid>528dcbc5a71c4fbc9d776a955bdd0934</Guid>
+          <Layout Ref="48" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
           <Margin>3,3,3,3</Margin>
           <Mode>DataBars</Mode>
           <Name>Progress4</Name>
           <Padding>5,5,5,5</Padding>
           <Page isRef="4" />
           <Parent isRef="4" />
-          <Series Ref="33" type="Stimulsoft.Dashboard.Components.Progress.StiSeriesProgressMeter" isKey="true">
+          <Series Ref="49" type="Stimulsoft.Dashboard.Components.Progress.StiSeriesProgressMeter" isKey="true">
             <Expression>Tickets.Name</Expression>
             <Key>28362d3d79c24017ae4e4b6191ff7bcc</Key>
           </Series>
-          <Target Ref="34" type="Stimulsoft.Dashboard.Components.Progress.StiTargetProgressMeter" isKey="true">
+          <SeriesColors />
+          <Target Ref="50" type="Stimulsoft.Dashboard.Components.Progress.StiTargetProgressMeter" isKey="true">
             <Expression>Sum(Tickets.Total)</Expression>
             <Key>7beadbb1e2d74211ac60f3d79271f9bf</Key>
           </Target>
-          <Title Ref="35" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="51" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>In Progress</Text>
           </Title>
+          <TopN Ref="52" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <Value Ref="36" type="Stimulsoft.Dashboard.Components.Progress.StiValueProgressMeter" isKey="true">
+          <Value Ref="53" type="Stimulsoft.Dashboard.Components.Progress.StiValueProgressMeter" isKey="true">
             <Expression>Sum([Tickets.In Processing])</Expression>
             <Key>4990f51644a04dd3b75169a6e9f84b10</Key>
           </Value>
         </Progress4>
-        <RegionMap1 Ref="37" type="Stimulsoft.Dashboard.Components.RegionMap.StiRegionMapElement" isKey="true">
+        <RegionMap1 Ref="54" type="Stimulsoft.Dashboard.Components.RegionMap.StiRegionMapElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>480,40,720,280</ClientRectangle>
           <DataFilters isList="true" count="0" />
           <DataFrom>DataColumns</DataFrom>
           <Guid>e184f82a31f648e09323c50703d69551</Guid>
-          <KeyMeter Ref="38" type="Stimulsoft.Dashboard.Components.RegionMap.StiKeyMapMeter" isKey="true">
+          <KeyMeter Ref="55" type="Stimulsoft.Dashboard.Components.RegionMap.StiKeyMapMeter" isKey="true">
             <Expression>Tickets.State</Expression>
             <Key>845bd21296fa48b094e0b6d09a5bf6c3</Key>
           </KeyMeter>
+          <Layout Ref="56" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
           <MapType>Heatmap</MapType>
           <Margin>3,3,3,3</Margin>
           <Name>RegionMap1</Name>
-          <NameMeter Ref="39" type="Stimulsoft.Dashboard.Components.RegionMap.StiNameMapMeter" isKey="true">
+          <NameMeter Ref="57" type="Stimulsoft.Dashboard.Components.RegionMap.StiNameMapMeter" isKey="true">
             <Expression>Tickets.State</Expression>
             <Key>1016861abb2b4207b32daeb6554c359e</Key>
           </NameMeter>
@@ -297,7 +356,7 @@
           <Page isRef="4" />
           <Parent isRef="4" />
           <ShowName>Short</ShowName>
-          <Title Ref="40" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="58" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
@@ -308,12 +367,12 @@
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <ValueMeter Ref="41" type="Stimulsoft.Dashboard.Components.RegionMap.StiValueMapMeter" isKey="true">
+          <ValueMeter Ref="59" type="Stimulsoft.Dashboard.Components.RegionMap.StiValueMapMeter" isKey="true">
             <Expression>Tickets.Total</Expression>
             <Key>615bf1e0e70048ca95e0cf9908717c69</Key>
           </ValueMeter>
         </RegionMap1>
-        <Text1 Ref="42" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+        <Text1 Ref="60" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,0,1200,40</ClientRectangle>
           <ForeColor>Transparent</ForeColor>
@@ -324,7 +383,7 @@
           <Page isRef="4" />
           <Parent isRef="4" />
           <Text>&lt;font face="Segoe UI" size="36"&gt;&lt;text-align="Center"&gt;Ticket Stats&lt;/text-align&gt;&lt;/font&gt;</Text>
-          <Title Ref="43" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="61" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,11</Font>
             <ForeColor>Transparent</ForeColor>
@@ -334,13 +393,11 @@
         </Text1>
       </Components>
       <Guid>934960a4484546f693fccbf89acdb5f4</Guid>
-      <Height>600</Height>
       <Name>DashboardTicketsStatistics</Name>
       <Report isRef="0" />
-      <Width>1200</Width>
     </DashboardTicketsStatistics>
   </Pages>
-  <PrinterSettings Ref="44" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <PreviewSettings>25108991</PreviewSettings>
   <ReferencedAssemblies isList="true" count="8">
     <value>System.Dll</value>
     <value>System.Drawing.Dll</value>
@@ -353,12 +410,12 @@
   </ReferencedAssemblies>
   <ReportAlias>Tickets Statistics</ReportAlias>
   <ReportAuthor>Stimulsoft</ReportAuthor>
-  <ReportChanged>10/6/2018 1:21:10 PM</ReportChanged>
+  <ReportChanged>5/15/2019 12:35:48 PM</ReportChanged>
   <ReportCreated>6/17/2018 6:56:47 PM</ReportCreated>
-  <ReportGuid>c5896f22a42a44ebbf246843adbfcf62</ReportGuid>
-  <ReportName>TicketsStatistics</ReportName>
+  <ReportGuid>ad4b7166278d4c7f9b43513ba0801b42</ReportGuid>
+  <ReportName>Tickets Statistics</ReportName>
   <ReportUnit>Inches</ReportUnit>
-  <ReportVersion>2018.3.1.0</ReportVersion>
+  <ReportVersion>2019.3.1.0</ReportVersion>
   <Script>using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -371,9 +428,9 @@ using Stimulsoft.Report.Components;
 
 namespace Reports
 {
-    public class TicketsStatistics : Stimulsoft.Report.StiReport
+    public class Tickets_Statistics : Stimulsoft.Report.StiReport
     {
-        public TicketsStatistics()        {
+        public Tickets_Statistics()        {
             this.InitializeComponent();
         }
 

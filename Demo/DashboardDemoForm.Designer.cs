@@ -29,42 +29,42 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DashboardDemoForm));
-            this.listBoxReports = new Stimulsoft.Dashboard.Viewer.Controls.ListBox.StiListBox();
+            this.listBoxDashboards = new Stimulsoft.Dashboard.Viewer.Controls.ListBox.StiListBox();
             this.panelReports = new System.Windows.Forms.Panel();
             this.buttonEditDashboard = new System.Windows.Forms.Button();
             this.panelReports.SuspendLayout();
             this.SuspendLayout();
             // 
-            // listBoxReports
+            // listBoxDashboards
             // 
-            this.listBoxReports.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.listBoxDashboards.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBoxReports.BackColor = System.Drawing.Color.White;
-            this.listBoxReports.ForeColor = System.Drawing.Color.DimGray;
-            this.listBoxReports.Location = new System.Drawing.Point(6, 35);
-            this.listBoxReports.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.listBoxReports.Name = "listBoxReports";
-            this.listBoxReports.Size = new System.Drawing.Size(260, 409);
-            this.listBoxReports.TabIndex = 0;
-            this.listBoxReports.SelectedIndexChanged += new System.EventHandler(this.Reports_SelectedIndexChanged);
+            this.listBoxDashboards.BackColor = System.Drawing.Color.White;
+            this.listBoxDashboards.ForeColor = System.Drawing.Color.DimGray;
+            this.listBoxDashboards.Location = new System.Drawing.Point(6, 35);
+            this.listBoxDashboards.Margin = new System.Windows.Forms.Padding(2);
+            this.listBoxDashboards.Name = "listBoxDashboards";
+            this.listBoxDashboards.Size = new System.Drawing.Size(260, 409);
+            this.listBoxDashboards.TabIndex = 0;
+            this.listBoxDashboards.SelectedIndexChanged += new System.EventHandler(this.Reports_SelectedIndexChanged);
             // 
             // panelReports
             // 
             this.panelReports.Controls.Add(this.buttonEditDashboard);
-            this.panelReports.Controls.Add(this.listBoxReports);
+            this.panelReports.Controls.Add(this.listBoxDashboards);
             this.panelReports.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelReports.Location = new System.Drawing.Point(5, 5);
-            this.panelReports.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelReports.Margin = new System.Windows.Forms.Padding(2);
             this.panelReports.Name = "panelReports";
-            this.panelReports.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.panelReports.Padding = new System.Windows.Forms.Padding(6);
             this.panelReports.Size = new System.Drawing.Size(266, 451);
             this.panelReports.TabIndex = 0;
             // 
             // buttonEditDashboard
             // 
             this.buttonEditDashboard.Location = new System.Drawing.Point(6, 4);
-            this.buttonEditDashboard.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonEditDashboard.Margin = new System.Windows.Forms.Padding(2);
             this.buttonEditDashboard.Name = "buttonEditDashboard";
             this.buttonEditDashboard.Size = new System.Drawing.Size(260, 24);
             this.buttonEditDashboard.TabIndex = 1;
@@ -79,7 +79,7 @@
             this.ClientSize = new System.Drawing.Size(794, 461);
             this.Controls.Add(this.panelReports);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MinimumSize = new System.Drawing.Size(810, 500);
             this.Name = "DashboardDemoForm";
             this.Padding = new System.Windows.Forms.Padding(5);
@@ -91,7 +91,7 @@
         }
 
         #endregion
-        private Stimulsoft.Dashboard.Viewer.Controls.ListBox.StiListBox listBoxReports;
+        private Stimulsoft.Dashboard.Viewer.Controls.ListBox.StiListBox listBoxDashboards;
         private System.Windows.Forms.Panel panelReports;
         private System.Windows.Forms.Button buttonEditDashboard;
     }
