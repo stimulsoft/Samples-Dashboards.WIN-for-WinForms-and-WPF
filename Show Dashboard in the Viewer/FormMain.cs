@@ -21,7 +21,7 @@ namespace Show_Dashboard_in_the_Viewer
 
         private StiReport GetTemplate()
         {
-            var report = new StiReport();
+            var report = StiReport.CreateNewDashboard();
             report.Load("Dashboards\\Christmas.mrt");
 
             return report;

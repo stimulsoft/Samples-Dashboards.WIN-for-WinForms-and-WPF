@@ -22,11 +22,11 @@ namespace Register_Data_for_Dashboard_Template
         {
             textBoxLog.Clear();
 
-            var report = new StiReport();
-            textBoxLog.Text += "New report created\r\n";
+            var report = StiReport.CreateNewDashboard();
+            textBoxLog.Text += "New dashboard created\r\n";
 
             report.Load("Dashboards\\Dashboard.mrt");
-            textBoxLog.Text += "Report template loaded\r\n";
+            textBoxLog.Text += "Dashboard template loaded\r\n";
 
             var jsonBytes = File.ReadAllBytes("Dashboards\\Demo.json");
             textBoxLog.Text += "Load a JSON file\r\n";
@@ -36,13 +36,13 @@ namespace Register_Data_for_Dashboard_Template
             textBoxLog.Text += "Get DataSet from JSON file\r\n";
 
             report.Dictionary.Databases.Clear();
-            textBoxLog.Text += "Remove all connections from the report template\r\n";
+            textBoxLog.Text += "Remove all connections from the dashboard template\r\n";
 
             report.RegData("Demo", "Demo", dataSet);
             textBoxLog.Text += "Register DataSet object\r\n";
 
             report.Show(false);
-            textBoxLog.Text += "Show Report\r\n";
+            textBoxLog.Text += "Show Dashboard\r\n";
         }
     }
 }

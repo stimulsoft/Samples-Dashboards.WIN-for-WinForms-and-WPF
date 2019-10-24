@@ -22,7 +22,7 @@ namespace Asynchronous_Export
 
         private StiReport GetTemplate()
         {
-            var report = new StiReport();
+            var report = StiReport.CreateNewDashboard();
             report.Load("Dashboards\\Christmas.mrt");
 
             return report;

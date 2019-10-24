@@ -48,8 +48,7 @@ namespace Add_a_Custom_Function
 
         private void buttonDesigner_Click(object sender, EventArgs e)
         {
-            //var report = StiReport.CreateNewDashboard();
-            var report = new StiReport();
+            var report = StiReport.CreateNewDashboard();
             report.Load("Dashboards\\Christmas.mrt");
 
             report.Design();

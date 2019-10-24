@@ -19,7 +19,7 @@ namespace Export_Dashboard
 
         private StiReport GetTemplate()
         {
-            var report = new StiReport();
+            var report = StiReport.CreateNewDashboard();
             report.Load("Dashboards\\Christmas.mrt");
 
             return report;
