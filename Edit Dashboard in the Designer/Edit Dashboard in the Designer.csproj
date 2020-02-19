@@ -33,76 +33,76 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="LibExcel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.1.1\lib\net45\LibExcel.dll</HintPath>
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.2.1\lib\net45\LibExcel.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Base, Version=2020.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.1.1\lib\net45\Stimulsoft.Base.dll</HintPath>
+    <Reference Include="Stimulsoft.Base, Version=2020.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.2.1\lib\net45\Stimulsoft.Base.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Controls, Version=2020.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Net.2020.1.1\lib\net45\Stimulsoft.Controls.dll</HintPath>
+    <Reference Include="Stimulsoft.Controls, Version=2020.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Net.2020.2.1\lib\net45\Stimulsoft.Controls.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Controls.Win, Version=2020.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Net.2020.1.1\lib\net45\Stimulsoft.Controls.Win.dll</HintPath>
+    <Reference Include="Stimulsoft.Controls.Win, Version=2020.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Net.2020.2.1\lib\net45\Stimulsoft.Controls.Win.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Dashboard, Version=2020.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2020.1.1\lib\net45\Stimulsoft.Dashboard.dll</HintPath>
+    <Reference Include="Stimulsoft.Dashboard, Version=2020.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2020.2.1\lib\net45\Stimulsoft.Dashboard.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Dashboard.Design, Version=2020.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2020.1.1\lib\net45\Stimulsoft.Dashboard.Design.dll</HintPath>
+    <Reference Include="Stimulsoft.Dashboard.Design, Version=2020.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2020.2.1\lib\net45\Stimulsoft.Dashboard.Design.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Dashboard.Drawing, Version=2020.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2020.1.1\lib\net45\Stimulsoft.Dashboard.Drawing.dll</HintPath>
+    <Reference Include="Stimulsoft.Dashboard.Drawing, Version=2020.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2020.2.1\lib\net45\Stimulsoft.Dashboard.Drawing.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Dashboard.Drawing.Wpf, Version=2020.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2020.1.1\lib\net45\Stimulsoft.Dashboard.Drawing.Wpf.dll</HintPath>
+    <Reference Include="Stimulsoft.Dashboard.Drawing.Wpf, Version=2020.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2020.2.1\lib\net45\Stimulsoft.Dashboard.Drawing.Wpf.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Dashboard.Export, Version=2020.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2020.1.1\lib\net45\Stimulsoft.Dashboard.Export.dll</HintPath>
+    <Reference Include="Stimulsoft.Dashboard.Export, Version=2020.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2020.2.1\lib\net45\Stimulsoft.Dashboard.Export.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Dashboard.Viewer, Version=2020.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2020.1.1\lib\net45\Stimulsoft.Dashboard.Viewer.dll</HintPath>
+    <Reference Include="Stimulsoft.Dashboard.Viewer, Version=2020.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2020.2.1\lib\net45\Stimulsoft.Dashboard.Viewer.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Dashboard.Viewer.Wpf, Version=2020.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2020.1.1\lib\net45\Stimulsoft.Dashboard.Viewer.Wpf.dll</HintPath>
+    <Reference Include="Stimulsoft.Dashboard.Viewer.Wpf, Version=2020.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2020.2.1\lib\net45\Stimulsoft.Dashboard.Viewer.Wpf.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Data, Version=2020.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.1.1\lib\net45\Stimulsoft.Data.dll</HintPath>
+    <Reference Include="Stimulsoft.Data, Version=2020.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.2.1\lib\net45\Stimulsoft.Data.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Database, Version=2020.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Net.2020.1.1\lib\net45\Stimulsoft.Database.dll</HintPath>
+    <Reference Include="Stimulsoft.Database, Version=2020.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Net.2020.2.1\lib\net45\Stimulsoft.Database.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Design, Version=2020.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Net.2020.1.1\lib\net45\Stimulsoft.Design.dll</HintPath>
+    <Reference Include="Stimulsoft.Design, Version=2020.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Net.2020.2.1\lib\net45\Stimulsoft.Design.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Editor, Version=2020.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Net.2020.1.1\lib\net45\Stimulsoft.Editor.dll</HintPath>
+    <Reference Include="Stimulsoft.Editor, Version=2020.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Net.2020.2.1\lib\net45\Stimulsoft.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Map, Version=2020.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.1.1\lib\net45\Stimulsoft.Map.dll</HintPath>
+    <Reference Include="Stimulsoft.Map, Version=2020.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.2.1\lib\net45\Stimulsoft.Map.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report, Version=2020.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.1.1\lib\net45\Stimulsoft.Report.dll</HintPath>
+    <Reference Include="Stimulsoft.Report, Version=2020.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.2.1\lib\net45\Stimulsoft.Report.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Check, Version=2020.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.1.1\lib\net45\Stimulsoft.Report.Check.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Check, Version=2020.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.2.1\lib\net45\Stimulsoft.Report.Check.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Design, Version=2020.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Net.2020.1.1\lib\net45\Stimulsoft.Report.Design.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Design, Version=2020.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Net.2020.2.1\lib\net45\Stimulsoft.Report.Design.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Helper, Version=2020.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.1.1\lib\net45\Stimulsoft.Report.Helper.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Helper, Version=2020.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.2.1\lib\net45\Stimulsoft.Report.Helper.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Web, Version=2020.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Net.2020.1.1\lib\net45\Stimulsoft.Report.Web.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Web, Version=2020.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Net.2020.2.1\lib\net45\Stimulsoft.Report.Web.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Win, Version=2020.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Net.2020.1.1\lib\net45\Stimulsoft.Report.Win.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Win, Version=2020.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Net.2020.2.1\lib\net45\Stimulsoft.Report.Win.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Wpf, Version=2020.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2020.1.1\lib\net45\Stimulsoft.Report.Wpf.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Wpf, Version=2020.2.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2020.2.1\lib\net45\Stimulsoft.Report.Wpf.dll</HintPath>
     </Reference>
     <Reference Include="Svg, Version=2.4.3.29446, Culture=neutral, PublicKeyToken=12a0bac221edeae2, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.1.1\lib\net45\Svg.dll</HintPath>
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2020.2.1\lib\net45\Svg.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -140,6 +140,31 @@
     <None Include="Dashboards\Christmas.mrt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Dashboards\Exchange Tenders.mrt" />
+    <None Include="Dashboards\Fast Food Lunch.mrt" />
+    <None Include="Dashboards\Financial.mrt" />
+    <None Include="Dashboards\Fitness Stats.mrt" />
+    <None Include="Dashboards\Global Internet Usage.mrt" />
+    <None Include="Dashboards\Nascar.mrt" />
+    <None Include="Dashboards\Opec.mrt" />
+    <None Include="Dashboards\Order Details.mrt" />
+    <None Include="Dashboards\Orders.mrt" />
+    <None Include="Dashboards\Patient Health Story.mrt" />
+    <None Include="Dashboards\Population by State.mrt" />
+    <None Include="Dashboards\Products.mrt" />
+    <None Include="Dashboards\Restaurant Attendance Tracking.mrt" />
+    <None Include="Dashboards\Sales by Companies.mrt" />
+    <None Include="Dashboards\Sales by Month.mrt" />
+    <None Include="Dashboards\Sales Details.mrt" />
+    <None Include="Dashboards\Sales Overview.mrt" />
+    <None Include="Dashboards\Sales Perfomance.mrt" />
+    <None Include="Dashboards\Sales Statistics.mrt" />
+    <None Include="Dashboards\Social Networks Statistics.mrt" />
+    <None Include="Dashboards\Tickets Statistics.mrt" />
+    <None Include="Dashboards\Traffic Analytics.mrt" />
+    <None Include="Dashboards\User Activity Stats.mrt" />
+    <None Include="Dashboards\Vehicle Production.mrt" />
+    <None Include="Dashboards\Website Analytics.mrt" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

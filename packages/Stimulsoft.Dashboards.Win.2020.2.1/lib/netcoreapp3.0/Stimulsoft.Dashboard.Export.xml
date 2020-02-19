@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Stimulsoft.Dashboard.Export</name>
+    </assembly>
+    <members>
+        <member name="P:Stimulsoft.Dashboard.Export.Settings.StiDashboardExportSettings.RenderBorders">
+            <summary>
+            Enables or disables rendering of the defined element borders.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Export.Settings.StiDashboardExportSettings.RenderSingleElement">
+            <summary>
+            Export a single dashboard element to the entire page.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Export.Settings.StiDashboardExportSettings.RenderSinglePage">
+            <summary>
+            Export only the first page if elements require multiple pages to be rendered.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Export.Settings.StiDashboardExportSettings.Orientation">
+            <summary>
+            Gets or sets page orientation.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Export.Settings.StiDashboardExportSettings.PaperSize">
+            <summary>
+            Gets or sets the page size.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Export.Settings.StiExcelDashboardExportSettings.ImageQuality">
+            <summary>
+            Gets or sets image quality of images which will be exported to Excel file.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Export.Settings.StiImageDashboardExportSettings.MaxWidth">
+            <summary>
+            Gets or sets the maximum width of the image.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Export.Settings.StiImageDashboardExportSettings.MaxHeight">
+            <summary>
+            Gets or sets the maximum height of the image.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Export.Settings.StiImageDashboardExportSettings.Scale">
+            <summary>
+            Gets or sets image scale for exported images.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Export.Settings.StiPdfDashboardExportSettings.ImageQuality">
+            <summary>
+            Gets or sets image quality of images which will be exported to result PDF file.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:Stimulsoft.Dashboard.Export.Settings.StiSvgDashboardExportSettings.RenderEmptyContent" -->
+        <member name="P:Stimulsoft.Dashboard.Export.Settings.StiSvgDashboardExportSettings.DesignMode">
+            <summary>
+            Export the element for use on the web designer page.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Export.Tools.StiTableElementExportTool.FitToTable(Stimulsoft.Report.Dashboard.IStiElement,Stimulsoft.Report.Components.StiPanel,Stimulsoft.Base.Drawing.RectangleD,Stimulsoft.Dashboard.Export.Settings.StiDashboardExportSettings,System.Collections.Generic.List{Stimulsoft.Report.Components.StiComponent},System.Boolean)">
+            <summary>
+            Align the destination size to the size of the table element
+            </summary>
+        </member>
+    </members>
+</doc>

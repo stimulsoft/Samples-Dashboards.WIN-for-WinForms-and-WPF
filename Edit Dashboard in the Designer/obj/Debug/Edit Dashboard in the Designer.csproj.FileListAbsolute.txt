@@ -1,0 +1,81 @@
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Dashboards\Christmas.mrt
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Edit Dashboard in the Designer.exe.config
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Edit Dashboard in the Designer.exe
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Edit Dashboard in the Designer.pdb
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\LibExcel.dll
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Base.dll
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Controls.dll
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Controls.Win.dll
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Dashboard.Design.dll
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Dashboard.dll
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Dashboard.Drawing.dll
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Dashboard.Drawing.Wpf.dll
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Dashboard.Export.dll
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Dashboard.Viewer.dll
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Dashboard.Viewer.Wpf.dll
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Data.dll
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Database.dll
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Design.dll
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Editor.dll
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Map.dll
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Report.Check.dll
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Report.Design.dll
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Report.dll
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Report.Helper.dll
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Report.Web.dll
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Report.Win.dll
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Report.Wpf.dll
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Svg.dll
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\ADODB.dll
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Base.pdb
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Base.xml
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Controls.pdb
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Controls.xml
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Controls.Win.pdb
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Controls.Win.xml
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Dashboard.pdb
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Dashboard.xml
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Dashboard.Design.pdb
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Dashboard.Design.xml
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Dashboard.Drawing.pdb
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Dashboard.Drawing.xml
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Dashboard.Drawing.Wpf.pdb
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Dashboard.Drawing.Wpf.xml
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Dashboard.Export.pdb
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Dashboard.Export.xml
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Dashboard.Viewer.pdb
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Dashboard.Viewer.xml
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Dashboard.Viewer.Wpf.pdb
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Dashboard.Viewer.Wpf.xml
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Data.pdb
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Data.xml
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Database.pdb
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Database.xml
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Design.pdb
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Design.xml
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Editor.pdb
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Editor.xml
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Map.pdb
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Map.xml
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Report.pdb
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Report.xml
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Report.Check.pdb
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Report.Check.xml
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Report.Design.pdb
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Report.Design.xml
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Report.Helper.pdb
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Report.Helper.xml
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Report.Web.pdb
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Report.Web.xml
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Report.Win.pdb
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Report.Win.xml
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Report.Wpf.pdb
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\bin\Debug\Stimulsoft.Report.Wpf.xml
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\obj\Debug\Edit Dashboard in the Designer.csprojAssemblyReference.cache
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\obj\Debug\Edit_Dashboard_in_the_Designer.FormMain.resources
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\obj\Debug\Edit_Dashboard_in_the_Designer.Properties.Resources.resources
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\obj\Debug\Edit Dashboard in the Designer.csproj.GenerateResource.cache
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\obj\Debug\Edit Dashboard in the Designer.csproj.CoreCompileInputs.cache
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\obj\Debug\Edit Dashboard in the Designer.csproj.CopyComplete
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\obj\Debug\Edit Dashboard in the Designer.exe
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Edit Dashboard in the Designer\obj\Debug\Edit Dashboard in the Designer.pdb
