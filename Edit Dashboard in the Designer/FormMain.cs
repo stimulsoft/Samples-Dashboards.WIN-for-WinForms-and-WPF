@@ -14,6 +14,7 @@ namespace Edit_Dashboard_in_the_Designer
 
             var dict = new Dictionary<string, string>
             {
+                {"Select a template",""},
                 {"Christmas","Dashboards\\Christmas.mrt"},
                 {"Exchange Tenders","Dashboards\\Exchange Tenders.mrt"},
                 {"Fast Food Lunch","Dashboards\\Fast Food Lunch.mrt"}
