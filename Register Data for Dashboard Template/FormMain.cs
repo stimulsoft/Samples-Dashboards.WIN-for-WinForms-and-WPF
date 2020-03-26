@@ -13,7 +13,7 @@ namespace Register_Data_for_Dashboard_Template
         public FormMain()
         {
             InitializeComponent();
-            //Ken Huynh, issue 2
+            //Ken Huynh, issue 2_Register Dashboard, 3/25/2020
             var dict = new Dictionary<string, string>
             {
                 {"Select a template",""},
@@ -70,7 +70,7 @@ namespace Register_Data_for_Dashboard_Template
             textBoxLog.Text += "Show Dashboard\r\n";
         }
 
-        // Ken Huynh, issue 2
+        //Ken Huynh, issue 2_Register Dashboard, 3/25/2020
         private void cmbTemplates_SelectedIndexChanged(object sender, System.EventArgs e)
         {
             Cursor = Cursors.WaitCursor;
