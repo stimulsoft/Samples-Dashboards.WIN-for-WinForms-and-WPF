@@ -19,7 +19,9 @@ namespace Register_Data_for_Dashboard_Template
                 {"Select a template",""},
                 {"Christmas","Dashboards\\Christmas.mrt"},
                 {"Exchange Tenders","Dashboards\\Exchange Tenders.mrt"},
-                {"Fast Food Lunch","Dashboards\\Fast Food Lunch.mrt"}
+                {"Fast Food Lunch","Dashboards\\Fast Food Lunch.mrt"},
+                {"Finacial","Dashboards\\Finacial.mrt"},
+                {"Fitness Stats","Dashboards\\Fitness Stats.mrt"}
             };
             cmbTemplates.DataSource = new BindingSource(dict, null);
             cmbTemplates.DisplayMember = "Key";
