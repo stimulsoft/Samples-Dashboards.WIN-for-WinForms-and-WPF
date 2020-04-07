@@ -21,3 +21,9 @@
 ### Task 3: Add templates (mrt files) to the Bin/Debug/Dashboard folder.
 ### Task 4: Modify code in FormMain(), GetTemplate(), ButtonEdit_Click() 
 ### Task 5: Testing the combo box to have all the items loading correctly. Testing the button "Edit Dashboard" to see if the corect template is used. Testing for each template in the drop down list to see if the correct data exports to the filename based on the drop down list item.
+# Feature 4: Add Report Format to Export Fashboard project
+## User story D: As a dashboard user, I want to have different file format so I can save files as HTML or Word.
+### Task 1:  Create a button "Export to Word"
+### Task 2: Create a button "Export to HTML"
+### Task 3: Create a function that link to each button to save file as Word or HTML.
+# Feature 5: 
