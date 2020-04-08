@@ -1,0 +1,2476 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Stimulsoft.Report.Wpf</name>
+    </assembly>
+    <members>
+        <member name="T:Stimulsoft.Report.Wpf.CloudLongMessageBoxWindow">
+            <summary>
+            CloudLongMessageBoxWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.CloudLongMessageBoxWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.CloudMessageBoxWindow">
+            <summary>
+            CloudMessageBoxWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.CloudMessageBoxWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.StiColorPickerWindow">
+            <summary>
+            StiColorPickerWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiColorPickerWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Wpf.StiRtfSelectionAlign.Left">
+            <summary>
+            The text is aligned to the left.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Wpf.StiRtfSelectionAlign.Right">
+            <summary>
+            The text is aligned to the right.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Wpf.StiRtfSelectionAlign.Center">
+            <summary>
+            The text is aligned in the center.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Wpf.StiRtfSelectionAlign.Justify">
+            <summary>
+            The text is justified.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.StiGdiRichTextBox">
+            <summary>
+            Represents a Windows rich text box control, with some impovements.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.SelectColorsControlEx">
+            <summary>
+            SelectColorsControlEx
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.SelectColorsControlEx.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.Notification.OnApplyTemplate">
+            <summary>
+            Override to get the templated controls
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.ElementPanel.OnApplyTemplate">
+            <summary>
+            Override to get the templated controls
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.TimeSelectedChangedEventHandler">
+            <summary>
+            Delegate for the TimeSelectedChanged event
+            </summary>
+            <param name="sender">The object raising the event</param>
+            <param name="e">The routed event arguments</param>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.TimeSelectedChangedRoutedEventArgs">
+            <summary>
+            Routed event arguments for the TimeSelectedChanged event
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Wpf.TimeSelectedChangedRoutedEventArgs.NewTime">
+            <summary>
+            Gets or sets the new time
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Wpf.TimeSelectedChangedRoutedEventArgs.OldTime">
+            <summary>
+            Gets or sets the old time
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.TimeSelectedChangedRoutedEventArgs.#ctor(System.Windows.RoutedEvent)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="routedEvent">The event that is raised </param>
+        </member>
+        <member name="P:Stimulsoft.Report.Wpf.HandLengthConverter.PercentageToSubtract">
+            <summary>
+            Gets or sets the percentage of the length to show
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.AngleConverter">
+            <summary>
+            Converter to calculate the actual angle to rotate the minute/hour hand
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Wpf.AngleConverter.Units">
+            <summary>
+            Gets or sets the number of units to calculate the angle on
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.AlignClockHands">
+            <summary>
+            Places the minute hand and the hour hand in the center of the canvas
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.DateTimeSelectedChangedRoutedEventHandler">
+            <summary>
+            Delegate for the date selected changed
+            </summary>
+            <param name="sender">The object raising the event</param>
+            <param name="e">The event arguments for event being raised</param>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.DateTimeSelectedChangedRoutedEventArgs">
+            <summary>
+            Event arguments for the DateTimeSelected changed
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.DateTimeSelectedChangedRoutedEventArgs.#ctor(System.Windows.RoutedEvent)">
+            <summary>
+            constructor 
+            </summary>
+            <param name="routedEvent">The event raised</param>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.DayCell">
+            <summary>
+            Object to represent a single day as a cell
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Wpf.DayCell.DayNumber">
+            <summary>
+            gets the day number for the cell
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Wpf.DayCell.MonthNumber">
+            <summary>
+            gets the month number for the cell
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Wpf.DayCell.YearNumber">
+            <summary>
+            gets the year number for the cell
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Wpf.DayCell.IsEnabled">
+            <summary>
+            Gets or sets the Enabled status
+            </summary>
+        </member>
+        <member name="E:Stimulsoft.Report.Wpf.DayCell.PropertyChanged">
+            <summary>
+            Property changed event for the enabled status
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.DayCell.#ctor(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="day">The day to store</param>
+            <param name="month">The month to store</param>
+            <param name="year">The year to store</param>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.DateSelectedChangedEventHandler">
+            <summary>
+            Delegate for the DateSelectedChanged event
+            </summary>
+            <param name="sender">The object that raised the event</param>
+            <param name="e">Event arguments for the DateSelectedChanged event</param>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.DateSelectedChangedRoutedEventArgs">
+            <summary>
+            Routed event args for the DateSelectedChanged
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.DateSelectedChangedRoutedEventArgs.#ctor(System.Windows.RoutedEvent)">
+            <summary>
+            Constructor for the event args
+            </summary>
+            <param name="routedEvent">The event for which the args will be passed</param>
+        </member>
+        <member name="P:Stimulsoft.Report.Wpf.DateSelectedChangedRoutedEventArgs.NewDate">
+            <summary>
+            Gets or sets the new date that was set
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Wpf.DateSelectedChangedRoutedEventArgs.OldDate">
+            <summary>
+            Gets or sets the old date that was set
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.YearValidation">
+            <summary>
+            Validation rule for the Year
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.YearValidation.Validate(System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Validation for the year
+            </summary>
+            <param name="value">The year value</param>
+            <param name="cultureInfo">The culture info</param>
+            <returns>Returns the validation result</returns>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.CellSizeConverter">
+            <summary>
+            Converter to calculate the size for the cell of the calender
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.CellSizeConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Converter for the calender control to measure the widths to calculate
+            </summary>
+            <param name="value">Pass the Actual width of the parent control</param>
+            <param name="targetType">Target type</param>
+            <param name="parameter">Pass widthCell to calculate the width a particular cell.
+            Pass widthCellContainer to calculate the witdth of the parent control</param>
+            <param name="culture">The current culture in use</param>
+            <returns>Returns the new width to use</returns>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.MonthConverter">
+            <summary>
+            converts the date string to the value
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.MonthConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Converts the month from a number to the actual string
+            </summary>
+            <param name="value">The value as integer</param>
+            <param name="targetType">Target type</param>
+            <param name="parameter">The parameter to use</param>
+            <param name="culture">The current culture in use</param>
+            <returns>Returns the selected item to select for the drop down list</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.MonthConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Converts the value back from ComboBoxitem to a number that can be set for the current month
+            </summary>
+            <param name="value">The comboBoxItem Selected</param>
+            <param name="targetType">Target type</param>
+            <param name="parameter">The parameter to use</param>
+            <param name="culture">The current culture in use</param>
+            <returns>Returns a number that represents the month selected</returns>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.IsCurrentMonthConverter">
+            <summary>
+            Converter used to compare 2 months
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.IsCurrentMonthConverter.Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Compares 2 months together
+            </summary>
+            <param name="values">The currently view month and the other month to check</param>
+            <param name="targetType">Target type</param>
+            <param name="parameter">The parameter to use</param>
+            <param name="culture">The current culture in use</param>
+            <returns>Returns true if there is a match between the 2 months</returns>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.Months">
+            <summary>
+            Enum that specifies the list of months
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Wpf.Months.January">
+            <summary>
+            January 
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Wpf.Months.February">
+            <summary>
+            February
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Wpf.Months.March">
+            <summary>
+            March
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Wpf.Months.April">
+            <summary>
+            April
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Wpf.Months.May">
+            <summary>
+            May
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Wpf.Months.June">
+            <summary>
+            June
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Wpf.Months.July">
+            <summary>
+            July
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Wpf.Months.August">
+            <summary>
+            August
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Wpf.Months.September">
+            <summary>
+            September
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Wpf.Months.October">
+            <summary>
+            October
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Wpf.Months.November">
+            <summary>
+            November
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Wpf.Months.December">
+            <summary>
+            December
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.OneWayMultiValueConverter">
+            <summary>
+            Base class for multivalue converters that do not implement the ConvertBack method
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.OneWayMultiValueConverter.Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Converts a value. Used in data binding. Override this method (sealed).
+            </summary>
+            <param name="values">The array of values that the source bindings in the MultiBinding produces</param>
+            <param name="targetType">The type of the binding target property</param>
+            <param name="parameter">The converter parameter to use</param>
+            <param name="culture">The culture to use in the converter</param>
+            <returns>A converted value</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.OneWayMultiValueConverter.ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Unimplemented method for converting back. This converter can only be used for one-way binding.
+            </summary>
+            <param name="value">Unused parameter</param>
+            <param name="targetTypes">Unused parameter</param>
+            <param name="parameter">Unused parameter</param>
+            <param name="culture">Unused parameter</param>
+            <returns>Always throws an exception</returns>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.DateHelper">
+            <summary>
+            Helper class for dates
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Wpf.DateHelper.daysArrays">
+            <summary>
+            Caches the days in a dict where the key is the number of days the key is a hash of month, year.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.DateHelper.GetDaysOfMonth(System.Int32,System.Int32,System.DateTime,System.DateTime)">
+            <summary>
+            Generates an array of days in a month
+            </summary>
+            <param name="month">The month to get the days for </param>
+            <param name="year">The year to get the days for </param>
+            <param name="maxDate">The max date to generate enabled cells</param>
+            <param name="minDate">The min date to generate enabled cells</param>
+            <returns>Returns an int array full of days in a month</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.DateHelper.IsDateWithinRange(System.DateTime,System.DateTime,Stimulsoft.Report.Wpf.DayCell)">
+            <summary>
+            Checks if the specified date is greater than 
+            </summary>
+            <param name="minDate">The min date</param>
+            <param name="maxDate">The max date</param>
+            <param name="cell">The cell to check</param>
+            <returns>Returns true if the cell is greater</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.DateHelper.GetDayOfWeek(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Gets the day of week for a specific date
+            </summary>
+            <param name="year">The year of the date</param>
+            <param name="month">The month of the date</param>
+            <param name="day">The day of the date</param>
+            <returns>Returns the day of week</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.DateHelper.GetMonthDisplayName(System.Int32)">
+            <summary>
+            Gets a string that represents the string for the current month
+            </summary>
+            <param name="month">a number from 1 to 12</param>
+            <returns>Returns the string that represents the month</returns>
+            <exception cref="T:System.ArgumentException">Thrown if the month number is less than 1 or greater than 12</exception>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.DateHelper.MoveMonthForward(System.Int32,System.Int32,System.Int32@,System.Int32@)">
+            <summary>
+            Moves one month forward
+            </summary>
+            <param name="currentMonth">The current month</param>
+            <param name="currentYear">The current year</param>
+            <param name="monthToGetNext">The next month</param>
+            <param name="yearTogetNext">The relative year for the new month</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.DateHelper.MoveMonthBack(System.Int32,System.Int32,System.Int32@,System.Int32@)">
+            <summary>
+            Move one month back
+            </summary>
+            <param name="currentMonth">The current month</param>
+            <param name="currentYear">The current year</param>
+            <param name="monthToGetPrevious">The previous month</param>
+            <param name="yearToGetPrevious">The relative year for the new month</param>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.MathUtil">
+            <summary>
+            Helper class that contains methods that execute mathematical operations
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.MathUtil.IncrementDecrementNumber(System.String,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            Validates the string passed by parsing it as int and checking if it is inside the bounds specified 
+            then the resulting int will be incremented/decremented
+            </summary>
+            <param name="num">The string to parse as int and increment/decrement</param>
+            <param name="minValue">The min value for the bound checking</param>
+            <param name="maxVal">The max value for the bounds checking</param>
+            <param name="increment">Pass true to increment and false to decrement</param>
+            <returns>Returns the new number incremented or decremeneted</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.MathUtil.ValidateNumber(System.String,System.Int32,System.Int32)">
+            <summary>
+            Parses the number and makes sure that it is within the bounds specified
+            </summary>
+            <param name="newNum">The string to parse and validate</param>
+            <param name="minValue">The min value for the bound checking</param>
+            <param name="maxValue">The max value for the bound checking</param>
+            <returns>Returns the int that was constructed from the string + bound checking</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.MathUtil.ValidateNumber(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            makes sure that the number is within the bounds specified
+            </summary>
+            <param name="newNum">The number to validate</param>
+            <param name="minValue">The min value for the bound checking</param>
+            <param name="maxValue">The max value for the bound checking</param>
+            <returns>Returns the int that was constructed from the string + bound checking</returns>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.OneWayValueConverter">
+            <summary>
+            Base class for value converters that do not implement the ConvertBack method.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.OneWayValueConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Converts a value. Used in data binding. Override this method (sealed).
+            Decorate the method with the type of return data (ValueConversion attribute).
+            </summary>
+            <param name="value">The value produced by the binding source</param>
+            <param name="targetType">The type of the binding target property</param>
+            <param name="parameter">The converter parameter to use</param>
+            <param name="culture">The culture to use in the converter</param>
+            <returns>A converted value</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.OneWayValueConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Unimplemented method for converting back. This converter can only be used for one-way binding.
+            </summary>
+            <param name="value">Unused parameter</param>
+            <param name="targetType">Unused parameter</param>
+            <param name="parameter">Unused parameter</param>
+            <param name="culture">Unused parameter</param>
+            <returns>Always throws an exception</returns>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.DatePicker">
+            <summary>
+            Control to select a specific date
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Wpf.DatePicker.MaxDate">
+            <summary>
+            Gets or sets the max date to be set for the DatePicker
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Wpf.DatePicker.MaxDateProperty">
+            <summary>
+            Gets or sets the max date to be set for the DatePicker
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Wpf.DatePicker.MinDate">
+            <summary>
+            The Minimum date for the date picker
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Wpf.DatePicker.MinDateProperty">
+            <summary>
+            The Minimum date for the date picker
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Wpf.DatePicker.MonthsList">
+            <summary>
+            Gets the list of months
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Wpf.DatePicker.CurrentlyViewedMonth">
+            <summary>
+            Gets or sets the current month in view
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Wpf.DatePicker.CurrentlyViewedYear">
+            <summary>
+            Gets or sets the current year in view
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Wpf.DatePicker.CurrentlyViewedMonthYear">
+            <summary>
+            returns the month currently selected as a full string
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Wpf.DatePicker.CurrentlySelectedDateString">
+            <summary>
+            Gets and sets a string that represents the selected date
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Wpf.DatePicker.Culture">
+            <summary>
+            Gets or sets culture-specific format
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Wpf.DatePicker.CurrentlySelectedDate">
+            <summary>
+            Gets and sets the currently viewed date
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Wpf.DatePicker.CurrentlySelectedDateProperty">
+            <summary>
+            Gets and sets the currently viewed date
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Wpf.DatePicker.SelectedDateChangedEvent">
+            <summary>
+            Event for the DateSelectionChanged raised when the date changes
+            </summary>
+        </member>
+        <member name="E:Stimulsoft.Report.Wpf.DatePicker.SelectedDateChanged">
+            <summary>
+            Event for the DateSelectionChanged raised when the date changes
+            </summary>
+        </member>
+        <member name="E:Stimulsoft.Report.Wpf.DatePicker.PropertyChanged">
+            <summary>
+            Event raised when a property is changed
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.DatePicker.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Raises the property changed event
+            </summary>
+            <param name="e">The arguments to pass</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.DatePicker.OnApplyTemplate">
+            <summary>
+            Override to get the templated controls
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.DatePicker.DatesListSelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            On selected item change of the selector control.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.DatePicker.ReBindListOfDays">
+            <summary>
+            Rebinds to the dates.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.DatePicker.BackButtonClick(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Moves the month currently being viewed backward.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.DatePicker.ChangeDate">
+            <summary>
+            Changes the current date.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.DatePicker.ForwardButtonClick(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Moves the month currently view forward.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.DatePicker.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.TimePicker">
+            <summary>
+            Time Picker as a control that lets the user select a specific time
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Wpf.TimePicker.MinTime">
+            <summary>
+            Gets or sets the minimum time that can be selected
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Wpf.TimePicker.MinTimeProperty">
+            <summary>
+            Gets or sets the minimum time selected
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Wpf.TimePicker.MaxTime">
+            <summary>
+            Gets or sets the maximum time that can be selected
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Wpf.TimePicker.MaxTimeProperty">
+            <summary>
+            Gets or sets the maximum time that can be selected
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Wpf.TimePicker.SelectedTime">
+            <summary>
+            Gets or sets the selected timestamp 
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Wpf.TimePicker.SelectedTimeProperty">
+            <summary>
+            Backing store for the selected timestamp 
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Wpf.TimePicker.SelectedHour">
+            <summary>
+            Gets or sets the selected Hour
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Wpf.TimePicker.SelectedHourProperty">
+            <summary>
+            Backing store for the selected hour
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Wpf.TimePicker.SelectedMinute">
+            <summary>
+            Gets or sets the selected minutes
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Wpf.TimePicker.SelectedMinuteProperty">
+            <summary>
+            Backing store for the selected minsutes
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Wpf.TimePicker.SelectedSecond">
+            <summary>
+            Gets or sets the selected second
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Wpf.TimePicker.SelectedSecondProperty">
+            <summary>
+            Backing store for the selected second
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Wpf.TimePicker.SelectedTimeChangedEvent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.TimePicker.OnApplyTemplate">
+            <summary>
+            override to hook to the Control template elements
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.TimePicker.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.TimePicker.#cctor">
+            <summary>
+            Static constructor
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.StiBookmarksV1Helper">
+            <summary>
+            A class that helps with bookmarks.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiBookmarksV1Helper.GetTreeNode(Stimulsoft.Report.Components.StiBookmark)">
+            <summary>
+            Returns an object of the TreeNode type from the StiBookmark object.
+            </summary>
+            <param name="bookmark">StiBookmark to form TreeNode.</param>
+            <returns>Formed TreeNode.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiBookmarksV1Helper.PrepareBookmark(Stimulsoft.Report.Components.StiBookmark)">
+            <summary>
+            Prepares a bookmark and all of its child bookmarks for showing.
+            </summary>
+            <param name="bookmark">Bookmark for preparing.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiBookmarksV1Helper.CreateBookmark(System.String,System.Object)">
+            <summary>
+            Creates a new bookmark.
+            </summary>
+            <param name="text">Tree text.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiBookmarksV1Helper.CreateBookmark(System.String,System.String,System.Object)">
+            <summary>
+            Creates a new bookmark.
+            </summary>
+            <param name="text">Tree text.</param>
+            <param name="bookmarkText">Boormark text.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.StiBookmarksV2Helper">
+            <summary>
+            A class helps with bookmarks.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiBookmarksV2Helper.FillTreeNodeFromBookmarks(Stimulsoft.Report.Components.StiBookmark,Stimulsoft.Report.Wpf.StiTreeViewItem)">
+            <summary>
+            Fills the specified TreeNode with bookmarks from the specified bookmark.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiBookmarksV2Helper.GetTreeNodeFromBookmarks(Stimulsoft.Report.Components.StiBookmark)">
+            <summary>
+            Returns an object of the TreeNode type from the StiBookmark object.
+            </summary>
+            <param name="bookmark">StiBookmark to form TreeNode.</param>
+            <returns>Formed TreeNode.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiBookmarksV2Helper.Add(Stimulsoft.Report.Components.StiBookmark,System.String)">
+            <summary>
+            Adds a bookmark manually. When adding the IsManualBookmark flag is set.
+            This flag gives a signal to the report generator that search should be done in a reductive mode
+            (direct comparison of BookmarkValue).
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiBookmarksV2Helper.CreateBookmark(System.String)">
+            <summary>
+            Creates a new bookmark.
+            </summary>
+            <param name="text">Tree text.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiBookmarksV2Helper.CreateBookmark(System.String,System.String)">
+            <summary>
+            Creates a new bookmark.
+            </summary>
+            <param name="text">Tree text.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.StiDashboardNotSupportedWindow">
+            <summary>
+            StiDashboardNotSupportedWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiDashboardNotSupportedWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Wpf.StiWpfExceptionProvider.HideMessages">
+            <summary>
+            Gets or sets a value indicating whether not to show the message from engine of the message.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Wpf.StiWpfExceptionProvider.HideExceptions">
+            <summary>
+            Gets or sets the value, which indicates not to show the exception from engine of the exception.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.StiWpfExceptionWindow">
+            <summary>
+            StiWpfExceptionWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiWpfExceptionWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.Export.StiXmlExportSetupControl">
+            <summary>
+            StiXmlExportSetupControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.Export.StiXmlExportSetupControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.Export.StiDataGroupExportSetupControl">
+            <summary>
+            StiDataGroupExportSetupControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.Export.StiDataGroupExportSetupControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.Export.StiExcelGroupExportSetupControl">
+            <summary>
+            StiExcelGroupExportSetupControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.Export.StiExcelGroupExportSetupControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.Export.StiHtmlGroupExportSetupControl">
+            <summary>
+            StiHtmlGroupExportSetupControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.Export.StiHtmlGroupExportSetupControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.Export.StiImageGroupExportSetupControl">
+            <summary>
+            StiImageGroupExportSetupControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.Export.StiImageGroupExportSetupControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.Export.StiOdsExportSetupControl">
+            <summary>
+            StiOdsExportSetupControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.Export.StiOdsExportSetupControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.Export.StiOdtExportSetupControl">
+            <summary>
+            StiOdtExportSetupControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.Export.StiOdtExportSetupControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.Export.StiRtfExportSetupControl">
+            <summary>
+            StiRtfExportSetupControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.Export.StiRtfExportSetupControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.Export.StiTxtExportSetupControl">
+            <summary>
+            StiTxtExportSetupControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.Export.StiTxtExportSetupControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.Export.StiWord2007ExportSetupControl">
+            <summary>
+            StiWord2007ExportSetupControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.Export.StiWord2007ExportSetupControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.Export.StiXpsExportSetupControl">
+            <summary>
+            StiXpsExportSetupControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.Export.StiXpsExportSetupControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.Export.StiCsvExportSetupControl">
+            <summary>
+            StiCsvExportSetupControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.Export.StiCsvExportSetupControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.Export.StiDbfExportSetupControl">
+            <summary>
+            StiDbfExportSetupControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.Export.StiDbfExportSetupControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.Export.StiHtml5ExportSetupControl">
+            <summary>
+            StiHtml5ExportSetupControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.Export.StiHtml5ExportSetupControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.Export.StiHtmlExportSetupControl">
+            <summary>
+            StiHtmlExportSetupControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.Export.StiHtmlExportSetupControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.Export.StiDifSylkExportSetupControl">
+            <summary>
+            StiDifSylkExportSetupControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.Export.StiDifSylkExportSetupControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.Export.StiPdfExportSetupControl">
+            <summary>
+            StiPdfExportSetupControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.Export.StiPdfExportSetupControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.StiWpfIconSetHelper">
+            <summary>
+            Class helps in working with Icon Set images.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiWpfIconSetHelper.GetIcons(Stimulsoft.Report.Components.StiIconSet)">
+            <summary>
+            Returns aray of icon images for specified Icon Set.
+            </summary>
+            <param name="iconSet">Specified Icon Set.</param>
+            <returns>Array of icon images.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiWpfIconSetHelper.GetImage(Stimulsoft.Report.Components.StiIcon)">
+            <summary>
+            Returns image for specified icon key.
+            </summary>
+            <param name="icon">Specified icon key.</param>
+            <returns>Image for specified icon key.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiWpfIconSetHelper.GetImageSource(System.String)">
+            <summary>
+            Returns icon image with specified name.
+            </summary>
+            <param name="name">Icon name.</param>
+            <returns>Icon image for specified name.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiCursorHelper.GetCursor(System.Type,System.String)">
+            <summary>
+            Gets the Cursor object associated with Type.
+            </summary>
+            <param name="type">The type with which the Cursor object is associated.</param>
+            <param name="cursorName">The name of the cursor file to look for.</param>
+            <returns>The Cursor object.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiCursorHelper.GetCursor(System.String,System.String)">
+            <summary>
+            Gets the Cursor object placed in assembly.
+            </summary>
+            <param name="assemblyName">The name of assembly in which the Cursor object is placed.</param>
+            <param name="cursorName">The name of the cursor file to look for.</param>
+            <returns>The Cursor object.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiCursorHelper.GetCursor(System.Reflection.Assembly,System.String)">
+            <summary>
+            Gets the Cursor object placed in assembly.
+            </summary>
+            <param name="cursorAssembly">Assembly in which the Cursor object is placed.</param>
+            <param name="cursorName">The name of the cursor file to look for.</param>
+            <returns>The Cursor object.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiCursorHelper.GetCursorFromResource(System.String,System.String)">
+            <summary>
+            Gets the Cursor object placed in assembly.
+            </summary>
+            <param name="assemblyName">The name of assembly in which the Cursor object is placed.</param>
+            <param name="cursorName">The name of the cursor file to look for.</param>
+            <returns>The Cursor object.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiCursorHelper.GetCursorFromResource(System.Reflection.Assembly,System.String)">
+            <summary>
+            Gets the Cursor object placed in assembly.
+            </summary>
+            <param name="cursorAssembly">Assembly in which the Cursor object is placed.</param>
+            <param name="cursorName">The name of the cursor file to look for.</param>
+            <returns>The Cursor object.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiSelectionHelper.DrawSelectedPoint(System.Windows.Media.DrawingContext,System.Single,System.Windows.Media.Brush,System.Double,System.Double)">
+            <summary>
+            Draws a selected point specified by a coordinate pair.
+            </summary>
+            <param name="size">The size of selected point.</param>
+            <param name="brush">Brush to draw selected point.</param>
+            <param name="x">x-coordinate of selected point.</param>
+            <param name="y">y-coordinate of selected point</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiSelectionHelper.DrawSelectedRectangle(System.Windows.Media.DrawingContext,System.Int32,System.Windows.Media.Brush,System.Windows.Rect)">
+            <summary>
+            Draws a selected rectangle specified by a Rectangle structure.
+            </summary>
+            <param name="size">The size of selected point.</param>
+            <param name="brush">Brush to draw selected point.</param>
+            <param name="rect">RectangleD structure that represents the rectangle to draw selections.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiSelectionHelper.DrawFormSelectedRectangle(System.Windows.Media.DrawingContext,System.Int32,System.Windows.Media.Brush,System.Windows.Rect)">
+            <summary>
+            Draws a selected form rectangle specified by a Rectangle structure.
+            </summary>
+            <param name="size">The size of selected point.</param>
+            <param name="brush">Brush to draw selected point.</param>
+            <param name="rect">RectangleD structure that represents the rectangle to draw selections.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiBorderHelper.Paint(Stimulsoft.Base.Drawing.StiBorder,System.Windows.Media.DrawingContext,System.Windows.Rect)">
+            <summary>
+            Draws this border on the indicated DrawingContext.
+            </summary>
+            <param name="dc">DrawingContext on which a border can be drawn.</param>
+            <param name="rect">The rectangle that indicates an area of the border drawing.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiBorderHelper.Paint(Stimulsoft.Base.Drawing.StiBorder,System.Windows.Media.DrawingContext,System.Windows.Rect,System.Windows.Media.Color)">
+            <summary>
+            Draws this border on the indicated Graphics.
+            </summary>
+            <param name="dc">DrawingContext on which a border can be drawn.</param>
+            <param name="rect">The rectangle that indicates an area of the border drawing.</param>
+            <param name="emptyColor">The color of space between double lines (used only when border style equal Double).</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiBorderHelper.Paint(Stimulsoft.Base.Drawing.StiBorder,System.Windows.Media.DrawingContext,System.Windows.Rect,System.Windows.Media.Color,System.Boolean,System.Boolean)">
+            <summary>
+            Draws this border on the indicated Graphics.
+            </summary>
+            <param name="dc">DrawingContext on which a border can be drawn.</param>
+            <param name="rect">The rectangle that indicates an area of the border drawing.</param>
+            <param name="emptyColor">The color of space between double lines (used only when border style equal Double).</param>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.StiWpfRotatedTextDrawing">
+            <summary>
+            Class contains methods for rotated text drawing.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.Help.StiWpfHelpViewerWindow">
+            <summary>
+            StiWpfHelpViewerWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.Help.StiWpfHelpViewerWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.StiMessageBoxWindow">
+            <summary>
+            StiMessageBoxWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiMessageBoxWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiBrushHelper.BrushToWpfBrush(Stimulsoft.Base.Drawing.StiBrush)">
+            <summary>
+            Returns the wpf brush from the report brush.
+            </summary>
+            <param name="brush">Report brush.</param>
+            <returns>Wpf brush.</returns>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.StiLoadPasswordWindow">
+            <summary>
+            StiLoadPasswordWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiLoadPasswordWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.StiProgressInformation">
+            <summary>
+            Class allow control progress window.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.StiProgressWindow">
+            <summary>
+            StiProgressWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiProgressWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.StiSavePasswordWindow">
+            <summary>
+            StiSavePasswordWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiSavePasswordWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.RequestFromUser.Value.StiValueBoolItemControl">
+            <summary>
+            StiValueBoolItemControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.RequestFromUser.Value.StiValueBoolItemControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.RequestFromUser.Value.StiValueCharItemControl">
+            <summary>
+            StiValueCharItemControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.RequestFromUser.Value.StiValueCharItemControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.RequestFromUser.Value.StiValueDateTimeItemControl">
+            <summary>
+            StiValueDateTimeItemControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.RequestFromUser.Value.StiValueDateTimeItemControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.RequestFromUser.Value.StiValueDoubleItemControl">
+            <summary>
+            StiValueDoubleItemControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.RequestFromUser.Value.StiValueDoubleItemControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.RequestFromUser.Value.StiValueGuidItemControl">
+            <summary>
+            StiValueGuidItemControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.RequestFromUser.Value.StiValueGuidItemControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.RequestFromUser.Value.StiValueImageItemControl">
+            <summary>
+            StiValueImageItemControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.RequestFromUser.Value.StiValueImageItemControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.RequestFromUser.Value.StiValueLongItemControl">
+            <summary>
+            StiValueLongItemControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.RequestFromUser.Value.StiValueLongItemControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.RequestFromUser.Value.StiValueStringItemControl">
+            <summary>
+            StiValueStringItemControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.RequestFromUser.Value.StiValueStringItemControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.RequestFromUser.Value.StiValueTimeSpanItemControl">
+            <summary>
+            StiValueTimeSpanItemControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.RequestFromUser.Value.StiValueTimeSpanItemControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.RequestFromUser.List.StiListBoolItemControl">
+            <summary>
+            StiListBoolItemControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.RequestFromUser.List.StiListBoolItemControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.RequestFromUser.List.StiListButtonXControl">
+            <summary>
+            StiListButtonXControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.RequestFromUser.List.StiListButtonXControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.RequestFromUser.List.StiListCharItemControl">
+            <summary>
+            StiListCharItemControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.RequestFromUser.List.StiListCharItemControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.RequestFromUser.List.StiListDateTimeItemControl">
+            <summary>
+            StiListDateTimeItemControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.RequestFromUser.List.StiListDateTimeItemControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.RequestFromUser.List.StiListDoubleItemControl">
+            <summary>
+            StiListDoubleItemControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.RequestFromUser.List.StiListDoubleItemControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.RequestFromUser.List.StiListGuidItemControl">
+            <summary>
+            StiListGuidItemControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.RequestFromUser.List.StiListGuidItemControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.RequestFromUser.List.StiListLongItemControl">
+            <summary>
+            StiListLongItemControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.RequestFromUser.List.StiListLongItemControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.RequestFromUser.List.StiListStringItemControl">
+            <summary>
+            StiListStringItemControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.RequestFromUser.List.StiListStringItemControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.RequestFromUser.List.StiListTimeSpanItemControl">
+            <summary>
+            StiListTimeSpanItemControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.RequestFromUser.List.StiListTimeSpanItemControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.RequestFromUser.Range.StiRangeCharItemControl">
+            <summary>
+            StiRangeCharItemControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.RequestFromUser.Range.StiRangeCharItemControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.RequestFromUser.Range.StiRangeDateTimeItemControl">
+            <summary>
+            StiRangeDateTimeItemControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.RequestFromUser.Range.StiRangeDateTimeItemControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.RequestFromUser.Range.StiRangeDoubleItemControl">
+            <summary>
+            StiRangeDoubleItemControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.RequestFromUser.Range.StiRangeDoubleItemControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.RequestFromUser.Range.StiRangeGuidItemControl">
+            <summary>
+            StiRangeGuidItemControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.RequestFromUser.Range.StiRangeGuidItemControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.RequestFromUser.Range.StiRangeLongItemControl">
+            <summary>
+            StiRangeLongItemControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.RequestFromUser.Range.StiRangeLongItemControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.RequestFromUser.Range.StiRangeStringItemControl">
+            <summary>
+            StiRangeStringItemControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.RequestFromUser.Range.StiRangeStringItemControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.RequestFromUser.Range.StiRangeTimeSpanItemControl">
+            <summary>
+            StiRangeTimeSpanItemControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.RequestFromUser.Range.StiRangeTimeSpanItemControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Wpf.StiCloudProgressControl">
+            <summary>
+            StiCloudProgressControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Wpf.StiCloudProgressControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Dialogs.StiWpfDialogsProvider">
+            <summary>
+            This class provide forms rendering.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Dialogs.StiWpfDialogsProvider.RenderForm(Stimulsoft.Report.Dialogs.IStiForm)">
+            <summary>
+            Render form.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Dialogs.StiWpfDialogsProvider.Render(Stimulsoft.Report.StiReport,Stimulsoft.Report.Dialogs.StiFormStartMode)">
+            <summary>
+            Render all forms in report.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Export.Wpf.StiDataSetupForm">
+            <summary>
+            StiDataSetupForm
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Wpf.StiDataSetupForm.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Export.Wpf.StiExcelSetupForm">
+            <summary>
+            StiExcelSetupForm
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Wpf.StiExcelSetupForm.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Export.Wpf.StiHtmlSetupForm">
+            <summary>
+            StiHtmlSetupForm
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Wpf.StiHtmlSetupForm.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Export.Wpf.StiImageSetupForm">
+            <summary>
+            StiImageSetupForm
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Wpf.StiImageSetupForm.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Export.Wpf.StiDifExportSetupForm">
+            <summary>
+            StiDifExportSetupForm
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Wpf.StiDifExportSetupForm.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Export.Wpf.StiSylkExportSetupForm">
+            <summary>
+            StiSylkExportSetupForm
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Wpf.StiSylkExportSetupForm.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Export.Wpf.StiDigitalSignatureUserControl">
+            <summary>
+            StiDigitalSignatureUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Wpf.StiDigitalSignatureUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Export.Wpf.StiDocumentSecurityUserControl">
+            <summary>
+            StiDocumentSecurityUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Wpf.StiDocumentSecurityUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Export.Wpf.StiCsvExportSetupForm">
+            <summary>
+            StiCsvExportSetupForm
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Wpf.StiCsvExportSetupForm.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Export.Wpf.StiDbfExportSetupForm">
+            <summary>
+            StiDbfExportSetupForm
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Wpf.StiDbfExportSetupForm.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Export.Wpf.StiExcelExportSetupForm">
+            <summary>
+            StiExcelExportSetupForm
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Wpf.StiExcelExportSetupForm.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Export.Wpf.StiExcelXmlExportSetupForm">
+            <summary>
+            StiExcelXmlExportSetupForm
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Wpf.StiExcelXmlExportSetupForm.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Export.Wpf.StiHtmlExportSetupForm">
+            <summary>
+            StiHtmlExportSetupForm
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Wpf.StiHtmlExportSetupForm.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Export.Wpf.StiImageExportSetupForm">
+            <summary>
+            StiImageExportSetupForm
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Wpf.StiImageExportSetupForm.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Export.Wpf.StiOdsExportSetupForm">
+            <summary>
+            StiOdsExportSetupForm
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Wpf.StiOdsExportSetupForm.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Export.Wpf.StiOdtExportSetupForm">
+            <summary>
+            StiOdtExportSetupForm
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Wpf.StiOdtExportSetupForm.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Export.Wpf.StiPagesRangeControl">
+            <summary>
+            StiPagesRangeControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Wpf.StiPagesRangeControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Export.Wpf.StiPdfExportSetupForm">
+            <summary>
+            StiPdfExportSetupForm
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Wpf.StiPdfExportSetupForm.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Export.Wpf.StiRtfExportSetupForm">
+            <summary>
+            StiRtfExportSetupForm
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Wpf.StiRtfExportSetupForm.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Export.Wpf.StiTxtExportSetupForm">
+            <summary>
+            StiTxtExportSetupForm
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Wpf.StiTxtExportSetupForm.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Export.Wpf.StiWord2007ExportSetupForm">
+            <summary>
+            StiWord2007ExportSetupForm
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Wpf.StiWord2007ExportSetupForm.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Export.Wpf.StiXmlExportSetupForm">
+            <summary>
+            StiXmlExportSetupForm
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Wpf.StiXmlExportSetupForm.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Export.Wpf.StiXpsExportSetupForm">
+            <summary>
+            StiXpsExportSetupForm
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Wpf.StiXpsExportSetupForm.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Export.Wpf.StiHtml5ExportSetupForm">
+            <summary>
+            StiHtml5ExportSetupForm
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Wpf.StiHtml5ExportSetupForm.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfNodesMemory">
+            <summary>
+            Class allows to save and restore condition a treeview
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiBandWpfPainter.PaintColumns(Stimulsoft.Report.Components.StiContainer,System.Windows.Media.DrawingContext)">
+            <summary>
+            Paints the columns.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiComponentWpfPainter.PaintProgress(System.Windows.Media.DrawingContext,Stimulsoft.Base.Drawing.RectangleD,Stimulsoft.Base.Helpers.StiProgressStatus,System.Nullable{System.Single})">
+            <summary>
+            Paints progress of a component.
+            </summary>
+            <param name="g">The Graphics to paint on.</param>
+            <param name="rect">The rectangle.</param>	
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiComponentWpfPainter.PaintEvents(Stimulsoft.Report.Components.StiComponent,System.Windows.Media.DrawingContext,System.Windows.Rect)">
+            <summary>
+            Paints events of a component.
+            </summary>
+            <param name="dc">The DrawingContext to paint on.</param>
+            <param name="rect">The rectangle.</param>		
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiComponentWpfPainter.PaintConditions(Stimulsoft.Report.Components.StiComponent,System.Windows.Media.DrawingContext,System.Windows.Rect)">
+            <summary>
+            Paints conditions of a component.
+            </summary>
+            <param name="dc">The DrawingContext to paint on.</param>
+            <param name="rect">The rectangle.</param>		
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiComponentWpfPainter.PaintOrderAndQuickInfo(Stimulsoft.Report.Components.StiComponent,System.Windows.Media.DrawingContext,System.String)">
+            <summary>
+            Paints order numbers and quick info of a component.
+            </summary>
+            <param name="dc">The DrawingContext to paint on.</param>
+            <param name="number">A number of the component order for painting.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiComponentWpfPainter.PaintMarkers(Stimulsoft.Report.Components.StiComponent,System.Windows.Media.DrawingContext,System.Windows.Rect)">
+            <summary>
+            Paints a markers specified by a Rectangle structure.
+            </summary>
+            <param name="dc">The DrawingContext to draw on.</param>
+            <param name="rect">RectangleD structure that represents the rectangle to draw markers.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiComponentWpfPainter.PaintSelection(Stimulsoft.Report.Components.StiComponent,Stimulsoft.Report.Events.StiPaintEventArgs)">
+            <summary>
+            Paints the selection.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiComponentWpfPainter.PaintHighlight(Stimulsoft.Report.Components.StiComponent,Stimulsoft.Report.Events.StiPaintEventArgs)">
+            <summary>
+            Paints the highlight of the specified component.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiComponentWpfPainter.GetThumbnail(Stimulsoft.Report.Components.StiComponent,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            Gets a thumbnail image of the component.
+            </summary>
+            <param name="width">Width of the thumbnail image.</param>
+            <param name="height">Height of the thumbnail image.</param>
+            <returns>A thumbnail image of the specified size.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiContainerWpfPainter.PaintComponents(Stimulsoft.Report.Components.StiContainer,Stimulsoft.Report.Events.StiPaintEventArgs)">
+            <summary>
+            Paints components.
+            </summary>
+            <param name="e">Argument for painting.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiHorizontalLinePrimitiveWpfPainter.PaintSelection(Stimulsoft.Report.Components.StiComponent,Stimulsoft.Report.Events.StiPaintEventArgs)">
+            <summary>
+            Paints the selection.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiPageWpfPainter.PaintPageNumber(Stimulsoft.Report.Components.StiPage,System.Windows.Media.DrawingContext,System.Int32,System.Windows.Rect)">
+            <summary>
+            Draws page numbers.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiPointPrimitiveWpfPainter.PaintSelection(Stimulsoft.Report.Components.StiComponent,Stimulsoft.Report.Events.StiPaintEventArgs)">
+            <summary>
+            Paints the selection.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiRectanglePrimitiveWpfPainter.PaintSelection(Stimulsoft.Report.Components.StiComponent,Stimulsoft.Report.Events.StiPaintEventArgs)">
+            <summary>
+            Paints the selection.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiVerticalLinePrimitiveWpfPainter.PaintSelection(Stimulsoft.Report.Components.StiComponent,Stimulsoft.Report.Events.StiPaintEventArgs)">
+            <summary>
+            Paints the selection.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiZipCodeWpfPainter.DrawHorizLineUp(System.Windows.Media.DrawingContext,System.Windows.Rect,System.Windows.Media.Pen)">
+            <summary>
+            Draw Up Horizontal Line
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiZipCodeWpfPainter.DrawHorizLineCenter(System.Windows.Media.DrawingContext,System.Windows.Rect,System.Windows.Media.Pen)">
+            <summary>
+            Draw Center Horizontal Line
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiZipCodeWpfPainter.DrawHorizLineDown(System.Windows.Media.DrawingContext,System.Windows.Rect,System.Windows.Media.Pen)">
+            <summary>
+            Draw Down Horizontal Line
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiZipCodeWpfPainter.DrawVerticalLineUpRight(System.Windows.Media.DrawingContext,System.Windows.Rect,System.Windows.Media.Pen)">
+            <summary>
+            Draw Up Right Vertical Line
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiZipCodeWpfPainter.DrawVerticalLineUpLeft(System.Windows.Media.DrawingContext,System.Windows.Rect,System.Windows.Media.Pen)">
+            <summary>
+            Draw Up Left Vertical Line
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiZipCodeWpfPainter.DrawVerticalLineDownRight(System.Windows.Media.DrawingContext,System.Windows.Rect,System.Windows.Media.Pen)">
+            <summary>
+            Draw Down Right Vertical Line
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiZipCodeWpfPainter.DrawVerticalLineDownLeft(System.Windows.Media.DrawingContext,System.Windows.Rect,System.Windows.Media.Pen)">
+            <summary>
+            Draw Down Left Vertical Line
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiZipCodeWpfPainter.DrawDioganalLineUp(System.Windows.Media.DrawingContext,System.Windows.Rect,System.Windows.Media.Pen)">
+            <summary>
+            Draw Up Dioganal Line
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiZipCodeWpfPainter.DrawDioganalLineDown(System.Windows.Media.DrawingContext,System.Windows.Rect,System.Windows.Media.Pen)">
+            <summary>
+            Draw Down Dioganal Line
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiZipCodeWpfPainter.DrawIndex1(System.Windows.Media.DrawingContext,System.Windows.Rect,System.Windows.Media.Pen,System.Windows.Media.Pen)">
+            <summary>
+            Draw Index 1
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiZipCodeWpfPainter.DrawIndex2(System.Windows.Media.DrawingContext,System.Windows.Rect,System.Windows.Media.Pen,System.Windows.Media.Pen,System.Int32,System.Int32)">
+            <summary>
+            Draw Index 2
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiZipCodeWpfPainter.DrawIndex3(System.Windows.Media.DrawingContext,System.Windows.Rect,System.Windows.Media.Pen,System.Windows.Media.Pen,System.Int32,System.Int32)">
+            <summary>
+            Draw Index 3
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiZipCodeWpfPainter.DrawIndex4(System.Windows.Media.DrawingContext,System.Windows.Rect,System.Windows.Media.Pen,System.Windows.Media.Pen,System.Int32,System.Int32)">
+            <summary>
+            Draw Index 4
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiZipCodeWpfPainter.DrawIndex5(System.Windows.Media.DrawingContext,System.Windows.Rect,System.Windows.Media.Pen,System.Windows.Media.Pen,System.Int32,System.Int32)">
+            <summary>
+            Draw Index 5
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiZipCodeWpfPainter.DrawIndex6(System.Windows.Media.DrawingContext,System.Windows.Rect,System.Windows.Media.Pen,System.Windows.Media.Pen,System.Int32,System.Int32)">
+            <summary>
+            Draw Index 6
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiZipCodeWpfPainter.DrawIndex7(System.Windows.Media.DrawingContext,System.Windows.Rect,System.Windows.Media.Pen,System.Windows.Media.Pen,System.Int32,System.Int32)">
+            <summary>
+            Draw Index 7
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiZipCodeWpfPainter.DrawIndex8(System.Windows.Media.DrawingContext,System.Windows.Rect,System.Windows.Media.Pen,System.Windows.Media.Pen,System.Int32,System.Int32)">
+            <summary>
+            Draw Index 8
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiZipCodeWpfPainter.DrawIndex9(System.Windows.Media.DrawingContext,System.Windows.Rect,System.Windows.Media.Pen,System.Windows.Media.Pen,System.Int32,System.Int32)">
+            <summary>
+            Draw Index 9
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiZipCodeWpfPainter.DrawIndex0(System.Windows.Media.DrawingContext,System.Windows.Rect,System.Windows.Media.Pen,System.Windows.Media.Pen,System.Int32,System.Int32)">
+            <summary>
+            Draw Index 0
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiZipCodeWpfPainter.DrawIndexSpace(System.Windows.Media.DrawingContext,System.Windows.Rect,System.Windows.Media.Pen,System.Windows.Media.Pen,System.Int32,System.Int32)">
+            <summary>
+            Draw Index Space
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Painters.StiZipCodeWpfPainter.DrawSpace(System.Windows.Media.DrawingContext,System.Windows.Rect,System.Windows.Media.Pen)">
+            <summary>
+            Draw space.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Print.StiWpfPrintProvider.Print">
+            <summary>
+            Prints the rendered report. If the report is not rendered then its rendering starts.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Print.StiWpfPrintProvider.Print(System.String)">
+            <summary>
+            Prints the rendered report. If the report is not rendered then its rendering starts.
+            </summary>
+            <param name="printerName">A name of a printer that will be used for printing.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Print.StiWpfPrintProvider.Print(System.Printing.PrintTicket)">
+            <summary>
+            Prints the rendered report. If the report is not rendered then its rendering starts.
+            </summary>
+            <param name="printTicket">Specifies information about how a document is printed.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Print.StiWpfPrintProvider.Print(System.Boolean)">
+            <summary>
+            Prints the rendered report. If the report is not rendered then its rendering starts.
+            </summary>
+            <param name="showPrintDialog">Show the print dialog or no.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Print.StiWpfPrintProvider.Print(System.Printing.PrintTicket,System.Boolean)">
+            <summary>
+            Prints the rendered report. If the report is not rendered then its rendering starts.
+            </summary>
+            <param name="printTicket">Specifies information about how a document is printed.</param>
+            <param name="showPrintDialog">Show the print dialog or no.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Print.StiWpfPrintProvider.Print(System.Int32)">
+            <summary>
+            Prints the rendered report. If the report is not rendered then its rendering starts.
+            </summary>
+            <param name="copies">Number of copies to print.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Print.StiWpfPrintProvider.Print(System.Boolean,System.Int32)">
+            <summary>
+            Prints the rendered report. If the report is not rendered then its rendering starts.
+            </summary>
+            <param name="showPrintDialog">Show the print dialog or no.</param>
+            <param name="copies">Number of copies to print.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Print.StiWpfPrintProvider.Print(System.Boolean,System.Int32,System.String)">
+            <summary>
+            Prints the rendered report. If the report is not rendered then its rendering starts.
+            </summary>
+            <param name="showPrintDialog">Show the print dialog or no.</param>
+            <param name="copies">Number of copies to print.</param>
+            <param name="printerName">A name of a printer that will be used for printing.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Print.StiWpfPrintProvider.Print(System.Boolean,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Prints the rendered report. If the report is not rendered then its rendering starts.
+            </summary>
+            <param name="showPrintDialog">Show the print dialog or no.</param>
+            <param name="fromPage">Number of the first page to print. Starts from 1.</param>
+            <param name="toPage">Number of the last page to print. Starts from 1.</param>
+            <param name="copies">Number of copies to print.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Print.StiWpfPrintProvider.Print(System.Boolean,System.Int32,System.Int32,System.Int32,System.String)">
+            <summary>
+            Prints the rendered report. If the report is not rendered then its rendering starts.
+            </summary>
+            <param name="showPrintDialog">Show the print dialog or no.</param>
+            <param name="fromPage">Number of the first page to print. Starts from 1.</param>
+            <param name="toPage">Number of the last page to print. Starts from 1.</param>
+            <param name="copies">Number of copies to print.</param>
+            <param name="printerName">A name of a printer that will be used for printing.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Print.StiWpfPrintProvider.Print(System.Object,System.Boolean,System.Int32,System.Int32,System.Int32,System.String)">
+            <summary>
+            Prints the rendered report. If the report is not rendered then its rendering starts.
+            </summary>
+            <param name="printTicketObject">Specifies information about how a document is printed.</param>
+            <param name="showPrintDialog">Show the print dialog or no.</param>
+            <param name="fromPage">Number of the first page to print. Starts from 1.</param>
+            <param name="toPage">Number of the last page to print. Starts from 1.</param>
+            <param name="copies">Number of copies to print.</param>
+            <param name="printerName">A name of a printer that will be used for printing.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Print.StiWpfPrintProvider.TryValidatePrintTicket(System.Windows.Controls.PrintDialog)">
+            <summary>
+            Приведение параметров PrintTicket в согласие со значениями, поддерживаемыми принтером
+            </summary>
+            <param name="printDialog"></param>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiChartInteractionResult">
+            <summary>
+            Class contains result of chart interaction processin.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiWpfParametersAccessor">
+            <summary>
+            This class contains functionality for working with parameters in a report viewer.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiWpfViewerControl">
+            <summary>
+            StiWpfViewerControl
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowReportPrint">
+            <summary>
+            Gets or sets value indicates show button Print or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowReportOpen">
+            <summary>
+            Gets or sets value indicates show button Open or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowReportSave">
+            <summary>
+            Gets or sets value indicates show button Save or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowReportSendEMail">
+            <summary>
+            Gets or sets value indicates show button SendEmail or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowReportSaveDocument">
+            <summary>
+            Gets or sets value indicates show button Save Document File or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowReportSendEMailDocument">
+            <summary>
+            Gets or sets value indicates show button SendEMail Document File or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowBookmarks">
+            <summary>
+            Gets or sets value indicates show bookmarks panel or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowParameters">
+            <summary>
+            Gets or sets value indicates show bookmarks panel or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowResources">
+            <summary>
+            Gets or sets value indicates show bookmarks panel or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowThumbnails">
+            <summary>
+            Gets or sets value indicates show thumbs panel or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowToolFind">
+            <summary>
+            Gets or sets value indicates show button Find or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowToolEditor">
+            <summary>
+            Gets or sets value indicates show button EditComponents or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowFullScreen">
+            <summary>
+            Gets or sets value indicates show FullScreen controls or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowZoomOnePage">
+            <summary>
+            Gets or sets value indicates show zoom OnePage controls or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowZoomTwoPages">
+            <summary>
+            Gets or sets value indicates show zoom TwoPages controls or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowZoomMultiplePages">
+            <summary>
+            Gets or sets value indicates show zoom MultiplePages controls or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowZoomPageWidth">
+            <summary>
+            Gets or sets value indicates show zoom PageWidth controls or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowZoom">
+            <summary>
+            Gets or sets value indicates show zoom controls or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowSliderZoom">
+            <summary>
+            Gets or sets value indicates show zoom slider control or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowSliderZoomSeparator">
+            <summary>
+            Gets or sets value indicates show separator zoom slider control or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowDotMatrixMode">
+            <summary>
+            Gets or sets value indicates show button DotMatrixMode or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowPageFirst">
+            <summary>
+            Gets or sets value indicates show 'First Page' button or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowPagePrevious">
+            <summary>
+            Gets or sets value indicates show 'Previous Page' button or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowPageGoTo">
+            <summary>
+            Gets or sets value indicates show page controls or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowPageNext">
+            <summary>
+            Gets or sets value indicates show 'Next Page' button or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowPageLast">
+            <summary>
+            Gets or sets value indicates show 'Last Page' button or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowPageNew">
+            <summary>
+            Gets or sets value indicates show button PageNew or no..
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowPageDelete">
+            <summary>
+            Gets or sets value indicates show button PageDelete or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowPageDesign">
+            <summary>
+            Gets or sets value indicates show button PageDesign or no. 
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowPageSize">
+            <summary>
+            Gets or sets value indicates show button PageSize or no. 
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowHorScrollBar">
+            <summary>
+            Gets or sets value indicates show HorScrollBar or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowVertScrollBar">
+            <summary>
+            Gets or sets value indicates show VertScrollBar or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowStatusBar">
+            <summary>
+            Gets or sets value indicates show StatusBar or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowContextMenu">
+            <summary>
+            Gets or sets value indicates show ContextMenu or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowClose">
+            <summary>
+            Gets or sets value indicates show button Close or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ShowPageSelection">
+            <summary>
+            Gets or sets value indicates that selection around current page is shown or not.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.CurrentPrintPage">
+            <summary>
+            Gets or sets current displayed page. Only for internal use. Starts from 0.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.CurrentPage">
+            <summary>
+            Gets or sets current displayed page. Index start from 1.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.TotalPageCount">
+            <summary>
+            Gets total pages count.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerControl.ViewerBackBrush">
+            <summary>
+            Internal use only.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:Stimulsoft.Report.Viewer.StiWpfViewerControl.IsHandModeActivated" -->
+        <member name="F:Stimulsoft.Report.Viewer.StiWpfViewerControl.isEditableComponentsPresent">
+            <summary>
+            If field equal true then assigned report contains editable fields.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Viewer.StiWpfViewerControl.refreshReportTimer">
+            <summary>
+            This timer is used for the Report.RefreshTime property.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiWpfViewerControl.Refresh">
+            <summary>
+            Refresh all content of the preview control.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiWpfViewerControl.GetVisiblePages">
+            <summary>
+            Gets the collection of the visible pages.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiWpfViewerControl.BuildBookmarks">
+            <summary>
+            Build bookmarks.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiWpfViewerControl.InvalidateThumbnailPage(Stimulsoft.Report.Components.StiPage)">
+            <summary>
+            Invalidates thumbnail page.
+            </summary>
+            <param name="page"></param>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiWpfViewerControl.ScrollToCurPage(System.Boolean)">
+            <summary>
+            Scroll in preview window to the area of the current page.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiWpfViewerControl.ScrollToComponent(Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            Scroll in preview window to the area of the specified component.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiWpfViewerControl.ScrollToRect(System.Windows.Rect,System.Boolean)">
+            <summary>
+            Scroll in preview window to the area of the specified rectangle.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiWpfViewerControl.LoadConfig">
+            <summary>
+            Load config of the preview control.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiWpfViewerControl.SaveConfig">
+            <summary>
+            Save config of the preview control.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiWpfViewerControl.FindComponentByTag(System.String)">
+            <summary>
+            Find component by component tag.
+            </summary>
+            <param name="value">Component tag.</param>
+            <returns>Finded component.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiWpfViewerControl.FindComponentByBookmark(System.String)">
+            <summary>
+            Find component by component bookmark.
+            </summary>
+            <param name="value">Component bookmark value.</param>
+            <returns>Finded component.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiWpfViewerControl.OpenFind">
+            <summary>
+            Actuate the instrument - Find.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiWpfViewerControl.FocusFind">
+            <summary>
+            Moves text input focus to the find text box.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiWpfViewerControl.OpenEditor">
+            <summary>
+            Actuate the instrument - Editor.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiWpfViewerControl.InvalidatePage(Stimulsoft.Report.Components.StiPage)">
+            <summary>
+            Invalidates page.
+            </summary>
+            <param name="page"></param>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiWpfViewerControl.InvalidateComponent(Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            Invalidates the area of specified component.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiWpfViewerControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiWpfRibbonViewerControl">
+            <summary>
+            StiWpfRibbonViewerControl
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfRibbonViewerControl.Report">
+            <summary>
+            Gets or sets viewed report.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiWpfRibbonViewerControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiWpfRibbonViewerWindow">
+            <summary>
+            StiWpfRibbonViewerWindow
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfRibbonViewerWindow.Report">
+            <summary>
+            Gets or sets viewed report.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiWpfRibbonViewerWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiWpfFullScreenViewerWindow">
+            <summary>
+            StiWpfFullScreenViewerWindow
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfFullScreenViewerWindow.Report">
+            <summary>
+            Gets or sets viewed report.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiWpfFullScreenViewerWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiEditorRichTextBox">
+            <summary>
+            This control is used in window of the preview, for editing text object.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiEditorTextBox">
+            <summary>
+            This control is used in window of the preview, for editing text object.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiPageSizeWindow">
+            <summary>
+            StiPageSizeWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiPageSizeWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiGoToPageWindow">
+            <summary>
+            StiGoToPageWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiGoToPageWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiMultiPagesUserControl">
+            <summary>
+            StiMultiPagesUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiMultiPagesUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiTextEditor">
+            <summary>
+            Class allows to edit the text objects.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiWpfDotMatrixViewerControl">
+            <summary>
+            StiWpfDotMatrixViewerControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiWpfDotMatrixViewerControl.LoadConfig">
+            <summary>
+            Load config of the preview control.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiWpfDotMatrixViewerControl.SaveConfig">
+            <summary>
+            Save config of the preview control.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiWpfDotMatrixViewerControl.Localize">
+            <summary>
+            Localizing form.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfDotMatrixViewerControl.Report">
+            <summary>
+            Gets or sets viewed report.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfDotMatrixViewerControl.CurrentPrintPage">
+            <summary>
+            Gets or sets current displayed page. Only for internal use.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfDotMatrixViewerControl.ShowPrint">
+            <summary>
+            Gets or sets value indicates show button Print or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfDotMatrixViewerControl.ShowOpen">
+            <summary>
+            Gets or sets value indicates show button Open or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfDotMatrixViewerControl.ShowSave">
+            <summary>
+            Gets or sets value indicates show button Save or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfDotMatrixViewerControl.ShowCloseButton">
+            <summary>
+            Gets or sets value indicates show button Close or no.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiWpfDotMatrixViewerControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiWpfDotMatrixViewerWindow">
+            <summary>
+            StiWpfDotMatrixViewerWindow
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfDotMatrixViewerWindow.Report">
+            <summary>
+            Gets or sets viewed report.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiWpfDotMatrixViewerWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiWpfViewerWindow">
+            <summary>
+            StiWpfViewerWindow
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiWpfViewerWindow.Report">
+            <summary>
+            Gets or sets viewed report.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiWpfViewerWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>
