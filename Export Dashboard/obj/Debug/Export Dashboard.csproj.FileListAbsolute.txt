@@ -79,3 +79,5 @@ C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CShar
 C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Export Dashboard\obj\Debug\Export Dashboard.csproj.CopyComplete
 C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Export Dashboard\obj\Debug\Export Dashboard.exe
 C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Export Dashboard\obj\Debug\Export Dashboard.pdb
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Export Dashboard\bin\Debug\Export Dashboard.exe.CodeAnalysisLog.xml
+C:\Wright State\CEG 6110 Intro To Software EGR\Samples-Dashboards-WinForms-CSharp\Export Dashboard\bin\Debug\Export Dashboard.exe.lastcodeanalysissucceeded
