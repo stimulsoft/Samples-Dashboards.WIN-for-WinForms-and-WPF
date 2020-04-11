@@ -35,3 +35,10 @@
 ### Task 3: Add templates (mrt files) to the Bin/Debug/Dashboard folder.
 ### Task 4: Modify code in FormMain(), GetTemplate(), ButtonExcel_Click(), ButtonPDF_Click(), ButtonImage_Click
 ### Task 5: Testing the combo box to have all the items loading correctly. Testing the buttons "Export to Excel",  "Export to PDF" to see if the corect template is used. Testing for each template in the drop down list to see if the correct data exports to the filename based on the drop down list item.
+# Feature 6: Add more templates to "Add A Custom Function" project
+## User story E: As a dashboard user, I want to have more templates to select so I can create/design new dashboard from the desired template with a custom function.
+### Task 1: Create a comboBox in the FormMain (Project Add A Custom Function)
+### Task 2: Create a dictionary of string to display the name (Key) in the comboBox and retrieve the path of the template file (value).
+### Task 3: Add templates (mrt files) to the Bin/Debug/Dashboard folder.
+### Task 4: Modify code in FormMain()
+### Task 5: Testing the combo box to have all the items loading correctly. Testing the buttons "Open Dashboard Designer" to see if the corect template is used. Testing for each template in the drop down list.
