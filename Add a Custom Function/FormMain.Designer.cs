@@ -34,10 +34,10 @@
             // 
             // buttonDesigner
             // 
-            this.buttonDesigner.Location = new System.Drawing.Point(10, 10);
-            this.buttonDesigner.Margin = new System.Windows.Forms.Padding(1);
+            this.buttonDesigner.Location = new System.Drawing.Point(20, 19);
+            this.buttonDesigner.Margin = new System.Windows.Forms.Padding(2);
             this.buttonDesigner.Name = "buttonDesigner";
-            this.buttonDesigner.Size = new System.Drawing.Size(178, 34);
+            this.buttonDesigner.Size = new System.Drawing.Size(356, 65);
             this.buttonDesigner.TabIndex = 3;
             this.buttonDesigner.Text = "Open Dashboard Designer";
             this.buttonDesigner.UseVisualStyleBackColor = true;
@@ -45,11 +45,12 @@
             // 
             // FormMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(484, 271);
+            this.ClientSize = new System.Drawing.Size(968, 521);
             this.Controls.Add(this.buttonDesigner);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add a Custom Function";
