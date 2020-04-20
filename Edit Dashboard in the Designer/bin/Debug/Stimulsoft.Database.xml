@@ -1,0 +1,470 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Stimulsoft.Database</name>
+    </assembly>
+    <members>
+        <member name="T:Stimulsoft.Database.BaseMetadataDatabasesFetcher">
+            <summary>
+            TacBaseMetadataDatabasesFetcher
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Database.MetadataDatabasesFetcherFromDatatable">
+            <summary>
+            TacMetadataDatabasesFetcherFromDatatable
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Database.MetadataDatabasesFetcherFromQuery">
+            <summary>
+            TacMetadataDatabasesFetcherFromQuery
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Database.BaseMetadataObjectsFetcher">
+            <summary>
+            TacBaseMetadataObjectsFetcher
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Database.MetadataObjectFetcherFromDatatable">
+            <summary>
+            TacMetadataObjectFetcherFromDatatable
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Database.MetadataObjectFetcherFromQuery">
+            <summary>
+            TacMetadataObjectFetcherFromQuery
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Database.Connection.OracleConnectionEditor.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Database.Connection.OracleConnectionEditor.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Database.Connection.OracleConnectionEditor.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Database.Connection.StiOdbcConnectionHelper">
+            <summary>
+            Summary description for StiOdbcConnectionHelper.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Database.Connection.StiOdbcConnectionStringForm">
+            <summary>
+            Summary description for ODBCConnectionStringForm.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Database.Connection.StiSqlConnectionHelper">
+            <summary>
+            Summary description for StiSqlConnectionHelper.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Database.DataSourceControl.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Database.DataSourceControl.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Database.DataSourceControl.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Database.AddObjectForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Database.AddObjectForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Database.AddObjectForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Database.DataSourcePropertiesForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Database.DataSourcePropertiesForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Database.DataSourcePropertiesForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Database.LinkPropertiesForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Database.LinkPropertiesForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Database.LinkPropertiesForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Database.StiSybaseAdsMetadataProvider.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Database.StiUniDirectMetadataProvider.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Database.FirebirdMetadataProvider.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Database.MySQLMetadataProvider.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Database.OracleMetadataProvider.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Database.PostgreSQLMetadataProvider.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Database.SQLiteMetadataProvider.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Database.MSAccessMetadataProvider.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Database.ProcParamsForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Database.ProcParamsForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Database.ProcParamsForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Database.QueryPropertiesMSSQLForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Database.QueryPropertiesMSSQLForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Database.QueryPropertiesMSSQLForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Database.QueryPropertiesMySQLForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Database.QueryPropertiesMySQLForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Database.QueryPropertiesMySQLForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Database.QueryPropertiesVistaDBForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Database.QueryPropertiesVistaDBForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Database.QueryPropertiesVistaDBForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Database.Helpers">
+            <summary>
+            Class with common constants and objects.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Database.PlainTextSQLBuilder">
+            <summary>
+            Summary description for acSQLBuilderPlainText.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Database.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Database.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Database.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Database.BaseMetadataProvider.ServiceCategory">
+            <summary>
+            Gets a service category.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Database.BaseMetadataProvider.ServiceType">
+            <summary>
+            Gets a service type.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Database.ODBCMetadataProvider.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Database.OLEDBMetadataProvider.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Database.MSSQLMetadataProvider.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Database.VistaDBMetadataProvider.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Database.QueryBuilder">
+            <summary>
+            QbQueryBuilder.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Database.QueryBuilder.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Database.QueryBuilder.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Database.QueryBuilderForm.tabControl1">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Database.QueryBuilderForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Database.QueryBuilderForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Database.QueryBuilderForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Database.QueryParametersForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Database.QueryParametersForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Database.QueryParametersForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Database.DB2MetadataProvider.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Database.DB2SyntaxProvider">
+            <summary>
+            The Syntax Provider for the DB2 Server dialect.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Database.MSSQLSyntaxProvider">
+            <summary>
+            The Syntax Provider for the Microsoft SQL Server dialect.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Database.MySQLSyntaxProvider">
+            <summary>
+            The Syntax Provider for the MySql Server dialect.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Database.SQL92SyntaxProvider">
+            <summary>
+            The Syntax Provider for the SQL92 dialect.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Database.VistaDBSyntaxProvider">
+            <summary>
+            The Syntax Provider for the MSSQL-based VistaDB dialect.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Dictionary.DotConnectUniversalConnectionEditor.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Dictionary.DotConnectUniversalConnectionEditor.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Dictionary.DotConnectUniversalConnectionEditor.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Dictionary.MSAccessConnectionEditor.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Dictionary.MSAccessConnectionEditor.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Dictionary.MSAccessConnectionEditor.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Dictionary.ODataConnectionEditor.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Dictionary.ODataConnectionEditor.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Dictionary.ODataConnectionEditor.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Dictionary.SybaseAdsConnectionEditor.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Dictionary.SybaseAdsConnectionEditor.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Dictionary.SybaseAdsConnectionEditor.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Dictionary.SybaseConnectionEditor.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Dictionary.SybaseConnectionEditor.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Dictionary.SybaseConnectionEditor.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

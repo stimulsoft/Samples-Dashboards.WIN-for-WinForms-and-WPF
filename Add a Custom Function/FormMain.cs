@@ -4,6 +4,7 @@ using Stimulsoft.Report.Dictionary;
 using System;
 using System.Linq;
 using System.Windows.Forms;
+using System.Collections.Generic;
 
 namespace Add_a_Custom_Function
 {
@@ -31,6 +32,17 @@ namespace Add_a_Custom_Function
             //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
 
+            var dict = new Dictionary<string, string>
+            {
+                {"Select a template",""},
+                {"Christmas","Dashboards\\Christmas.mrt"},
+                {"Exchange Tenders","Dashboards\\Exchange Tenders.mrt"},
+                {"Fast Food Lunch","Dashboards\\Fast Food Lunch.mrt"}
+            };
+            cmbTemplates.DataSource = new BindingSource(dict, null);
+            cmbTemplates.DisplayMember = "Key";
+            cmbTemplates.ValueMember = "Value";
+
             AddCustomFunction();
         }
 
@@ -46,12 +58,33 @@ namespace Add_a_Custom_Function
                 new[] { "A set of values" }).UseFullPath = false;
         }
 
+        ///Modified by Ken Huynh, 4/19/2020, adding more templates and comboBox 
+        
         private void buttonDesigner_Click(object sender, EventArgs e)
         {
             var report = StiReport.CreateNewDashboard();
-            report.Load("Dashboards\\Christmas.mrt");
+            if (cmbTemplates.SelectedValue != null)
+            {
+                string key = ((KeyValuePair<String, String>)cmbTemplates.SelectedItem).Key;
+                string value = ((KeyValuePair<String, String>)cmbTemplates.SelectedItem).Value;
+                //MessageBox.Show(key + " , " + value);               
+                report.Load(value);
+            }
+            else
+            {
+                report.Load("Dashboards\\Christmas.mrt");
+            }           
 
             report.Design();
         }
+
+        ///Original code, Ken Huynh, 4/19/2020
+        //private void buttonDesigner_Click(object sender, EventArgs e)
+        //{
+        //    var report = StiReport.CreateNewDashboard();
+        //    report.Load("Dashboards\\Christmas.mrt");
+
+        //    report.Design();
+        //}
     }
 }

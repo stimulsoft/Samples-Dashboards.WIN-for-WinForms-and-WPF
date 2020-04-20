@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Stimulsoft.Dashboard.Drawing.Wpf</name>
+    </assembly>
+    <members>
+        <member name="P:Stimulsoft.Dashboard.Drawing.Wpf.Painters.PivotTable.StiPivotTableCell.IsColumn">
+            <summary>
+            Otherwise IS row
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Drawing.Wpf.Painters.PivotTable.StiPivotTableCell.MinimalTextSize">
+            <summary>
+            Minimal text size
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Drawing.Wpf.Painters.StiElementWpfPainter.PaintHighlight(Stimulsoft.Report.Components.StiComponent,Stimulsoft.Report.Events.StiPaintEventArgs)">
+            <summary>
+            Paints the highlight of the specified element.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Drawing.Wpf.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Drawing.Wpf.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Drawing.Wpf.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
