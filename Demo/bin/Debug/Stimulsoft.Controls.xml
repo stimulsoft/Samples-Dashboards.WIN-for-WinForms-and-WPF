@@ -1,0 +1,1595 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Stimulsoft.Controls</name>
+    </assembly>
+    <members>
+        <member name="T:Stimulsoft.Controls.StiHintEditBase">
+            <summary>
+            Defines the base edit control.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiHintEditBase.BackgroundImage">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiHintEditBase.SelectionStart">
+            <summary>
+            Gets or sets the starting point of the text selected in the text box.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiHintEditBase.SelectionLength">
+            <summary>
+            Gets or sets the number of characters selected in the text box.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiHintEditBase.SelectionText">
+            <summary>
+            Gets or sets a value indicating the currently selected text in the control.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiHintEditBase.HideSelection">
+            <summary>
+            Gets or sets a value indicating whether the selected text in the text box control remains highlighted when the control loses focus.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiHintEditBase.Focused">
+            <summary>
+            Gets a value indicating whether the control has input focus.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiHintEditBase.ReadOnly">
+            <summary>
+            Gets or sets a value indicating whether a text in the text box is read-only.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiMaskedEditBase.BackgroundImage">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiMaskedEditBase.SelectionStart">
+            <summary>
+            Gets or sets the starting point of the text selected in the text box.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiMaskedEditBase.SelectionLength">
+            <summary>
+            Gets or sets the number of characters selected in the text box.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiMaskedEditBase.SelectionText">
+            <summary>
+            Gets or sets a value indicating the currently selected text in the control.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiMaskedEditBase.HideSelection">
+            <summary>
+            Gets or sets a value indicating whether the selected text in the text box control remains highlighted when the control loses focus.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiMaskedEditBase.Focused">
+            <summary>
+            Gets a value indicating whether the control has input focus.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiMaskedEditBase.ReadOnly">
+            <summary>
+            Gets or sets a value indicating whether a text in the text box is read-only.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiNumericUpDownBase">
+            <summary>
+            Defines the base numeric edit control.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiNumericUpDownBase.Focused">
+            <summary>
+            Gets a value indicating whether the control has input focus.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiNumericUpDownBase.ReadOnly">
+            <summary>
+            Gets or sets a value indicating whether a text in the text box is read-only.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiNumericUpDownBase.BackgroundImage">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiNumericUpDown">
+            <summary>
+            Displays a numeric box control for the user input.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiDropDownBox">
+            <summary>
+            Displays a drop down box control for the user input.
+            </summary>
+        </member>
+        <member name="E:Stimulsoft.Controls.StiDropDownBox.DropDown">
+            <summary>
+            Occurs when the drop-down portion of a StiComboBox is shown.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiDropDownBox.InvokeDropDown(System.EventArgs)">
+            <summary>
+            Raises the DropDown event for this control.
+            </summary>
+            <param name="e">An EventArgs that contains the event data.</param>
+        </member>
+        <member name="E:Stimulsoft.Controls.StiDropDownBox.DropUp">
+            <summary>
+            Occurs when the drop-down portion of a ComboBox is closed.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiDropDownBox.InvokeDropUp(System.EventArgs)">
+            <summary>
+            Raises the DropUp event for this control.
+            </summary>
+            <param name="e">An EventArgs that contains the event data.</param>
+        </member>
+        <member name="F:Stimulsoft.Controls.StiDropDownBoxPopupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiDropDownBoxPopupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiMaskedTextBox">
+            <summary>
+            Displays a text box control for the user input.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiHintTextBox">
+            <summary>
+            Displays a text box control for the user input.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiCloudTabulator.DockPadding">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiCloudTabulator.SelectedTab">
+            <summary>
+            Gets or sets the currently-selected tab page.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiCloudTabulator.SelectedIndex">
+            <summary>
+            Gets or sets the tab order of the control within its container.
+            </summary>
+        </member>
+        <member name="E:Stimulsoft.Controls.StiCloudTabulator.SelectedIndexChanged">
+            <summary>
+            Occurs when the SelectedIndex property is changed.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiCloudTabulatorPage">
+            <summary>
+            Single tab page in a StiCloudTabulator.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiCloudTabulatorPage.Text">
+            <summary>
+            Gets or sets the text associated with this control.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiCloudTabulatorPage.Invisible">
+            <summary>
+            Gets or sets the value indicates page is invisible.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiCloudTabulatorPage.DockPadding">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiCloudTabulatorPage.InvisibleVisible">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiCloudTabulatorPage.Dock">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiDatabaseSelectGroupBox">
+            <summary>
+            Represents a Windows group box.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiOffice2013GroupBox">
+            <summary>
+            Use the StiGroupLine to group controls.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiControlResize.StartResize(Stimulsoft.Controls.StiDockingPanel,System.Drawing.Rectangle,System.Int32,System.Int32)">
+            <summary>
+            Start resize Docking.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiControlResize.RefreshResize">
+            <summary>
+            Refreshes resize control.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiControlResize.StopResize(System.Boolean)">
+            <summary>
+            Stoped resise.
+            </summary>
+        </member>
+        <member name="E:Stimulsoft.Controls.StiDockingControl.Closing">
+            <summary>
+            Occurs when the StiDockingControl is closing.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiDockingControl.InvokeClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Raises the Closing event for this control.
+            </summary>
+            <param name="e">An CancelEventArgs that contains the event data.</param>
+        </member>
+        <member name="E:Stimulsoft.Controls.StiDockingControl.Closed">
+            <summary>
+            Occurs when the StiDockingControl is closed.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiDockingControl.InvokeClosed(System.EventArgs)">
+            <summary>
+            Raises the Closed event for this control.
+            </summary>
+            <param name="e">An EventArgs that contains the event data.</param>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiDockingManager">
+            <summary>
+            Manage docking panels.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiDockingManager.SaveConfig(System.String)">
+            <summary>
+            Saves a configuration of docking manager.
+            </summary>
+            <param name="file">The name and location of the configuration to save.</param>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiDockingManager.SaveConfig(System.IO.Stream)">
+            <summary>
+            Saves a configuration of docking manager.
+            </summary>
+            <param name="stream">The data stream to save a configuration.</param>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiDockingManager.SaveConfig(System.Xml.XmlTextWriter)">
+            <summary>
+            Saves a configuration of docking manager.
+            </summary>
+            <param name="tw">The XmlTextWriter to save configuration.</param>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiDockingManager.LoadConfig(System.String)">
+            <summary>
+            Loads a configuration of docking manager.
+            </summary>
+            <param name="file">The name and location of the configuration to load.</param>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiDockingManager.LoadConfig(System.IO.Stream)">
+            <summary>
+            Loads a configuration of docking manager.
+            </summary>
+            <param name="stream">The data stream that contains the configuration to load.</param>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiDockingManager.LoadConfig(System.Xml.XmlTextReader)">
+            <summary>
+            Loads a configuration of docking manager.
+            </summary>
+            <param name="tr">The XmlTextReader that contains the configuration to load.</param>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiDockingManager.UndockedPanels">
+            <summary>
+            Gets or sets a collection of undocked panels.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiDockingManager.ClosedControls">
+            <summary>
+            Gets or sets a collection of closed controls.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiDockingManager.ShowingUndocked">
+            <summary>
+            Gets or sets a value indicates showing undocking panel when a configuration loading.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiDockingManager.DockedPanels">
+            <summary>
+            Gets a collection of docked panels.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiDockingManager.ParentForm">
+            <summary>
+            Gets or sets the parent form of this docking manager.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiDockingPanel">
+            <summary>
+            Manage collections of docking control.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiDockingPanel.GetDockingControlAt(System.Int32,System.Int32)">
+            <summary>
+            Retrieves the docking control that is located at the specified coordinates.
+            </summary>
+            <param name="p">A Point that contains the coordinates where you want to look for a control. 
+            Coordinates are expressed relative to the upper-left corner of the control client area.</param>
+            <returns>A docking control that represents the control that is located at the specified point.</returns>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiDockingPanel.AllowDrop">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiDockingPanel.Collapsed">
+            <summary>
+            Gets or sets a value indicating whether the docking panel is in the collapsed state.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiDockingPanel.AutoHide">
+            <summary>
+            Gets or sets a value indicating whether the docking panel is in the autohide state.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiDockingPanel.ShowCloseButton">
+            <summary>
+            Gets or sets a value indicating whether the docking panel is closeable.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiDockingPanel.ShowHideButton">
+            <summary>
+            Gets or sets a value indicating whether the docking panel is may be hide.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiDockingPanel.SelectedControl">
+            <summary>
+            Gets or sets the currently-selected control.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiDockingPanel.Anchor">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiDockingPanel.Cursor">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiDockingPanel.BackColor">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiDockingPanel.BackgroundImage">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiDockingPanel.ForeColor">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiDockingPanel.Text">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiDockingPanel.DockPadding">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.StiDockingWindow.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiDockingWindow.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiDockingWindow.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiFloatingForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiFloatingForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiOutlookBar">
+            <summary>
+            Manage collections of the StiOutlookPanel.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiOutlookBar.DrawBorder">
+            <summary>
+            Gets or sets the value, indicates control to draws border.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiOutlookBar.AddCategory(System.String)">
+            <summary>
+            Adds category to a collection.
+            </summary>
+            <param name="name">The name of category.</param>
+            <returns>Created category panel.</returns>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiOutlookBar.AutoScroll">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiOutlookPanel">
+            <summary>
+            Outlook panel.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiOutlookPanel.DockPadding">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiOutlookPanel.DrawBorder">
+            <summary>
+            Gets or sets the value, indicates control to draws border.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiOutlookPanel.Text">
+            <summary>
+            Gets or sets values, indicates where the panel is selected.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiOutlookPanel.Selected">
+            <summary>
+            Gets or sets values, indicates where the panel is selected.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiOutlookPanel.Collapsed">
+            <summary>
+            Gets a value indicating whether the panel is in the collapsed state.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiPopupBaseForm">
+            <summary>
+            Summary description for StiPopupForm.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiButton">
+            <summary>
+            Push button control.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiButton.FlatStyle">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiButton.BackgroundImage">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiButton.BackColor">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiButtonEdit">
+            <summary>
+            A text edit with buttons.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiButtonEdit.ButtonIcon">
+            <summary>
+            An Icon that represents the icon for the button.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiButtonEditBase">
+            <summary>
+            Defines the base button control.
+            </summary>
+        </member>
+        <member name="E:Stimulsoft.Controls.StiButtonEditBase.ButtonClick">
+            <summary>
+            Occurs when the user push button.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiButtonEditBase.InvokeButtonClick(System.EventArgs)">
+            <summary>
+            Raises the ButtonClick event for this control.
+            </summary>
+            <param name="e">An EventArgs that contains the event data.</param>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiCheckBox">
+            <summary>
+            A check box control.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiCheckBox.ImageList">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiCheckBox.ImageIndex">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiCheckBox.Image">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiCheckBox.ImageAlign">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiCheckBox.TextAlign">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiCheckBox.CheckAlign">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiCheckBox.FlatStyle">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiCheckBox.DrawLine">
+            <summary>
+            Gets or sets a value indicating for draws of the line on the center control.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiColorBox">
+            <summary>
+            Allows the user to select a color.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiColorBox.Text">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiColorBox.ShowColorBox">
+            <summary>
+            Gets or sets a value indicating for draws color box with selected color.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiColorBox.ShowColorName">
+            <summary>
+            Gets or sets a value indicating for draws color name of selected color.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiColorBox.SelectedColor">
+            <summary>
+            Gets or sets the Selected color.
+            </summary>
+        </member>
+        <member name="E:Stimulsoft.Controls.StiColorBox.DropDown">
+            <summary>
+            Occurs when the drop-down portion of a StiColorBox is shown.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiColorBox.InvokeDropDown(System.EventArgs)">
+            <summary>
+            Raises the DropDown event for this control.
+            </summary>
+            <param name="e">An EventArgs that contains the event data.</param>
+        </member>
+        <member name="E:Stimulsoft.Controls.StiColorBox.DropUp">
+            <summary>
+            Occurs when the drop-down portion of a StiColorBox is close.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiColorBox.InvokeDropUp(System.EventArgs)">
+            <summary>
+            Raises the DropUp event for this control.
+            </summary>
+            <param name="e">An EventArgs that contains the event data.</param>
+        </member>
+        <member name="E:Stimulsoft.Controls.StiColorBox.SelectedIndexChanged">
+            <summary>
+            Occurs when the SelectedIndex property has changed.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiColorBox.InvokeSelectedIndexChanged(System.EventArgs)">
+            <summary>
+            Raises the SelectedIndexChanged event for this control.
+            </summary>
+            <param name="e">An EventArgs that contains the event data.</param>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiColorBoxPopupForm">
+            <summary>
+            Summary description for StiColorBoxForm.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiColorButton">
+            <summary>
+            ToolButton that lets users select a color.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiColorButton.Text">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiColorButton.SelectedColor">
+            <summary>
+            Gets or sets a Selected color.
+            </summary>
+        </member>
+        <member name="E:Stimulsoft.Controls.StiColorButton.DropDown">
+            <summary>
+            Occurs when the drop-down portion of a StiColorButton is shown.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiColorButton.InvokeDropDown(System.EventArgs)">
+            <summary>
+            Raises the DropDown event for this control.
+            </summary>
+            <param name="e">An EventArgs that contains the event data.</param>
+        </member>
+        <member name="E:Stimulsoft.Controls.StiColorButton.DropUp">
+            <summary>
+            Occurs when the drop-down portion of a StiColorBox is closed.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiColorButton.InvokeDropUp(System.EventArgs)">
+            <summary>
+            Raises the DropUp event for this control.
+            </summary>
+            <param name="e">An EventArgs that contains the event data.</param>
+        </member>
+        <member name="E:Stimulsoft.Controls.StiColorButton.SelectedIndexChanged">
+            <summary>
+            Occurs when the SelectedIndex property has changed.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiColorButton.InvokeSelectedIndexChanged(System.EventArgs)">
+            <summary>
+            Raises the SelectedIndexChanged event for this control.
+            </summary>
+            <param name="e">An EventArgs that contains the event data.</param>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiComboBox">
+            <summary>
+            Allows users to select a value from a drop-down list. 
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiComboBox.DrawMode">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiComboBox.UseFirstImage">
+            <summary>
+            Use always first Image from ImageList to Draw item.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiComboBox.AutoDropDownWidth">
+            <summary>
+            Gets or sets a value indicating whether the size of popup is auto calculated.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiComboBox.ImageList">
+            <summary>
+            Gets or sets the collection of images available to the StiListBoxBase items.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiControlBase">
+            <summary>
+            Defines the base control.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiControlBase.IsMouseOver">
+            <summary>
+            Gets or sets the value, indicates that mouse is over on object.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiControlBase.HotFocus">
+            <summary>
+            Gets or sets the value, indicates that control draws focus when mouse over control.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiControlBase.BackgroundImage">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.StiDotSeparator.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiDotSeparator.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiDotSeparator.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.StiDotSeparatorVertical.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiDotSeparatorVertical.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiDotSeparatorVertical.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiEditBase">
+            <summary>
+            Defines the base edit control.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiEditBase.BackgroundImage">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiEditBase.SelectionStart">
+            <summary>
+            Gets or sets the starting point of the text selected in the text box.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiEditBase.SelectionLength">
+            <summary>
+            Gets or sets the number of characters selected in the text box.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiEditBase.SelectionText">
+            <summary>
+            Gets or sets a value indicating the currently selected text in the control.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiEditBase.HideSelection">
+            <summary>
+            Gets or sets a value indicating whether the selected text in the text box control remains highlighted when the control loses focus.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiEditBase.Focused">
+            <summary>
+            Gets a value indicating whether the control has input focus.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiEditBase.ReadOnly">
+            <summary>
+            Gets or sets a value indicating whether a text in the text box is read-only.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiFontBox">
+            <summary>
+            Allows the user to select a font.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiFontBox.UseFirstImage">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiFontBox.DisplayMember">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiFontBox.DataSource">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiFontBox.ValueMember">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiFontBox.DropDownStyle">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiFontBox.ImageList">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiFontBox.Items">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiFontBox.SelectedFont">
+            <summary>
+            Gets or sets a Selected Font.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiGroupBox">
+            <summary>
+            Represents a Windows group box.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiGroupLine">
+            <summary>
+            Use the StiGroupLine to group controls.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiHScrollBar">
+            <summary>
+            Represents a standard Windows horizontal scroll bar.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiListBox">
+            <summary>
+            Represents a Windows list box control.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiListBox.DrawMode">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiListBox.UseFirstImage">
+            <summary>
+            Use always first Image from ImageList to Draw item.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiListBox.HotTrack">
+            <summary>
+            Use always first Image from ImageList to Draw item.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiListBox.ImageList">
+            <summary>
+            Gets or sets the collection of images available to the StiListBoxBase items.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiMenuProvider">
+            <summary>
+            The StiMenuProvider allows to perfect standard the MainMenu and the ContexMenu.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiMenuProvider.AddMenuProviderToMenuItem(System.Windows.Forms.MenuItem,Stimulsoft.Controls.StiMenuProvider)">
+            <summary>
+            Adds the MenuItem to the MenuProvider.
+            </summary>
+            <param name="menuItem">Added MenuItem.</param>
+            <param name="provider">The MenuProvider to which the MenuItem is added.</param>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiMenuProvider.AddMenuProviderToMenuItem(System.Windows.Forms.MenuItem,Stimulsoft.Controls.StiMenuProvider,System.Windows.Forms.ImageList,System.Int32)">
+            <summary>
+            Adds the MenuItem to the MenuProvider.
+            </summary>
+            <param name="menuItem">Added MenuItem.</param>
+            <param name="provider">The MenuProvider to which the MenuItem is added.</param>
+            <param name="imageList">Collection of images available to the MenuItem.</param>
+            <param name="imageIndex">A zero-based index, which represents the image position in an ImageList.</param>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiMenuProvider.AddMenuProviderToMenu(System.Windows.Forms.Menu,Stimulsoft.Controls.StiMenuProvider)">
+            <summary>
+            Adds the Menu to the MenuProvider.
+            </summary>
+            <param name="menu">Added Menu.</param>
+            <param name="provider">The MenuProvider to which the MenuItem is added.</param>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiMenuProvider.Font">
+            <summary>
+            Gets or sets the font of the text to draw a menu item.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiRadioButton">
+            <summary>
+            Represents a Windows radio button.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiRadioButton.ImageList">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiRadioButton.ImageIndex">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiRadioButton.Image">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiRadioButton.ImageAlign">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiRadioButton.TextAlign">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiRadioButton.CheckAlign">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiRadioButton.FlatStyle">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.StiRtfSelectionAlign.Left">
+            <summary>
+            The text is aligned to the left.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.StiRtfSelectionAlign.Right">
+            <summary>
+            The text is aligned to the right.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.StiRtfSelectionAlign.Center">
+            <summary>
+            The text is aligned in the center.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.StiRtfSelectionAlign.Justify">
+            <summary>
+            The text is justified.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiRichTextBox">
+            <summary>
+            Represents a Windows rich text box control, with some impovements.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiScrollableControl">
+            <summary>
+            Defines a base class for controls that support scrolling behavior.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiScrollableControl.BackgroundImage">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiScrollableControl.DockPadding">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiScrollableControl.VScrollBar">
+            <summary>
+            Gets or sets the vertical ScrollBar.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiScrollableControl.HScrollBar">
+            <summary>
+            Gets or sets the horizontal ScrollBar.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiScrollableControl.ScrollWidth">
+            <summary>
+            Gets or sets the value indicates width of a scrolling area.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiScrollableControl.ScrollHeight">
+            <summary>
+            Gets or sets the value indicates height of a scrolling area.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiScrollableControl.ScrollTop">
+            <summary>
+            Gets or sets the top position of a scrolling area.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiScrollableControl.ScrollLeft">
+            <summary>
+            Gets or sets the left position of a scrolling area.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiScrollableControl.ClientWidth">
+            <summary>
+            Gets or sets the width of the client area of the control.
+            </summary>   
+        </member>
+        <member name="P:Stimulsoft.Controls.StiScrollableControl.ClientHeight">
+            <summary>
+            Gets or sets the height of the client area of the control.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiStringCollection.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiTextBox">
+            <summary>
+            Displays a text box control for the user input.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiDrawTreeNodeEventArgs">
+            <summary>
+            Summary description for StiDrawTreeNodeEventArgs.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiTreeView">
+            <summary>
+            Displays an hierarchical collection of labeled items, with some impovements.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiTreeView.SetBold(System.Windows.Forms.TreeNode,System.Boolean)">
+            <summary>
+            Sets specified TreeNode Bold mode.
+            </summary>
+            <param name="node">Specified TreeNode.</param>
+            <param name="isBold">Bold mode.</param>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiTreeView.SetBold(System.Windows.Forms.TreeView,System.Windows.Forms.TreeNode,System.Boolean)">
+            <summary>
+            Sets specified TreeNode Bold mode.
+            </summary>
+            <param name="node">Specified TreeNode.</param>
+            <param name="isBold">Bold mode.</param>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiTreeView.Lock">
+            <summary>
+            Disables any updating of the tree view.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiTreeView.Unlock">
+            <summary>
+            Enables the updating of the tree view.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiTreeViewBox">
+            <summary>
+            Allows users to select a value from a TreeView.
+            </summary>
+        </member>
+        <member name="E:Stimulsoft.Controls.StiTreeViewBox.DropDown">
+            <summary>
+            Occurs when the drop-down portion of a StiComboBox is shown.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiTreeViewBox.InvokeDropDown(System.EventArgs)">
+            <summary>
+            Raises the DropDown event for this control.
+            </summary>
+            <param name="e">An EventArgs that contains the event data.</param>
+        </member>
+        <member name="E:Stimulsoft.Controls.StiTreeViewBox.DropUp">
+            <summary>
+            Occurs when the drop-down portion of a ComboBox is closed.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiTreeViewBox.InvokeDropUp(System.EventArgs)">
+            <summary>
+            Raises the DropUp event for this control.
+            </summary>
+            <param name="e">An EventArgs that contains the event data.</param>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiTreeViewBox.ValueChangedEventHandler">
+            <summary>
+            Represents the method that handles the ValueChanged event.
+            </summary>
+        </member>
+        <member name="E:Stimulsoft.Controls.StiTreeViewBox.ValueChanged">
+            <summary>
+            Occurs when the SelectedItem property has changed.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiTreeViewBox.InvokeValueChanged(Stimulsoft.Controls.StiValueChangedEventArgs)">
+            <summary>
+            Raises the ValueChanged event for this control.
+            </summary>
+            <param name="e">An StiValueChangedEventArgs that contains the event data.</param>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiTreeViewBox.TreeNodesFillEventHandler">
+            <summary>
+            Represents the method that handles the TreeNodesFill event.
+            </summary>
+        </member>
+        <member name="E:Stimulsoft.Controls.StiTreeViewBox.TreeNodesFill">
+            <summary>
+            Occurs when the TreeView needs fill.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiTreeViewBox.InvokeTreeNodesFill(Stimulsoft.Controls.StiTreeNodesFillEventArgs)">
+            <summary>
+            Raises the TreeNodesFill event for this control.
+            </summary>
+            <param name="e">A StiTreeNodesFillEventArgs that contains the event data.</param>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiTreeViewBox.SelectedItem">
+            <summary>
+            Gets or sets the currently selected item.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiTreeViewBox.DropDownWidth">
+            <summary>
+            Gets or sets the width of the drop-down portion of a tree view.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiTreeViewBox.SelectOnlyTagNotNull">
+            <summary>
+            Gets or sets the value indicates where user can select only the TreeNode with tag property not equal null value.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiTreeViewBox.MaxDropDownHeight">
+            <summary>
+            Gets or sets the maximum height of the drop-down portion of a combo box.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.StiTreeViewBoxPopupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiTreeViewBoxPopupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiTreeViewMultiBox">
+            <summary>
+            Allows users to select a value from a TreeView.
+            </summary>
+        </member>
+        <member name="E:Stimulsoft.Controls.StiTreeViewMultiBox.ButtonClick2">
+            <summary>
+            Occurs when the user push button.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiTreeViewMultiBox.InvokeButtonClick2(System.EventArgs)">
+            <summary>
+            Raises the ButtonClick event for this control.
+            </summary>
+            <param name="e">An EventArgs that contains the event data.</param>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiValueChangedEventArgs">
+            <summary>
+            Provides data for the StiValueChangedEvent event.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiValueChangedEventArgs.TreeView">
+            <summary>
+            Gets or sets the TreeView.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiValueChangedEventArgs.Text">
+            <summary>
+            Gets or sets a changed value.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiVScrollBar">
+            <summary>
+            Represents a standard Windows vertical scroll bar.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiTabControl">
+            <summary>
+            Manages a related set of tab pages
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiTabControl.DockPadding">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiTabControl.BackColor">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiTabControl.BackgroundImage">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiTabControl.BorderStyle">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiTabControl.ImageList">
+            <summary>
+            Gets or sets the collection of images available to the TabPage items.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiTabControl.SelectedTab">
+            <summary>
+            Gets or sets the currently-selected tab page.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiTabControl.SelectedIndex">
+            <summary>
+            Gets or sets the tab order of the control within its container.
+            </summary>
+        </member>
+        <member name="E:Stimulsoft.Controls.StiTabControl.TitleClick">
+            <summary>
+            Occurs when the control title is clicked.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiTabControl.InvokeTitleClick(System.Object,System.EventArgs)">
+            <summary>
+            Raises the TitleClick event for the specified control.
+            </summary>
+            <param name="sender">The Control to assign the TitleClick event to. </param>
+            <param name="e">An EventArgs that contains the event data. </param>
+        </member>
+        <member name="E:Stimulsoft.Controls.StiTabControl.SelectedIndexChanged">
+            <summary>
+            Occurs when the SelectedIndex property is changed.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiTabControl.InvokeSelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Raises the SelectedIndexChanged event for the specified control.
+            </summary>
+            <param name="sender">The Control to assign the SelectedIndexChanged event to. </param>
+            <param name="e">An EventArgs that contains the event data. </param>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiTabControl.LockRefresh">
+            <summary>
+            Disables any updating of the tab control.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiTabControl.UnlockRefresh">
+            <summary>
+            Enables the updating of the tab control.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiTabControl.CalculatePagesWidth(System.Drawing.Graphics)">
+            <summary>
+            Calculate width for each page
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiTabControl.GetTabPageAtPoint(System.Drawing.Point)">
+            <summary>
+            Retrieves the tab page control that is located at the specified coordinates.
+            </summary>
+            <param name="p">A Point that contains the coordinates where you want to look for a control. 
+            Coordinates are expressed relative to the upper-left corner of the control client area.</param>
+            <returns>A tab page control that represents the control that is located at the specified point.</returns>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiTabPage">
+            <summary>
+            Single tab page in a StiTabControl.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiTabPage.TitleContextMenu">
+            <summary>
+            Gets or sets the shortcut menu associated with the title control.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiTabPage.Text">
+            <summary>
+            Gets or sets the text associated with this control.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiTabPage.DrawBorder">
+            <summary>
+            Gets or sets the value indicates control to draw border.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiTabPage.Invisible">
+            <summary>
+            Gets or sets the value indicates page is invisible.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiTabPage.Visible">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiTabPage.Dock">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiTabPage.DockPadding">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiTabPage.BorderStyle">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiTabulator.DockPadding">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiTabulator.SelectedTab">
+            <summary>
+            Gets or sets the currently-selected tab page.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiTabulator.SelectedIndex">
+            <summary>
+            Gets or sets the tab order of the control within its container.
+            </summary>
+        </member>
+        <member name="E:Stimulsoft.Controls.StiTabulator.TitleMouseUp">
+            <summary>
+            Occurs when the mouse up event occurs on title.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiTabulator.InvokeTitleMouseUp(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Raises the TitleMouseUp event for the specified control.
+            </summary>
+            <param name="sender">The Control to assign the TitleMouseUp event to. </param>
+            <param name="e">An EventArgs that contains the event data. </param>
+        </member>
+        <member name="E:Stimulsoft.Controls.StiTabulator.TitleMouseMove">
+            <summary>
+            Occurs when the mouse move event occurs on title.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiTabulator.InvokeTitleMouseMove(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Raises the TitleMouseMove event for the specified control.
+            </summary>
+            <param name="sender">The Control to assign the TitleMouseMove event to. </param>
+            <param name="e">An EventArgs that contains the event data. </param>
+        </member>
+        <member name="E:Stimulsoft.Controls.StiTabulator.TitleMouseDown">
+            <summary>
+            Occurs when the mouse down event occurs on title.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiTabulator.InvokeTitleMouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Raises the TitleMouseDown event for the specified control.
+            </summary>
+            <param name="sender">The Control to assign the TitleMouseDown event to. </param>
+            <param name="e">An EventArgs that contains the event data. </param>
+        </member>
+        <member name="E:Stimulsoft.Controls.StiTabulator.SelectedIndexChanged">
+            <summary>
+            Occurs when the SelectedIndex property is changed.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiTabulator.InvokeSelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Raises the SelectedIndexChanged event for the specified control.
+            </summary>
+            <param name="sender">The Control to assign the SelectedIndexChanged event to. </param>
+            <param name="e">An EventArgs that contains the event data. </param>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiTabulator.LockRefresh">
+            <summary>
+            Disables any updating of the tab control.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiTabulator.UnlockRefresh">
+            <summary>
+            Enables the updating of the tab control.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiTabulatorPage">
+            <summary>
+            Single tab page in a StiTabulator.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiTabulatorPage.TitleContextMenu">
+            <summary>
+            Gets or sets the shortcut menu associated with the title control.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiTabulatorPage.Text">
+            <summary>
+            Gets or sets the text associated with this control.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiTabulatorPage.Invisible">
+            <summary>
+            Gets or sets the value indicates page is invisible.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiTabulatorPage.DockPadding">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiTabulatorPage.InvisibleVisible">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiTabulatorPage.Dock">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiToolBar">
+            <summary>
+            Represents a Windows toolbar.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.StiToolBar.DotWidth">
+            <summary>
+            Width of the field to draw points.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiToolBar.CheckState">
+            <summary>
+            Check state of all ToolBar.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiToolButton">
+            <summary>
+            Represents a Windows toolbar button.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiToolButton.FlatStyle">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiToolButton.BackColor">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiToolButton.BackgroundImage">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiToolButton.TabStop">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiToolButton.ResetPushed">
+            <summary>
+            Resets all pushed ToolButton.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiToolButton.HotDragDrop">
+            <summary>
+            Internal use only.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiToolButton.Draw3DButton">
+            <summary>
+            Gets or sets value, indicates where this tool button draws as 3D button.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiToolButton.AllowAllUp">
+            <summary>
+            Gets or sets value, indicates where this tool button can unpush all buttons in this groups.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiToolButton.DropDownMenu">
+            <summary>
+            Gets or sets the menu to be displayed in the drop-down toolbar button.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiToolButton.Style">
+            <summary>
+            Gets or sets the style of a toolbar button.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiToolButton.Pushed">
+            <summary>
+            Gets or sets a value indicating whether a toggle-style toolbar button is currently in the pushed state.
+            </summary>
+        </member>
+        <member name="E:Stimulsoft.Controls.StiToolButton.StartDragDrop">
+            <summary>
+            Internal use only
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiWizard.DockPadding">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiWizard.SelectedPage">
+            <summary>
+            Gets or sets the currently-selected wizard page.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiWizard.SelectedIndex">
+            <summary>
+            Gets or sets the tab order of the control within its container.
+            </summary>
+        </member>
+        <member name="E:Stimulsoft.Controls.StiWizard.TitleClick">
+            <summary>
+            Occurs when the control title is clicked.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiWizard.InvokeTitleClick(System.Object,System.EventArgs)">
+            <summary>
+            Raises the TitleClick event for the specified control.
+            </summary>
+            <param name="sender">The Control to assign the TitleClick event to. </param>
+            <param name="e">An EventArgs that contains the event data. </param>
+        </member>
+        <member name="E:Stimulsoft.Controls.StiWizard.SelectedIndexChanged">
+            <summary>
+            Occurs when the SelectedIndex property is changed.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.StiWizard.InvokeSelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Raises the SelectedIndexChanged event for the specified control.
+            </summary>
+            <param name="sender">The Control to assign the SelectedIndexChanged event to. </param>
+            <param name="e">An EventArgs that contains the event data. </param>
+        </member>
+        <member name="T:Stimulsoft.Controls.StiWizardPage">
+            <summary>
+            Single tab page in a StiWizard.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiWizardPage.Visible">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiWizardPage.Dock">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiWizardPage.Text">
+            <summary>
+            Gets or sets the text associated with this control.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.StiWizardPage.DockPadding">
+            <summary>
+            Do not use this property.
+            </summary>
+        </member>
+    </members>
+</doc>

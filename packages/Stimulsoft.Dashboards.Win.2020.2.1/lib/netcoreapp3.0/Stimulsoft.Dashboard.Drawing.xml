@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Stimulsoft.Dashboard.Drawing</name>
+    </assembly>
+    <members>
+        <member name="M:Stimulsoft.Dashboard.Drawing.Helpers.StiChartElementInteractionHelper.GetGeomAt(Stimulsoft.Report.Chart.StiChart,Stimulsoft.Dashboard.Components.Chart.StiChartElement,Stimulsoft.Base.Drawing.RectangleD,System.Single,System.Single,Stimulsoft.Report.Chart.StiCellGeom@,System.Single,System.Type)">
+            <summary>
+            Returns geom cell object for specified chartElement at specified x and y location.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Drawing.Helpers.StiChartElementInteractionHelper.GetInteraction(Stimulsoft.Report.Chart.StiChart,Stimulsoft.Dashboard.Components.Chart.StiChartElement,Stimulsoft.Base.Drawing.RectangleD,System.Single,System.Single,Stimulsoft.Report.Chart.StiCellGeom@,System.Single,System.Type)">
+            <summary>
+            Returns IStiGeomInteraction object for specified chart at specified x and y location.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Drawing.Helpers.StiChartElementInteractionHelper.ResetChartGeomCache">
+            <summary>
+            Resets all chart geom cache settings.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Drawing.Painters.PivotTable.StiPivotTableCell.IsColumn">
+            <summary>
+            Otherwise IS row
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Drawing.Painters.PivotTable.StiPivotTableCell.MinimalTextSize">
+            <summary>
+            Minimal text size
+            </summary>
+        </member>
+    </members>
+</doc>

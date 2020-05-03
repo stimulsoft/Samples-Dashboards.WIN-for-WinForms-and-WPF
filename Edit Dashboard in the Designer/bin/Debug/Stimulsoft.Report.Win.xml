@@ -1,0 +1,1812 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Stimulsoft.Report.Win</name>
+    </assembly>
+    <members>
+        <member name="F:Stimulsoft.Report.Win.Dashboard.StiDashboardNotSupportedForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Dashboard.StiDashboardNotSupportedForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Dashboard.StiDashboardNotSupportedForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.StiXmlExportSetupControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.StiXmlExportSetupControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.StiXmlExportSetupControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.StiCsvExportSetupControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.StiCsvExportSetupControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.StiCsvExportSetupControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.StiDbfExportSetupControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.StiDbfExportSetupControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.StiDbfExportSetupControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.StiDifSylkExportSetupControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.StiDifSylkExportSetupControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.StiDifSylkExportSetupControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.StiHtml5ExportSetupControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.StiHtml5ExportSetupControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.StiHtml5ExportSetupControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.StiHtmlExportSetupControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.StiHtmlExportSetupControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.StiHtmlExportSetupControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.Parameters.Value.StiValueBoolItemControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.Value.StiValueBoolItemControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.Value.StiValueBoolItemControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.Parameters.Value.StiValueCharItemControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.Value.StiValueCharItemControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.Value.StiValueCharItemControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.Parameters.Value.StiValueDoubleItemControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.Value.StiValueDoubleItemControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.Value.StiValueDoubleItemControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.Parameters.Value.StiValueGuidItemControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.Value.StiValueGuidItemControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.Value.StiValueGuidItemControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.Parameters.Value.StiValueLongItemControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.Value.StiValueLongItemControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.Value.StiValueLongItemControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.Parameters.Value.StiValueDateTimeItemControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.Value.StiValueDateTimeItemControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.Value.StiValueDateTimeItemControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.Parameters.Value.StiValueImageItemControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.Value.StiValueImageItemControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.Value.StiValueImageItemControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.Parameters.Value.StiValueStringItemControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.Value.StiValueStringItemControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.Value.StiValueStringItemControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.Parameters.List.StiListBoolItemControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.List.StiListBoolItemControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.List.StiListBoolItemControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.Parameters.List.StiListButtonXControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.List.StiListButtonXControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.List.StiListButtonXControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.Parameters.List.StiListCharItemControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.List.StiListCharItemControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.List.StiListCharItemControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.Parameters.List.StiListDateTimeItemControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.List.StiListDateTimeItemControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.List.StiListDateTimeItemControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.Parameters.List.StiListDoubleItemControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.List.StiListDoubleItemControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.List.StiListDoubleItemControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.Parameters.List.StiListGuidItemControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.List.StiListGuidItemControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.List.StiListGuidItemControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.Parameters.List.StiListStringItemControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.List.StiListStringItemControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.List.StiListStringItemControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.Parameters.List.StiListLongItemControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.List.StiListLongItemControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.List.StiListLongItemControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.Parameters.Range.StiRangeCharItemControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.Range.StiRangeCharItemControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.Range.StiRangeCharItemControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.Parameters.Range.StiRangeDateTimeItemControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.Range.StiRangeDateTimeItemControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.Range.StiRangeDateTimeItemControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.Parameters.Range.StiRangeDoubleItemControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.Range.StiRangeDoubleItemControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.Range.StiRangeDoubleItemControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.Parameters.Range.StiRangeGuidItemControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.Range.StiRangeGuidItemControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.Range.StiRangeGuidItemControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.Parameters.Range.StiRangeLongItemControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.Range.StiRangeLongItemControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.Range.StiRangeLongItemControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.Parameters.Range.StiRangeStringItemControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.Range.StiRangeStringItemControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Parameters.Range.StiRangeStringItemControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.Ribbon.StiRibbonDotMatrixViewUserControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Ribbon.StiRibbonDotMatrixViewUserControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Ribbon.StiRibbonDotMatrixViewUserControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.Ribbon.StiRibbonViewerUserControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Ribbon.StiRibbonViewerUserControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.Ribbon.StiRibbonViewerUserControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Win.StiProgressForm">
+            <summary>
+            Class describes the window, which displays the progress of the rendering of the report.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.StiProgressForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.StiProgressForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.StiProgressForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Win.StiProgressInformation">
+            <summary>
+            Class allow control progress form.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Win.StiProgressRibbonForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.StiProgressRibbonForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Win.StiProgressRibbonForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Export.Win.StiDigitalSignatureUserControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiDigitalSignatureUserControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiDigitalSignatureUserControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Export.Win.StiDocumentSecurityUserControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiDocumentSecurityUserControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiDocumentSecurityUserControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Export.Win.StiDataSetupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiDataSetupForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiDataSetupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Export.Win.StiExcelSetupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiExcelSetupForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiExcelSetupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Export.Win.StiHtmlSetupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiHtmlSetupForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiHtmlSetupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Export.Win.StiImageSetupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiImageSetupForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiImageSetupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Export.Win.StiPagesRangeControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiPagesRangeControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiPagesRangeControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Export.Win.StiCsvExportSetupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiCsvExportSetupForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiCsvExportSetupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Export.Win.StiDbfExportSetupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiDbfExportSetupForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiDbfExportSetupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Export.Win.StiDifExportSetupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiDifExportSetupForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiDifExportSetupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Export.Win.StiExcelExportSetupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiExcelExportSetupForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiExcelExportSetupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Export.Win.StiExcelXmlExportSetupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiExcelXmlExportSetupForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiExcelXmlExportSetupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Export.Win.StiHtml5ExportSetupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiHtml5ExportSetupForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiHtml5ExportSetupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Export.Win.StiHtmlExportSetupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiHtmlExportSetupForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiHtmlExportSetupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Export.Win.StiImageExportSetupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiImageExportSetupForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiImageExportSetupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Export.Win.StiOdsExportSetupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiOdsExportSetupForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiOdsExportSetupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Export.Win.StiOdtExportSetupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiOdtExportSetupForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiOdtExportSetupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Export.Win.StiPdfExportSetupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiPdfExportSetupForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiPdfExportSetupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Export.Win.StiRtfExportSetupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiRtfExportSetupForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiRtfExportSetupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Export.Win.StiSylkExportSetupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiSylkExportSetupForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiSylkExportSetupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Export.Win.StiTxtExportSetupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiTxtExportSetupForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiTxtExportSetupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Export.Win.StiWord2007ExportSetupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiWord2007ExportSetupForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiWord2007ExportSetupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Export.Win.StiXmlExportSetupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiXmlExportSetupForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiXmlExportSetupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Export.Win.StiXpsExportSetupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiXpsExportSetupForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Export.Win.StiXpsExportSetupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Render.StiPreviewConfigService">
+            <summary>
+            Class describes the configuration of the preview window.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Render.StiPreviewConfigService.ServiceCategory">
+            <summary>
+            Gets a service category.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Render.StiPreviewConfigService.ServiceType">
+            <summary>
+            Gets a service type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Render.StiPreviewControl">
+            <summary>
+            Class describes control for the view report.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Render.StiPreviewForm">
+            <summary>
+            Window of the viewer report.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiViewerControl">
+            <summary>
+            Class describes control for the viewing report.
+            </summary>
+            <summary>
+            Class describes control for the viewing report.
+            </summary>
+            <summary>
+            Class describes control for the viewing report.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Viewer.StiViewerControl.isLeftMouseButtonPressed">
+            <summary>
+            If field equal true then current report is laoded from mdc/mdz file.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Viewer.StiViewerControl.isEditableComponentsPresent">
+            <summary>
+            If field equal true then assigned report contains editable fields.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Viewer.StiViewerControl.isHorizontalScrollBarVisible">
+            <summary>
+            If field equal true then viewer require horizontal scrollbar to show report.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Viewer.StiViewerControl.refreshReportTimer">
+            <summary>
+            This timer is used for the Report.RefreshTime property.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.Report">
+            <summary>
+            Gets or sets viewed report.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.Localize">
+            <summary>
+            Localizing form.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.IgnoreApplyStyle">
+            <summary>
+            This property is not used more.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Viewer.StiViewerControl.currentPrintPage">
+            <summary>
+            Gets or sets current displayed page. Only for internal use.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.CurrentPage">
+            <summary>
+            Gets or sets current displayed page. Index start from 1.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.TotalPageCount">
+            <summary>
+            Gets total pages count.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.Style">
+            <summary>
+            Please use StiOptions.Windows.GlobalGuiStyle instead Style property of StiViewerControl!
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowPrint">
+            <summary>
+            Gets or sets value indicates show button Print or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowOpen">
+            <summary>
+            Gets or sets value indicates show button Open or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowSave">
+            <summary>
+            Gets or sets value indicates show button Save or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowExport">
+            <summary>
+            Gets or sets value indicates show button Export or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowSendEMail">
+            <summary>
+            Gets or sets value indicates show button SendEmail or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowSaveDocumentFile">
+            <summary>
+            Gets or sets value indicates show button Save Document File or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowSendEMailDocumentFile">
+            <summary>
+            Gets or sets value indicates show button SendEMail Document File or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowBookmarksPanel">
+            <summary>
+            Gets or sets value indicates show bookmarks panel or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowParametersButton">
+            <summary>
+            Gets or sets value indicates show parameters panel or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowResourcesButton">
+            <summary>
+            Gets or sets value indicates show resources panel or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowThumbsPanel">
+            <summary>
+            Gets or sets value indicates show thumbs panel or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowSelectTool">
+            <summary>
+            Gets or sets value indicates show button SelectTool or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowHandTool">
+            <summary>
+            Gets or sets value indicates show button HandTool or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowEditorTool">
+            <summary>
+            Gets or sets value indicates show button EditComponents or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowEditor">
+            <summary>
+            Gets or sets value indicates show button EditComponents or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowFindTool">
+            <summary>
+            Gets or sets value indicates show button Find or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowFind">
+            <summary>
+            Gets or sets value indicates show button Find or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowFullScreen">
+            <summary>
+            Gets or sets value indicates show FullScreen controls or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowZoomOnePage">
+            <summary>
+            Gets or sets value indicates show zoom OnePage controls or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowZoomTwoPages">
+            <summary>
+            Gets or sets value indicates show zoom TwoPages controls or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowZoomMultiplePages">
+            <summary>
+            Gets or sets value indicates show zoom MultiplePages controls or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowZoomPageWidth">
+            <summary>
+            Gets or sets value indicates show zoom PageWidth controls or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowZoom">
+            <summary>
+            Gets or sets value indicates show zoom controls or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowComboBoxZoom">
+            <summary>
+            Gets or sets value indicates show zoom combo box controls or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowSliderZoom">
+            <summary>
+            Gets or sets value indicates show zoom slider control or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowZoomIn">
+            <summary>
+            Gets or sets value indicates show zoom ZoomIn controls or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowZoomOut">
+            <summary>
+            Gets or sets value indicates show zoom ZoomOut controls or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowDotMatrixModeButton">
+            <summary>
+            Gets or sets value indicates show button DotMatrixMode or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowPageControl">
+            <summary>
+            Gets or sets value indicates show page controls or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowFirstPage">
+            <summary>
+            Gets or sets value indicates show 'First Page' button or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowPreviousPage">
+            <summary>
+            Gets or sets value indicates show 'Previous Page' button or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowNextPage">
+            <summary>
+            Gets or sets value indicates show 'Next Page' button or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowLastPage">
+            <summary>
+            Gets or sets value indicates show 'Last Page' button or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowPageNew">
+            <summary>
+            Gets or sets value indicates show button PageNew or no..
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowPageDelete">
+            <summary>
+            Gets or sets value indicates show button PageDelete or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowPageDesign">
+            <summary>
+            Gets or sets value indicates show button PageDesign or no. 
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowPageSize">
+            <summary>
+            Gets or sets value indicates show button PageSize or no. 
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowToolbar">
+            <summary>
+            Gets or sets value indicates show Toolbar or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowHorScrollBar">
+            <summary>
+            Gets or sets value indicates show HorScrollBar or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowVertScrollBar">
+            <summary>
+            Gets or sets value indicates show VertScrollBar or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowStatusBar">
+            <summary>
+            Gets or sets value indicates show StatusBar or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowContextMenu">
+            <summary>
+            Gets or sets value indicates show ContextMenu or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowCloseButton">
+            <summary>
+            Gets or sets value indicates show button Close or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.IsEditorActivated">
+            <summary>
+            Gets or sets value indicates, that active instrument Edit Components.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.IsFindActivated">
+            <summary>
+            Gets or sets value indicates, that active instrument Find.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:Stimulsoft.Report.Viewer.StiViewerControl.IsHandModeActivated" -->
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.View">
+            <summary>
+            Gets control on which are displayed pages.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.ActivateBookmarksPanel">
+            <summary>
+            Activates Bookmarks panel. This method sets visibility of the Bookmarks button to true and shows the Bookmarks panel.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.ActivateThumbsPanel">
+            <summary>
+            Activates Thumbnails panel. This method sets visibility of the Thumbnails button to true and shows the Thumbnails panel.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.HideBookmarksPanel">
+            <summary>
+            Hides Bookmarks panel. This method sets visibility of the Bookmarks button to false and hides the Bookmarks panel.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.HideThumbsPanel">
+            <summary>
+            Hides Thumbnails panel. This method sets visibility of the Thumbnails button to false and hides the Thumbnails panel.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.Refresh">
+            <summary>
+            Refresh all content of the preview control.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.InvalidatePageRect(System.Drawing.Rectangle)">
+            <summary>
+            Invalidates the area of the page.
+            </summary>
+            <param name="pageRect">Rectangle of the page.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.InvalidateComponent(Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            Invalidates the area of specified component.
+            </summary>
+            <param name="comp"></param>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.GetVisiblePages">
+            <summary>
+            Gets the collection of the visible pages.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.PrepareReport">
+            <summary>
+            Prepares the report for viewing.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Viewer.StiViewerControl.BookmarkComponentInfo.IndexComp">
+            <summary>
+            Index of component in componentsOnPages array
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Viewer.StiViewerControl.BookmarkComponentInfo.IndexList">
+            <summary>
+            Index of component in Page.Components
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Viewer.StiViewerControl.BookmarkComponentInfo.Page">
+            <summary>
+            Rendered page
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.GetComponentRect(Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            Gets the rectangle of the component.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.XToScreen(System.Double,Stimulsoft.Report.Components.StiPage)">
+            <summary>
+            Convert X coordinate of the report to screen coordinate.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.YToScreen(System.Double,Stimulsoft.Report.Components.StiPage)">
+            <summary>
+            Convert Y coordinate of the report to screen coordinate.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.GetPageRect(Stimulsoft.Report.Viewer.StiPageParamView)">
+            <summary>
+            Gets the rectangle of the page.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.GetPageParamView(Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            Gets the parameters of the page containing specified component.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.PreparePreview">
+            <summary>
+            Internal use only.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.BuildBookmarks">
+            <summary>
+            Build bookmarks.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.LoadConfig">
+            <summary>
+            Load config of the preview control.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.SaveConfig">
+            <summary>
+            Save config of the preview control.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.FindComponentByTag(System.String)">
+            <summary>
+            Find component by component tag.
+            </summary>
+            <param name="value">Component tag.</param>
+            <returns>Finded component.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.FindComponentByBookmark(System.String)">
+            <summary>
+            Find component by component bookmark.
+            </summary>
+            <param name="value">Component bookmark value.</param>
+            <returns>Finded component.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.OpenFind">
+            <summary>
+            Actuate the instrument - Find.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.OpenEditor">
+            <summary>
+            Actuate the instrument - Editor.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.ScrollToComponent(Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            Scroll in preview window to the area of the specified component.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.ScrollToRect(System.Drawing.Rectangle)">
+            <summary>
+            Scroll in preview window to the area of the specified rectangle.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.ScrollToCurPage(System.Boolean)">
+            <summary>
+            Scroll in preview window to the area of the current page.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.SetZoom(System.String)">
+            <summary>
+            Set zoom.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.SetZoom(System.Double)">
+            <summary>
+            Set zoom.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.SetZoomPageWidth">
+            <summary>
+            Set the zoom of the draw - One Page on Width.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.SetZoomOnePage">
+            <summary>
+            Set the zoom of the draw - One Page.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.SetZoomTwoPages">
+            <summary>
+            Set the zoom of the draw - Two pages on Width.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.NextPage">
+            <summary>
+            Move to next page.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.LastPage">
+            <summary>
+            Move to last page.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.PrevPage">
+            <summary>
+            Move to previous page.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerControl.FirstPage">
+            <summary>
+            Move to first page.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiChartInteractionResult">
+            <summary>
+            Class contains result of chart interaction processin.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiParametersAccessor">
+            <summary>
+            This class contains functionality for working with parameters in a report viewer.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiRibbonDotMatrixViewerControl.ShowToolbar">
+            <summary>
+            Gets or sets value indicates show Toolbar or no.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiRibbonViewerForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiRibbonViewerForm.Report">
+            <summary>
+            Gets or sets viewed report.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiDotMatrixSettingsControl">
+            <summary>
+            Summary description for StiDotMatrixSettingsControl.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Viewer.StiDotMatrixSettingsControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiDotMatrixSettingsControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiDotMatrixSettingsControl.Localize">
+            <summary>
+            Localizing control.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiDotMatrixSettingsControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiDotMatrixViewControl">
+            <summary>
+            Summary description for StiDotMatrixViewControl.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Viewer.StiDotMatrixViewControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiDotMatrixViewControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiDotMatrixViewControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiDotMatrixViewerControl">
+            <summary>
+            Summary description for StiDotMatrixViewerControl.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiDotMatrixViewerControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiDotMatrixViewerControl.Localize">
+            <summary>
+            Localizing form.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiDotMatrixViewerControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiDotMatrixViewerControl.Report">
+            <summary>
+            Gets or sets viewed report.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiDotMatrixViewerControl.Style">
+            <summary>
+            Please use StiOptions.Windows.GlobalGuiStyle static property instead Style property of StiDotMatrixViewerControl!
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiDotMatrixViewerControl.CurrentPrintPage">
+            <summary>
+            Gets or sets current displayed page. Only for internal use.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiDotMatrixViewerControl.ShowToolbar">
+            <summary>
+            Gets or sets value indicates show Toolbar or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiDotMatrixViewerControl.ShowPrint">
+            <summary>
+            Gets or sets value indicates show button Print or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiDotMatrixViewerControl.ShowOpen">
+            <summary>
+            Gets or sets value indicates show button Open or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiDotMatrixViewerControl.ShowSave">
+            <summary>
+            Gets or sets value indicates show button Save or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiDotMatrixViewerControl.ShowCloseButton">
+            <summary>
+            Gets or sets value indicates show button Close or no.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiDotMatrixViewerControl.LoadConfig">
+            <summary>
+            Load config of the preview control.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiDotMatrixViewerControl.SaveConfig">
+            <summary>
+            Save config of the preview control.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiDotMatrixViewerForm">
+            <summary>
+            Window of the DotMatrix report viewer.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiDotMatrixViewerForm.Report">
+            <summary>
+            Gets or sets viewed report.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiDotMatrixViewerForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiDotMatrixViewerForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Viewer.StiFullScreenViewerForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiFullScreenViewerForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiFullScreenViewerForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Viewer.StiGoToPageForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiGoToPageForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiGoToPageForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Viewer.StiMultiPagesForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiMultiPagesForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiMultiPagesForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiMultiPagesUserControl">
+            <summary>
+            Summary description for StiMultiPagesUserControl.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Viewer.StiMultiPagesUserControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiMultiPagesUserControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiMultiPagesUserControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiPageSizeForm">
+            <summary>
+            Summary description for StiPageSizeForm.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Viewer.StiPageSizeForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiPageSizeForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiPageSizeForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiPageViewControl">
+            <summary>
+            Class describes control, which is used for drawing of the pages in the viewer control.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiTextEditor">
+            <summary>
+            Class allows to edit the text objects.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiThumbsControl">
+            <summary>
+            Class describes control, which is used for drawing of the thumbnails pages in the viewer control.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiViewerForm">
+            <summary>
+            Window of the viewer report.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerForm.Report">
+            <summary>
+            Gets or sets viewed report.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerForm.InitializeComponent(Stimulsoft.Report.StiReport)">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Viewer.StiViewerHelper.DrawPageBorder(System.Drawing.Graphics,System.Drawing.Rectangle,System.Boolean)">
+            <summary>
+            Draws frame of the page.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiViewerTextBox">
+            <summary>
+            This control is used in window of the preview, for editing text object.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Viewer.StiViewerTreeView">
+            <summary>
+            Summary description for StiViewerTreeView.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Stimulsoft.Report.Helper</name>
+    </assembly>
+    <members>
+        <member name="P:Stimulsoft.Report.Helper.StiLocalizationExt.Localization">
+            <summary>
+            Gets or sets name of file with localized resource.
+            </summary>
+        </member>
+    </members>
+</doc>

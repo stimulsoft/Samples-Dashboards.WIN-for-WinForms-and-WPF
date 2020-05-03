@@ -4,6 +4,8 @@ using Stimulsoft.Report.Dictionary;
 using System;
 using System.Linq;
 using System.Windows.Forms;
+using System.Collections.Generic;
+using System.Text;
 
 namespace Add_a_Custom_Function
 {
@@ -45,7 +47,6 @@ namespace Add_a_Custom_Function
                 new[] { "values" },
                 new[] { "A set of values" }).UseFullPath = false;
         }
-
         private void buttonDesigner_Click(object sender, EventArgs e)
         {
             var report = StiReport.CreateNewDashboard();
@@ -53,5 +54,6 @@ namespace Add_a_Custom_Function
 
             report.Design();
         }
+
     }
 }
