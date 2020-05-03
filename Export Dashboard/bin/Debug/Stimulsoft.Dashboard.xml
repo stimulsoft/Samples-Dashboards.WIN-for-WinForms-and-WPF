@@ -1,0 +1,3834 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Stimulsoft.Dashboard</name>
+    </assembly>
+    <members>
+        <member name="T:Stimulsoft.Dashboard.Components.Chart.Design.StiChartSeriesLabelsValueTypeConverter">
+            <summary>
+            Converts the StiSeriesLabelsValueType object from one data type to another. 
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Chart.Design.StiChartAreaConverter">
+            <summary>
+            Converts the StiChartArea object from one data type to another. 
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Chart.Design.StiColorsConverter">
+            <summary>
+            Converts colors array from one data type to another. 
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Chart.Design.StiYChartAxisConverter">
+            <summary>
+            Converts a StiYChartAxis object from one data type to another.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Chart.Design.StiXChartAxisConverter">
+            <summary>
+            Converts a StiXChartAxis object from one data type to another.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Chart.Design.StiValueChartMeterConverter">
+            <summary>
+            Converts a StiValueChartMeter object from one data type to another.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Chart.StiChartArea.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartArea.ReverseHor">
+            <summary>
+            Gets or sets value which indicate that all values on horizontal axis is reverse.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartArea.ReverseVert">
+            <summary>
+            Gets or sets value which indicate that all values on vertical axis is reverse.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartArea.InterlacingHor">
+            <summary>
+            Gets or sets interlacing settings on horizontal axis.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartArea.InterlacingVert">
+            <summary>
+            Gets or sets interlacing settings on vertical axis.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartArea.GridLinesHor">
+            <summary>
+            Gets or sets horizontal grid lines on left axis.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartArea.GridLinesVert">
+            <summary>
+            Gets or sets grid lines on vertical axis.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Chart.StiChartGridLines.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartGridLines.Color">
+            <summary>
+            Gets or sets color which will be used for drawing major grid lines.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Chart.StiChartLabels.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartLabels.Position">
+            <summary>
+            Gets or sets a position of the labels.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartLabels.AxisPosition">
+            <summary>
+            Gets or sets a position of the labels in the Axis Area charts.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartLabels.PiePosition">
+            <summary>
+            Gets or sets a position of the labels in the Pie Charts.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartLabels.DoughnutPosition">
+            <summary>
+            Gets or sets a position of the labels in the Doughtnut Charts.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartLabels.FunnelPosition">
+            <summary>
+            Gets or sets a position of the labels in the Funnel charts.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartLabels.TreemapPosition">
+            <summary>
+            Gets or sets a position of the labels in the Treemap charts.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartLabels.AutoRotate">
+            <summary>
+            Gets or sets value which enables or disables auto rotate mode drawing of the labels.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartLabels.ForeColor">
+            <summary>
+            Gets or sets a color which will be used for the labels drawing.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartLabels.Color">
+            <summary>
+            Gets or sets a color which will be used for the labels drawing.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartLabels.Font">
+            <summary>
+            Gets or set a font which will be used for the labels drawing.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartLabels.Style">
+            <summary>
+            Gets or sets a style of the labels.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartLabels.TextAfter">
+            <summary>
+            Gets or sets string which will be output after the labels string representation.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartLabels.TextBefore">
+            <summary>
+            Gets or sets string which will be output before the labels string representation.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Chart.StiChartConstantLines.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartConstantLines.Text">
+            <summary>
+            Gets or sets constant line text.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartConstantLines.LineStyle">
+            <summary>
+            Gets or sets constant line style.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartConstantLines.LineColor">
+            <summary>
+            Gets or sets color which will be used for drawing constant line.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartConstantLines.AxisValue">
+            <summary>
+            Gets or sets Y axis value through what the constant line is drawn.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartConstantLines.LineWidth">
+            <summary>
+            Gets or sets constant line width.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartElementCondition.Color">
+            <summary>
+            Gets or sets a series color.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Chart.StiChartMarker.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiVertChartGridLines.Visible">
+            <summary>
+            Gets or sets visibility of major grid lines.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiHorChartGridLines.Visible">
+            <summary>
+            Gets or sets visibility of major grid lines.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Chart.StiChartInterlacing.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartInterlacing.Color">
+            <summary>
+            Gets or sets color which used for drawing interlaced bars.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartInterlacing.Visible">
+            <summary>
+            Gets or sets visibility of interlaced bars.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels.Color">
+            <summary>
+            Gets or sets color of legend labels drawing.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels.Font">
+            <summary>
+            Gets or sets font which will be used for legend label drawing.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels.ValueType">
+            <summary>
+            Gets or sets which type of information will be shown in legend.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle.Color">
+            <summary>
+            Gets or sets color which will be used for title drawing.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle.Font">
+            <summary>
+            Gets or set font which will be used for axis title drawing.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle.Text">
+            <summary>
+            Gets or sets title text.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Chart.StiChartLegend.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartLegend.HorAlignment">
+            <summary>
+            Gets or sets horizontal alignment of legend placement.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartLegend.VertAlignment">
+            <summary>
+            Gets or sets vertical alignment of legend placement.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartLegend.Labels">
+            <summary>
+            Gets or sets legend labels settings.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartLegend.Title">
+            <summary>
+            Gets or sets legend title settings.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartLegend.Visible">
+            <summary>
+            Gets or sets visibility of axis.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartLegend.Direction">
+            <summary>
+            Gets or sets direction which used for series drawing in legend.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartLegend.Columns">
+            <summary>
+            Gets or sets amount of columns.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiYChartAxisTitle.Direction">
+            <summary>
+            Gets or set text direction for axis title drawing.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiXChartAxisTitle.Direction">
+            <summary>
+            Gets or set text direction for axis title drawing.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Chart.StiYChartAxis.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiYChartAxis.Title">
+            <summary>
+            Gets or sets axis title settings.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Chart.StiXChartAxis.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiXChartAxis.Title">
+            <summary>
+            Gets or sets axis title settings.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Chart.StiChartAxisTitle.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartAxisTitle.Visible">
+            <summary>
+            Gets or sets visibility of axis.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartAxisTitle.Alignment">
+            <summary>
+            Gets or sets title text alignment.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartAxisTitle.Color">
+            <summary>
+            Gets or sets color which will be used for title drawing.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartAxisTitle.Font">
+            <summary>
+            Gets or set font which will be used for axis title drawing.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartAxisTitle.Position">
+            <summary>
+            Gets or sets title text position.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartAxisTitle.Text">
+            <summary>
+            Gets or sets title text.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels.Angle">
+            <summary>
+            Gets or sets angle of label rotation.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels.Color">
+            <summary>
+            Gets or sets color of labels drawing.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels.Font">
+            <summary>
+            Gets or sets font which will be used for axis label drawing.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels.Placement">
+            <summary>
+            Gets or set mode of labels placement on axis.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels.TextAlignment">
+            <summary>
+            Gets or sets label text alignment.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels.TextAfter">
+            <summary>
+            Gets or sets string which will be output after argument string representation.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels.TextBefore">
+            <summary>
+            Gets or sets string which will be output before argument string representation.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Chart.StiChartAxis.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartAxis.Labels">
+            <summary>
+            Gets or sets axis labels settings.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartAxis.Visible">
+            <summary>
+            Gets or sets visibility of axis.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Chart.StiCloseValueChartMeter">
+            <summary>
+            Describes a meter class which contains information about Close-Values of the chart element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiCloseValueChartMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiCloseValueChartMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Chart.StiEndValueChartMeter">
+            <summary>
+            Describes a meter class which contains information about End-Values of the chart element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiEndValueChartMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiEndValueChartMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Chart.StiHighValueChartMeter">
+            <summary>
+            Describes a meter class which contains information about High-Values of the chart element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiHighValueChartMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiHighValueChartMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Chart.StiLowValueChartMeter">
+            <summary>
+            Describes a meter class which contains information about Low-Values of the chart element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiLowValueChartMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiLowValueChartMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Chart.StiOpenValueChartMeter">
+            <summary>
+            Describes a meter class which contains information about Open-Values of the chart element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiOpenValueChartMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiOpenValueChartMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Chart.StiYChartMeter">
+            <summary>
+            Describes a meter class which contains information about YCharts of the chart element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiYChartMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiYChartMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Chart.StiXChartMeter">
+            <summary>
+            Describes a meter class which contains information about XCharts of the chart element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiXChartMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiXChartMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Chart.StiChartSeriesType">
+            <summary>
+            Describes types of the chart series in the chart element.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Chart.StiChartLabelsStyle">
+            <summary>
+            Describes styles of the chart labels in the chart element.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter">
+            <summary>
+            Describes a meter class which contains information about Arguments of the chart element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Chart.StiSeriesChartMeter">
+            <summary>
+            Describes a meter class which contains information about Series of the chart element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiSeriesChartMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiSeriesChartMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter">
+            <summary>
+            Describes a meter class which contains information about Values of the chart element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Chart.StiWeightChartMeter">
+            <summary>
+            Describes a meter class which contains information about Weights of the chart element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiWeightChartMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiWeightChartMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Chart.StiChartElement">
+            <summary>
+            Chart component of the dashboards.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Chart.StiChartElement.Clone(System.Boolean)">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartElement.ComponentId">
+            <summary>
+            ID code of this component. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartElement.Layout">
+            <summary>
+            Gets layout of the element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartElement.SeriesColors">
+            <summary>
+            Gets or sets a list of colors which will be used for drawing series.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartElement.NegativeSeriesColors">
+            <summary>
+            Gets or sets a list of colors which will be used for drawing series with negative values.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartElement.ParetoSeriesColors">
+            <summary>
+            Gets or sets a list of colors which will be used for drawing lines pareto series.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Chart.StiChartElement.Stimulsoft#Report#IStiGlobalizationProvider#SetString(System.String,System.String)">
+            <summary>
+            Sets localized string to specified property name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Chart.StiChartElement.Stimulsoft#Report#IStiGlobalizationProvider#GetString(System.String)">
+            <summary>
+            Gets localized string from specified property name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Chart.StiChartElement.Stimulsoft#Report#IStiGlobalizationProvider#GetAllStrings">
+            <summary>
+            Returns array of the property names which can be localized.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartElement.ToolboxPosition">
+            <summary>
+            Gets value to sort a position in the toolbox.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartElement.LocalizedName">
+            <summary>
+            Gets a localized component name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartElement.XAxis">
+            <summary>
+            Gets or sets settings of XAxis.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartElement.YAxis">
+            <summary>
+            Gets or sets settings of YAxis.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartElement.Legend">
+            <summary>
+            Gets or sets settings of the legend.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartElement.Area">
+            <summary>
+            Gets or sets settings of the chart area.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartElement.Labels">
+            <summary>
+            Gets or sets settings of the chart labels.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartElement.ArgumentFormat">
+            <summary>
+            Gets or sets the format of the arguments.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartElement.ValueFormat">
+            <summary>
+            Gets or sets the format of the values.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Chart.StiChartElement.Marker">
+            <summary>
+            Gets or sets size of the marker.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Chart.StiChartElement.GetNestedPages">
+            <summary>
+            Returns a list of the nested pages.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Chart.StiChartElement.#ctor">
+            <summary>
+            Creates a new component of the type StiChartElement.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Chart.StiChartElement.#ctor(Stimulsoft.Base.Drawing.RectangleD)">
+            <summary>
+            Creates a new component of the type StiChartElement with specified location.
+            </summary>
+            <param name="rect">The rectangle describes size and position of the component.</param>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Chart.Helpers.StiChartSeriesCreator">
+            <summary>
+            This class helps in creation of new chart series object based on specified Ident of series type.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Chart.Helpers.StiChartSeriesCreator.New(System.String)">
+            <summary>
+            Creates new chart series object with help of its identification type name.
+            </summary>
+            <param name="typeName">A name of the identification type which is used for the series creation.</param>
+            <returns>Created series object.</returns>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Chart.Helpers.StiChartSeriesCreator.New(Stimulsoft.Dashboard.Components.Chart.StiChartSeriesType)">
+            <summary>
+            Creates new chart series object with help of it type.
+            </summary>
+            <param name="type">An idendification type of the series.</param>
+            <returns>Created series object.</returns>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Design.StiElementStyleConverter">
+            <summary>
+            Converts a StiElementStyleIdent object from one data type to another.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Design.StiMeterListConverter">
+            <summary>
+            Converts a List of StiMeter object from one data type to another.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Design.StiMeterConverter">
+            <summary>
+            Converts a StiMeter object from one data type to another.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Design.StiTitleConverter">
+            <summary>
+            Converts a StiTitle object from one data type to another.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.ComboBox.StiComboBoxElement">
+            <summary>
+            ComboBox widget component of the dashboards.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.ComboBox.StiComboBoxElement.ComponentId">
+            <summary>
+            ID code of this component. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.ComboBox.StiComboBoxElement.Clone(System.Boolean)">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.ComboBox.StiComboBoxElement.Font">
+            <summary>
+            Gets or sets the font of the text displayed by the control.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.ComboBox.StiComboBoxElement.ForeColor">
+            <summary>
+            Gets or sets font color for this element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.ComboBox.StiComboBoxElement.TextFormat">
+            <summary>
+            Gets or sets the format of the text.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.ComboBox.StiComboBoxElement.ToolboxPosition">
+            <summary>
+            Gets value to sort a position in the toolbox.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.ComboBox.StiComboBoxElement.LocalizedName">
+            <summary>
+            Gets a localized component name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.ComboBox.StiComboBoxElement.DefaultClientRectangle">
+            <summary>
+            Gets or sets the default client area of a component.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.ComboBox.StiComboBoxElement.#ctor">
+            <summary>
+            Creates a new element of the type StiComboBoxElement.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.ComboBox.StiComboBoxElement.#ctor(Stimulsoft.Base.Drawing.RectangleD)">
+            <summary>
+            Creates a new element of the type StiComboBoxElement with specified location.
+            </summary>
+            <param name="rect">The rectangle describes size and position of the component.</param>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.ComboBox.StiKeyComboBoxMeter">
+            <summary>
+            Describes a meter class which contains information about Keys of the combo element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.ComboBox.StiKeyComboBoxMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.ComboBox.StiKeyComboBoxMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.ComboBox.StiNameComboBoxMeter">
+            <summary>
+            Describes a meter class which contains information about Values of the combo element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.ComboBox.StiNameComboBoxMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.ComboBox.StiNameComboBoxMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.DatePicker.StiDatePickerElement">
+            <summary>
+            DatePicker widget component of the dashboards.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.DatePicker.StiDatePickerElement.ComponentId">
+            <summary>
+            ID code of this component. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.DatePicker.StiDatePickerElement.Clone(System.Boolean)">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.DatePicker.StiDatePickerElement.Font">
+            <summary>
+            Gets or sets the font of the text displayed by the control.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.DatePicker.StiDatePickerElement.ForeColor">
+            <summary>
+            Gets or sets font color for this element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.DatePicker.StiDatePickerElement.TextFormat">
+            <summary>
+            Gets or sets the format of the text.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.DatePicker.StiDatePickerElement.ToolboxPosition">
+            <summary>
+            Gets value to sort a position in the toolbox.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.DatePicker.StiDatePickerElement.LocalizedName">
+            <summary>
+            Gets a localized component name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.DatePicker.StiDatePickerElement.DefaultClientRectangle">
+            <summary>
+            Gets or sets the default client area of a component.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.DatePicker.StiDatePickerElement.#ctor">
+            <summary>
+            Creates a new element of the type StiDatePickerElement.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.DatePicker.StiDatePickerElement.#ctor(Stimulsoft.Base.Drawing.RectangleD)">
+            <summary>
+            Creates a new element of the type StiDatePickerElement with specified location.
+            </summary>
+            <param name="rect">The rectangle describes size and position of the component.</param>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.DatePicker.StiValueDatePickerMeter">
+            <summary>
+            Describes a meter class which contains information about Values of the datepicker element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.DatePicker.StiValueDatePickerMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.DatePicker.StiValueDatePickerMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Gauge.Design.StiGaugeRangeConverter">
+            <summary>
+            Converts a StiGaugeRange object from one data type to another.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange.Start">
+            <summary>
+            'Start' property obsoleted! Please use 'StartExpression' property instead of it.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange.End">
+            <summary>
+            'End' property obsoleted! Please use 'EndExpression' property instead of it.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange.StartExpression">
+            <summary>
+            Contains expression for calculation a start of the gauge range.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange.EndExpression">
+            <summary>
+            Contains expression for calculation a end of the gauge range.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange.SaveToString">
+            <summary>
+            Saves element to string.
+            </summary>
+            <returns>String representation which contains schema.</returns>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange.#ctor">
+            <summary>
+            Creates a new object of the type StiGaugeRange.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange.#ctor(System.Drawing.Color,System.Double,System.Double)">
+            <summary>
+            Creates a new object of the type StiGaugeRange.
+            </summary>
+            <param name="color">A color of the gauge range.</param>
+            <param name="start">A start value of the gauge range.</param>
+            <param name="end">An end value of the gauge range.</param>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange.#ctor(System.Drawing.Color,System.String,System.String)">
+            <summary>
+            Creates a new object of the type StiGaugeRange.
+            </summary>
+            <param name="color">A color of the gauge range.</param>
+            <param name="startExpression">An expression which calculates a start value of the gauge range.</param>
+            <param name="endExpression">An expression which calculates an end value of the gauge range.</param>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Gauge.StiSeriesGaugeMeter">
+            <summary>
+            Describes a meter class which contains information about Series of the gauge element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Gauge.StiSeriesGaugeMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Gauge.StiSeriesGaugeMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Gauge.StiValueGaugeMeter">
+            <summary>
+            Describes a meter class which contains information about Values of the gauge element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Gauge.StiValueGaugeMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Gauge.StiValueGaugeMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Gauge.StiMaxGaugeMeter">
+            <summary>
+            Describes a meter class which contains information about Max of the gauge element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Gauge.StiMaxGaugeMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Gauge.StiMaxGaugeMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Gauge.StiMinGaugeMeter">
+            <summary>
+            Describes a meter class which contains information about Min of the gauge element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Gauge.StiMinGaugeMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Gauge.StiMinGaugeMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement">
+            <summary>
+            Gauge component of the dashboards.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement.Clone(System.Boolean)">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement.ComponentId">
+            <summary>
+            ID code of this component. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement.Layout">
+            <summary>
+            Gets layout of the element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement.Font">
+            <summary>
+            Gets or sets the font of the text displayed by the control.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement.ForeColor">
+            <summary>
+            Gets or sets font color for this element.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement.Stimulsoft#Report#IStiGlobalizationProvider#SetString(System.String,System.String)">
+            <summary>
+            Sets localized string to specified property name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement.Stimulsoft#Report#IStiGlobalizationProvider#GetString(System.String)">
+            <summary>
+            Gets localized string from specified property name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement.Stimulsoft#Report#IStiGlobalizationProvider#GetAllStrings">
+            <summary>
+            Returns array of the property names which can be localized.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement.ToolboxPosition">
+            <summary>
+            Gets value to sort a position in the toolbox.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement.LocalizedName">
+            <summary>
+            Gets a localized component name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement.#ctor">
+            <summary>
+            Creates a new component of the type StiGaugeElement.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement.#ctor(Stimulsoft.Base.Drawing.RectangleD)">
+            <summary>
+            Creates a new component of the type StiGaugeElement with specified location.
+            </summary>
+            <param name="rect">The rectangle describes size and position of the component.</param>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Image.Design.StiImageBytesConverter">
+            <summary>
+            Converts image to string description. 
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Image.StiImageElement">
+            <summary>
+            Image component of the dashboards.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Image.StiImageElement.Clone(System.Boolean)">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Image.StiImageElement.ComponentId">
+            <summary>
+            ID code of this component. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Image.StiImageElement.HorAlignment">
+            <summary>
+            Gets or sets the image horizontal alignment.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Image.StiImageElement.VertAlignment">
+            <summary>
+            Gets or sets the vertical alignment of an image.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Image.StiImageElement.Padding">
+            <summary>
+            Gets or sets element padding.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Image.StiImageElement.Stimulsoft#Report#IStiGlobalizationProvider#SetString(System.String,System.String)">
+            <summary>
+            Sets localized string to specified property name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Image.StiImageElement.Stimulsoft#Report#IStiGlobalizationProvider#GetString(System.String)">
+            <summary>
+            Gets localized string from specified property name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Image.StiImageElement.Stimulsoft#Report#IStiGlobalizationProvider#GetAllStrings">
+            <summary>
+            Returns array of the property names which can be localized.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Image.StiImageElement.ToolboxPosition">
+            <summary>
+            Gets value to sort a position in the toolbox.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Image.StiImageElement.LocalizedName">
+            <summary>
+            Gets a localized component name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Image.StiImageElement.DefaultClientRectangle">
+            <summary>
+            Gets or sets the default client area of a component.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Image.StiImageElement.GetNestedPages">
+            <summary>
+            Returns a list of the nested pages.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Image.StiImageElement.#ctor">
+            <summary>
+            Creates a new component of the type StiImageElement.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Image.StiImageElement.#ctor(Stimulsoft.Base.Drawing.RectangleD)">
+            <summary>
+            Creates a new component of the type StiImageElement with specified location.
+            </summary>
+            <param name="rect">The rectangle describes size and position of the component.</param>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Indicator.StiSeriesIndicatorMeter">
+            <summary>
+            Describes a meter class which contains information about Series of the indicator element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Indicator.StiSeriesIndicatorMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Indicator.StiSeriesIndicatorMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Indicator.StiTargetIndicatorMeter">
+            <summary>
+            Describes a meter class which contains information about Targets of the indicator element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Indicator.StiTargetIndicatorMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Indicator.StiTargetIndicatorMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter">
+            <summary>
+            Describes a meter class which contains information about Values of the indicator element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement">
+            <summary>
+            Indicator component of the dashboards.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement.Clone(System.Boolean)">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement.ComponentId">
+            <summary>
+            ID code of this component. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement.TextFormat">
+            <summary>
+            Gets or sets the format of the text.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement.Font">
+            <summary>
+            Gets or sets the font of the text displayed by the control.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement.ForeColor">
+            <summary>
+            Gets or sets font color for this element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement.Layout">
+            <summary>
+            Gets layout of the element.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement.Stimulsoft#Report#IStiGlobalizationProvider#SetString(System.String,System.String)">
+            <summary>
+            Sets localized string to specified property name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement.Stimulsoft#Report#IStiGlobalizationProvider#GetString(System.String)">
+            <summary>
+            Gets localized string from specified property name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement.Stimulsoft#Report#IStiGlobalizationProvider#GetAllStrings">
+            <summary>
+            Returns array of the property names which can be localized.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement.ToolboxPosition">
+            <summary>
+            Gets value to sort a position in the toolbox.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement.LocalizedName">
+            <summary>
+            Gets a localized component name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement.DefaultClientRectangle">
+            <summary>
+            Gets or sets the default client area of a component.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement.GlyphColor">
+            <summary>
+            Gets or sets glyph color for this element.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement.#ctor">
+            <summary>
+            Creates a new component of the type StiIndicatorElement.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement.#ctor(Stimulsoft.Base.Drawing.RectangleD)">
+            <summary>
+            Creates a new component of the type StiIndicatorElement with specified location.
+            </summary>
+            <param name="rect">The rectangle describes size and position of the component.</param>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.ListBox.StiKeyListBoxMeter">
+            <summary>
+            Describes a meter class which contains information about Keys of the listbox element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.ListBox.StiKeyListBoxMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.ListBox.StiKeyListBoxMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.ListBox.StiListBoxElement">
+            <summary>
+            ListBox widget component of the dashboards.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.ListBox.StiListBoxElement.Clone(System.Boolean)">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.ListBox.StiListBoxElement.ComponentId">
+            <summary>
+            ID code of this component. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.ListBox.StiListBoxElement.Font">
+            <summary>
+            Gets or sets the font of the text displayed by the control.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.ListBox.StiListBoxElement.ForeColor">
+            <summary>
+            Gets or sets font color for this element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.ListBox.StiListBoxElement.TextFormat">
+            <summary>
+            Gets or sets the format of the text.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.ListBox.StiListBoxElement.Stimulsoft#Report#IStiGlobalizationProvider#SetString(System.String,System.String)">
+            <summary>
+            Sets localized string to specified property name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.ListBox.StiListBoxElement.Stimulsoft#Report#IStiGlobalizationProvider#GetString(System.String)">
+            <summary>
+            Gets localized string from specified property name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.ListBox.StiListBoxElement.Stimulsoft#Report#IStiGlobalizationProvider#GetAllStrings">
+            <summary>
+            Returns array of the property names which can be localized.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.ListBox.StiListBoxElement.ToolboxPosition">
+            <summary>
+            Gets value to sort a position in the toolbox.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.ListBox.StiListBoxElement.LocalizedName">
+            <summary>
+            Gets a localized component name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.ListBox.StiListBoxElement.DefaultClientRectangle">
+            <summary>
+            Gets or sets the default client area of a component.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.ListBox.StiListBoxElement.#ctor">
+            <summary>
+            Creates a new element of the type StiListBoxElement.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.ListBox.StiListBoxElement.#ctor(Stimulsoft.Base.Drawing.RectangleD)">
+            <summary>
+            Creates a new element of the type StiListBoxElement with specified location.
+            </summary>
+            <param name="rect">The rectangle describes size and position of the component.</param>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.ListBox.StiNameListBoxMeter">
+            <summary>
+            Describes a meter class which contains information about Names of the listbox element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.ListBox.StiNameListBoxMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.ListBox.StiNameListBoxMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.HeatmapGradient.Design.StiHeatmapGradientRangeConverter">
+            <summary>
+            Converts a StiHeatmapGradientRange object from one data type to another.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.OnlineMap.StiHeatmapGradientRange.Start">
+            <summary>
+            'Start' property obsoleted! Please use 'StartExpression' property instead of it.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.OnlineMap.StiHeatmapGradientRange.StartExpression">
+            <summary>
+            Contains expression for calculation a start of the heatmapGradient range.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.OnlineMap.StiHeatmapGradientRange.SaveToString">
+            <summary>
+            Saves element to string.
+            </summary>
+            <returns>String representation which contains schema.</returns>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.OnlineMap.StiHeatmapGradientRange.#ctor">
+            <summary>
+            Creates a new object of the type StiHeatmapGradientRange.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.OnlineMap.StiHeatmapGradientRange.#ctor(System.Double,System.Drawing.Color)">
+            <summary>
+            Creates a new object of the type StiHeatmapGradientRange.
+            </summary>
+            <param name="color">A color of the heatmapGradient range.</param>
+            <param name="start">A start value of the heatmapGradient range.</param>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.OnlineMap.StiHeatmapGradientRange.#ctor(System.Drawing.Color,System.String)">
+            <summary>
+            Creates a new object of the type StiHeatmapGradientRange.
+            </summary>
+            <param name="color">A color of the heatmapGradient range.</param>
+            <param name="startExpression">An expression which calculates a start value of the heatmapGradient range.</param>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.OnlineMap.StiLocationMapMeter">
+            <summary>
+            Describes a meter class which contains information about Location of the map element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.OnlineMap.StiLocationMapMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.OnlineMap.StiLocationMapMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.OnlineMap.StiLocationArgumentMapMeter">
+            <summary>
+            Describes a meter class which contains information about Location Argument of the map element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.OnlineMap.StiLocationArgumentMapMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.OnlineMap.StiLocationArgumentMapMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.OnlineMap.StiLocationValueMapMeter">
+            <summary>
+            Describes a meter class which contains information about Location Values of the map element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.OnlineMap.StiLocationValueMapMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.OnlineMap.StiLocationValueMapMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.OnlineMap.StiLocationColorMapMeter">
+            <summary>
+            Describes a meter class which contains information about Location Colors of the map element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.OnlineMap.StiLocationColorMapMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.OnlineMap.StiLocationColorMapMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.OnlineMap.StiLatitudeMapMeter">
+            <summary>
+            Describes a meter class which contains information about Latitudes of the map element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.OnlineMap.StiLatitudeMapMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.OnlineMap.StiLatitudeMapMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.OnlineMap.StiLongitudeMapMeter">
+            <summary>
+            Describes a meter class which contains information about Longitudes of the map element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.OnlineMap.StiLongitudeMapMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.OnlineMap.StiLongitudeMapMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.OnlineMap.StiOnlineMapElement">
+            <summary>
+            Map component of the dashboards.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.OnlineMap.StiOnlineMapElement.Clone(System.Boolean)">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.OnlineMap.StiOnlineMapElement.ComponentId">
+            <summary>
+            ID code of this component. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.OnlineMap.StiOnlineMapElement.Layout">
+            <summary>
+            Gets layout of the element.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.OnlineMap.StiOnlineMapElement.Stimulsoft#Report#IStiGlobalizationProvider#SetString(System.String,System.String)">
+            <summary>
+            Sets localized string to specified property name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.OnlineMap.StiOnlineMapElement.Stimulsoft#Report#IStiGlobalizationProvider#GetString(System.String)">
+            <summary>
+            Gets localized string from specified property name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.OnlineMap.StiOnlineMapElement.Stimulsoft#Report#IStiGlobalizationProvider#GetAllStrings">
+            <summary>
+            Returns array of the property names which can be localized.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.OnlineMap.StiOnlineMapElement.ToolboxPosition">
+            <summary>
+            Gets value to sort a position in the toolbox.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.OnlineMap.StiOnlineMapElement.LocalizedName">
+            <summary>
+            Gets a localized component name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.OnlineMap.StiOnlineMapElement.#ctor">
+            <summary>
+            Creates a new component of the type StiOnlineMapElement.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.OnlineMap.StiOnlineMapElement.#ctor(Stimulsoft.Base.Drawing.RectangleD)">
+            <summary>
+            Creates a new component of the type StiOnlineMapElement with specified location.
+            </summary>
+            <param name="rect">The rectangle describes size and position of the component.</param>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.PivotTable.Design.StiPivotRowConverter">
+            <summary>
+            Converts a StiPivotRow object from one data type to another.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.PivotTable.Design.StiPivotSummaryConverter">
+            <summary>
+            Converts a StiPivotSummary object from one data type to another.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.PivotTable.Design.StiPivotColumnConverter">
+            <summary>
+            Converts a StiPivotColumn object from one data type to another.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.PivotTable.StiPivotTableElementCondition.TextColor">
+            <summary>
+            Gets or sets a color to draw text.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.PivotTable.StiPivotTableElementCondition.BackColor">
+            <summary>
+            Gets or sets a color to draw background of text.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.PivotTable.StiPivotTableElementCondition.Font">
+            <summary>
+            Gets or sets font of text.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.PivotTable.StiPivotTableElement">
+            <summary>
+            Pivot Table component of the dashboards.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.PivotTable.StiPivotTableElement.Clone(System.Boolean)">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.PivotTable.StiPivotTableElement.ComponentId">
+            <summary>
+            ID code of this component. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.PivotTable.StiPivotTableElement.Layout">
+            <summary>
+            Gets layout of the element.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.PivotTable.StiPivotTableElement.Stimulsoft#Report#IStiGlobalizationProvider#SetString(System.String,System.String)">
+            <summary>
+            Sets localized string to specified property name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.PivotTable.StiPivotTableElement.Stimulsoft#Report#IStiGlobalizationProvider#GetString(System.String)">
+            <summary>
+            Gets localized string from specified property name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.PivotTable.StiPivotTableElement.Stimulsoft#Report#IStiGlobalizationProvider#GetAllStrings">
+            <summary>
+            Returns array of the property names which can be localized.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.PivotTable.StiPivotTableElement.ToolboxPosition">
+            <summary>
+            Gets value to sort a position in the toolbox.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.PivotTable.StiPivotTableElement.LocalizedName">
+            <summary>
+            Gets a localized component name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.PivotTable.StiPivotTableElement.#ctor">
+            <summary>
+            Creates a new component of the type StiPivotTableElement.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.PivotTable.StiPivotTableElement.#ctor(Stimulsoft.Base.Drawing.RectangleD)">
+            <summary>
+            Creates a new component of the type StiPivotTableElement with specified location.
+            </summary>
+            <param name="rect">The rectangle describes size and position of the component.</param>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.PivotTable.StiPivotSummary">
+            <summary>
+            Describes a meter class which contains information about Pivot Summaries of the pivot element.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.PivotTable.StiPivotSummary.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.PivotTable.StiPivotSummary.HorAlignment">
+            <summary>
+            Gets or sets the text horizontal alignment.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.PivotTable.StiPivotSummary.TextFormat">
+            <summary>
+            Gets or sets the format of the text.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.PivotTable.StiPivotSummary.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.PivotTable.StiPivotSummary.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.PivotTable.StiPivotRow">
+            <summary>
+            Describes a meter class which contains information about Pivot Rows of the pivot element.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.PivotTable.StiPivotRow.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.PivotTable.StiPivotRow.HorAlignment">
+            <summary>
+            Gets or sets the text horizontal alignment.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.PivotTable.StiPivotRow.TextFormat">
+            <summary>
+            Gets or sets the format of the text.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.PivotTable.StiPivotRow.TopN">
+            <summary>
+            Gets or sets the TopN 
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.PivotTable.StiPivotRow.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.PivotTable.StiPivotRow.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.PivotTable.StiPivotColumn">
+            <summary>
+            Describes a meter class which contains information about Pivot Columns of the pivot element.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.PivotTable.StiPivotColumn.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.PivotTable.StiPivotColumn.HorAlignment">
+            <summary>
+            Gets or sets the text horizontal alignment.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.PivotTable.StiPivotColumn.TextFormat">
+            <summary>
+            Gets or sets the format of the text.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:Stimulsoft.Dashboard.Components.PivotTable.StiPivotColumn.TopN" -->
+        <member name="P:Stimulsoft.Dashboard.Components.PivotTable.StiPivotColumn.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.PivotTable.StiPivotColumn.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Table.Design.StiBubbleColumnConverter">
+            <summary>
+            Converts a StiBubbleColumn object from one data type to another.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Table.Design.StiDimensionColumnConverter">
+            <summary>
+            Converts a StiDimensionColumn object from one data type to another.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Table.Design.StiDataBarsColumnConverter">
+            <summary>
+            Converts a StiDataBarsColumn object from one data type to another.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Table.Design.StiSparklinesColumnConverter">
+            <summary>
+            Converts a StiDataBarsColumn object from one data type to another.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Table.Design.StiTableColumnConverter">
+            <summary>
+            Converts a StiTableColumn object from one data type to another.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Table.StiBubbleColumn">
+            <summary>
+            Describes a meter class which contains information about Bubble Columns of the table element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiBubbleColumn.HorAlignment">
+            <summary>
+            Gets or sets the text horizontal alignment.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiBubbleColumn.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiBubbleColumn.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Table.StiDataBarsDirection">
+            <summary>
+            In which direction data bar will be filled by brush, from left to right or from right to left.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Dashboard.Components.Table.StiDataBarsDirection.LeftToRight">
+            <summary>
+            From left to right direction.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Dashboard.Components.Table.StiDataBarsDirection.RighToLeft">
+            <summary>
+            From right to left direction.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Table.StiDataBarsBrushType">
+            <summary>
+            Styles of brush for drawing Data Bars Indicator
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Dashboard.Components.Table.StiDataBarsBrushType.Solid">
+            <summary>
+            Solid brush.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Dashboard.Components.Table.StiDataBarsBrushType.Gradient">
+            <summary>
+            Gradient brush.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Table.StiSparklinesType">
+            <summary>
+            Types of the sparklines
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Dashboard.Components.Table.StiSparklinesType.Line">
+            <summary>
+            Line type.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Dashboard.Components.Table.StiSparklinesType.Area">
+            <summary>
+            Area type.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Dashboard.Components.Table.StiSparklinesType.Column">
+            <summary>
+            Column.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Dashboard.Components.Table.StiSparklinesType.WinLoss">
+            <summary>
+            WinLoss
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Table.StiColorScaleColumn">
+            <summary>
+            Describes a meter class which contains information about Color-Scale Columns of the table element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiColorScaleColumn.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiColorScaleColumn.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Table.StiDataBarsColumn">
+            <summary>
+            Describes a meter class which contains information about Data-Bar Columns of the table element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiDataBarsColumn.HorAlignment">
+            <summary>
+            Gets or sets the text horizontal alignment.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiDataBarsColumn.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiDataBarsColumn.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Table.StiIndicatorColumn">
+            <summary>
+            Describes a meter class which contains information about Indicator Columns of the table element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiIndicatorColumn.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiIndicatorColumn.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Table.StiDimensionColumn">
+            <summary>
+            Describes a meter class which contains information about Dimension Columns of the table element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiDimensionColumn.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiDimensionColumn.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiDimensionColumn.ShowHyperlink">
+            <summary>
+            Shows or not hyperlink.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiDimensionColumn.HyperlinkPattern">
+            <summary>
+            A hyperlink pattern.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Table.StiMeasureColumn">
+            <summary>
+            Describes a meter class which contains information about Measure Columns of the table element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiMeasureColumn.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiMeasureColumn.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Table.StiSparklinesColumn">
+            <summary>
+            Describes a meter class which contains information about Sparklines Columns of the table element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiSparklinesColumn.Type">
+            <summary>
+            Gets or sets the type of the sparklines.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiSparklinesColumn.ShowHighLowPoints">
+            <summary>
+            Gets or sets the value which indicates that high and low points should be show.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiSparklinesColumn.ShowFirstLastPoints">
+            <summary>
+            Gets or sets the value which indicates that first and last points should be show.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiSparklinesColumn.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiSparklinesColumn.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Table.StiTableColumn">
+            <summary>
+            Describes a meter class which contains information about Table Columns of the table element.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Table.StiTableColumn.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiTableColumn.HorAlignment">
+            <summary>
+            Gets or sets a text horizontal alignment.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiTableColumn.TextFormat">
+            <summary>
+            Gets or sets the format of the text.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiTableColumn.ForeColor">
+            <summary>
+            Gets or sets font color for this element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiTableColumn.Visible">
+            <summary>
+            Gets or sets a visibility of the column.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiTableColumn.ShowTotalSummary">
+            <summary>
+            Gets or sets a visibility of column totals.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiTableColumn.SummaryType">
+            <summary>
+            Gets or sets a summary type of column totals.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Table.StiTableElement">
+            <summary>
+            Table component of the dashboards.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Table.StiTableElement.Clone(System.Boolean)">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiTableElement.ComponentId">
+            <summary>
+            ID code of this component. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiTableElement.Layout">
+            <summary>
+            Gets layout of the element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiTableElement.ForeColor">
+            <summary>
+            Gets or sets font color for this element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiTableElement.Font">
+            <summary>
+            Gets or sets the font of the text displayed by the control.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiTableElement.IsSelected">
+            <summary>
+            Gets or sets value indicates is the component selected or not.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Table.StiTableElement.Stimulsoft#Report#IStiGlobalizationProvider#SetString(System.String,System.String)">
+            <summary>
+            Sets localized string to specified property name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Table.StiTableElement.Stimulsoft#Report#IStiGlobalizationProvider#GetString(System.String)">
+            <summary>
+            Gets localized string from specified property name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Table.StiTableElement.Stimulsoft#Report#IStiGlobalizationProvider#GetAllStrings">
+            <summary>
+            Returns array of the property names which can be localized.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiTableElement.ToolboxPosition">
+            <summary>
+            Gets value to sort a position in the toolbox.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiTableElement.LocalizedName">
+            <summary>
+            Gets a localized component name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiTableElement.SizeMode">
+            <summary>
+            Gets or sets the column size mode.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiTableElement.HeaderForeColor">
+            <summary>
+            Gets or sets fore color for the table header.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiTableElement.HeaderFont">
+            <summary>
+            Gets or sets the font of the table header.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiTableElement.FooterForeColor">
+            <summary>
+            Gets or sets fore color for the table header.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Table.StiTableElement.FooterFont">
+            <summary>
+            Gets or sets the font of the table footer.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Table.StiTableElement.GetNestedPages">
+            <summary>
+            Returns a list of the nested pages.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Table.StiTableElement.#ctor">
+            <summary>
+            Creates a new component of the type StiTableElement.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Table.StiTableElement.#ctor(Stimulsoft.Base.Drawing.RectangleD)">
+            <summary>
+            Creates a new component of the type StiTableElement with specified location.
+            </summary>
+            <param name="rect">The rectangle describes size and position of the component.</param>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.TreeViewBox.StiKeyTreeViewBoxMeter">
+            <summary>
+            Describes a meter class which contains information about Keys of the tree-view-box element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.TreeViewBox.StiKeyTreeViewBoxMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.TreeViewBox.StiKeyTreeViewBoxMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.TreeViewBox.StiTreeViewBoxElement">
+            <summary>
+            TreeViewBox widget component of the dashboards.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.TreeViewBox.StiTreeViewBoxElement.ComponentId">
+            <summary>
+            ID code of this component. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.TreeViewBox.StiTreeViewBoxElement.Clone(System.Boolean)">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.TreeViewBox.StiTreeViewBoxElement.Font">
+            <summary>
+            Gets or sets the font of the text displayed by the control.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.TreeViewBox.StiTreeViewBoxElement.ForeColor">
+            <summary>
+            Gets or sets font color for this element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.TreeViewBox.StiTreeViewBoxElement.TextFormat">
+            <summary>
+            Gets or sets the format of the text.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.TreeViewBox.StiTreeViewBoxElement.ToolboxPosition">
+            <summary>
+            Gets value to sort a position in the toolbox.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.TreeViewBox.StiTreeViewBoxElement.LocalizedName">
+            <summary>
+            Gets a localized component name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.TreeViewBox.StiTreeViewBoxElement.DefaultClientRectangle">
+            <summary>
+            Gets or sets the default client area of a component.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.TreeViewBox.StiTreeViewBoxElement.#ctor">
+            <summary>
+            Creates a new element of the type StiTreeViewBoxElement.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.TreeViewBox.StiTreeViewBoxElement.#ctor(Stimulsoft.Base.Drawing.RectangleD)">
+            <summary>
+            Creates a new element of the type StiTreeViewBoxElement with specified location.
+            </summary>
+            <param name="rect">The rectangle describes size and position of the component.</param>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.TreeView.StiTreeItem">
+            <summary>
+            Describes base information about tree-view items.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.TreeView.StiTreeItem.Key">
+            <summary>
+            A unique key of a tree-view item.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.TreeView.StiTreeItem.Meter">
+            <summary>
+            A related meter object.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.TreeView.StiTreeItem.Items">
+            <summary>
+            Nested items of this item.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.TreeView.StiKeyTreeViewMeter">
+            <summary>
+            Describes a meter class which contains information about Keys of the tree-view element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.TreeView.StiKeyTreeViewMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.TreeView.StiKeyTreeViewMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.TreeView.StiTreeViewElement">
+            <summary>
+            TreeView widget component of the dashboards.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.TreeView.StiTreeViewElement.Clone(System.Boolean)">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.TreeView.StiTreeViewElement.ComponentId">
+            <summary>
+            ID code of this component. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.TreeView.StiTreeViewElement.Font">
+            <summary>
+            Gets or sets the font of the text displayed by the control.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.TreeView.StiTreeViewElement.ForeColor">
+            <summary>
+            Gets or sets font color for this element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.TreeView.StiTreeViewElement.TextFormat">
+            <summary>
+            Gets or sets the format of the text.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.TreeView.StiTreeViewElement.Stimulsoft#Report#IStiGlobalizationProvider#SetString(System.String,System.String)">
+            <summary>
+            Sets localized string to specified property name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.TreeView.StiTreeViewElement.Stimulsoft#Report#IStiGlobalizationProvider#GetString(System.String)">
+            <summary>
+            Gets localized string from specified property name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.TreeView.StiTreeViewElement.Stimulsoft#Report#IStiGlobalizationProvider#GetAllStrings">
+            <summary>
+            Returns array of the property names which can be localized.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.TreeView.StiTreeViewElement.ToolboxPosition">
+            <summary>
+            Gets value to sort a position in the toolbox.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.TreeView.StiTreeViewElement.LocalizedName">
+            <summary>
+            Gets a localized component name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.TreeView.StiTreeViewElement.DefaultClientRectangle">
+            <summary>
+            Gets or sets the default client area of a component.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.TreeView.StiTreeViewElement.#ctor">
+            <summary>
+            Creates a new element of the type StiTreeViewElement.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.TreeView.StiTreeViewElement.#ctor(Stimulsoft.Base.Drawing.RectangleD)">
+            <summary>
+            Creates a new element of the type StiTreeViewElement with specified location.
+            </summary>
+            <param name="rect">The rectangle describes size and position of the component.</param>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.RegionMap.StiColorMapMeter">
+            <summary>
+            Describes a meter class which contains information about Colors of the map element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.RegionMap.StiColorMapMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.RegionMap.StiColorMapMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.RegionMap.StiGroupMapMeter">
+            <summary>
+            Describes a meter class which contains information about Groups of the map element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.RegionMap.StiGroupMapMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.RegionMap.StiGroupMapMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.RegionMap.StiRegionMapElement">
+            <summary>
+            Map component of the dashboards.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.RegionMap.StiRegionMapElement.Clone(System.Boolean)">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.RegionMap.StiRegionMapElement.ComponentId">
+            <summary>
+            ID code of this component. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.RegionMap.StiRegionMapElement.Layout">
+            <summary>
+            Gets layout of the element.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.RegionMap.StiRegionMapElement.Stimulsoft#Report#IStiGlobalizationProvider#SetString(System.String,System.String)">
+            <summary>
+            Sets localized string to specified property name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.RegionMap.StiRegionMapElement.Stimulsoft#Report#IStiGlobalizationProvider#GetString(System.String)">
+            <summary>
+            Gets localized string from specified property name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.RegionMap.StiRegionMapElement.Stimulsoft#Report#IStiGlobalizationProvider#GetAllStrings">
+            <summary>
+            Returns array of the property names which can be localized.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.RegionMap.StiRegionMapElement.ToolboxPosition">
+            <summary>
+            Gets value to sort a position in the toolbox.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.RegionMap.StiRegionMapElement.LocalizedName">
+            <summary>
+            Gets a localized component name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.RegionMap.StiRegionMapElement.GetNestedPages">
+            <summary>
+            Returns a list of the nested pages.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.RegionMap.StiRegionMapElement.#ctor">
+            <summary>
+            Creates a new component of the type StiRegionMapElement.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.RegionMap.StiRegionMapElement.#ctor(Stimulsoft.Base.Drawing.RectangleD)">
+            <summary>
+            Creates a new component of the type StiRegionMapElement with specified location.
+            </summary>
+            <param name="rect">The rectangle describes size and position of the component.</param>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.RegionMap.StiValueMapMeter">
+            <summary>
+            Describes a meter class which contains information about Values of the map element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.RegionMap.StiValueMapMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.RegionMap.StiValueMapMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.RegionMap.StiNameMapMeter">
+            <summary>
+            Describes a meter class which contains information about Names of the map element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.RegionMap.StiNameMapMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.RegionMap.StiNameMapMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.RegionMap.StiKeyMapMeter">
+            <summary>
+            Describes a meter class which contains information about Keys of the map element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.RegionMap.StiKeyMapMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.RegionMap.StiKeyMapMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Shape.StiShapeElement">
+            <summary>
+            Shape component of the dashboards.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Shape.StiShapeElement.Clone(System.Boolean)">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Shape.StiShapeElement.ComponentId">
+            <summary>
+            ID code of this component. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Shape.StiShapeElement.ToolboxPosition">
+            <summary>
+            Gets value to sort a position in the toolbox.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Shape.StiShapeElement.LocalizedName">
+            <summary>
+            Gets a localized component name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Shape.StiShapeElement.Padding">
+            <summary>
+            Gets or sets element padding.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Shape.StiShapeElement.Stimulsoft#Report#IStiGlobalizationProvider#SetString(System.String,System.String)">
+            <summary>
+            Sets localized string to specified property name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Shape.StiShapeElement.Stimulsoft#Report#IStiGlobalizationProvider#GetString(System.String)">
+            <summary>
+            Gets localized string from specified property name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Shape.StiShapeElement.Stimulsoft#Report#IStiGlobalizationProvider#GetAllStrings">
+            <summary>
+            Returns array of the property names which can be localized.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Shape.StiShapeElement.ShapeType">
+            <summary>
+            Gets or sets type of the shape.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Shape.StiShapeElement.Size">
+            <summary>
+            Gets or sets size of the border.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Shape.StiShapeElement.Fill">
+            <summary>
+            Gets or sets a brush to fill a component.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Shape.StiShapeElement.Stroke">
+            <summary>
+            Gets or sets stroke shape.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Shape.StiShapeElement.#ctor">
+            <summary>
+            Creates a new component of the type StiShapeElement.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Shape.StiShapeElement.#ctor(Stimulsoft.Base.Drawing.RectangleD)">
+            <summary>
+            Creates a new component of the type StiShapeElement with specified location.
+            </summary>
+            <param name="rect">The rectangle describes size and position of the component.</param>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Text.Design.StiTextConverter">
+            <summary>
+            Converts text to string description. 
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Text.StiTextElement">
+            <summary>
+            Text component of the dashboards.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Text.StiTextElement.Clone(System.Boolean)">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Text.StiTextElement.ComponentId">
+            <summary>
+            ID code of this component. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Text.StiTextElement.ForeColor">
+            <summary>
+            Gets or sets font color for this element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Text.StiTextElement.HorAlignment">
+            <summary>
+            Gets or sets the text horizontal alignment.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Text.StiTextElement.VertAlignment">
+            <summary>
+            Gets or sets the vertical alignment of an object.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Text.StiTextElement.Padding">
+            <summary>
+            Gets or sets element padding.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Text.StiTextElement.Stimulsoft#Report#IStiGlobalizationProvider#SetString(System.String,System.String)">
+            <summary>
+            Sets localized string to specified property name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Text.StiTextElement.Stimulsoft#Report#IStiGlobalizationProvider#GetString(System.String)">
+            <summary>
+            Gets localized string from specified property name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Text.StiTextElement.Stimulsoft#Report#IStiGlobalizationProvider#GetAllStrings">
+            <summary>
+            Returns array of the property names which can be localized.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Text.StiTextElement.ToolboxPosition">
+            <summary>
+            Gets value to sort a position in the toolbox.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Text.StiTextElement.LocalizedName">
+            <summary>
+            Gets a localized component name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Text.StiTextElement.DefaultClientRectangle">
+            <summary>
+            Gets or sets the default client area of a component.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Text.StiTextElement.GetNestedPages">
+            <summary>
+            Returns a list of the nested pages.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Text.StiTextElement.#ctor">
+            <summary>
+            Creates a new component of the type StiTextElement.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Text.StiTextElement.#ctor(Stimulsoft.Base.Drawing.RectangleD)">
+            <summary>
+            Creates a new component of the type StiTextElement with specified location.
+            </summary>
+            <param name="rect">The rectangle describes size and position of the component.</param>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.StiMeterIdent">
+            <summary>
+            Idents of different types of meters.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Helpers.StiMeterCreator">
+            <summary>
+            Class helps in creation new object of the StiMeter type.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Helpers.StiMeterCreator.New(System.String)">
+            <summary>
+            Creates new meter object with help of its identification type name.
+            </summary>
+            <param name="identName">A name of the identification type which is used for the meter creation.</param>
+            <returns>Created meter object.</returns>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Helpers.StiMeterCreator.New(Stimulsoft.Dashboard.Components.StiMeterIdent)">
+            <summary>
+            Creates new meter object with help of it identification type.
+            </summary>
+            <param name="ident">An idendification type of the meter.</param>
+            <returns>Created meter object.</returns>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.StiTitle">
+            <summary>
+            Describes a title of and element.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.StiTitle.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiTitle.HorAlignment">
+            <summary>
+            Gets or sets title text alignment.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiTitle.Font">
+            <summary>
+            Gets or set font which will be used for title drawing.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiTitle.BackColor">
+            <summary>
+            Gets or sets a back color.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiTitle.ForeColor">
+            <summary>
+            Gets or sets font color for this element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiTitle.Text">
+            <summary>
+            Gets or sets title text.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiTitle.Visible">
+            <summary>
+            Gets or sets visibility of title.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Panel.StiPanelElement">
+            <summary>
+            Panel component of the dashboards.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Panel.StiPanelElement.ComponentId">
+            <summary>
+            ID code of this component. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Panel.StiPanelElement.Zoom">
+            <summary>
+            Gets zoom of a report.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Panel.StiPanelElement.Margin">
+            <summary>
+            Gets or sets element margin.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Panel.StiPanelElement.Padding">
+            <summary>
+            Gets or sets element padding.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Panel.StiPanelElement.Border">
+            <summary>
+            Gets or sets border of the element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Panel.StiPanelElement.BackColor">
+            <summary>
+            Gets or sets a back color.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Panel.StiPanelElement.AltTitleVisible">
+            <summary>
+            Stores an alternative client enabled state of the element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Panel.StiPanelElement.AltClientRectangle">
+            <summary>
+            Stores an alternative client rectangle of the element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Panel.StiPanelElement.ToolboxPosition">
+            <summary>
+            Gets value to sort a position in the toolbox.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Panel.StiPanelElement.LocalizedName">
+            <summary>
+            Gets a localized component name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Panel.StiPanelElement.DefaultClientRectangle">
+            <summary>
+            Gets or sets the default client area of a component.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Panel.StiPanelElement.ServiceCategory">
+            <summary>
+            Gets a service category.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Panel.StiPanelElement.LocalizedCategory">
+            <summary>
+            Gets a localized name of the component category.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Panel.StiPanelElement.CanContainIn(Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            May this container be located in the specified component.
+            </summary>
+            <param name="component">Component for checking.</param>
+            <returns>true, if this container may is located in the specified component.</returns>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Panel.StiPanelElement.#ctor">
+            <summary>
+            Creates a new component of the type StiPanelElement.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Panel.StiPanelElement.#ctor(Stimulsoft.Base.Drawing.RectangleD)">
+            <summary>
+            Creates a new component of the type StiPanelElement with specified location.
+            </summary>
+            <param name="rect">The rectangle describes size and position of the component.</param>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.StiDimensionMeter">
+            <summary>
+            Describes a base class for all dimension meters.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.StiMeter">
+            <summary>
+            Describes a base class for all types of meter.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiMeter.Key">
+            <summary>
+            Gets or sets unically object identificator.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.StiMeasureMeter">
+            <summary>
+            Describes a base class for all measure meters.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Progress.StiSeriesProgressMeter">
+            <summary>
+            Describes a meter class which contains information about Series of the progress element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Progress.StiSeriesProgressMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Progress.StiSeriesProgressMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Progress.StiTargetProgressMeter">
+            <summary>
+            Describes a meter class which contains information about Targets of the progress element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Progress.StiTargetProgressMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Progress.StiTargetProgressMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Progress.StiValueProgressMeter">
+            <summary>
+            Describes a meter class which contains information about Values of the progress element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Progress.StiValueProgressMeter.Ident">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Progress.StiValueProgressMeter.LocalizedName">
+            <summary>
+            Localized name of this component type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.Progress.StiProgressElement">
+            <summary>
+            Progress component of the dashboards.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Progress.StiProgressElement.Clone(System.Boolean)">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Progress.StiProgressElement.ComponentId">
+            <summary>
+            ID code of this component. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Progress.StiProgressElement.TextFormat">
+            <summary>
+            Gets or sets the format of the text.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Progress.StiProgressElement.Font">
+            <summary>
+            Gets or sets the font of the text displayed by the control.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Progress.StiProgressElement.ForeColor">
+            <summary>
+            Gets or sets font color for this element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Progress.StiProgressElement.Layout">
+            <summary>
+            Gets layout of the element.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Progress.StiProgressElement.Stimulsoft#Report#IStiGlobalizationProvider#SetString(System.String,System.String)">
+            <summary>
+            Sets localized string to specified property name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Progress.StiProgressElement.Stimulsoft#Report#IStiGlobalizationProvider#GetString(System.String)">
+            <summary>
+            Gets localized string from specified property name.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Progress.StiProgressElement.Stimulsoft#Report#IStiGlobalizationProvider#GetAllStrings">
+            <summary>
+            Returns array of the property names which can be localized.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Progress.StiProgressElement.SeriesColors">
+            <summary>
+            Gets or sets a list of colors which will be used for drawing series.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Progress.StiProgressElement.ToolboxPosition">
+            <summary>
+            Gets value to sort a position in the toolbox.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Progress.StiProgressElement.LocalizedName">
+            <summary>
+            Gets a localized component name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.Progress.StiProgressElement.DefaultClientRectangle">
+            <summary>
+            Gets or sets the default client area of a component.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Progress.StiProgressElement.#ctor">
+            <summary>
+            Creates a new component of the type StiProgressElement.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.Progress.StiProgressElement.#ctor(Stimulsoft.Base.Drawing.RectangleD)">
+            <summary>
+            Creates a new component of the type StiProgressElement with specified location.
+            </summary>
+            <param name="rect">The rectangle describes size and position of the component.</param>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.StiDashboard">
+            <summary>
+            Represents a dashboard panel.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiDashboard.BackColor">
+            <summary>
+            Gets or sets a back color.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiDashboard.ServiceCategory">
+            <summary>
+            Gets a service category.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiDashboard.ComponentId">
+            <summary>
+            ID code of this meter. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiDashboard.LocalizedName">
+            <summary>
+            Gets a localized component name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiDashboard.Width">
+            <summary>
+            Gets or sets the total width of the dashboard.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiDashboard.Height">
+            <summary>
+            Gets or sets the total height of the dashboard.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiDashboard.AltSize">
+            <summary>
+            Stores an alternative size of the dashboard.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiDashboard.DashboardViewMode">
+            <summary>
+            Gets or sets a dashboard view mode - desktop or mobile.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiDashboard.DeviceWidth">
+            <summary>
+            Gets or sets the mobile width of the dashboard.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.StiDashboard.#ctor">
+            <summary>
+            Creates a new StiDashboard.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.StiDashboard.#ctor(Stimulsoft.Report.StiReport)">
+            <summary>
+            Creates a new StiDashboard.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Components.StiElement">
+            <summary>
+            Describes the base class for all dashboards elements.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.StiElement.Clone(System.Boolean)">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiElement.Border">
+            <summary>
+            Gets or sets border of the element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiElement.BackColor">
+            <summary>
+            Gets or sets a back color.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiElement.Margin">
+            <summary>
+            Gets or sets element margin.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiElement.Padding">
+            <summary>
+            Gets or sets element padding.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiElement.AltTitleVisible">
+            <summary>
+            Stores an alternative client enabled state of the element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiElement.AltClientRectangle">
+            <summary>
+            Stores an alternative client rectangle of the element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiElement.ServiceCategory">
+            <summary>
+            Gets a service category.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.StiElement.GetEvents">
+            <summary>
+            Return events collection of this component;
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.StiElement.CanContainIn(Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            May this container be located in the specified component.
+            </summary>
+            <param name="component">Component for checking.</param>
+            <returns>true, if this container may is located in the specified component.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiElement.LocalizedCategory">
+            <summary>
+            Gets a localized name of the component category.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiElement.LocalizedName">
+            <summary>
+            Gets a localized component name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiElement.DefaultClientRectangle">
+            <summary>
+            Gets or sets the default client area of a component.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Components.StiElement.Enabled">
+            <summary>
+            Gets or sets a value which indicates will this component be available or not.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.StiElement.GetNestedPages">
+            <summary>
+            Returns a list of the nested pages.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.StiElement.GetDefaultEvent">
+            <summary>
+            Gets default event for this report control.
+            </summary>
+            <returns>Default event.</returns>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.StiElement.#ctor">
+            <summary>
+            Creates a new StiElement.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Components.StiElement.#ctor(Stimulsoft.Base.Drawing.RectangleD)">
+            <summary>
+            Creates a new StiElement.
+            </summary>
+            <param name="rect">The rectangle describes sizes and position of the control.</param>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Helpers.StiReportPagesHelper">
+            <summary>
+            This class helps in working with nested pages of a report.
+            Nested pages are report pages which are used in drill-down interactions and can't be show in a viewer.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Helpers.StiAutoSizeHtmlTextHelper">
+            <summary>
+            Helps in working with an automatical resizing of the specified HTML text.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Helpers.StiAutoSizeTextHelper">
+            <summary>
+            Helps in drawing of a text.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Helpers.StiAutoSizeTextHelper.Draw(System.Drawing.Graphics,Stimulsoft.Base.Drawing.RectangleD,System.String,System.Drawing.Font,System.Drawing.Color,Stimulsoft.Base.Drawing.StiHorAlignment,Stimulsoft.Base.Drawing.StiVertAlignment)">
+            <summary>
+            Draws specified text with HTML tags with specified parameters.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Helpers.StiAutoSizeTextHelper.Draw(System.Drawing.Graphics,Stimulsoft.Base.Drawing.RectangleD,System.String,System.Drawing.Font,Stimulsoft.Base.Drawing.StiBrush,Stimulsoft.Base.Drawing.StiHorAlignment,Stimulsoft.Base.Drawing.StiVertAlignment)">
+            <summary>
+            Draws specified text with HTML tags with specified parameters.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Helpers.StiElementLocationHelper">
+            <summary>
+            This class helps in a calculation of positions of elements.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Helpers.StiGaugeVisualSvgHelper">
+            <summary>
+            This class helps to work with gauge visual object though SVG format.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Helpers.StiIndicatorVisualSvgHelper">
+            <summary>
+            This class helps to work with indicator visual object though SVG format.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Helpers.StiOnlineMapHelper">
+            <summary>
+            This class helps working with the online-map element.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Helpers.StiOnlineMapHelper.Approximate(Stimulsoft.Data.Engine.StiDataTable)">
+            <summary>
+            If points more than MAX_COORDINATES_LOCATIONS - combine nearby points into one
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Helpers.StiPivotTableHelper">
+            <summary>
+            This class contains methods for working with the pivot-table element.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Helpers.StiProgressVisualSvgHelper">
+            <summary>
+            This class helps to work with progress visual object though SVG format.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Helpers.StiTitleMeasureHelper">
+            <summary>
+            This class helps in a measuring of a size of the specified title of an element.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Helpers.StiTextFormatHelper">
+            <summary>
+            This class help in working with text formatting in the table element.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Helpers.StiTextFormatHelper.FormatBasedOnColumnType(Stimulsoft.Dashboard.Components.Table.StiTableElement,Stimulsoft.Dashboard.Components.Table.StiTableColumn,System.Object)">
+            <summary>
+            Creates a string with a formatting related to the specified table column.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Helpers.StiTextFormatHelper.Format(Stimulsoft.Report.StiReport,Stimulsoft.Report.Components.TextFormats.StiFormatService,System.Object)">
+            <summary>
+            Returns a string with format based on the specified StiFormatService object and a value.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Helpers.StiTextFormatHelper.FormatAsPercentage(Stimulsoft.Report.StiReport,System.Object)">
+            <summary>
+            Returns a string with percentage format based on a value.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Helpers.StiTextFormatHelper.FormatAsPercentage(Stimulsoft.Report.StiReport,Stimulsoft.Report.Components.TextFormats.StiFormatService,System.Object)">
+            <summary>
+            Returns a string with percentage format based on the specified StiFormatService object and a value.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Helpers.StiTextFormatHelper.GetDefaultFormatForColumn(Stimulsoft.Base.IStiAppDataCell)">
+            <summary>
+            Returns default StiFormatService object based on the specified StiDataColumn object.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Helpers.StiMeterHelper">
+            <summary>
+            This class helps in converting StiMeter object from and to different objects.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Images.StiDashboardImages">
+            <summary>
+            This class contains static properties for a quick access to the dashboard images. 
+            Internal use only!
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.StiTextFormatState">
+            <summary>
+            States of the text format usage.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.StiFilterCondition">
+            <summary>
+            Conditions of an element filter using.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.StiFilterItem">
+            <summary>
+            Items of an element filter using.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.StiFilterDataType">
+            <summary>
+            Types of the filter operation.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.Design.StiDashboardDrillDownParameterJsonConverter">
+            <summary>
+            Helps in working with JSON and StiDashboardDrillDownParameter.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.Design.StiGaugeDashboardInteractionConverter">
+            <summary>
+            Converts the StiGaugeDashboardInteraction object from one data type to another. 
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.Design.StiPivotTableDashboardInteractionConverter">
+            <summary>
+            Converts the StiPivotTableDashboardInteraction object from one data type to another. 
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.Design.StiIndicatorDashboardInteractionConverter">
+            <summary>
+            Converts the StiIndicatorDashboardInteraction object from one data type to another. 
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.Design.StiProgressDashboardInteractionConverter">
+            <summary>
+            Converts the StiProgressDashboardInteraction object from one data type to another. 
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.Design.StiOnlineMapDashboardInteractionConverter">
+            <summary>
+            Converts the StiOnlineMapDashboardInteraction object from one data type to another. 
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.Design.StiRegionMapDashboardInteractionConverter">
+            <summary>
+            Converts the StiRegionMapDashboardInteraction object from one data type to another. 
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.Design.StiImageDashboardInteractionConverter">
+            <summary>
+            Converts the StiImageDashboardInteraction object from one data type to another. 
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.Design.StiTextDashboardInteractionConverter">
+            <summary>
+            Converts the StiTextDashboardInteraction object from one data type to another. 
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.Design.StiDashboardInteractionConverter">
+            <summary>
+            Converts the StiDashboardInteraction object from one data type to another. 
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.Design.StiDashboardInteractionCreator">
+            <summary>
+            This class helps in creation new object of the StiDashboardInteraction type.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Interactions.Design.StiDashboardInteractionCreator.New(System.String)">
+            <summary>
+            Creates new format service object with help of its identification type name.
+            </summary>
+            <param name="identName">A name of the identification type which is used for the format service creation.</param>
+            <returns>Created format service object.</returns>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.Design.StiDashboardInteractionJsonConverter">
+            <summary>
+            Helps in working with JSON and StiDashboardInteraction.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.Design.StiDashboardInteractionLoader">
+            <summary>
+            Helps in converting an interaction object from JObject to StiDashboardInteraction.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.Design.StiDashboardDrillDownParameterConverter">
+            <summary>
+            Converts StiDashboardDrillDownParameter from one data type to another. 
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.Design.StiChartDashboardInteractionConverter">
+            <summary>
+            Converts the StiChartDashboardInteraction object from one data type to another. 
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.Design.StiTableDashboardInteractionConverter">
+            <summary>
+            Converts the StiTableDashboardInteraction object from one data type to another. 
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.StiPivotTableDashboardInteraction">
+            <summary>
+            Describes an interaction functionality of the gauge element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiPivotTableDashboardInteraction.Ident">
+            <summary>
+            ID code of this interaction. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.StiImageDashboardInteraction">
+            <summary>
+            Describes an interaction functionality of the image element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiImageDashboardInteraction.Ident">
+            <summary>
+            ID code of this interaction. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiImageDashboardInteraction.OnClick">
+            <summary>
+            Describes an interactive action for the click event of an element.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.StiIndicatorDashboardInteraction">
+            <summary>
+            Describes an interaction functionality of the region-map element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiIndicatorDashboardInteraction.Ident">
+            <summary>
+            ID code of this interaction. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiIndicatorDashboardInteraction.AllowUserSorting">
+            <summary>
+            A value which switches a posibility of an user sorting in the chart element.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.StiGaugeDashboardInteraction">
+            <summary>
+            Describes an interaction functionality of the gauge element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiGaugeDashboardInteraction.Ident">
+            <summary>
+            ID code of this interaction. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiGaugeDashboardInteraction.AllowUserSorting">
+            <summary>
+            A value which switches a posibility of an user sorting in the chart element.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.StiProgressDashboardInteraction">
+            <summary>
+            Describes an interaction functionality of the progress element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiProgressDashboardInteraction.Ident">
+            <summary>
+            ID code of this interaction. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiProgressDashboardInteraction.AllowUserSorting">
+            <summary>
+            A value which switches a posibility of an user sorting in the chart element.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.StiOnlineMapDashboardInteraction">
+            <summary>
+            Describes an interaction functionality of the online-map element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiOnlineMapDashboardInteraction.Ident">
+            <summary>
+            ID code of this interaction. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.StiTextDashboardInteraction">
+            <summary>
+            Describes an interaction functionality of the text element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiTextDashboardInteraction.Ident">
+            <summary>
+            ID code of this interaction. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiTextDashboardInteraction.OnClick">
+            <summary>
+            Describes an interactive action for the click event of an element.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.StiDashboardDrillDownParameter">
+            <summary>
+            Describes a parameter object which is used for the drill-down functionality.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Interactions.StiDashboardDrillDownParameter.ToList">
+            <summary>
+            Retuns a list which contains that parameter.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Interactions.StiDashboardDrillDownParameter.SaveToString">
+            <summary>
+            Saves element to string.
+            </summary>
+            <returns>String representation which contains schema.</returns>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiDashboardDrillDownParameter.Expression">
+            <summary>
+            Gets or sets expression to fill drill-down parameter.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.StiDrillDownHelper">
+            <summary>
+            Helps in working with drill-down functionality of an elements.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Interactions.StiDrillDownHelper.IsDrillAvailable(Stimulsoft.Report.Dashboard.IStiElement)">
+            <summary>
+            Returns true if the specified element contains drill-down functionality and it's enabled. Otherwise, returns false.
+            </summary>        
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Interactions.StiDrillDownHelper.IsDrillUpAvailable(Stimulsoft.Report.Dashboard.IStiElement)">
+            <summary>
+            Returns true if an drill-up action available for the specified element. Otherwise, returns false.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Interactions.StiDrillDownHelper.IsDrillDownAvailable(Stimulsoft.Report.Dashboard.IStiElement)">
+            <summary>
+            Returns true if an drill-down action available for the specified element. Otherwise, returns false.
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Interactions.StiDrillDownHelper.DrillUp(Stimulsoft.Report.Dashboard.IStiElement)">
+            <summary>
+            Executes drill-up action for the specified element.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Interactions.StiDrillDownHelper.DrillDown(Stimulsoft.Report.Dashboard.IStiElement,System.Collections.Generic.List{Stimulsoft.Data.Engine.StiDataFilterRule})">
+            <summary>
+            Executes drill-down action for the specified element.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.StiRegionMapDashboardInteraction">
+            <summary>
+            Describes an interaction functionality of the region-map element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiRegionMapDashboardInteraction.Ident">
+            <summary>
+            ID code of this interaction. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.StiDashboardInteraction">
+            <summary>
+            This is a base class which describes properties and methods to work with an element interactifity.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiDashboardInteraction.Ident">
+            <summary>
+            ID code of this interaction. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiDashboardInteraction.OnHover">
+            <summary>
+            Describes an interactive action for the hover event of an element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiDashboardInteraction.OnClick">
+            <summary>
+            Describes an interactive action for the click event of an element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiDashboardInteraction.HyperlinkDestination">
+            <summary>
+            Describes a destination where new tab should be opened.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiDashboardInteraction.ToolTip">
+            <summary>
+            Describes a text for the tooltip.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiDashboardInteraction.Hyperlink">
+            <summary>
+            Describes an URI pattern which is used to create final URL.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiDashboardInteraction.DrillDownPageKey">
+            <summary>
+            Describes a key of the dashboard page which should be opened.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiDashboardInteraction.DrillDownParameters">
+            <summary>
+            Describes a list of drillDownParameters.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.StiChartDashboardInteraction">
+            <summary>
+            Describes an interaction functionality of the chart element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiChartDashboardInteraction.Ident">
+            <summary>
+            ID code of this interaction. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiChartDashboardInteraction.AllowUserDrillDown">
+            <summary>
+            A value which switches a posibility of an user drill down in the element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiChartDashboardInteraction.AllowUserSorting">
+            <summary>
+            A value which switches a posibility of an user sorting in the chart element.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.StiTableColumnDashboardInteraction">
+            <summary>
+            Describes an interaction functionality of the table column.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiTableColumnDashboardInteraction.Ident">
+            <summary>
+            ID code of this interaction. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiTableColumnDashboardInteraction.OnHover">
+            <summary>
+            Describes an interactive action for the hover event of an element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiTableColumnDashboardInteraction.OnClick">
+            <summary>
+            Describes an interactive action for the click event of an element.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Interactions.StiTableDashboardInteraction">
+            <summary>
+            Describes an interaction functionality of the table element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiTableDashboardInteraction.AllowUserSorting">
+            <summary>
+            A value which switches a posibility of an user sorting in the table element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiTableDashboardInteraction.AllowUserFiltering">
+            <summary>
+            A value which switches a posibility of an user filtering in the table element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiTableDashboardInteraction.Ident">
+            <summary>
+            ID code of this interaction. Used in JSON saving.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiTableDashboardInteraction.DrillDownFiltered">
+            <summary>
+            Values which indicates that table element will show filtered rows only after filter applying. 
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Interactions.StiTableDashboardInteraction.FullRowSelect">
+            <summary>
+            Values which indicates that all cells across row must be selected. 
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Options.StiDashboardElementsLoader">
+            <summary>
+            This class returns the whole list of supported dashboard elements. 
+            Internal use only!
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Options.StiDashboardElementsLoader.FetchAll">
+            <summary>
+            Returns a list of supported dashboard elements. 
+            Internal use only!
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Options.StiDashboardElementsLoader.Load">
+            <summary>
+            Adds all supported dashboard elements to the services collection. 
+            Internal use only!
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Options.StiDashboardOptions">
+            <summary>
+            This class for adjustment all aspects of Stimulsoft Dashboards.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Dashboard.Options.StiDashboardOptions.Data.AllowNulls">
+            <summary>
+            If true then data engine will calculate null values, otherwise null values will be skip
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Render.StiBubbleChartElementBuilder">
+            <summary>
+            Helps in a rendering of bubble-chart elements.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Render.StiChartElementBuilder">
+            <summary>
+            Helps in a rendering of chart elements.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Render.StiElementBuilder">
+            <summary>
+            This is a base type of class which help in a rendering different types of elements.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Render.StiFinancialChartElementBuilder">
+            <summary>
+            Helps in a rendering of financial-chart elements.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Render.StiRangeChartElementBuilder">
+            <summary>
+            Helps in a rendering of range-chart elements.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Render.StiShapeElementBuilder">
+            <summary>
+            Helps in a rendering of shape elements.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Render.StiSunburstChartElementBuilder">
+            <summary>
+            Helps in a rendering of sunburst-chart elements.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Render.StiIndicatorElementBuilder">
+            <summary>
+            Helps in a rendering of indicator elements.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Render.StiProgressElementBuilder">
+            <summary>
+            Helps in a rendering of progress elements.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Render.StiGaugeElementBuilder">
+            <summary>
+            Helps in a rendering of gauge elements.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Export.StiExportToolAttribute">
+            <summary>
+            Specifies an export-tool type which helps in an exporting an element to specified format.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Visualizers.StiGdiVisualizer">
+            <summary>
+            This class helps with a visualization via GDI technology of elements.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Visualizers.StiGdiVisualizer.Render(Stimulsoft.Report.Dashboard.IStiElement)">
+            <summary>
+            Renders specified element object to WinForms control.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Visualizers.StiGdiVisualizerAttribute">
+            <summary>
+            Is used for specifying of GDI visualizator class.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Visualizers.StiVisualizer">
+            <summary>
+            This class helps with a visualization of elements.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Visualizers.StiVisualizer.GetVisualizer(System.Type,Stimulsoft.Base.StiGuiMode)">
+            <summary>
+            Returns visualizer object for the specified type and GUI mode.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Visualizers.StiWpfVisualizer">
+            <summary>
+            This class helps with a visualization via WPF technology of elements.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Visualizers.StiWpfVisualizer.Render(Stimulsoft.Report.Dashboard.IStiElement)">
+            <summary>
+            Renders specified element object to WPF control.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Visualizers.StiWpfVisualizerAttribute">
+            <summary>
+            Is used for specifying of WPF visualizator class.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Visuals.Gauge.StiGaugeIteration">
+            <summary>
+            This class is used for the gauge element rendering.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Visuals.Gauge.StiGaugeIteration.Gauge">
+            <summary>
+            A reference to the rendered gauge element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Visuals.Gauge.StiGaugeIteration.Series">
+            <summary>
+            A string representation of a series of the gauge element.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Visuals.Indicator.StiIndicatorIteration">
+            <summary>
+            This class is used for the indicator element rendering.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Visuals.Indicator.StiIndicatorIteration.Series">
+            <summary>
+            A string representation of a series of the indicator element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Visuals.Indicator.StiIndicatorIteration.Value">
+            <summary>
+            A value of the current indicator iteraction.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Visuals.Indicator.StiIndicatorIteration.Target">
+            <summary>
+            A target value of the current indicator iteraction.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Visuals.Indicator.StiIndicatorVisual">
+            <summary>
+            This is a class to work with the indicator element visualization.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Visuals.Indicator.StiIndicatorVisual.Draw(Stimulsoft.Base.Context.StiContext,System.Drawing.RectangleF)">
+            <summary>
+            Draws a visual object on specified context and at specified location.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Visuals.Progress.Helpers.StiProgressVisualCreator">
+            <summary>
+            This class helps in working with the progress element visualization.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Visuals.Progress.StiDataBarsProgressVisual">
+            <summary>
+            This is a base class to work with the data-bars-progress element visualization.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Visuals.Progress.StiDataBarsProgressVisual.Draw(Stimulsoft.Base.Context.StiContext,System.Drawing.RectangleF)">
+            <summary>
+            Draws a visual object on specified context and at specified location.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Visuals.Progress.StiCircleProgressVisual">
+            <summary>
+            This is a base class to work with the circle-progress element visualization.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Visuals.Progress.StiCircleProgressVisual.Draw(Stimulsoft.Base.Context.StiContext,System.Drawing.RectangleF)">
+            <summary>
+            Draws a visual object on specified context and at specified location.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Visuals.Progress.StiPieProgressVisual">
+            <summary>
+            This is a base class to work with the pie-progress element visualization.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Visuals.Progress.StiPieProgressVisual.Draw(Stimulsoft.Base.Context.StiContext,System.Drawing.RectangleF)">
+            <summary>
+            Draws a visual object on specified context and at specified location.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Visuals.Progress.StiProgressIteration">
+            <summary>
+            This class is used for the progress element rendering.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Visuals.Progress.StiProgressIteration.Series">
+            <summary>
+            A string representation of a series of the progress element.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Visuals.Progress.StiProgressIteration.Value">
+            <summary>
+            A value of the current progress iteraction.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Visuals.Progress.StiProgressIteration.Target">
+            <summary>
+            A target value of the current progress iteraction.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Visuals.Progress.StiProgressVisual">
+            <summary>
+            This is a base class to work with the progress element visualization.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Visuals.StiVisual">
+            <summary>
+            This is a base class to work with a dashboard visualization.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Visuals.StiVisual.Draw(System.Drawing.Graphics,System.Drawing.RectangleF)">
+            <summary>
+            Draws a visual object on specified graphics and at specified location.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Visuals.StiVisual.Draw(Stimulsoft.Base.Context.StiContext,System.Drawing.RectangleF)">
+            <summary>
+            Draws a visual object on specified context and at specified location.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Base.Localization.StiChartLabelsPositionConverter">
+            <summary>
+            Provides a type converter to convert Enum objects to and from various other representations.
+            </summary>
+        </member>
+    </members>
+</doc>

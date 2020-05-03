@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Stimulsoft.Dashboard.Viewer</name>
+    </assembly>
+    <members>
+        <member name="F:Stimulsoft.Dashboard.Viewer.Controls.DatePicker.StiDateRangeControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Controls.DatePicker.StiDateRangeControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Controls.DatePicker.StiDateRangeControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Dashboard.Viewer.Controls.Table.Menu.StiTableElementFiltersForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Controls.Table.Menu.StiTableElementFiltersForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Controls.Table.Menu.StiTableElementFiltersForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Dashboard.Viewer.Controls.Table.Menu.StiTableElementFilterZoneControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Controls.Table.Menu.StiTableElementFilterZoneControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Controls.Table.Menu.StiTableElementFilterZoneControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Dashboard.Viewer.Controls.Table.Menu.StiTableZoneContainer.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Controls.Table.Menu.StiTableZoneContainer.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Controls.Table.Menu.StiTableZoneContainer.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Dashboard.Viewer.Controls.Table.Menu.StiTableZoneControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Controls.Table.Menu.StiTableZoneControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Controls.Table.Menu.StiTableZoneControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Dashboard.Viewer.Controls.Table.StiTableFooterControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Controls.Table.StiTableFooterControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Controls.Table.StiTableFooterControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Dashboard.Viewer.Export.StiDashboardDataExportSetupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Export.StiDashboardDataExportSetupForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Export.StiDashboardDataExportSetupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Dashboard.Viewer.Export.StiDashboardExcelExportSetupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Export.StiDashboardExcelExportSetupForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Export.StiDashboardExcelExportSetupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Dashboard.Viewer.Export.StiDashboardImageExportSetupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Export.StiDashboardImageExportSetupForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Export.StiDashboardImageExportSetupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Dashboard.Viewer.Export.StiDashboardPdfExportSetupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Export.StiDashboardPdfExportSetupForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Export.StiDashboardPdfExportSetupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Viewer.FullScreen.StiElementFullScreenHelper.StoredParent">
+            <summary>
+            Stored parent control for the fullscreen mode.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Viewer.FullScreen.StiElementFullScreenHelper.StoredIndex">
+            <summary>
+            Stored position in the collection of the controls for the fullscreen mode.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Viewer.FullScreen.StiElementFullScreenHelper.CurrentControl">
+            <summary>
+            Control which now is viewing in fullscreen mode.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Viewer.FullScreen.StiViewerFullScreenHelper.StoredParent">
+            <summary>
+            Stored parent control for the fullscreen mode for whole viewer.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Dashboard.Viewer.StiDashboardViewerControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.StiDashboardViewerControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.StiDashboardViewerControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Viewer.StiDashboardViewerForm">
+            <summary>
+            Window of the dashboard viewer.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.StiDashboardViewerForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Dashboard.Viewer.StiDashboardViewerForm.report">
+            <summary>
+            Gets or sets viewed report.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.StiDashboardViewerForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

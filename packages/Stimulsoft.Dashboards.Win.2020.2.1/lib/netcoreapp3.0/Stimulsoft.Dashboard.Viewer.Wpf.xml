@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Stimulsoft.Dashboard.Viewer.Wpf</name>
+    </assembly>
+    <members>
+        <member name="T:Stimulsoft.Dashboard.Viewer.Wpf.Controls.Table.StiWpfTableElementFiltersWindow">
+            <summary>
+            StiWpfTableElementFiltersWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Wpf.Controls.Table.StiWpfTableElementFiltersWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Viewer.Wpf.Controls.Table.StiWpfTableElementFilterZoneControl">
+            <summary>
+            StiWpfTableElementFilterZoneControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Wpf.Controls.Table.StiWpfTableElementFilterZoneControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Viewer.Wpf.Export.Controls.StiWpfPaperSizeControl">
+            <summary>
+            StiWpfPaperSizeControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Wpf.Export.Controls.StiWpfPaperSizeControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Viewer.Wpf.Export.StiWpfDashboardDataExportSetupWindow">
+            <summary>
+            StiWpfDashboardDataExportSetupWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Wpf.Export.StiWpfDashboardDataExportSetupWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Viewer.Wpf.Export.StiWpfDashboardExcelExportSetupWindow">
+            <summary>
+            StiWpfDashboardExcelExportSetupWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Wpf.Export.StiWpfDashboardExcelExportSetupWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Viewer.Wpf.Export.StiWpfDashboardImageExportSetupWindow">
+            <summary>
+            StiWpfDashboardImageExportSetupWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Wpf.Export.StiWpfDashboardImageExportSetupWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Viewer.Wpf.Export.StiWpfDashboardPdfExportSetupWindow">
+            <summary>
+            StiWpfDashboardPdfExportSetupWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Wpf.Export.StiWpfDashboardPdfExportSetupWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Wpf.Helpers.StiWpfChartElementInteractionHelper.GetGeomAt(Stimulsoft.Report.Chart.StiChart,Stimulsoft.Dashboard.Components.Chart.StiChartElement,Stimulsoft.Base.Drawing.RectangleD,System.Single,System.Single,Stimulsoft.Report.Chart.StiCellGeom@,System.Single,System.Type)">
+            <summary>
+            Returns geom cell object for specified chartElement at specified x and y location.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Wpf.Helpers.StiWpfChartElementInteractionHelper.GetInteraction(Stimulsoft.Report.Chart.StiChart,Stimulsoft.Dashboard.Components.Chart.StiChartElement,Stimulsoft.Base.Drawing.RectangleD,System.Single,System.Single,Stimulsoft.Report.Chart.StiCellGeom@,System.Single,System.Type)">
+            <summary>
+            Returns IStiGeomInteraction object for specified chart at specified x and y location.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Wpf.Helpers.StiWpfChartElementInteractionHelper.ResetChartGeomCache">
+            <summary>
+            Resets all chart geom cache settings.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Viewer.Wpf.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Viewer.Wpf.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Viewer.Wpf.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Wpf.StiChartElementInteractionHelper.GetGeomAt(Stimulsoft.Report.Chart.StiChart,Stimulsoft.Dashboard.Components.Chart.StiChartElement,Stimulsoft.Base.Drawing.RectangleD,System.Single,System.Single,Stimulsoft.Report.Chart.StiCellGeom@,System.Single,System.Type)">
+            <summary>
+            Returns geom cell object for specified chartElement at specified x and y location.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Wpf.StiChartElementInteractionHelper.GetInteraction(Stimulsoft.Report.Chart.StiChart,Stimulsoft.Dashboard.Components.Chart.StiChartElement,Stimulsoft.Base.Drawing.RectangleD,System.Single,System.Single,Stimulsoft.Report.Chart.StiCellGeom@,System.Single,System.Type)">
+            <summary>
+            Returns IStiGeomInteraction object for specified chart at specified x and y location.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Wpf.StiChartElementInteractionHelper.ResetChartGeomCache">
+            <summary>
+            Resets all chart geom cache settings.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Viewer.Wpf.StiWpfDashboardViewerControl">
+            <summary>
+            StiWpfDashboardViewerControl
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Viewer.Wpf.StiWpfDashboardViewerControl.StoredParentForFullScreen">
+            <summary>
+            Stored parent control for the fullscreen mode.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Dashboard.Viewer.Wpf.StiWpfDashboardViewerControl.CurrentControlInFullScreen">
+            <summary>
+            Control which now is viewing in fullscreen mode.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Wpf.StiWpfDashboardViewerControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Viewer.Wpf.StiWpfDashboardViewerWindow">
+            <summary>
+            StiWpfDashboardViewerWindow
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Dashboard.Viewer.Wpf.StiWpfDashboardViewerWindow.report">
+            <summary>
+            Gets or sets viewed report.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Wpf.StiWpfDashboardViewerWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Viewer.Wpf.ThemeControls.Calendar.StiDateCenturyControl">
+            <summary>
+            StiDateCenturyControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Wpf.ThemeControls.Calendar.StiDateCenturyControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Viewer.Wpf.ThemeControls.Calendar.StiDateDaysControl">
+            <summary>
+            StiDateDaysControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Wpf.ThemeControls.Calendar.StiDateDaysControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Viewer.Wpf.ThemeControls.Calendar.StiDateMonthsControl">
+            <summary>
+            StiDateMonthsControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Wpf.ThemeControls.Calendar.StiDateMonthsControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Viewer.Wpf.ThemeControls.Calendar.StiDateRootControl">
+            <summary>
+            StiDateRootControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Wpf.ThemeControls.Calendar.StiDateRootControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Viewer.Wpf.ThemeControls.Calendar.StiDateYearsControl">
+            <summary>
+            StiDateYearsControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Wpf.ThemeControls.Calendar.StiDateYearsControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Viewer.Wpf.ThemeControls.Calendar.StiTimeControl">
+            <summary>
+            StiTimeControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Wpf.ThemeControls.Calendar.StiTimeControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Viewer.Wpf.ThemeControls.DatePicker.StiWpfRangleDateControl">
+            <summary>
+            StiWpfRangleDateControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Wpf.ThemeControls.DatePicker.StiWpfRangleDateControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Dashboard.Viewer.Wpf.ThemeControls.DatePicker.StiWpfSingleDateControl">
+            <summary>
+            StiWpfSingleDateControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Dashboard.Viewer.Wpf.ThemeControls.DatePicker.StiWpfSingleDateControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>
