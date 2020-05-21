@@ -10,12 +10,12 @@ namespace Register_Data_for_Dashboard_Template
     {
         public FormMain()
         {
-            InitializeComponent();
-
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
             //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+
+            InitializeComponent();
         }
 
         private void buttonJson_Click(object sender, EventArgs e)

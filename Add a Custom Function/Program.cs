@@ -14,6 +14,9 @@ namespace Add_a_Custom_Function
         [STAThread]
         static void Main()
         {
+            // Enable HiDPI mode
+            Stimulsoft.Report.Win.StiDpiAwarenessHelper.SetPerMonitorDpiAware();
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FormMain());
