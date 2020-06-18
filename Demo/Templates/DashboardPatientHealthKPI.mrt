@@ -1,0 +1,1030 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <CalculationMode>Interpretation</CalculationMode>
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <health Ref="2" type="Stimulsoft.Report.Dictionary.StiExcelDatabase" isKey="true">
+        <Alias>health</Alias>
+        <Key />
+        <Name>health</Name>
+        <PathData>resource://health</PathData>
+      </health>
+    </Databases>
+    <DataSources isList="true" count="2">
+      <HealthStats Ref="3" type="DataTableSource" isKey="true">
+        <Alias>HealthStats</Alias>
+        <Columns isList="true" count="11">
+          <value>BodyTemperature,System.Double</value>
+          <value>Day,System.String</value>
+          <value>Diastolic,System.Double</value>
+          <value>Glucose,System.Double</value>
+          <value>HDL,System.Double</value>
+          <value>HeartRate,System.Double</value>
+          <value>LDL,System.Double</value>
+          <value>NameID,System.Double</value>
+          <value>Pulse,System.Double</value>
+          <value>Systolic,System.Double</value>
+          <value>Triglycerides,System.Double</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>869d46ff2c4d49ffa5ac0933c6b61201</Key>
+        <Name>HealthStats</Name>
+        <NameInSource>health.HealthStats</NameInSource>
+      </HealthStats>
+      <Info Ref="4" type="DataTableSource" isKey="true">
+        <Alias>Info</Alias>
+        <Columns isList="true" count="7">
+          <value>Age,System.Double</value>
+          <value>BloodType,System.String</value>
+          <value>Gender,System.String</value>
+          <value>Height,System.Double</value>
+          <value>Name,System.String</value>
+          <value>NameID,System.Double</value>
+          <value>Weight,System.Double</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>15800e3a4386444f82a4461b0acfd5e0</Key>
+        <Name>Info</Name>
+        <NameInSource>health.Info</NameInSource>
+      </Info>
+    </DataSources>
+    <Relations isList="true" count="1">
+      <Name Ref="5" type="DataRelation" isKey="true">
+        <Active>True</Active>
+        <Alias>Name</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>NameID</value>
+        </ChildColumns>
+        <ChildSource isRef="3" />
+        <Dictionary isRef="1" />
+        <Key>bfd1086f713148ad8da5ac9450a89b2e</Key>
+        <Name>Name</Name>
+        <NameInSource>Relation</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>NameID</value>
+        </ParentColumns>
+        <ParentSource isRef="4" />
+      </Name>
+    </Relations>
+    <Report isRef="0" />
+    <Resources isList="true" count="1">
+      <value>Name=health, Alias=health, Type=Excel, Content=QxS7mnrXxnpC7S8jbQ2F9QPnQBR5YFohSAqnIzKXvjnrc7IjX0Bk1o0V9tD_x002F_8izuV9Vz7gSDLN8Wb0sgISjiU5IMTu5bSo6b6bNjSuioccvUCi0Synt9w3w67z9k2ZLZxyvjY4rMsyAKOAGSX4kI4t1Ck8_x002B_K_x002B_3sM_x002F_SZ0CUAt3I75rJYiz4lRx_x002B_c3Ila1xbHFHm_x002B_iBmwV0hb7Eqr2XZQKpdToV795ZNtBFOyKPeOSX53dL_x002F_cJLci2XNZERJQ3Ye3gplWsBAV0oZbNC9QLX9fWzlOxM3D83Q6GG10nqUwD1shzwCMvjtTIDxG8VBpHVN3QiCHhiJ0r4jW_x002B_enZZjAZ3bc9_x002B_13pifLxBgJWWMU7qe6YQfeFFsjjPpNktSbGq_x002B_DZ91a547HgW3Dd35jweXXbC_x002F_791htcky549zJZlV7WlvjVHs9bbalVqkiuhEOe8IrXW9wXu_x002B_NGUIcKrEhxW0XJDjtOeUNfAOO3xF61876Y1hRsf4w835bPbYVwU5_x002B_6XVf0gJtxvvqRcvM_x002B_xy8bc2WupravWlnpgmlmkloHOmduIWkUWCj_x002F_Kxg3fcw2cjDXhaTQpd6mm1lihp2BhFqhrBFarZZPj_x002F_wSeLTbsVt6kjo03YW1RSZBeMSPA5k9b99qbWqRzEJtXLMe7A_x002B_0ZpmdXqOQ210k8QZEbczukzNwlnRGPEZOrOpaSqtqasdA1WogMgG4Q_x002B_HPooNi_x002F_aqkRxKyv0Vrgc_x002F_l7StGy_x002F_x_x002B_LMrIDoQP52CGQQon7dSuKrZ6gD9S5HFC_x002B_LvxFUwI9R59ZrxwtPrZNUfUWbwcpGvaEaQYfWaFRlNPy0WFQ_x002B_n3FjVCZLnacKTJCvrVKsBbbLc5dS8WXSFC7aP0kMSP4Qs6Gy1ZmS_x002F_tC7fQaJ5GHB3Wsx52xSQNhCfnBq0dZDCNQsV6xKP2wkkvY6NNvPZNYrE30C6fH2EKQatbla5U6J9LN0sWTkSLZRNYZXIjc1RdQ2tD2s2d_x002B_m6jfh75Lyh6O4pGZZOld0utCgL58Zee0QqPv0KgfkAJ44qhvgZ28Is21lvR_x002F_2HJZCSYPFgb_x002F_jlWmB5j_x002F_uBwNB44jm6lQ_x002F_8tuwQGgNfG82nX961FRlyd_x002B_qlXhOqdAYnwP1GQ5zfSaAN1_x002B_xyUwS5CIKhsDmeQTnnxcXouXqB8cNbuJLfddQ10cbMysmIBj376303SFxpBC5wRT9IvWAnDVohFyxQ1p_x002F_lwhpFyas8V_x002F_JxE3m8T4UNXHGsOfXDhETdIwx_x002B_96N2nM5_x002F_cdEcCi_x002B_aa5TBeZumZ_x002B_BaKbR2nMhwaaOBN4UhqQmEi1j62_x002F_iDf_x002B_5dRmiGkvSyqZXhsoHSZ_x002B_JiGTqMKEwCMyYguYugma1gjjlKXnjlxWn7HJZ3IT9A8UvBA1YzpRASzzzp4KW_x002B_vnOQNVfNas9n2OY_x002F_jMi7aObMeSBPMkmBAFwS_x002B_bIO3jOxfMkzHJUcy82Jg60NEMI_x002F_5DqprxkoErsA8NDMwlQy078Djrtu9sqBVL5yjkWYjSGNZWEHp8_x002B_bZevl5iVDXHp4x9YuKq6OaC041pOU29bbk_x002F_1iyL7et_x002F_KOKqGHpcQt2wTohJmqnOdl4R7tewofRkygpY5jkGKHm3G2KyQlGj1_x002F_efvgi3WZ2k16OZIlYI_x002B_Us8iBLWsbpPPvWmOamwHoQqfuhc_x002B_YdjzPb_x002B_dl_x002F_s2coz4xdRgn6Kxn95_x002B_4OYy8CnE_x002F_Jv_x002B_e9m27hGezi3N5CYaRM3lOy6gULsIXqd7DsJD2uam_x002F_StqRZOFtKEqFfTAk5ARF3kYnLV1qn3w_x002B_MCzpwLbyF4rpWQSnQxf8vo2n_x002B_SgdP6oY7l7h8jAHilwllvKys7nBJM_x002F_LC1ZKcJhDotsb9MR1FStYCycpgOtzECsSJo0z0bYkrKZbOyzRCL2okz95sHlmHWWklzhVDRsAsUo_x002B_7ULrdI_x002F_pYNocqe_x002B_VuJBNTb21KwWoBR22bJlZnOe0eedjn8LZ0K_x002B_GimZt6Ps4AVlBYqc8eU5EhOVpwIWlE3pt_x002B_23dPkZ6Hqb6aBco20mF8TUw_x002B_D_x002B_7BHbwL4kh0y66lKKgKO80Ua3Ztza4bdWmj_x002B_3dD6krUbmdv8QiOhlH5JIi06wN1dVRXKs7wZB9DqS52Hlz7z_x002B_77DJAUxW0rIMoBpXGeJxVW1PkejLBjIyzGRBcQkunE39wjdDx6RT_x002B_ID9BhtTu8nxjid5b5gqT_x002F_HFtpxg_x002B_XmxrlEgW7w1QMgmk74q7P064WMGKNet5PQZOsSBR8BPeEA4SkSNzTuQ2sfbSO7xPNAAftmLnBHzhXNpPTcBa4s8Yq0VfIogcXS0gU7NsIgk4YFzn0MzsLTUUXwii2Kv2wXMiCHOg9_x002F_wuboXiUICDDj174aHwqY6RUny2IF1o2FfgQJohYcy4U_x002F_AEzLj5BaBVkuC1ot_x002F_ONQhurXBbAlN0EQf6Z2wu6KV97_x002F_nsqqjfuQ1_x002F_c2vZcDWu_x002F_Q2q6crO2pD_x002B_i0n77DTmZbWw9HFAzH6xe6Ip_x002F_xU28MTiGoS0MWgcRyjiaJDmlYKkWmmuwYD20ZlXL3hlBqqdlPePsVvpSgZ4QWGdtEqNwU2Oc8OP8KwFy9J4qtuN9DdUuAZ3x9LkS2vqB4HurddUs0uKZz6662i_x002F_cre7SNEnfYPk8z_x002B_EEOz0MBiDw2MJhsat31zeDyuo8Fa3yht2HOUCepOzmAHs_x002B_ZQMNZMlzNYGtXytSkP8SFEHt7dQFnu09oauzpDYarPlnJ39SY9qYx0dyC0XDYHCE9Wduxa7jsscWmT8NYZjcslOhDgK1wUdBjaW7gc9wb5P6GLsBobaJOOj1YN37PrtFxRN59y1tIs87hfO7qatvzPxF0XlRcd74Kn1KxEF_x002F_XwM8nrLeLpf675UB3XODBLwbxsb8xKDQv4VOpq_x002B_4Gv0CM6_x002F_vFo_x002F_cxa2uhOt3vp6eAc59wQfBd90C9DeDgHEsogcLMI_x002F_ut7G_x002F_9BDkTAnnN_x002F_qq_x002F_S9Hvuw5lJABGwZyGv6IngWYRCF3_x002B_DLIQdk3OmQ09gaJE7KwyCxj869TE9Vpb0NdYg8w1YMxbhys7dwegE7l2cKMY4cACpJNJwCQZbEPrP2Mno_x002F_Zw2sKw_x002B_qA0MUXy14O_x002F_l18kRS3mZSz93HoCawK6uigQ47ehoULJNeIagqzE7kURetApYvh3R4z7EAoK8H6aWzNC7Yk8pxpE7tQa77At56QygQSUIVta5zt1G8MdKlcqzpQdzuHWeXaO1_x002B_0_x002F_Wn7gOA4NzlQvPLa_x002B_S_x002F_HZVBuuPVltFayimK_x002B_i6BvLXb55UlO_x002F_w5yw_x002B_qDH_x002B_caQcdziXZIiNeRvJLeOnItpEC_x002B_4pfevz_x002B_I_x002B_oPljkU_x002F_7fTH4NfrI010sFMit1REHmZHQeiULcvvkvEWY3pgmHPTlkWcPOxjGEGmoe2JyUplUcjyNtamjNYOn43cV_x002B_leOM_x002F_PMEIMgEzMV2qwSTb_x002B_B613Op0pnWDCHsNY7MTity0SFSdeSEaBvf0buYQFxszJ7eQUxRrX_x002B_BQ2dugjl6gDLJYcrLAvbZNUH1cvdcng2PCT_x002B_rG1v_x002F_4vNy8Mm5ASddLYUNGeRXbiHJbqZ90OrdUycPEI187fCXywK4VfalgoczGYUhjSHwea_x002F_V05IcesV2299Xt1vFWqv94N4vEXUci7i6o7LcB2yDlheAQOC1BcITj7Ouo7H3SDpBtUm6KC20WK1SoxJJCRonVP0FFNR1a29wONjR1rZDMOa_x002B_8i1Hiwn9WkDlUXYIvG_x002F_00resm4KM3_x002F_9bkay3XhEdK58KuTzjLGQRIOj_x002F_pJZMdNnMZKeQLDyIjCitqdQpwPjuBsuevs4zm_x002B_tifywZ4ncCxSRQozMKnFowuP5RI8LbZOl0zmDbqV9cn8KZjHDq0uvA_x002B_n2rSp8HeS6omuuCt8R7p9aDn_x002B_o_x002F_h2VaFBGZPyFOD9Ezy6c6WmL5PKAN9hM9yjTj5D9ef4ldesAnPSA2b8rqoRNTVpR4LmLMpMyn8b7TdScowtJmOzT0PnS2uprm62oQLWfXbe7bhjtsngRl7fiP4VYwXRc3zC1Tn1maIxazk88pwkGFGg8RogKWsqnRHB_x002B_Y_x002B_Xo920c4_x002F_dsK6kf7CyKedNeV0BWfGwUKjoHVyAEnncGhobj01mRaOR6Y9iyR23Oi5Cr6rgQ3lZyPH_x002B_gc4ensqg8U6R2QmF37KU2Bsk3vb_x002F_Mk3IFo2l4_x002F_ODvckgUavhedV_x002F_FcZdPdyT9VH2W_x002F_YSdbe0JJja2pFzqg_x002F_6Wkszv3NWwKqMTBnfHf6tddDFQxEiGnXQmTsAvlJDbXn_x002B_vGGclrEOSDxmPchxEnd3G106qT7PEooLKiyMjgfdwA5Ut5QrY6t5myWvo6U71L2Co7m8MwyZz5bVCbHK9UPTXMBgx2Gq2cWDGJfre6LdjPFQPsEZWpSq63xwTQwJGz0MUsauevJg599oCWUCQABnE5mFR9mg5inyTQVBVu0jyGYKzT5iSgK8x2ZxKL9U9faFCvgnX6Alq6SQfoUI_x002B_MBgN4FyXiRUIxIfW0gVZOOHWu4WyrCOpyZ2AtksZceSOfnC8XlS8dQzWlvIYmP25PKdFBTXNZRgQZWi9cQBVaj8CxWa9ewcwUrzDpBr2t6jlKmCQkMCnDoychM_x002F_VGykgthd38nfxZxSBEWPNZZ_x002F_YVEJsbpjo4CGNHfDHzjJ4i6A5u2MHKmX0zeUfRDK26wRNjyceykYVo_x002F_tYZD7pnmGZJlxa36aHRW_x002B_pwj8r1xa3ic89IS49YT50mOXrZdfDrnkoj6_x002B_6o1FFcMwGQgPRsb9I4Yk3QdiIabLbnc2X2qWBGd4RV5QA57EL6JU7TfCgzQfGfPexIkOtsiLjsroNZC6hWudCIKJahDwzBAOkdBHVlgkEazUbEkOVt_x002F_BgeYM2FxmrlsQP5zkuepeOY5z3fw7WYuQPeE3AlO6R7yEIgrlwNpD2kpGpBJp_x002B_mUCA1mnvJp9Qo_x002B_LTq4Dm88i768s4s_x002F_hnXJ3g5KrLLDRp8BSxP2MlTSDnnfkTzEH4nyZUjqqXsbKLfTZkDGJMqrZ5yo5EEU7SKp2_x002B_Y4dEyUY8hGkFmXrBLwMIpUOjm5qRwMJU8z75cFEgYo8x2aTlcfj8WoF8_x002F_1lWgrviQIAxsqc_x002B_PvjtmwUyKQZZYGg63UmsIK8iTpbN4jlro0V5bx4e1hQeP_x002B_CjQ_x002B__x002B_vWbFut_x002B_wbeFQ2_x002F__x002F_JjAu8VJ10lXUKIHBagHaFDvTGqk0J2Ao6yNHa2YwfnUsbR7OrPEpOEMKQE4CJPkGjswP_x002F_YFSnYzexlMgWNJ8T84X8sKL3Fmjc4u4KJnSvQyad9tm9lWWCgyu0UnvBKzaQARnKdPpWtmJ3BJVRSMltIRw5wWCS8bHgI_x002F_3syqUzDEz9VNkGXE_x002F_Y_x002F_cP2RNUl93KngNtvpp5DHMyQtpuqWHOreMxo2vgeTq9LfFBugFYakHoSMXD6710CHrjdk_x002B_7kJ1FYnI_x002B_Hyb3hLn04J0zIgTGeFqg5bi_x002F_eYWxVjpjy19ToGl7XZ3kk7NRrRmIeFsvKWQfiRhg5udRg6k7fV9pTeSec2pUrplq8i3jpBh2iI1cEIfXQ3erOjDmhEjl103jWIwyk5iyWtKIWwazDUd6_x002B_sZAw1aDUpJq4Hd4KNlPzQ9qjWRT7DsXr_x002F_RDJTB1WhQu55NT9TWlXMb2Pmet_x002F_KXr5z8eQUekehxNze7vYg5f5TYoHnvao_x002F_jSCD4drF2_x002B_sywJRadaHblJAddPwt3CAcwsuk4_x002B_g6Ziod7Bq5uwG6YCpgZ1mVw2biomp3GdFGXYMBLXl1_x002B_3_x002B_CzpievA_x002B_P5hSyMykrvhAXdgB3Fvrj4zLqBpwaGDXtrdDykKiEaErm1PJ7C1XroXwj_x002F_Dwr4LUc5Eb6hJacibLd4Oo0Y21ZWbSXswy2E5oNcX7yEWz9C6uLAsbwz8CA0MZpX6_x002B_Wd4TvNyp5K9ja9CTXPJLBcEZMXbrUQoLl1xDWVl3TCBHKo_x002B_PoJd_x002F_jzlZIoT24XvWUrO2AWhlVIoGdG6Rd7_x002F_cMiDlrCRfMNaCwT4g5Y1jfug_x002B_PMKhJI6IUW0WuYzrK0kEPX2MaCty2ap6fRz0eVhPHaDJgFYz4tpCLlhjRGUZWU5nSaa7jqDZGkU2_x002B_7j2A8OVBOwj1MDmCAbTb8k8N9_x002B_XxaAVRBNGoo91li3CqWbeED7S1QIYqjejTaVlqfN3AMALTZBoBwyGMjXksABAjZi8_x002B_i4pGtLvuK3NBCbwf1G9rpBG6_x002F_mP7uLKQvIgfVr01pnNOBVBq7k0nsPZgj1JayTlpMpY9OeMSWJolRMjxyXBC4A6XyBB1X5Hpmb_x002F_wJBTYsm9XJt_x002B_vOGdFhCAYGjd0nFADurK33VJiYGLDgzahNkJO5ts2I2P6a634fvqtzeM54vWLRnLmZGYqbAduV_x002F_K5MDrnla30ABWEdh4BxMyrcuW50xQMruQJarFvONOFd8UnG9vgoEG18et6TDIUGo99eAyL85jvWr0XbXUDd8dXczQLi9xSLGHm_x002B_73Y7JltVqtQPkq5OaMTgy7Y3_x002B__x002F_Ndvfkbuyh5Y2g2wlDw0nJTM0IgQnkcVp9aZyRqoDgze_x002F_dvS_x002B_3AU5lz_x002F_Vy4VcXeFEzuuWSPHk6rwzzXml66ZXAr9C7Wxf_x002F_X26dHnA7jw_x002B_TuxOwmL5W7YsiywFtSgVOUmfJOMQ85lEZb09i7DfWWC7D02V2rmJxZYPsJ6M_x002F_VnTS7V3JNWylPwuGVWOVINe6q16nXV_x002F_Iy053YZl2sFT46XKRl9izCsFnEdgfYjjMYVVWOxzM9aTwE7MipjqJbyQ7vwnY5Aym6YCybwbRRfEAKcaApAIK49W2hm24otMZDCQHKvap83MDVXox8GMqOequhuObyoz22weAPntzhrfpHN25a6Oh1UmwaTVpWiaIlbnadwCtdHpKmGD8K_x002B__x002B_ptEXGkxRmkBtfadLEUSOND_x002B_I0vkW_x002F_5gJorqsGE7iXbenS3091aqDUOH0A98CZvEp_x002F_SJNBGDSovQyxeBjOwQ_x002B_Gr_x002B_xgY_x002B_4_x002B_e2zQwzFO_x002F__x002B_7s7BC96i8E4Gx40_x002B_5nrBeyx5_x002F_NkmOv2UEevvta2UL7AeztfYhLFmhbIzoNeEbWRXPIEHZ6ClKzUDkH7NaNYZBN5ZBeW_x002F_oJu0DU6or48gAtbrS5Vcjt93C3fiHCDHbMqyJ5BrcJ_x002B_7rZO0FRA1PmnWYTxIsQX7Lz0j7pDUaBNcrvN1SxgY_x002F_XLPkrXXTvRIxxp_x002B_9kVXAHWHwy8AThRE5sOP9MIfvCMTv_x002F_6itsL_x002F_QTpYMghhXP7hYSRX44vFOBGvnnLuzHOXuJ5UizhcLwGvjLWvtbwFf8C32AgjxOzmHWmpTSbmCympgXmenHVGB8qb8jy9xlO7KFb_x002F_MhLN1Nlj9S_x002F_k3zysxIQql5cTHNLRGt_x002F_TJMF45jfeV_x002B_lR30dbTJkicnhWtoWtBbeqAjEBbkGqilmBt3KFB6VlCyF_x002B_jvA2Vn_x002F_Im2LQyvNr54ecSgHu4WahAf9sEU03P_x002F_Ed_x002F_Wf1kJuA3696z_x002B_1_x002F_07H5ObXlYsT_x002F_gvdOE7xPbq78SUEwfle7gpsPIWBLBHbVY3SewHSePIG_x002F_oClAuvik8q5b6OunYnf0Mnd3IE42Qx7KKR2bkjyUBgvrq5TCSrZXaQ1R9gXPF_x002B_x2lhAL_x002F_Hlk22cLR4ZXkpf5mdLa35_x002B__x002F_3xk7svrWovFX_x002F_iS0GlRkm09qjk1FTooiGt9IeBiQJcjqtK1954Mrgr5QfSDz07TmZt_x002B_Ybasdo1zUMKK47DGv1vdgs5cYr_x002F_ueWaCEY1Ofm7WqZwB9Yvh9kLrVB0xSusrvkhVfQmRrvpZIxnYCE_x002B_xmFYz6aXpM1QZMgo3IXdp_x002F_fjACUPjSRHnsyh15uRN8IcAAGaqcLsj8IosG3PaoDxx2s_x002B_vrqUUoM9VbkwlvFKXr5c63GHgn_x002B_XI4QnoQXLcdPBneO5nbQDRxGqwguJb34t_x002B_TkSU6u8HSa5INy1ai8_x002F_7dfU4nVP6HgFDBJDh3PthIsaIt2naHv1rWB3hXXIbRx8Lz_x002F_dt0j3iQbsgJ_x002F_Ar4pDGVL3eWxafg2KhL2y92c8xv68yJ3gz_x002F_e7OCCk87XZkppMnb9noS_x002F_02pXjKNrbZSO_x002F_gtye9MLa2H0dtw7hIZZ2pzTI5BnDdgFdKWTTxYekxKNJ1_x002F_043xoclcHPtvXhTu0vKOGzlgR6vnfAZyUGxrF4m_x002B_doU_x002F_971beJUdC9PyNd1CniL5q_x002F_KH1su1MTE4Tw1O_x002F_k_x002F_0pMJNdYSegvYjzYaRR_x002F_lvCyxl5tKsqGqh8M_x002B_2W6yL5Qdct1XBCfjVV8ceMaOte15sooZnW42bHq41ujBuTay3DvxCJZ6mb66mGH5UPFxEY67t63cBZdBO_x002F_Bq90KwJ6NLfMd1jLbyLI_x002F_NAGHhScQS2hUYBC_x002F_ipp7VWUvx2OxY_x002F_HcB_x002F_wU6EAcgPuiphPIrGdVJmbpGHk5WsYl0zeMrU5XjDigv2ONE0tPPGuNyfuQirIRijwIPMELBaVONWLKzhhhcdECzoe45vm7oWUUeH2Rt16uwUbWMGRcQ2WY8Uc_x002F_Uq9x5a5yxc9lWhMXqoRYUsckdkv8em2f43n6dbJ25Us_x002F_5sfohp6aBbHq6g5G_x002F_4Kxs5juM5dE4dXU1nk8_x002B_MdclP91KCsFGaarP2xoPuYw5uWta2k9onIfcX_x002B_rc_x002B__x002B_uUwWHB4OG0FZ_x002B_uNiaRFG5fcpxHiu9AF6nLHjKuDtldA5k9hmPnFdiXBlhuBeQqz6zofMrYak9b8JwiTDL_x002B_hqJn_x002F_HEkDzwpjfP_x002F_3HRUtO4P4aubbW_x002B_1l2xhPDaTicb19QVPwDB6_x002B_JNFhaEUOdws_x002B_0MKmYewB_x002B_wOXlzujStDogSpqxXEPmbaKCPwm3rGD_x002F_D_x002B_aFByiNwoerDciNq64Ky8I8liU_x002F_nmx6HbDzimw7eKwHGSHAS4_x002B_97x3wf_x002B_rxaY0_x002B_rczy2SkSo9WDPqf9Gi3SHXuAr1awbcBCVF6t3VWG1tWz_x002F_Pl3i9V6a_x002F_1_x002B_eu3OtF7dT5f24o2mZmfEJa8jRgOd4mlGB2eut19VGReA12wfjGNU6szEH_x002B_mkI2uIYQuCDX1noSVPcCQ6JI_x002F_x0JCZYvKBNmD3qKDmZN_x002B_YqoRKTl9yddAHgBLn6kAQGVH7F2J3buDhTyMEs398KNtGvOm29POKk_x002F_odhObWVy47NeVrNbTaQdLtTtntC_x002B_97RbRiyAvDFYmWehYBMusADLJKaFpRcXPKXoM4cgkhVPxG4fnpU0jamz44qbr5O7FhPK_x002B_yxUo3W_x002F_rM_x002B_pANIqVDuBpcRhxZmiZnMk2jguHyBvnkg3Dwuh7e6DMtgqncXjewXT0fuu1zRyqfBbkuhiQN5Zw_x002B_kzybkHvzdOtxAWolvt_x002B_dkaUeKKJKC7tqZpE_x002B_OWJE7fmNgT06dFCit2_x002B_dymvrMwk0Dd_x002F_ihEodvWFU4ACylOfX1P_x002F_gh_x002F_NgBCUMQrK870lUWSB80OCH8FqDNJpMP2t_x002F_ngEDaEEIHVHtIKb3rWfAr6ZbVqjxY91Agg8es_x002B_Gl4Sj9FoB7f_x002F_r0WHlb3i9Q4rsgbfsbG8mff2ao_x002B_pywtia17HZ_x002F_MxqakzYgACWiO_x002B_FU6FkD1tphMxkNy3GEIgalDn4ZgwNTj76GF5gXhsHMJbdNofl6bKwAIaKXKxHhTrmamTqbrR_x002B_tNwhfKOGzWAfXrypEN4lXOJe9oBxgsXPeYPwFUHvykJF1fWn1CQ0IG3hpQZJ68FnVPEgosuGAdJE7c8wxuElc0G_x002F_X9WUvbpTm170YpqfoZhYoB0240CXt9Tqm_x002F_M2qOSgX7bORY5u2NBwI_x002F_gln_x002F_sp6vaaLyRTkTga_x002F_5FYkCpW_x002B_7CfD2IFw_x002F_WpTzny5WEX4D8BE8gyXlul73GqseiyoHBMS4bSbKfTdPPXVcq0OUHlp68z_x002B_mz7VYsot8n_x002F_p5q5PakCnrZQXIRgE7KTqiJrmXmdC2wqAkwdJuR19ux5N4383Wsu1V6NWUgtpCZONR6ZnMVQPahcUcorRCR9CkHHfxaMGFWurcEXYSH1MoXLUtRs6ed7B85wV8c09_x002F_LqIXxSKEpGKLu1jI9oQlf7k_x002F_4lr6gIb25zIusLPKKId6wkGq9l8vU_x002B_O_x002B__x002B_Q7GXqdUB3ypJjwNU82NucclzBIrzj1UEzV5op41Hm7Fcv5nvzvTpAp1yhJUKl41_x002B_bcxiGhGNBWlTM0XAndPAXmBZncBaYOVQf_x002F_UWfMOAPECXN2d56xYSn_x002B_JAKWlKO1BS3hNEmM3KlVV0irEkPhJo8XECuDwgR3YB4mg_x002B_Dk74JuS_x002F_u9VEzxZ9P_x002B_Jyavvk2hWPTZXji_x002B_Ldp5z6t8U4j4ZY6e5nAHcsS74DloKufuPmglljftDs_x002B_Kxzehh0wbHOoagjMd4_x002F_f7oaxjJWdopzYgactFVRNDQ0vqGpVsFQ409PRg5bJQHIIfyLU0D2yh1P63xfPc0cyZPtBKebeDGW6sGLVEEcnEAQqyvH9f8G0uk_x002B_Mx_x002F_YMNTOtZ0bgzMIRVcHbZt8vy25FDi1c8kfm9ezmL_x002B_VliIYN2d40gtmDrgTiUXXpxO4gtSfO90a0jYnCHTSGCEGIxN_x002B_sWIYyMAJNI_x002B_BLwvZ6uxAvvwUD2_x002B_92C1hJtJYS_x002F_d42HqwxNxAr6yTkWI2lHlJIdkyYE9D3SVITmjm8HJch6_x002F_rZT1cPYmjDvI15_x002F_g9TMrDRzeXvOTLDP4ycMNXRuUUTAWv8750Iw04EWky1kxCKKFFL2mBqVC_x002B_RMM462UJNnSHfWNTHrvzwFUR1KMr2imuq2zHX0CAxhvwnyb6I_x002F_BwDjEKUrCT5KBY9c_x002B_cZv13MX9zDKMv_x002F_rRnWI02zW4Stx6jaul17mwTQ6fCYK3J1UVIgJA1WLHSqNpaCxxWO9wiglD583JBm8MJU8Acwz684Jv4NIWwmWBcwRjgYvlLKSTsvb9IUzVkab0yZTYDNTcctlDgsrWwL8Az6GH5zcbBjnHmwaN7_x002B_2LBh_x002B_7p8Y2TYYLlLwWzg4kbj8sf4Yj8lz9kb9eyLehN7Mz7qv6A_x002B_sgDwCZRvkXI0L0ckKyB_x002F_rhNUZIPk_x002F_TOLqNj_x002F_rKBH2Q60okW_x002B_baqsb500hS4DnQ6ZaroxFR2pc0yzvt_x002B_AePh0ESpN4_x002B_6ALUJWdJy8YPNljIhC8I9Bv2gRnuJaJ8c_x002F_ciawvAua2GtoAH5huzfSv2IiE0_x002F_TEWKQZrZVrsbKn2Gg86vhA1T_x002F_4wECZRysfNFD_x002F_gySI6PeCe4w1j6HptvJgIREpVyZLcO4qWvzAlhV9SlfFCNmUwFauRqyY87pR31Qir8Rk_x002B_hotO3wBNFFtRTCZedJX4Cz0scm95_x002B__x002F_5yPLTC77QWSyyDpV6S32jN0V9iX0rvfGAS2qziJ95plNqCI2hXDAi7_x002F_DlZ3uz5JRZci7Mkw_x002F_UZK5NJkBNswuHI5IbmeKGO25gt3SyJnyBJSFAZi8XUSxEn7hfQ6zWnx2KotpuGVU1meW5xHTEv8dVKE3cuVvcMJTLLMZK6qfRKd2_x002B_DkQ9IoTpK1rpjNovV2Zyh0LP9GX_x002F_E_x002B_6rTxdv9dv3_x002F_loqd4bxbCv89ptbBA_x002F_iVCRDW_x002F_E9eRJl8ObWNzl3xLUVxgmpuLJdzH0sCcH_x002B_ItwkNNl8iNYE_x002F_c4UB4vXbFsNk_x002F_CozUls31STCU2TRYAKWyH_x002F_1PE6ng7NpS7pPtuSW72_x002B_2kyd_x002B_asdVIuyQ3ZVFzxMBOYTinV7xwbnicAiJAtVGbu_x002F_tI2IUklnL24PgUl6IdfSol2F1Uyx1gp1MYVxtSqKOWv2ncYkagm7TGY25gsHU1pF1tM9dAKKnXiz9UAYlxh_x002F_xVwNlz4qldvmgTjiwMjglnvz3o12FIF0zDy_x002B_8anm1GoqD1DRjjGl_x002F_nHP0n_x002F_lf73b_x002B_4mAK0ayGclNoj2QOgEzBSTap2suABLVUpI5qlAC5YQnx4mvTmzCztRulWqt0IGs5kRw8O8D5nHtgIfueRprB6Cj2uYRxQBOZSTsq1xw4b_x002F_h8NMMtcO5s5a0KhUqX8QDcLD7xG8kkAd31DfanxljqHXnsH62oB_x002B_gyd3OahTnwuWcSUoSpGzZRIVTS1YC4_x002B_v8wMP4IIE03441JEeV_x002B_zGmUkPvj3zp5njOIPquwYzDCmrY2kyBcd7yzSFQJCt5kKUTJHe09cX9otetl_x002B_uK7XBdtnkEmtYEQwNaLbhkYo1CZ9m_x002B_4odbP7br2pwsixJo_x002F_taL6dXML2C6Oz5_x002B_Mw1u_x002F_VXA8XkR4hBLGZslxwt5w23XLL7IJxljSAoGz5ZsylMtTzH4PhA1TRMNWO9XBv8psqYWIEIbs3aixGdPSDLZ1xvTAZ91E64nnt4gewxuHOSW4JJw1Uhj_x002F_oAKdlPLr1_x002F_nPWQVhiL0dKAx3SGg2atpN87se1758QPQcDH_x002F__x002B_W_x002B_bYaUSCITIxUp6V69UK_x002F_s5bFughL1C1Vxv0C0Csxx5ELrsl1xgH9SlQFRlPWugz_x002B_fW5_x002F_ptWCio8jM8EjAalC4iHpmAfov7WuqRtv8rwTuiy_x002F_zvPuH6ud_x002F_3B0qn4ciAMwIxn7TVYPs4oI_x002F_qhrCXiVB5_x002B_7fwu837j6ab_x002F_VnG1Ajh4v0fTVwkxkL3WUWTwUnsxkujrp_x002F_t4s9pWHMrVTRiFCe05XQTuPLX_x002F__x002B_j_x002F_c7tfY2qzoA5WrcxmYfsrcpsW47R1pK98oFmvSNPth3wVj1gDR_x002B_F_x002B_X_x002F_YinKHqQ45OgmTz_x002F_2kWDZv1EEv0U3b7RrGaRbcWRZAUwHlgsKxDjY5ZvoZ1vMTehNgOmrweJLRYtO7Q2ala2xNNzYEIRha8vK6KMhRo_x002F__x002B_MxMT3_x002B_UnBqnNGGfzcS30kF0sEMS0Lt6uJS32dgJX90ACN81wYprkgtUE9_x002B_nACsytYbfNBU9O6EJTT8I4Ij3gtfO0zHY9E5OlI_x002B_mZbur8DjUX49UQb_x002F_LDc6T4KXLdgi1alNeoOSYBn4NAHzcHXbmxco5UF3ZIn_x002B_kpR1EHG9FH2cPJMm5krMlgrET1ZjOn4lrqMokfrWYlFbMVR7eTmOGNgCUvbU8otkopi9Zv_x002B_KtVp4j6KAsqC7DH7rgnRaiZlBXuB9dihXnllo19yZi46fJ1OKCEWbSWYidXoMomgkzAA8yOPxBsAA_x002B_hJekoOWdUOUjMqUdn8wAU_x002F_ky1mA4gx4Z3s_x002F_VxiFntTA435jokb06_x002F_ViPAriSqOTXJFHD_x002F_rUgw3k0XbFnCLqjmJDM30d3z69s3tNpX8JjFL0rt1z9Zu1U7kilZ3adSHBQUsil7oPyF4JTDi8KPClf6XoyC4BFgmlUvWZrtEWkerBO2y9ezrbtZpEaIHRlCel2pUO2Cocu4cLeIA2nDYrTBkK37Imq5Xa3VmPTEVNwo1F7dlSgzRavGXfx26VkxFM5I2m_x002F_Z7DoKlkEGVkXN8ds9IDJB6gfD8GIJLQj_x002F_liIxZCAXuGTLDyhDxqnZNirTQE12mwTG0mxDubYJw1wB1Xde0jgjeZ0wGopk_x002B_mNjROtabBvR14xbgjqclbfcGfaFK7vTxTnLCss_x002F_8U12_x002B_pZNZxM93omEBv2Vtix8oAcUySZdghkDnNSORzLxbnVbpaxCSNs2fE1qn_x002B_pODKi4fFP9Hcjh3uVNHanevdYvaIcKM4iEz44p1_x002B_NJ4BcwOZkVF48jH09RfU3NbUTdEisNTV3K_x002B_q91Q_x002F_zMpwHkl1Cf_x002F_qbpRFXOUFamTaZlK_x002F_zc3YVal1Mi_x002F_UrbGBm5HsxE7fnXql_x002F_Fszww1sukv09NT1Jz6pWWW8zJWXS7r2ThhBSp1rMtzI_x002B_1nZxK_x002F_KzIhhDccnlcA_x003D__x003D_</value>
+    </Resources>
+    <Variables isList="true" count="1">
+      <value>,Variable1,Patient:,,System.String,,False,False,True,False,_x003C__x003F_xml_x0020_version_x003D__x0022_1.0_x0022__x0020_encoding_x003D__x0022_utf-16_x0022__x0020_standalone_x003D__x0022_yes_x0022__x003F__x003E__x003C_StiSerializer_x0020_version_x003D__x0022_1.02_x0022__x0020_type_x003D__x0022_Net_x0022__x0020_application_x003D__x0022_State_x0022__x003E__x003C_ItemsInitializationType_x003E_Columns_x003C__x002F_ItemsInitializationType_x003E__x003C_KeysColumn_x003E_Info.NameID_x003C__x002F_KeysColumn_x003E__x003C_ValuesColumn_x003E_Info.Name_x003C__x002F_ValuesColumn_x003E__x003C_BindingVariable_x0020_isNull_x003D__x0022_true_x0022__x0020__x002F__x003E__x003C_AllowUserValues_x003E_False_x003C__x002F_AllowUserValues_x003E__x003C_Keys_x0020_isList_x003D__x0022_true_x0022__x0020_count_x003D__x0022_0_x0022__x0020__x002F__x003E__x003C_Values_x0020_isList_x003D__x0022_true_x0022__x0020_count_x003D__x0022_0_x0022__x0020__x002F__x003E__x003C_ValuesBinding_x0020_isList_x003D__x0022_true_x0022__x0020_count_x003D__x0022_0_x0022__x0020__x002F__x003E__x003C__x002F_StiSerializer_x003E_,,False,First</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>98e1cb079e85427fa1fcb68f2ce5a65e</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Dashboard1 Ref="6" type="Stimulsoft.Dashboard.Components.StiDashboard" isKey="true">
+      <Alias>Patient Health</Alias>
+      <BackColor>Transparent</BackColor>
+      <Components isList="true" count="19">
+        <Text4 Ref="7" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>380,0,280,40</ClientRectangle>
+          <ForeColor>White</ForeColor>
+          <Guid>39f68939eaa345ac971699dc1c85255d</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Name>Text4</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <Text>&lt;font face="Arial" size="20"&gt;&lt;text-align="Center"&gt;AGE&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="8" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text4>
+        <Text5 Ref="9" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>660,0,280,40</ClientRectangle>
+          <ForeColor>White</ForeColor>
+          <Guid>52d4078db0b8448c8ac127f9ebe96877</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Name>Text5</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <Text>&lt;font face="Arial" size="20"&gt;&lt;text-align="Center"&gt;HEIGHT&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="10" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text5>
+        <Text6 Ref="11" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>940,0,260,40</ClientRectangle>
+          <ForeColor>White</ForeColor>
+          <Guid>ef5bbe73da1a40589d7433dd3f679ab4</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Name>Text6</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <Text>&lt;font face="Arial" size="20"&gt;&lt;text-align="Center"&gt;WEIGHT&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="12" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text6>
+        <Indicator1 Ref="13" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>820,360,380,240</ClientRectangle>
+          <CustomStyleName>Glucose</CustomStyleName>
+          <DataFilters isList="true" count="1">
+            <Item10 Ref="14" type="Stimulsoft.Data.Engine.StiDataFilterRule" isKey="true">
+              <IsExpression>True</IsExpression>
+              <Key>0b2dcef694d348a2b8e497f7bd45c459</Key>
+              <Path>HealthStats.NameID</Path>
+              <Value>{Variable1}</Value>
+              <Value2>0</Value2>
+            </Item10>
+          </DataFilters>
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
+          <Guid>844e2627b0644179ac0bb8f7949f4c3a</Guid>
+          <Icon>Square1</Icon>
+          <IconSet>Rating</IconSet>
+          <Margin>3,3,3,3</Margin>
+          <Name>Indicator1</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <Style>Custom</Style>
+          <TextFormat Ref="15" type="NumberFormat" isKey="true">
+            <DecimalDigits>2</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Title Ref="16" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,15.75,Regular,Point,False,204</Font>
+            <ForeColor>White</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>BLOOD GLUCOSE (md/dL)</Text>
+          </Title>
+          <TopN Ref="17" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <Value Ref="18" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+            <Expression>Avg([Health Stats.Glucose])</Expression>
+            <Key>7759c55fbbd44367bccb82e4c8fc1567</Key>
+            <Label>Glucose</Label>
+          </Value>
+        </Indicator1>
+        <Indicator2 Ref="19" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>420,360,200,120</ClientRectangle>
+          <CustomStyleName>BodyTemperature</CustomStyleName>
+          <DataFilters isList="true" count="1">
+            <Item12 Ref="20" type="Stimulsoft.Data.Engine.StiDataFilterRule" isKey="true">
+              <IsExpression>True</IsExpression>
+              <Key>688d811212a6402f8e41a42b64740010</Key>
+              <Path>HealthStats.NameID</Path>
+              <Value>{Variable1}</Value>
+              <Value2>0</Value2>
+            </Item12>
+          </DataFilters>
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
+          <Guid>0133e84150784c0d9d89b08770322061</Guid>
+          <Icon>ArrowUp</Icon>
+          <IconSet>Rating</IconSet>
+          <Margin>3,3,3,3</Margin>
+          <Name>Indicator2</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <Style>Custom</Style>
+          <Title Ref="21" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,15.75,Regular,Point,False,204</Font>
+            <ForeColor>White</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>SYSTOLIC</Text>
+          </Title>
+          <TopN Ref="22" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <Value Ref="23" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+            <Expression>Avg([Health Stats.Systolic])</Expression>
+            <Key>4fe131b33d4f40a5a063af92de74b0da</Key>
+            <Label>Systolic</Label>
+          </Value>
+        </Indicator2>
+        <Indicator4 Ref="24" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>620,360,200,120</ClientRectangle>
+          <CustomStyleName>Diastolic</CustomStyleName>
+          <DataFilters isList="true" count="1">
+            <Item14 Ref="25" type="Stimulsoft.Data.Engine.StiDataFilterRule" isKey="true">
+              <IsExpression>True</IsExpression>
+              <Key>2ba9f58eb2c54da0a75f28a9e0b13eee</Key>
+              <Path>HealthStats.NameID</Path>
+              <Value>{Variable1}</Value>
+              <Value2>0</Value2>
+            </Item14>
+          </DataFilters>
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
+          <Guid>ebcbf437074646878d82df9764d17a05</Guid>
+          <Icon>ArrowDown</Icon>
+          <IconSet>Rating</IconSet>
+          <Margin>3,3,3,3</Margin>
+          <Name>Indicator4</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <Style>Custom</Style>
+          <Title Ref="26" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,15.75,Regular,Point,False,204</Font>
+            <ForeColor>White</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>DIASTOLIC</Text>
+          </Title>
+          <TopN Ref="27" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <Value Ref="28" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+            <Expression>Avg([Health Stats.Diastolic])</Expression>
+            <Key>cd094ceff14b47cfac6035940f28570b</Key>
+            <Label>Diastolic</Label>
+          </Value>
+        </Indicator4>
+        <Indicator5 Ref="29" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>420,480,400,120</ClientRectangle>
+          <CustomStyleName>Pulse</CustomStyleName>
+          <DataFilters isList="true" count="1">
+            <Item16 Ref="30" type="Stimulsoft.Data.Engine.StiDataFilterRule" isKey="true">
+              <IsExpression>True</IsExpression>
+              <Key>de6d6c0a3d194817ae76d17b64b28fe9</Key>
+              <Path>HealthStats.NameID</Path>
+              <Value>{Variable1}</Value>
+              <Value2>0</Value2>
+            </Item16>
+          </DataFilters>
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
+          <Guid>01388d89d0fe4d77866c4a2822098291</Guid>
+          <Icon>CircleExclamation</Icon>
+          <IconSet>Rating</IconSet>
+          <Margin>3,3,3,3</Margin>
+          <Name>Indicator5</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <Style>Custom</Style>
+          <TextFormat Ref="31" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits</State>
+          </TextFormat>
+          <Title Ref="32" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,15.75,Regular,Point,False,204</Font>
+            <ForeColor>White</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>PULSE/MIN</Text>
+          </Title>
+          <TopN Ref="33" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <Value Ref="34" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+            <Expression>Avg([Health Stats.Pulse])</Expression>
+            <Key>25b9594546864f308367f36bbcb7ad7d</Key>
+            <Label>Pulse</Label>
+          </Value>
+        </Indicator5>
+        <Gauge1 Ref="35" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <CalculationMode>Custom</CalculationMode>
+          <ClientRectangle>0,360,180,240</ClientRectangle>
+          <CustomStyleName>HDL</CustomStyleName>
+          <DataFilters isList="true" count="1">
+            <Item18 Ref="36" type="Stimulsoft.Data.Engine.StiDataFilterRule" isKey="true">
+              <IsExpression>True</IsExpression>
+              <Key>2c1a1bdf78b54b18a524eaa8d328daf9</Key>
+              <Path>HealthStats.NameID</Path>
+              <Value>{Variable1}</Value>
+              <Value2>0</Value2>
+            </Item18>
+          </DataFilters>
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>817e73a882094593a97e10b3ae9b95c4</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Maximum>300</Maximum>
+          <Minimum>0</Minimum>
+          <Name>Gauge1</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <RangeMode>Value</RangeMode>
+          <Ranges isList="true" count="2">
+            <Item19 Ref="37" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>27, 186, 181</Color>
+              <End>150</End>
+              <EndExpression>150</EndExpression>
+            </Item19>
+            <Item20 Ref="38" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>White</Color>
+              <End>300</End>
+              <EndExpression>300</EndExpression>
+              <Start>150</Start>
+              <StartExpression>150</StartExpression>
+            </Item20>
+          </Ranges>
+          <RangeType>Color</RangeType>
+          <Style>Custom</Style>
+          <Title Ref="39" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,15.75,Regular,Point,False,204</Font>
+            <ForeColor>White</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>TRIGLYCERIDES</Text>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <Type>Linear</Type>
+          <Value Ref="40" type="Stimulsoft.Dashboard.Components.Gauge.StiValueGaugeMeter" isKey="true">
+            <Expression>Avg([Health Stats.Triglycerides])</Expression>
+            <Key>f58d9e360c934d97a3036c09dfcf36c6</Key>
+            <Label>Triglycerides</Label>
+          </Value>
+        </Gauge1>
+        <Gauge2 Ref="41" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <CalculationMode>Custom</CalculationMode>
+          <ClientRectangle>180,360,120,240</ClientRectangle>
+          <CustomStyleName>HDL</CustomStyleName>
+          <DataFilters isList="true" count="1">
+            <Item22 Ref="42" type="Stimulsoft.Data.Engine.StiDataFilterRule" isKey="true">
+              <IsExpression>True</IsExpression>
+              <Key>85d13f5a2b244a43bde8e0460a869651</Key>
+              <Path>HealthStats.NameID</Path>
+              <Value>{Variable1}</Value>
+              <Value2>0</Value2>
+            </Item22>
+          </DataFilters>
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>6bc65654ce0d4ad4a80bd4de1604657a</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Maximum>200</Maximum>
+          <Minimum>0</Minimum>
+          <Name>Gauge2</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <RangeMode>Value</RangeMode>
+          <Ranges isList="true" count="2">
+            <Item23 Ref="43" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>219, 123, 70</Color>
+              <End>50</End>
+              <EndExpression>50</EndExpression>
+            </Item23>
+            <Item24 Ref="44" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>White</Color>
+              <End>200</End>
+              <EndExpression>200</EndExpression>
+              <Start>50</Start>
+              <StartExpression>50</StartExpression>
+            </Item24>
+          </Ranges>
+          <RangeType>Color</RangeType>
+          <Style>Custom</Style>
+          <Title Ref="45" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,15.75,Regular,Point,False,204</Font>
+            <ForeColor>White</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>HDL</Text>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <Type>Linear</Type>
+          <Value Ref="46" type="Stimulsoft.Dashboard.Components.Gauge.StiValueGaugeMeter" isKey="true">
+            <Expression>Avg([Health Stats.HDL])</Expression>
+            <Key>38aff6eaf470471994cbbc6ea177fad5</Key>
+            <Label>HDL</Label>
+          </Value>
+        </Gauge2>
+        <Gauge3 Ref="47" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <CalculationMode>Custom</CalculationMode>
+          <ClientRectangle>300,360,120,240</ClientRectangle>
+          <CustomStyleName>HDL</CustomStyleName>
+          <DataFilters isList="true" count="1">
+            <Item26 Ref="48" type="Stimulsoft.Data.Engine.StiDataFilterRule" isKey="true">
+              <IsExpression>True</IsExpression>
+              <Key>a1cbad89bfc64c7ab6d0781c8fcc6d33</Key>
+              <Path>HealthStats.NameID</Path>
+              <Value>{Variable1}</Value>
+              <Value2>0</Value2>
+            </Item26>
+          </DataFilters>
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>2e65b9f51f95483c84d943432e78f026</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Maximum>300</Maximum>
+          <Minimum>0</Minimum>
+          <Name>Gauge3</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <RangeMode>Value</RangeMode>
+          <Ranges isList="true" count="2">
+            <Item27 Ref="49" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>242, 91, 92</Color>
+              <End>130</End>
+              <EndExpression>130</EndExpression>
+            </Item27>
+            <Item28 Ref="50" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>White</Color>
+              <End>300</End>
+              <EndExpression>300</EndExpression>
+              <Start>130</Start>
+              <StartExpression>130</StartExpression>
+            </Item28>
+          </Ranges>
+          <RangeType>Color</RangeType>
+          <Style>Custom</Style>
+          <Title Ref="51" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,15.75,Regular,Point,False,204</Font>
+            <ForeColor>White</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>LDL</Text>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <Type>Linear</Type>
+          <Value Ref="52" type="Stimulsoft.Dashboard.Components.Gauge.StiValueGaugeMeter" isKey="true">
+            <Expression>Avg([Health Stats.LDL])</Expression>
+            <Key>acf05a64b0d94b279fcf2f5e87414715</Key>
+            <Label>LDL</Label>
+          </Value>
+        </Gauge3>
+        <Indicator6 Ref="53" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>820,160,380,200</ClientRectangle>
+          <CustomStyleName>BodyTemperature</CustomStyleName>
+          <DataFilters isList="true" count="1">
+            <Item30 Ref="54" type="Stimulsoft.Data.Engine.StiDataFilterRule" isKey="true">
+              <IsExpression>True</IsExpression>
+              <Key>eaf9c10908d04b6c94a0617e5c7e54cc</Key>
+              <Path>HealthStats.NameID</Path>
+              <Value>{Variable1}</Value>
+              <Value2>0</Value2>
+            </Item30>
+          </DataFilters>
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
+          <Guid>8584eb60c5584adda0f70ee32761f6c1</Guid>
+          <Icon>Exclamation</Icon>
+          <IconSet>Rating</IconSet>
+          <Margin>3,3,3,3</Margin>
+          <Name>Indicator6</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <Style>Custom</Style>
+          <TextFormat Ref="55" type="NumberFormat" isKey="true">
+            <DecimalDigits>2</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+          </TextFormat>
+          <Title Ref="56" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,15.75,Regular,Point,False,204</Font>
+            <ForeColor>White</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>BODY TEMPERATURE (F)</Text>
+          </Title>
+          <TopN Ref="57" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <Value Ref="58" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+            <Expression>Avg(HealthStats.BodyTemperature)</Expression>
+            <Key>92f5ae48c32d41a2999b4b95c6876663</Key>
+            <Label>BodyTemperature</Label>
+          </Value>
+        </Indicator6>
+        <Progress1 Ref="59" type="Stimulsoft.Dashboard.Components.Progress.StiProgressElement" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>420,160,400,200</ClientRectangle>
+          <CustomStyleName>HeartRate</CustomStyleName>
+          <DataFilters isList="true" count="1">
+            <Item32 Ref="60" type="Stimulsoft.Data.Engine.StiDataFilterRule" isKey="true">
+              <IsExpression>True</IsExpression>
+              <Key>64239b93536f4e7e93d5bcc340893bf5</Key>
+              <Path>HealthStats.NameID</Path>
+              <Value>{Variable1}</Value>
+              <Value2>0</Value2>
+            </Item32>
+          </DataFilters>
+          <Font>Arial,13,Bold</Font>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>77193282a5324ac9a5fce0da01939b3a</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Mode>Pie</Mode>
+          <Name>Progress1</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <SeriesColors />
+          <Style>Custom</Style>
+          <Target Ref="61" type="Stimulsoft.Dashboard.Components.Progress.StiTargetProgressMeter" isKey="true">
+            <Expression>100</Expression>
+            <Key>557787e5967743db8c1e3d05ab581b18</Key>
+          </Target>
+          <Title Ref="62" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,15.75,Regular,Point,False,204</Font>
+            <ForeColor>White</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>HEART RATE (Normal)</Text>
+          </Title>
+          <TopN Ref="63" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <Value Ref="64" type="Stimulsoft.Dashboard.Components.Progress.StiValueProgressMeter" isKey="true">
+            <Expression>Avg(HealthStats.HeartRate)</Expression>
+            <Key>b0f7c7fc7e7640358d82240b8adbf43d</Key>
+            <Label>HeartRate</Label>
+          </Value>
+        </Progress1>
+        <Text10 Ref="65" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>120,40,260,120</ClientRectangle>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>29f638c9f4224636be698a8c2356fd53</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Name>Text10</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <Text>&lt;font face="Arial" size="76"&gt;&lt;text-align="Center"&gt;&lt;b&gt;&lt;font-color="#F25B5C"&gt;A&lt;/font-color&gt;&lt;font-color="#1EB9B3"&gt;B&lt;/font-color&gt;&lt;font-color="#F25B5C"&gt;-&lt;/font-color&gt;&lt;/b&gt;&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="66" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text10>
+        <ListBox2 Ref="67" type="Stimulsoft.Dashboard.Components.ListBox.StiListBoxElement" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>0,0,120,160</ClientRectangle>
+          <CustomStyleName>Days</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,8</Font>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>4a1a14a2190445ab9fd1751b84b66451</Guid>
+          <KeyMeter Ref="68" type="Stimulsoft.Dashboard.Components.ListBox.StiKeyListBoxMeter" isKey="true">
+            <Expression>HealthStats.Day</Expression>
+            <Key>fd3eeed7c6ff49d3955f5c0c9c2fdf7b</Key>
+            <Label>Day</Label>
+          </KeyMeter>
+          <Margin>3,3,3,3</Margin>
+          <Name>ListBox2</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <SelectionMode>Multi</SelectionMode>
+          <Style>Custom</Style>
+          <Title Ref="69" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>List Box</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+        </ListBox2>
+        <Indicator7 Ref="70" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>380,40,280,120</ClientRectangle>
+          <CustomStyleName>Info</CustomStyleName>
+          <DataFilters isList="true" count="1">
+            <Item36 Ref="71" type="Stimulsoft.Data.Engine.StiDataFilterRule" isKey="true">
+              <IsExpression>True</IsExpression>
+              <Key>2bb276b5009748b8a3d0ca52001ab731</Key>
+              <Path>HealthStats.NameID</Path>
+              <Value>{Variable1}</Value>
+              <Value2>0</Value2>
+            </Item36>
+          </DataFilters>
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
+          <Guid>22c701a9b5cd4ce6be41846e1335a124</Guid>
+          <Icon>ManWoman</Icon>
+          <IconSet>Star</IconSet>
+          <Margin>3,3,3,3</Margin>
+          <Name>Indicator7</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <Series Ref="72" type="Stimulsoft.Dashboard.Components.Indicator.StiSeriesIndicatorMeter" isKey="true">
+            <Expression>Info.Name</Expression>
+            <Key>f67cef42b6ff493587bef818026521bb</Key>
+            <Label>Name</Label>
+          </Series>
+          <Style>Custom</Style>
+          <Title Ref="73" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Indicator</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TopN Ref="74" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <Value Ref="75" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+            <Expression>Info.Age</Expression>
+            <Key>d09f805d6cff48148cd8ad9008f845b7</Key>
+            <Label>Age</Label>
+          </Value>
+        </Indicator7>
+        <Indicator8 Ref="76" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>660,40,280,120</ClientRectangle>
+          <CustomStyleName>Info</CustomStyleName>
+          <DataFilters isList="true" count="1">
+            <Item38 Ref="77" type="Stimulsoft.Data.Engine.StiDataFilterRule" isKey="true">
+              <IsExpression>True</IsExpression>
+              <Key>0440006ab45b4e01ba92564f7b2818a4</Key>
+              <Path>HealthStats.NameID</Path>
+              <Value>{Variable1}</Value>
+              <Value2>0</Value2>
+            </Item38>
+          </DataFilters>
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
+          <Guid>f3243f79951f4bbdbef4ce37ede7968a</Guid>
+          <IconSet>Rating</IconSet>
+          <Margin>3,3,3,3</Margin>
+          <Name>Indicator8</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <Series Ref="78" type="Stimulsoft.Dashboard.Components.Indicator.StiSeriesIndicatorMeter" isKey="true">
+            <Expression>Info.Name</Expression>
+            <Key>c664eb192d234fcb9b22efa497b5a35e</Key>
+            <Label>Name</Label>
+          </Series>
+          <Style>Custom</Style>
+          <Title Ref="79" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Indicator</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TopN Ref="80" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <Value Ref="81" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+            <Expression>Info.Height</Expression>
+            <Key>810071dc88a043a393210812b58ed6de</Key>
+            <Label>Height</Label>
+          </Value>
+        </Indicator8>
+        <Indicator9 Ref="82" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>940,40,260,120</ClientRectangle>
+          <CustomStyleName>Info</CustomStyleName>
+          <DataFilters isList="true" count="1">
+            <Item40 Ref="83" type="Stimulsoft.Data.Engine.StiDataFilterRule" isKey="true">
+              <IsExpression>True</IsExpression>
+              <Key>58325ec936e847d594d106983f61035c</Key>
+              <Path>HealthStats.NameID</Path>
+              <Value>{Variable1}</Value>
+              <Value2>0</Value2>
+            </Item40>
+          </DataFilters>
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
+          <Guid>0525b8e6d9db4ce1b0a76c0bc361af7c</Guid>
+          <IconSet>Square</IconSet>
+          <Margin>3,3,3,3</Margin>
+          <Name>Indicator9</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <Series Ref="84" type="Stimulsoft.Dashboard.Components.Indicator.StiSeriesIndicatorMeter" isKey="true">
+            <Expression>Info.Name</Expression>
+            <Key>c664eb192d234fcb9b22efa497b5a35e</Key>
+            <Label>Name</Label>
+          </Series>
+          <Style>Custom</Style>
+          <Title Ref="85" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Indicator</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TopN Ref="86" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <Value Ref="87" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+            <Expression>Info.Weight</Expression>
+            <Key>6716bddc94514545b6876cf514534474</Key>
+            <Label>Weight</Label>
+          </Value>
+        </Indicator9>
+        <Text1 Ref="88" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>120,0,260,40</ClientRectangle>
+          <ForeColor>White</ForeColor>
+          <Guid>61f7ff9e30f047ed9823348b3e6813e8</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Name>Text1</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <Text>&lt;font face="Arial" size="20"&gt;&lt;text-align="Center"&gt;BLOOD TYPE&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="89" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text1>
+        <Progress2 Ref="90" type="Stimulsoft.Dashboard.Components.Progress.StiProgressElement" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>0,160,420,200</ClientRectangle>
+          <CustomStyleName>Cholesterol</CustomStyleName>
+          <DataFilters isList="true" count="1">
+            <Item43 Ref="91" type="Stimulsoft.Data.Engine.StiDataFilterRule" isKey="true">
+              <IsExpression>True</IsExpression>
+              <Key>4cbe0cd81ae64d3193cc78c9511c4d31</Key>
+              <Path>HealthStats.NameID</Path>
+              <Value>{Variable1}</Value>
+              <Value2>0</Value2>
+            </Item43>
+          </DataFilters>
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>e3ed225c92a14cfea309f3f1039143d2</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Name>Progress2</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <SeriesColors />
+          <Style>Custom</Style>
+          <Target Ref="92" type="Stimulsoft.Dashboard.Components.Progress.StiTargetProgressMeter" isKey="true">
+            <Expression>330</Expression>
+            <Key>9e810ffec1fb43058b0feb156b8fb0f5</Key>
+          </Target>
+          <Title Ref="93" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,15.75,Regular,Point,False,204</Font>
+            <ForeColor>White</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>CHOLESTEROL (Normal)</Text>
+          </Title>
+          <TopN Ref="94" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <Value Ref="95" type="Stimulsoft.Dashboard.Components.Progress.StiValueProgressMeter" isKey="true">
+            <Expression>HealthStats.LDL+HealthStats.HDL+HealthStats.Triglycerides</Expression>
+            <Key>33e205e11a714a41adc90dc8a466b050</Key>
+            <Label>LDL</Label>
+          </Value>
+        </Progress2>
+      </Components>
+      <Guid>a5d29af5e80446d8bddbd04871fbe79a</Guid>
+      <Name>Dashboard1</Name>
+      <Report isRef="0" />
+      <Style>DarkGray</Style>
+    </Dashboard1>
+  </Pages>
+  <PreviewSettings>25108991</PreviewSettings>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>DashboardPatientHealthKPI</ReportAlias>
+  <ReportAuthor>Stimulsoft</ReportAuthor>
+  <ReportChanged>9/3/2019 10:37:46 AM</ReportChanged>
+  <ReportCreated>4/25/2019 10:16:15 AM</ReportCreated>
+  <ReportFile>D:\SergReports\HealthcareDashboards\DashboardPatientHealthKPI.mrt</ReportFile>
+  <ReportGuid>784e446f271c4cf99b13ec401c34c4bc</ReportGuid>
+  <ReportName>DashboardPatientHealthKPI</ReportName>
+  <ReportUnit>Inches</ReportUnit>
+  <ReportVersion>2019.3.4.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Patient_Health_Story : Stimulsoft.Report.StiReport
+    {
+        public Patient_Health_Story()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="10">
+    <Name Ref="96" type="Stimulsoft.Report.StiDialogStyle" isKey="true">
+      <BackColor>89, 91, 101</BackColor>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,8</Font>
+      <ForeColor>White</ForeColor>
+      <GlyphColor>White</GlyphColor>
+      <HotBackColor>74, 227, 223</HotBackColor>
+      <HotForeColor>White</HotForeColor>
+      <HotGlyphColor>White</HotGlyphColor>
+      <HotSelectedBackColor>29, 188, 184</HotSelectedBackColor>
+      <HotSelectedForeColor>238, 238, 238</HotSelectedForeColor>
+      <HotSelectedGlyphColor>221, 221, 221</HotSelectedGlyphColor>
+      <Name>Name</Name>
+      <SelectedBackColor>29, 188, 184</SelectedBackColor>
+      <SelectedForeColor>White</SelectedForeColor>
+      <SelectedGlyphColor>White</SelectedGlyphColor>
+      <SeparatorColor>102, 211, 211, 213</SeparatorColor>
+    </Name>
+    <Days Ref="97" type="Stimulsoft.Report.StiDialogStyle" isKey="true">
+      <BackColor>89, 91, 101</BackColor>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,8</Font>
+      <ForeColor>White</ForeColor>
+      <GlyphColor>White</GlyphColor>
+      <HotBackColor>209, 113, 60</HotBackColor>
+      <HotForeColor>238, 238, 238</HotForeColor>
+      <HotGlyphColor>238, 238, 238</HotGlyphColor>
+      <HotSelectedBackColor>255, 173, 120</HotSelectedBackColor>
+      <HotSelectedForeColor>238, 238, 238</HotSelectedForeColor>
+      <HotSelectedGlyphColor>221, 221, 221</HotSelectedGlyphColor>
+      <Name>Days</Name>
+      <SelectedBackColor>219, 123, 70</SelectedBackColor>
+      <SelectedForeColor>238, 238, 238</SelectedForeColor>
+      <SelectedGlyphColor>238, 238, 238</SelectedGlyphColor>
+      <SeparatorColor>102, 211, 211, 213</SeparatorColor>
+    </Days>
+    <Info Ref="98" type="Stimulsoft.Report.StiIndicatorStyle" isKey="true">
+      <BackColor>89, 91, 101</BackColor>
+      <Conditions isList="true" count="0" />
+      <ForeColor>White</ForeColor>
+      <GlyphColor>29, 188, 184</GlyphColor>
+      <HotBackColor>104, 106, 116</HotBackColor>
+      <Name>Info</Name>
+      <NegativeColor>221, 85, 85</NegativeColor>
+      <PositiveColor>LimeGreen</PositiveColor>
+    </Info>
+    <Cholesterol Ref="99" type="Stimulsoft.Report.StiProgressStyle" isKey="true">
+      <BackColor>89, 91, 101</BackColor>
+      <BandColor>107, 110, 117</BandColor>
+      <Conditions isList="true" count="0" />
+      <ForeColor>White</ForeColor>
+      <Name>Cholesterol</Name>
+      <SeriesColors>[29:188:184], [211:211:213], [107:110:117], [74:76:85]</SeriesColors>
+      <TrackColor>74, 76, 85</TrackColor>
+    </Cholesterol>
+    <HeartRate Ref="100" type="Stimulsoft.Report.StiProgressStyle" isKey="true">
+      <BackColor>89, 91, 101</BackColor>
+      <BandColor>107, 110, 117</BandColor>
+      <Conditions isList="true" count="0" />
+      <ForeColor>242, 91, 92</ForeColor>
+      <Name>HeartRate</Name>
+      <SeriesColors>[242:91:92], [211:211:213], [107:110:117], [74:76:85]</SeriesColors>
+      <TrackColor>74, 76, 85</TrackColor>
+    </HeartRate>
+    <BodyTemperature Ref="101" type="Stimulsoft.Report.StiIndicatorStyle" isKey="true">
+      <BackColor>89, 91, 101</BackColor>
+      <Conditions isList="true" count="0" />
+      <ForeColor>White</ForeColor>
+      <GlyphColor>242, 91, 98</GlyphColor>
+      <HotBackColor>104, 106, 116</HotBackColor>
+      <Name>BodyTemperature</Name>
+      <NegativeColor>221, 85, 85</NegativeColor>
+      <PositiveColor>LimeGreen</PositiveColor>
+    </BodyTemperature>
+    <HDL Ref="102" type="Stimulsoft.Report.StiGaugeStyle" isKey="true">
+      <BorderColor>Transparent</BorderColor>
+      <Brush>[89:91:101]</Brush>
+      <Conditions isList="true" count="0" />
+      <ForeColor>221, 221, 221</ForeColor>
+      <LinearBarBorderBrush>EmptyBrush</LinearBarBorderBrush>
+      <LinearBarBrush>EmptyBrush</LinearBarBrush>
+      <LinearBarEmptyBorderBrush>EmptyBrush</LinearBarEmptyBorderBrush>
+      <LinearBarEmptyBrush>EmptyBrush</LinearBarEmptyBrush>
+      <LinearScaleBrush>White</LinearScaleBrush>
+      <MarkerBrush>[224:224:224]</MarkerBrush>
+      <Name>HDL</Name>
+      <NeedleBorderBrush>EmptyBrush</NeedleBorderBrush>
+      <NeedleBorderWidth>1</NeedleBorderWidth>
+      <NeedleBrush>[211:211:213]</NeedleBrush>
+      <NeedleCapBorderBrush>[211:211:213]</NeedleCapBorderBrush>
+      <NeedleCapBrush>[255:255:255]</NeedleCapBrush>
+      <RadialBarBorderBrush>EmptyBrush</RadialBarBorderBrush>
+      <RadialBarBrush>White</RadialBarBrush>
+      <RadialBarEmptyBorderBrush>EmptyBrush</RadialBarEmptyBorderBrush>
+      <RadialBarEmptyBrush>[107:110:117]</RadialBarEmptyBrush>
+      <TickLabelMajorFont>Arial,10</TickLabelMajorFont>
+      <TickLabelMajorTextBrush>[255:255:255]</TickLabelMajorTextBrush>
+      <TickLabelMinorFont>Arial,9</TickLabelMinorFont>
+      <TickLabelMinorTextBrush>[255:255:255]</TickLabelMinorTextBrush>
+      <TickMarkMajorBorder>EmptyBrush</TickMarkMajorBorder>
+      <TickMarkMajorBorderWidth>1</TickMarkMajorBorderWidth>
+      <TickMarkMajorBrush>EmptyBrush</TickMarkMajorBrush>
+      <TickMarkMinorBorder>EmptyBrush</TickMarkMinorBorder>
+      <TickMarkMinorBorderWidth>1</TickMarkMinorBorderWidth>
+      <TickMarkMinorBrush>EmptyBrush</TickMarkMinorBrush>
+    </HDL>
+    <Diastolic Ref="103" type="Stimulsoft.Report.StiIndicatorStyle" isKey="true">
+      <BackColor>89, 91, 101</BackColor>
+      <Conditions isList="true" count="0" />
+      <ForeColor>29, 188, 184</ForeColor>
+      <GlyphColor>29, 188, 184</GlyphColor>
+      <HotBackColor>104, 106, 116</HotBackColor>
+      <Name>Diastolic</Name>
+      <NegativeColor>221, 85, 85</NegativeColor>
+      <PositiveColor>LimeGreen</PositiveColor>
+    </Diastolic>
+    <Pulse Ref="104" type="Stimulsoft.Report.StiIndicatorStyle" isKey="true">
+      <BackColor>89, 91, 101</BackColor>
+      <Conditions isList="true" count="0" />
+      <ForeColor>White</ForeColor>
+      <GlyphColor>242, 91, 98</GlyphColor>
+      <HotBackColor>104, 106, 116</HotBackColor>
+      <Name>Pulse</Name>
+      <NegativeColor>221, 85, 85</NegativeColor>
+      <PositiveColor>LimeGreen</PositiveColor>
+    </Pulse>
+    <Glucose Ref="105" type="Stimulsoft.Report.StiIndicatorStyle" isKey="true">
+      <BackColor>89, 91, 101</BackColor>
+      <Conditions isList="true" count="0" />
+      <ForeColor>White</ForeColor>
+      <GlyphColor>242, 91, 98</GlyphColor>
+      <HotBackColor>104, 106, 116</HotBackColor>
+      <Name>Glucose</Name>
+      <NegativeColor>221, 85, 85</NegativeColor>
+      <PositiveColor>LimeGreen</PositiveColor>
+    </Glucose>
+  </Styles>
+</StiSerializer>

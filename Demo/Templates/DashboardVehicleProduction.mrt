@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <CalculationMode>Interpretation</CalculationMode>
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <VechicleProduction Ref="2" type="Stimulsoft.Report.Dictionary.StiXmlDatabase" isKey="true">
+        <Alias>Vechicle Production</Alias>
+        <Key />
+        <Name>VechicleProduction</Name>
+        <PathData>resource://Auto</PathData>
+        <PathSchema />
+      </VechicleProduction>
+    </Databases>
+    <DataSources isList="true" count="1">
+      <Auto Ref="3" type="DataTableSource" isKey="true">
+        <Alias>Auto</Alias>
+        <Columns isList="true" count="5">
+          <value>Country,System.String</value>
+          <value>Rank,System.String</value>
+          <value>Year2010,System.String</value>
+          <value>Year2015,System.String</value>
+          <value>Year2019,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>c62adcef6b954ab8982f83a90c46be4f</Key>
+        <Name>Auto</Name>
+        <NameInSource>VechicleProduction.Auto</NameInSource>
+      </Auto>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Resources isList="true" count="1">
+      <value>Name=Auto, Alias=Auto, Type=Xml, Content=UzsPCVJuq7sV0PkuvyYxzwSyaNpV12HCDj_x002B_ZSF4tS8wTglzdhcCClnYQDbKVHpgZ0tYnbvrRST6n7dXf3Tnhw7bzcWNzlyqXmr1PyssM8SvEAk_x002F_l5m3Q8XEwiTeA8o4ExVZfp5SC9DjqwPuLc7NdjbzQFQJ71XdrK_x002F_oL9xJY2MFS5FWuHPnbRlTx4nlzXOpRV9GGL5BSCwZXT_x002F_k9TV7_x002B_pI3rKvHoG8MoGR7ZAgjK5SW81rwjXFqSE6SS7WvN9EdlmX_x002F_dLYaFyDEtmtgipD49vIiaENpr0LNYWbNUs38Zag_x002B_VUfxF5y5JpfuGMtepcVKXqPRDEur2vRdvGh1GP9NRfG_x002F_b0BsDA83qqtEBJWQldsduLSF4CfC5lULmISmmPQYQW5_x002B_D_x002F_0SiEnVg6Z3_x002F_V7C5FIbel7TsI20ZzAoBfk7ckB2RLAYDRe_x002F_aHzMUpFgq7aXH_x002B_t9MAUbjUQ1IAnhrI2p1uglSYcWl6zuPFjtoch6lZFHFLlby1v3Ir7gdhXBv9zv6MOqBAgf6Su38IPrnEWVt8BCQ6L5BIfKVUQYrfasp9ZJVQDAdg9SwE_x002F_ON5A2T7gg74Em_x002B_mqT_x002F_kSsRNZe6Gihyq6ZK_x002F_MiIwjhP675ICb0zr9A6EB_x002F_vWhPXIMI1HyETN1zBoCGuH86lZpaeKY1ioJx4eD_x002F_Lp63w0iG1_x002B_JcbvcyF5ZBwil7IlWGn8pYeihoGG_x002B_yPXFpbSZff33sV_x002F_YFW2yqHuiuYySnSmRIOP0OGg6Uz3IYA8bsSt9WemHnAozvCg3f99mumCT5znDX2dJV5be4ss_x002F_Z30GTpw8H91qnmyFyXfhYXESKfdhOsxQPw2Gr8pzxD1q0zdOALO6Tx8CUgGJ4Gy2R4c7VB_x002B_LnIqsiew4zhwrMkYCi0f8_x002B_3OazguovuekZwXLuMGyPWL1N28FQiF9ZIvv4dS6ONOfDKW4vRl_x002F_jxHEywU1USFe_x002F_tEFne9Uf4RPbC7E_x002B_GTiX0zNMzZ1plE_x002B_iXRkVidsTGZqmaNegdIWNUASa3AqswJV1mk_x002B_Aq_x002B_xI47xXSjRoGV6BdDA6JhuPsNOjxZ4ic99tQViDB7ntJslLdFsoXmvbrgQTEDGRjDW1Zodlg2LEtkwaHHgklb3HWR4KtcFF3nVXhy7Gb_x002B_LAYonOxUxVmvn8YfGjwSU8NEokAwLP60UViafwlGm_x002F_w30R07hRVklEoXnlonai8nVLlRJUyVWZ4bwz4l2m8yETAd_x002F_tzAxy9_x002F_Epc4Ovxo7Erc6heehuSW0qPGsZngSHK1v899csEtihaOkWI00Agk0qLwaV9IvQnyHf9wQjvm8pQjnlF4lMYOh_x002F_taoB10_x002B_jEu5zZho4pnJDrldosujEIeal2qaoTAe_x002F__x002F_vKgv0DnaqvrmxEA5qJp9GDq5LyJeZxFg7ZQww9X6Gk1yC2spzfK83c7O8TWvuNTBJAkMpONXwWnKvbl126dOKMRMCWlJbA6G_x002F_TNJMTFoW_x002F_PLFOIdmmF010EO6Qg0wKPpMQhCc2kC09Uim51tVJ09KQ5vsnyvLAmw3R3wEpKbHX8sL38abi_x002F_ia8aEcDKZmQvDcmMgThLLN5jCdZXI5AVKaYH4C62sLuX8n5L0KSMMFXJjs_x002F_r084Yh0zJ8prwyoxDsKzASSlF7pmPgng54ZoCBAIy0eTSmsNvyssBii8OecjUCOic690r4eMTEkIMZCB_x002B_aQmQga7jd3SdlRdZEYTUTwI_x002F_S9Q5qRmlRX4l2L0QKIaEpSMJULm1Z7VpCf5EdHO_x002B_7BAgoFlYywdySX_x002F_SGv2TO9sx3IOdUymKJ7WMucYnRiotuTu9rll0ec_x002F_a0mah4UVHElTP3NdIyvfZu7Mo_x002B_jb_x002B_sdnUNC0k1Lff2_x002B_cd9D6n9q4kE3l3XPfUwzbAmOW4kNcbh8QKCkKlaFnDsYIRcuIGUajCkWv9MW_x002B_C7lSiA5JUK8tjoTx9IJsapny9MnAe3VrmCjUWwhJR7PRVR5i6G</value>
+    </Resources>
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>3402e74f18734606b3705573d5900c1d</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <DashboardVehicleProduction Ref="4" type="Stimulsoft.Dashboard.Components.StiDashboard" isKey="true">
+      <Alias>Vehicle Production</Alias>
+      <BackColor>Transparent</BackColor>
+      <Components isList="true" count="9">
+        <TableAuto Ref="5" type="Stimulsoft.Dashboard.Components.Table.StiTableElement" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>0,360,440,240</ClientRectangle>
+          <Columns isList="true" count="3">
+            <Item5 Ref="6" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
+              <Expression>Auto.Country</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <Key>3db8e54ecb6f482a9e95f35b9ded17da</Key>
+            </Item5>
+            <Item6 Ref="7" type="Stimulsoft.Dashboard.Components.Table.StiDataBarsColumn" isKey="true">
+              <Expression>First(Auto.Year2015 - Auto.Year2010)</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <HorAlignment>Left</HorAlignment>
+              <Key>35f4362b04fb4257a4d05c0ac7f7de5a</Key>
+              <Label>Increase in 2015</Label>
+              <ShowTotalSummary>True</ShowTotalSummary>
+              <SummaryType>Average</SummaryType>
+              <TextFormat Ref="8" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits, Abbreviation</State>
+              </TextFormat>
+            </Item6>
+            <Item7 Ref="9" type="Stimulsoft.Dashboard.Components.Table.StiDataBarsColumn" isKey="true">
+              <Expression>First(Auto.Year2019 - Auto.Year2015)</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <HorAlignment>Right</HorAlignment>
+              <Key>0015c13388094517ab96a7aebb3de76b</Key>
+              <Label>Increase in 2019</Label>
+              <ShowTotalSummary>True</ShowTotalSummary>
+              <SummaryType>Average</SummaryType>
+              <TextFormat Ref="10" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits, Abbreviation</State>
+              </TextFormat>
+            </Item7>
+          </Columns>
+          <DashboardInteraction Ref="11" type="Stimulsoft.Dashboard.Interactions.StiTableDashboardInteraction" isKey="true">
+            <AllowUserFiltering>True</AllowUserFiltering>
+            <DrillDownParameters isList="true" count="0" />
+            <FullRowSelect>True</FullRowSelect>
+          </DashboardInteraction>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <FooterFont>Arial,10</FooterFont>
+          <FooterForeColor>Transparent</FooterForeColor>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>362bb323845341eaa71725af40b09c5b</Guid>
+          <HeaderFont>Arial,10</HeaderFont>
+          <HeaderForeColor>Transparent</HeaderForeColor>
+          <Margin>3,0,3,3</Margin>
+          <Name>TableAuto</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <SizeMode>Fit</SizeMode>
+          <Title Ref="12" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
+            <ForeColor>Transparent</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>Vehicle Production</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserFilters isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+        </TableAuto>
+        <Chart1 Ref="13" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+          <Area Ref="14" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
+            <InterlacingHor Ref="15" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingHor>
+            <InterlacingVert Ref="16" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingVert>
+          </Area>
+          <Arguments isList="true" count="1">
+            <Item9 Ref="17" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
+              <Expression>Auto.Country</Expression>
+              <Key>b5359493c1d74ae28a5394b61ac0825c</Key>
+            </Item9>
+          </Arguments>
+          <BackColor>Transparent</BackColor>
+          <ChartConditions isList="true" count="0" />
+          <ClientRectangle>440,360,760,240</ClientRectangle>
+          <CloseValues isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
+          <DataFilters isList="true" count="0" />
+          <EndValues isList="true" count="0" />
+          <Guid>f38800da6f554e6c87767dbbbe056fd5</Guid>
+          <HighValues isList="true" count="0" />
+          <Labels Ref="18" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
+            <Font>Arial,8</Font>
+            <ForeColor>Transparent</ForeColor>
+          </Labels>
+          <Legend Ref="19" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
+            <Labels Ref="20" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="21" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+            </Title>
+          </Legend>
+          <LowValues isList="true" count="0" />
+          <Margin>3,0,3,3</Margin>
+          <Marker Ref="22" type="Stimulsoft.Dashboard.Components.Chart.StiChartMarker" isKey="true" />
+          <Name>Chart1</Name>
+          <NegativeSeriesColors />
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <SeriesColors />
+          <Title Ref="23" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
+            <ForeColor>Transparent</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>Vehicle Production by Country</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TopN Ref="24" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <ValueFormat Ref="25" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
+          <Values isList="true" count="3">
+            <Item10 Ref="26" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+              <Expression>Sum(Auto.Year2010)</Expression>
+              <Key>fb26a87475cc49a5bf9d5bf5adce8714</Key>
+              <Label>Year 2010</Label>
+              <SeriesType>FullStackedSplineArea</SeriesType>
+            </Item10>
+            <Item11 Ref="27" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+              <Expression>Sum(Auto.Year2015)</Expression>
+              <Key>e4b130c86ef941af8039edd974239dc2</Key>
+              <Label>Year 2015</Label>
+              <SeriesType>FullStackedSplineArea</SeriesType>
+            </Item11>
+            <Item12 Ref="28" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+              <Expression>Sum(Auto.Year2019)</Expression>
+              <Key>6c17291ee9934fe3bebead300e2f0c03</Key>
+              <Label>Year 2019</Label>
+              <SeriesType>FullStackedSplineArea</SeriesType>
+            </Item12>
+          </Values>
+          <Weights isList="true" count="0" />
+          <XAxis Ref="29" type="Stimulsoft.Dashboard.Components.Chart.StiXChartAxis" isKey="true">
+            <Labels Ref="30" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="31" type="Stimulsoft.Dashboard.Components.Chart.StiXChartAxisTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+              <Visible>False</Visible>
+            </Title>
+          </XAxis>
+          <YAxis Ref="32" type="Stimulsoft.Dashboard.Components.Chart.StiYChartAxis" isKey="true">
+            <Labels Ref="33" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="34" type="Stimulsoft.Dashboard.Components.Chart.StiYChartAxisTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+              <Visible>False</Visible>
+            </Title>
+          </YAxis>
+        </Chart1>
+        <RegionMap1 Ref="35" type="Stimulsoft.Dashboard.Components.RegionMap.StiRegionMapElement" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>440,80,760,240</ClientRectangle>
+          <DataFilters isList="true" count="0" />
+          <DataFrom>DataColumns</DataFrom>
+          <Guid>a66d5995c855435fa6412a94326409e1</Guid>
+          <KeyMeter Ref="36" type="Stimulsoft.Dashboard.Components.RegionMap.StiKeyMapMeter" isKey="true">
+            <Expression>Auto.Country</Expression>
+            <Key>b85b2d16aa9547479670726e78f0d691</Key>
+          </KeyMeter>
+          <MapIdent>World</MapIdent>
+          <MapType>Heatmap</MapType>
+          <Margin>3,0,3,3</Margin>
+          <Name>RegionMap1</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Title Ref="37" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Segoe UI,15.75,Regular,Point,False,204</Font>
+            <ForeColor>Transparent</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>Vehicle Production Globally</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <ValueMeter Ref="38" type="Stimulsoft.Dashboard.Components.RegionMap.StiValueMapMeter" isKey="true">
+            <Expression>Auto.Year2019</Expression>
+            <Key>b1ef691bfe7447ea89b43033ff161b8c</Key>
+            <Label>Year 2019</Label>
+          </ValueMeter>
+        </RegionMap1>
+        <Text1 Ref="39" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>0,0,1200,40</ClientRectangle>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>189c4532abb94cd6b4424bf311e4d6fa</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Name>Text1</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>&lt;font face="Arial" size="36"&gt;&lt;text-align="Center"&gt;Vehicle Production&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="40" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text1>
+        <Indicator1 Ref="41" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>0,80,440,240</ClientRectangle>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
+          <Guid>0acd2236ebaa4d0cac7c76a8f1292bc4</Guid>
+          <Icon>StarHalf</Icon>
+          <IconSet>Rating</IconSet>
+          <IndicatorConditions isList="true" count="0" />
+          <Margin>3,0,3,3</Margin>
+          <Name>Indicator1</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Series Ref="42" type="Stimulsoft.Dashboard.Components.Indicator.StiSeriesIndicatorMeter" isKey="true">
+            <Expression>Auto.Country</Expression>
+            <Key>c8fac7e7bb5046b2a755aa3a9bcb0b16</Key>
+          </Series>
+          <Target Ref="43" type="Stimulsoft.Dashboard.Components.Indicator.StiTargetIndicatorMeter" isKey="true">
+            <Expression>Sum(Auto.Year2015)</Expression>
+            <Key>76727ac346034da483ceff8ec887318a</Key>
+            <Label>Year 2015</Label>
+          </Target>
+          <TextFormat Ref="44" type="NumberFormat" isKey="true">
+            <DecimalDigits>2</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </TextFormat>
+          <Title Ref="45" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Indicator</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <Value Ref="46" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+            <Expression>Sum(Auto.Year2019)</Expression>
+            <Key>cae2b91419084eddb5cedb6e4d2abcb3</Key>
+            <Label>Year 2019</Label>
+          </Value>
+        </Indicator1>
+        <Text2 Ref="47" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>0,40,440,40</ClientRectangle>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>25ae2ca07c0c4acf8fba53bddb269c8e</Guid>
+          <Margin>3,3,3,0</Margin>
+          <Name>Text2</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>&lt;font face="Arial" size="16"&gt;&lt;text-align="Center"&gt;Growth by Country&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="48" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text2>
+        <Text3 Ref="49" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>440,40,760,40</ClientRectangle>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>573a382ddc494bb2af5c1270dbe37efb</Guid>
+          <Margin>3,3,3,0</Margin>
+          <Name>Text3</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>&lt;font face="Arial" size="16"&gt;&lt;text-align="Center"&gt;Vehicle Production Globally&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="50" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text3>
+        <Text4 Ref="51" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>0,320,440,40</ClientRectangle>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>c0cd44764d6144abb747d165d457c8e8</Guid>
+          <Margin>3,3,3,0</Margin>
+          <Name>Text4</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>&lt;font face="Arial" size="16"&gt;&lt;text-align="Center"&gt;Vehicle Production 2010 - 2019&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="52" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text4>
+        <Text5 Ref="53" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>440,320,760,40</ClientRectangle>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>62ed12801e7d4ae8ba5482f2398ed648</Guid>
+          <Margin>3,3,3,0</Margin>
+          <Name>Text5</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>&lt;font face="Arial" size="16"&gt;&lt;text-align="Center"&gt;Vehicle Production by Country&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="54" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text5>
+      </Components>
+      <Guid>11ad24abf71b439badecfa04cffb6ad5</Guid>
+      <Name>DashboardVehicleProduction</Name>
+      <Report isRef="0" />
+    </DashboardVehicleProduction>
+  </Pages>
+  <PreviewSettings>268435455</PreviewSettings>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>DashboardVehicleProduction</ReportAlias>
+  <ReportAuthor>Stimulsoft</ReportAuthor>
+  <ReportChanged>10/7/2019 3:14:35 PM</ReportChanged>
+  <ReportCreated>3/22/2016 10:27:51 AM</ReportCreated>
+  <ReportFile>D:\Stimulsoft\Stimulsoft.Files.Dashboards\WebDashboards\DashboardVehicleProduction.mrt</ReportFile>
+  <ReportGuid>918ea565a88441e79a1eaad54988c47c</ReportGuid>
+  <ReportName>DashboardVehicleProduction</ReportName>
+  <ReportUnit>HundredthsOfInch</ReportUnit>
+  <ReportVersion>2019.3.7.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Perfomance : Stimulsoft.Report.StiReport
+    {
+        public Perfomance()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>

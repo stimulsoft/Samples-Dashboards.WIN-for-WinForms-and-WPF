@@ -22,7 +22,7 @@ namespace Show_Dashboard_in_the_Viewer
         private StiReport GetTemplate()
         {
             var report = StiReport.CreateNewDashboard();
-            report.Load("Dashboards\\Christmas.mrt");
+            report.Load("Dashboards\\DashboardChristmas.mrt");
 
             return report;
         }

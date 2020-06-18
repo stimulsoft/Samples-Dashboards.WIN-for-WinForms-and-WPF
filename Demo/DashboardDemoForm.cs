@@ -98,7 +98,7 @@ namespace Demo
                 report.Load(file.FullName);
 
                 reports.Add(report);
-                listBoxDashboards.Items.Add(Path.GetFileNameWithoutExtension(file.FullName));
+                listBoxDashboards.Items.Add(Path.GetFileNameWithoutExtension(file.FullName).Remove(0, 9));
             }
         }
 

@@ -19,7 +19,7 @@ namespace Edit_Dashboard_in_the_Designer
         private StiReport GetTemplate()
         {
             var report = new StiReport();
-            report.Load("Dashboards\\Christmas.mrt");
+            report.Load("Dashboards\\DashboardChristmas.mrt");
 
             return report;
         }

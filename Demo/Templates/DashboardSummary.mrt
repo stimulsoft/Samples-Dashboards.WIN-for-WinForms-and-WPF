@@ -1,0 +1,1080 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <CalculationMode>Interpretation</CalculationMode>
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <summary Ref="2" type="Stimulsoft.Report.Dictionary.StiExcelDatabase" isKey="true">
+        <Alias>summary</Alias>
+        <Key />
+        <Name>summary</Name>
+        <PathData>resource://summary</PathData>
+      </summary>
+    </Databases>
+    <DataSources isList="true" count="1">
+      <Sheet1 Ref="3" type="DataTableSource" isKey="true">
+        <Alias>Sheet1</Alias>
+        <Columns isList="true" count="14">
+          <value>Year,System.Double</value>
+          <value>Contracts_x0020_Status,System.String</value>
+          <value>Status,System.Double</value>
+          <value>Contracts_x0020_by_x0020_Industry,System.String</value>
+          <value>Industry,System.Double</value>
+          <value>Contracts_x0020_by_x0020_Category,System.String</value>
+          <value>Category,System.Double</value>
+          <value>Number,System.Double</value>
+          <value>Cost,System.Double</value>
+          <value>Revenues,System.Double</value>
+          <value>Milestones,System.Double</value>
+          <value>Tasks,System.Double</value>
+          <value>Cost_x0020_Growth,System.Double</value>
+          <value>Revenues_x0020_Growth,System.Double</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>21dcf2639ac24ee0a8082d7754b24182</Key>
+        <Name>Sheet1</Name>
+        <NameInSource>summary.Sheet1</NameInSource>
+      </Sheet1>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Resources isList="true" count="1">
+      <value>Name=summary, Alias=summary, Type=Excel, Content=ub0wHu97dkB3_x002F_kOkSFWMufXcJKziE7r_x002B_ZcrVkKPwXRKkdSLzr1mPjttj10R_x002B_XahiCqq6J5v6f1_x002F_ZrRDoKiLm2VZtGd74Pa7XfWudUv0IAn4Kyj6F7opC3p7Lc2CQ5swS0tx3h7FnqVgnxXuJFnxELf_x002B_sC7olVeoS_x002F_9FKw58fKfjjA0gZefvVdyG9yHCPnLkAdCrJudsDQbk7W_x002F_y6OAa3PMeYFBrdG0rBszPK2AHD4x1RmW3TxNSA_x002F_EMfDfr1RF_x002B_mmzai5lLs4RBYse6yL_x002F_YMn3LZ1QdMmNMErlWi2sWz7N_x002F_hEFccGCSiTfInmGT_x002F_SrcqS_x002B_zbSwx_x002B_gY2B8P_x002B_hM86P3Tjz_x002B_IuDPhNdvzMWUIEb0cOhSXzq5dAbrPZSDpf1GOEsG8myDhFtRHJd38xk3BE0PlA7xGRV3gOPHvAo0LlshyDHCAXB4cf6FZRoNvx_x002B_hiMC77_x002F_LYWMA8oB0WidKFa_x002B_lWBdFzLVmy8igfxUD_x002F_KEasA4wnVd3R9dsK4XQpURcdJElkBW2Aqyix28cIT2zFrr_x002F_34_x002F_RYCfIHs49_x002B_5cYjR9lkdPf8BDzH7vs_x002B_rlFqOOt1A95PqwX2Hwq_x002F_u6eQ33rKUOC_x002B_TkEc0G0h55ISkxtdWOXAPyzuL4Po5ecdRcT093rB27VKscU968GtGNVOgZFUd4jFyOWA4hnxmJCgyKDD1zzjjOaWnA1g4P5FUMxXiVi9rk5VAQZHCfCJq5Z07T5NrJIZ5ya1xu64r3Et8goOeStBfCHkSapI2yWw0FSvl2Th_x002B_NzErVjgZ5OZtl44Alos_x002F_n3ZTYsLpesOnDJ60EU1Izat0y_x002B_EZ_x002F_6QZjN58HC95DXDP8bzbrP6i5kEvCAITpmsDYnk589NKIS_x002F_yzerfAWnAFvFkwOVXOajLA01dNxXtU6XSQGi_x002B_vuSrlq2D_x002B_vzWI4C2JqqCM_x002F_q52wCKMBwGNJ9L_x002B_mpbCl0SpheiZgcGThITJjQC_x002B_IMoY3sWqdMYNIhNWJwLEMIblawwKTgHaFEErFC0vUaTKignRvJvm70AvabUFAWldNVovc0KKLp9RPy9d4R_x002F_O3BkVeoqWoRuUVDDKe5Ya4naxJIeq6aKxAPVdVfQjOkVMmrmNhO6oXBYo_x002F_4BfQEs_x002B_GtDGrSkrvpYCvY_x002B_kwRVC_x002B_TyUc60VjMhXJFiqnZXnon9grs49sSNPz5lYIoqClAgT7T7EL8EuDSgzvafD0rWQARSK4idCAXJac7KncHGwxlIB59iEY3K1qdMzaSAm6mF9RauHqE0wufrRTUgZL7DM4glP2kgM5A897ga2UEzrnr3ZJb8sK5PE_x002B_2NihfIIX235aP6y_x002F_2ukDja1IP7T8yzNObEIR9gwxjNuEe89SNIeMAyXni2vMVJlq4yMa4lumzwD8Q4utYznpnX5hoycUf03m4IZr6sG4y5Gfptd78Xb141m6pYg1GEabt8subvzO2WXUVTuPcqQWyA8jtUzksHze2Lgh_x002B_xxL3kP3s9hhxlbkp49Pv_x002B_TMAkjdX3plR_x002B_i1tkQPZhzenYvKuH0JOBtod3f3ItTU_x002B__x002B_uQEXngmL9dWxPHvXxl5v4b7xZ8dInO1ogov_x002B_YJ07LhFzKvjwGwukMUjtdqStgg0Zwh7TpBdVcKYHCru23keCwNLKUQ5ExS3XPXCyL9kk8G_x002F_Dm4ut8yD_x002B_Bk93fU7j_x002B_lgYf3omal0_x002F_i36oZHFXOcEQ9lMJcGD99dReqUGZ_x002F_EFJCDqLFmsv9uOwnW74U_x002B_VKXgrAYd_x002F_ym6aXX_x002B_ObkAr9eDKJkF_x002B_UD3GkYLY_x002F_v5XH1y3Uy4LZ_x002F_Yjy0D_x002B_vvnwbqH81epxUg7746Dm3cmp2kO7GguzFk0vEeNl3wXy_x002F_ocNGaRWoR0jRf0ObGu_x002F_nHj6lnhi2t0WC0onvh33l8yeetNOBcvzPh7jj5Z2ZmEFrYSLLxgbrcQ7PjsqWgOguQIJU101ayl9p6W_x002F_RdkHxzLG6jwRANurhtVZyxRWjCgkjRWKSkV8cidCFI7MKtM6vy0rZxd80uUu2igBG2bQzg8TbmLtEUlPFSYaVpecEkY9eo04TjLF4Kndsw9_x002B_yZYUBsvc1_x002B__x002B_hn6fKSNhOmLFAJr4zUhMnmhSyaQtpJ3adX8kKUOnPQFRXTu70m6xfHLc8_x002B_LsV89sRhSREA80fc0isxxxKyDCc7t2Tf1Ay0F648A9KVFEfXra8jQKIl_x002B_gjH9yenr_x002B_lHAq93JzVuMBNU_x002B_sG2xuW1zALPskRyWxcX_x002B_c05jiy1YiSsFgX_x002F_zPQjGt2KRK98ZZ25kcqgVcvNfpKCFuIRckCZCWL_x002F_KYuGJlFkug8gZYCFkl96zy7E08mCTmsnnlonHv4kR4MnzurLhkzHhPeZAZFMS_x002B_gY6RGcjfP17xJVMDmuqk5QUx9S56ZY_x002F_MrZc7xEfyjDFtm8_x002F_IxR8HqY_x002F_X77axmmzN_x002B_lWhfv3OA3dDB7dTwtxneY4tOWFAsWrWkZcHOXSkxeyiuGTUZ3zeoNI65iTOTbq7FTOSNHdYU0ZjWYofVkEqvqFpVPePXKly1ID2VPoG_x002B_JVjP4hEc4duInVDdwopMulcBUxB_x002F_qB8A9X2Rtn5UISjupmanc2j5y08XGXXObWdEvWHbYsAYP20f2eYWny_x002B_XPtU734IxIkOmySuEfL_x002B_tbrArr2or_x002B_o32zHTIj6LFGIDm7U3WnJkcLXhwQ5J2VXPig7hLqyTUkzmpIS6wDftBM0gYI4NQW_x002B__x002F_CXGLN19cVpLUw6NUqr8Z5QAfzDMfQNsYQpkZ4LL_x002B__x002F_MBCqlt3vrKen4lcVpLvm_x002F_ZzzRluNZKchkMmabOabscxEC7fBLISd9rGeBz5ra26Z1j7uWhazs4BEVIeIRG_x002F__x002F_E0EsTwysR83HxXZ059GfwcjJJnpXwjTTLUjoUL2MsDGGkV7J6SreW_x002F_wy7kKzZLzthPLca3hl9mIFmkjF3J6yKIIl70u2IdkXpsDaSRgmWHa8I4Pmupvy6S7IY4FVxgg5FZNqFMX_x002F_Y92jOEFaOazfXKQ1hmNdCEjwrfZt3lQKi1Vf9sjTKYC8_x002F_iam4vCTiJd8lYTD5Ii3Bd5L4efgr7E_x002B_l7iEUvk9_x002F_4jXl_x002B_YnPtNbbkEwc85SiqggAvmRbu5lEF8G_x002B_3U1sGpforPdrJ72zG0E_x002B_712_x002B_QN2ImVTIrU58JmKYox8_x002F_3suOP2FQQyihx9e1Na0WvCU5pWPzaXAD33Rv7y5YaQv0bv2UxYlCjeepU5adilxoUEXWENp0wO62tzMtNoA1NfubYxBApzQKhOGV8rfry5vgPrb3qjt0qpSZnCdtgHf5YwJKbghOSVia_x002B_2tFswAYf7h2Zzz3DxqTxvcjHxON9iRFjPMju8VeBAeqJoNvpdgujy0fZbYCJMaqgwksR4LbeYgjp4D6EhrT5GzXEmhE_x002F_7YW1_x002F_rBJdfjqftz3Qle5N6bzPVOP60rmxt26RgTEipXYdzhk4aHM8JQQEv0dhRcindvnM51zQH4PH4or_x002B_7b7o49TGcRozs9q1gJ0GGsVwmy_x002F_nUl0VL9hPBontKOixycycPfAG4dhuD0t8n_x002F_r2yIRGkFYHgXm2WsdaDYp7iMOI_x002B_88WjmZnKB1ht6gQky2Hp48d2PMEwGqVahscC8cHOjLQUaboOmc3MFMqum1cRID9ASODdmS3r_x002F_teI9aCsDiHQf7xFUkkFuoOA4gaFJXKEj8T_x002B_FbW1O3ihDVwy69OLnLR_x002B_bW70UTNj4v_x002B_jD_x002B_39QI_x002B_SrrDvzpkEv1_x002F_GGzV_x002B_K_x002B_itS1JliFUi6ESY7HOQsKK3IX_x002F_Mi9kqWUGIwMIn_x002F_ELbSPKF5xKo424Uu8JODOWzG_x002B_Hg3GhenV6lnLGdVpY4kTDZaPO6OCbq9dL_x002F_ppn2Hv9E_x002F_oQHwCmE2VPHSav6EgSFn_x002F_4Pj2wJXF4dXx4EF2MEFgBaktXhhu_x002B_mYBluq_x002B_MEyU9Lwzl9Ou6njYlMCZ_x002B_xahCNP9_x002F_aQiPmrO41n6h10yahenbgR5u9pP1LCtfDEu45GqDc8QftTsdyklWRh4M7yjCrr1JdkqmKTSZvMIGbeXsyD5btCUyq8TlQYhgFg09pW3sV7UcWAv_x002B_hdAP2n2GigLbE_x002F_F5IcWWZ0sNtk8cAbFIIk1mvwZh4f3B1U8YzAqsticjCD2aQUVRHXR4AME0j7CZLFSCcoWAs1dges251LKrU8MAfVI0vWKcwmiGthdcG7MESO3EJHjn8Nuv53NPaM8Q4BmtEADR7xsx4e3hpeO0FmvURdI_x002B_mjtBpQTXx5ExP2SBtiHtg_x002F_bU3Np9jBqBAUhq_x002F_2mrJfMY1JLGbnEji482NP8APrREs5fQnc9DPPX1ivZfOI98lZfFMgGuNRQZx17KBjZyVCRM7Gw_x002F_oY96d8IY4WQ7HknkHMvO4L9mK80tCBcJcMHsAkVDLVZcAks78xSoADKRilcQc8jKKwbAxsoSlsy9jCyrJm7hBeZ_x002F_Hhx7qkzD_x002B_VZg3ElKIVx5MPQFKh_x002B_ypVKdGPgDccSMjwn_x002F_P93IwiQBsg3NQTKnHqG_x002F_tzEgY8JW6dYFkWM2NXm4MhBu0Z67r_x002B_BkKqBvYp7jdR_x002B_iZsGfTbGIDKG6_x002B_O9kvL1vLo9JrlcpH3wG2ZLgWzRZpbB_x002F_ww0EKRSBmbiisipNsJXPm6tt_x002B_j9m8eZ2yw5lrcbGk_x002F_pHaE_x002F_k0C3qtfduPkyefTrxKxVQeYfJZOn5Yzr2AoaN8OPU_x002F_vcdBUFoa1zCfBwJwfJqm2JY0dH8KTHr2KxMApSM1Q5gV6OW22sAtflIj70WgNZkFqzDoR_x002F_xAjGoPSq2y3qOYTPIkhfRZokfsdmmo7FwGykuLTkTyNt7sVLYdqwiHQnhARMm5hvUsK05ko6GJZCMAfbkzXVHIuOb1n_x002F_gszibd_x002F_tMwCLD7LToVTXp2WL3sTLL09CLviTspSRf4kEDEHAzC2XO4c6bm583ypDrScilv_x002F_0QK2HeyTI4vb6ea1wkmEQDxNN5gE493jaB_x002B_h1L1M2q_x002F_iE_x002B_26_x002B_9EprOsMbu2KIwZZZxhVTwVUvytDSHAm0VnoUUEKmudUp6gouCMR9mO8kNm0lzxBt7Ez_x002B_Vd2g1PpxUBA3dR32lnM28VhvCvwz_x002B_BagTo6PhayusGvMGQ4ewpuhY7_x002F_CZAageSuhGVovaG3Zh_x002B_kaAii3gU_x002B_sS8DrlbcJM_x002B_8A6z4krshXRJ185V4r6e9dF6cA3ZHMy5bUv_x002B_sfENqoh7zKb0FF5XjvmLSq_x002F_wX66S_x002B_BAwbvyaHuWKeLPCxZ4c1h_x002F_tK5_x002B_qQ1WqQ2JVWjBWzBLPHzNdRJtW1J5tkKxVU57a8b8Gb9uORQlPDmhb7OzZC6v3go5kfB9k5xtpjCrMqKeW14z2eyVU95OEs5KSQW_x002F_phGeLBiVAfGfvto7o2Ha1iQYCB5g3a7e84j4p26h_x002B_lTus0fZ0LWQknaxJqG8lU710GDMD92TutwEz1LQhaAh2SYsGNSHqldjM_x002B_YYLu88cdkzxee6Yj9v7WmRbp4_x002B_78i14JU1hijj1LfGq2_x002B_Lzm0sf_x002F_O_x002B_UuwZ8Dg_x002F__x002F_1NS8ie1b22coca7rjg5VIsLr1EvhrRPsxE2PPZAPDYfzcVhGHVaXv_x002F_y5_x002F_n4K7QQyec0fNOIK_x002F_EpSRei38rDg80EvsQuQbu8hVrbE_x002F_QSXm9NvOpgGMeh_x002F_4zqw9cdL6a59LKFkb9A2L2OaOYPpkhZHR1XXTJ8n7yY8C1ocULosxMmD8L6KyMo6gAY2ffCYycoZvc4yvmVLpipSA1CYh1WmKofiSvcklN5rnYeZrVYSStxTtyp_x002F_hoV0BG79HP5h3oA1X9cCJkQ6nk_x002B_VBzZn8d5SgXczHFvsMulidwi4F4KixBSRFcV_x002F_DkRcV9jFyMe57hT1OCjkeBGWljwpIRDnXwus1Uy0U9qYAQZkjqxHxXdD7kDvDGEi3rVeJscb6R0NqiDzeCt4_x002F_S5HT_x002F_km9PxqPzrzaSz88t3C_x002F_Qajfb0G6quURC2DQKx7whHkzu_x002B_Q2gg9IiBbZuI_x002F_IkfxcRC_x002B_qStJB0CVUNTQKAzkL21OAnR7osalSz6E4zxGfsoDE8poXbmsPK4LlWc1ysXfa_x002F_ARlb2QT4_x002F_r3LJ_x002B_nc65IL_x002F_o7xUcrUDp919lT2XRbVTDJKGhGRx7GV8IsSxd_x002B_g4bGpdu5ZzLQIH_x002F_b4V1FwFKnUN9enCD5k433HCJSf1wZTN1omWh6_x002B_1QM_x002B_DBROQxdbgASBTWJtJAkjmsw97uLUhAzJAsn1lqbPjlk8I7Bul_x002B_Ba_x002B_B_x002F_olJJ01YFDoGJR5aNWNv5EdhDR3D1VML_x002F_gi7RudaCzEObzT9D9YTPQR03UjZdXABHrrNAoPaHvpbMmEcE_x002F_pVeP16lPN2w3h_x002B_UBleywBVnXUZkBfXrBR_x002F_N9qNLv0KnQFp6HS5lLn66_x002F_qqNDqrbc8fR23OYl6i9eV8JzexhkJlWhu2wJ8B5xCjU2l5g6qRcA703E6s2GkMtJXyAKtatazvQYEIZWSAbzg0kKCqWjNNOLOjwOzdEWGEXbaAtzN9jqcEnmB0b8MRq3HrnGITrDV28_x002B_El5M8TZQEjk6ZkCRmeNmmnRGzEeo9JHUVojQJQfszjrQd5vGhCc7BDEpr0aXxp12l3lydKUpaQ3GDcoKTvvB0pjQjRm2nV11vMqVvTuYdjuQgQziWMPirWD3P135mHVzJIv45TnGcMWfbhq6rz_x002B_MKq_x002B_GG63Zx5hk5X_x002F_ogfquMoIJm8nHnt3SFp9Jqv2yYI8If1KhezxZIJ_x002B_0rFZev1NnfNvlHs3FBP4B8bu_x002B_Hd4y36sHegFuysmNcNiHyjmwnYU_x002B_RJUIB5UrM_x002B_o7eJFZBdMPdKbkWy3EMPKMe9tCXRzuKWHQwShjildXAEuTifwrI7wFRMMUMrEjXTwrQycEcpy7a6nrtV0SmiPMfFsYVEGBjxtMmVu6w291YwIOm6fbcOZGZjAdncGIw_x002B_PgkKPnAiA6viu1HUGa1MBUCG5rU1_x002F_olTLbrilBdeHy0fxHUhmpqYlGrBSawwnMzdH7lV_x002F_NyrSgV9sc29wTKX1J1edzVlCBBySDmb0_x002B_P_x002B_JNSKo6Kwg6RVSSJ7h00ziXWdGADSoBkt_x002B_cZusXOj4gYDwqOcc17s9ELlvGFtCCN5kv_x002F_UwEyqTbZgK2qGQSbZ3g3i9f53vqOJQ1gRU_x002F_M5efWf8wlorV8tq_x002F_WfEUPzcmrnmAfmv6lvX7jhHfY5oqhUQYjdbo_x002B_yzCCoOL94YBT_x002F_w8U_x002F_aOM0pKBjGQZPCzktsSk_x002B_8YqAWP1MRSel_x002B_T3zISaSLIqBZikODnJ4lQfxab5O8ySYiAEiDhy5oFpdJetwFSf_x002B_mATXw11qWxdi4DkaIx534Q3w6rcIsvodsf_x002F_k0IUZg2H53QKRv16WiCdauH4vEPcVcKZvW_x002B_SEgVz8Uw7WZBZ1NVsVys_x002B_FlFIGcaOpRKBgAURJiIhP2hUMX_x002F_cVv6LC_x002B_57xTWSxx6UwWmMALgXCs_x002B_Gdf_x002F_KLyijXGczbv0Bf1179ogMjjHEEEzz4sHuFMhUXCIdMvSUCBOxRc94sjEHCMczAVUFIbc4OaoxpE8hTUGaq_x002B_olXLEkNWTjqYJ0S1ufCwdW9PKiuTTtE0zau5UFwgLvOd3zSTR5uLfBPpSB3KRfacCA_x002F_T7LYe1CMy8RAU18b_x002F_uDKDIZ_x002F__x002F_dLf1FNYnh19mCvkDpWXrMw_x002F_Hrov58a5ybM_x002B_gfGI58Qyd_x002F_zYqmKk2ax8XROoOqSxK4Zxs_x002B_mgRqJOM514Xd_x002F_Ys7HR89fhV7mPEFEIqth5j01e5pHx1_x002B_T6fyoJBJYOk9JPimkCxK3iGJWXKNjtNHbjpJazQX6sHLz_x002F_PJeds6j9IvYHtgMjiKkaUdK_x002B_NvCLBvDgqfNPLTPbptM_x002F_G6bhmM1JA2dsEmnDTpTrNie_x002B_aBjbY0gAohl2wg2aMhEtoiFv1AKkhoh_x002B_c_x002F_JcD055BMZOtJgaAa0ZvksU6XcreY4jXvkk9dVD_x002B_ABcAYUhu7si1oaIWhxSV6IU3P_x002F_vsa2Iotdj8uG3zRH04rMaxR1cMzjQ9H4upa6U_x002B_ExffTqhkLz_x002F_yDLd4CpHq5mpB266Pe7AvGMZsp0Tt_x002F_m7zznzDvD3pS13tvitdkZrC7_x002F_FB1qqpMjUmAP_x002F_30Us8WbthzKZ0COCAbeDlJEaY8APb5lA_x002F_Jl6lCmGRsaI76tsdulKn22jJB_x002B_Z5S1GddrgJC1o9lR2GSOs8PW6IbgDcheUV5H1BnfJHJE0AFrOigVD71Qy5BI3IIr1xaF4d2kLzbNNVN3zDrkpkY7a63e0CUIfijk57R9R01_x002F_eQopbXd40Hx_x002F_pO4g0jjroHVAwzB2BPU4d_x002F_0J5kU9PDhzLybBOfbXw_x002F_fQ4ZOOVMvxmvacand4sBsutZMXYe50TknRhmHi_x002B_ri3gtWC76QzhyhBtXedQmcysuQn01l37_x002B_eMrBleIdGQbI4JLW9KBX0QuJeEHp_x002F_iJUG0NIO852yghrfivJCw0MCnTP7TXsEDmQfxN3ig78KbGO3ggTSumC0Yvw0clc7B9swG67iikwGpQ9GKeytoiKggpCdJkU_x002B_2IsYN3GvluJR1i9_x002F_fhtj9wS5i0FJ5pMQaA_x002B_FPrzXwRtiqhWN4eo6JOCCR5_x002B_fLf8QUgSeCCXtJvxJ5FUl_x002B_vSRMbEmO_x002F_iHB0i5plixTEG_x002F_i8RwDwoL1aJrBOizhqp9jJOzsRcIo7iV83Sl9f84Eb7V796SUOwg6ntaTo9IJ85LPG_x002F_5m75VveCQylM9RAR39tYQtT92aCUNO23C0bL6aYxmXxY9_x002F_BQzEjneLHQ0LQ_x002F_JpMmUaJ7tlOyJIqpIM8mlRoACjIAWVtjIPMwkIW0kuaTcb8eNXgfjGw3kbXPQrEjOtUIF97ULhg8F7MRgjHux7KoJmU0wlaZlesIWWyQST7KprdMqLslRyO7U_x002B_FrKaSxoznupjwH4ki3tlBGVOurmfZEkLBorwO1VBuAXdBLBJrtMwkmqEoWlIb9Ak7Lo7Wnf1WDf2xwWQMwZOlD9VXUg9V137vDKzldeOXZTBByAPtRB_x002F_ERFsfmwvim0no6zfEtJApbZuqJTMHQ9odGSdUhDu5LzWxTTfzeQpJZy1sG7wV_x002B_WnGFfbsOuSFNePt7bPNP6_x002B_BTA9IEvqzwDP6DzbnwD6SFI_x002F_qO2ML_x002F_3IEOXlRl0DeCLU4iRLroQox_x002F_kihuTFVXZc4c6KInGagIAA24eKTtWyV7d17afRluvhn1_x002B_TOCSsX_x002B_g61cLUXh5yC4wG6HbYnwb3lmjNRrmuGhfEqB8E7rVivZsnbBZ4Ws9daLIarQC5VXJ2CqNkW5IG_x002F_fK_x002F_oSRdfm0zfKotv_x002F_xXK_x002F_5xaSnhffSJsFvsdQwpMtRBTTO8jaD5NYj1Jf2xpLOYIWLSnKlsuqc30Vye1aUwA9L1TUXHp5K0Qmh9Y4LpiacW_x002F_kVi_x002B_b7m4itgjtB_x002F_tu7m_x002F_9Mfo68UmmrnI8gYtu_x002F_QPA86j7s6cQGBHZi4Rx52IgvXc2Pcb6PbyoUFR5aJkv7XLZoOuh2SrflQJRn2BViS9IYLAaYlQzmCqazxP7FlZW8CmyPL2qhQuI0AlzwmaLAPJVKJv6gAZk9U16ESjgvle_x002B_EY8_x002B_f23ZbpXPcvCwZnNOMt1DIxHwzbuCNUn16BpQPg6g30nrC8Og9xuhteT5WW1m6k3ooD_x002B_cK0hK5E9F7aN4pskTKMeCLUOIRrA6b3LgdHK6Bdb7pbmLgTsT6kVqQry_x002F_qeki_x002F_TXz6AsdGJi1LMVx28JAzDXZQiIwfXhZMu9StgoCfKXq0TMGa3yGXOw1IKXy8RqoZ6w7njieM4TkZ_x002B_9dSYKyU40ORaoRCz9GmtMqyS6RZA5mE15DemeOChpBfYdHX97MqQItxPBEysq27FGc_x002F_W39kNolRYuXVnxL9BIFTSeJx1CoDXn2hswHXmFLpqL7Ut3XVUz5VoJGrWrFmt1WHaxDzSgJMepNICMmFoQn1OYQeP7KkSbjJesl8jabKuCZpwRjezwrnB10uEW3pUgjKAsRqJO7MX_x002B_mOq_x002B_Qi8lHxykXrXpwT5_x002B_teyPaDfYeDLA01FTUOWpPF7oMXXqfpsnJ8svcE_x002B_xatWy5FubfyB70cDy84RGbi1Bp6xvkkmsbyunUG9oAKNCGp7kl7eYs_x002B_SoVEI4NimzU9szkH5NTssM0YZ1IDBJJFMmM_x002F_PQ3GBK9Y1ZZqu7RpJSuu9TgW5qoei7wwf3bIuYMJOkcvqEX5XETYczC0yXZmasPyXAq2QlTKr2_x002F_vLBxlp6Kh0iU_x002F_tNjbQT9OdL9AiRxs9RBV0d_x002F_QQsKb9YieAQTTNFSr5ybEHj7lXbWwXFEKX5Y6uRJfMTqID4QnrV1awDYSMAnZQGvJqUfScmPJnnd7NaUVEgyJsRWO0_x002F_vnff7ScjOweMgBcp_x002B_VpRDZM5nSYtTY1vxT8byiLtFuGj24aQWoO9aXN_x002B_1sfMo_x002F_Z3L51Gl1CWNSmD_x002B_2gh0pqX6PCjSGMWVwqGhrt4XupNkjrCSQSkZmHsLYJiP8_x003D_</value>
+    </Resources>
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>c74b1fba0f404be9915d86f65c726067</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Dashboard1 Ref="4" type="Stimulsoft.Dashboard.Components.StiDashboard" isKey="true">
+      <BackColor>Transparent</BackColor>
+      <Components isList="true" count="22">
+        <Text1 Ref="5" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>0,0,1200,40</ClientRectangle>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>9f8587f9ebcb4a7a8fd3aeac80e15bd7</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Name>Text1</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>&lt;font face="Arial" size="48"&gt;&lt;text-align="Center"&gt;CONTRACTS KPI&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="6" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text1>
+        <Text9 Ref="7" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <Border>None;[165:165:165];1;Solid</Border>
+          <ClientRectangle>240,320,320,40</ClientRectangle>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>6362b76be2854a87b8abfbc88119fd5a</Guid>
+          <Margin>3,3,3,0</Margin>
+          <Name>Text9</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>&lt;font face="Arial" size="18"&gt;&lt;text-align="Left"&gt;&lt;b&gt;STATUS&lt;/b&gt;&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="8" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text9>
+        <Chart2 Ref="9" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <Area Ref="10" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
+            <InterlacingHor Ref="11" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingHor>
+            <InterlacingVert Ref="12" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingVert>
+          </Area>
+          <Arguments isList="true" count="1">
+            <Item7 Ref="13" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
+              <Expression>[Sheet1.Contracts Status]</Expression>
+              <Key>b61e38ae8303489ca8acb76b53c73f06</Key>
+              <Label>Contracts Status</Label>
+            </Item7>
+          </Arguments>
+          <BackColor>Transparent</BackColor>
+          <ChartConditions isList="true" count="0" />
+          <ClientRectangle>240,360,320,240</ClientRectangle>
+          <CloseValues isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
+          <CustomStyleName>Doughnt</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <EndValues isList="true" count="0" />
+          <Guid>00ab4f09e3794caf9eb439fbfa17cfc7</Guid>
+          <HighValues isList="true" count="0" />
+          <Labels Ref="14" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
+            <Font>Arial,8</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Style>Category</Style>
+          </Labels>
+          <Legend Ref="15" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
+            <Labels Ref="16" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+              <ValueType>Value</ValueType>
+            </Labels>
+            <Title Ref="17" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+            </Title>
+          </Legend>
+          <LowValues isList="true" count="0" />
+          <Margin>3,0,3,3</Margin>
+          <Marker Ref="18" type="Stimulsoft.Dashboard.Components.Chart.StiChartMarker" isKey="true" />
+          <Name>Chart2</Name>
+          <NegativeSeriesColors />
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <ParetoSeriesColors />
+          <SeriesColors />
+          <Style>Custom</Style>
+          <Title Ref="19" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,15,Bold</Font>
+            <ForeColor>Transparent</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>CONTACTS STATUS</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TopN Ref="20" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <TrendLines isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <ValueFormat Ref="21" type="PercentageFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <PositivePattern>1</PositivePattern>
+            <State>DecimalDigits</State>
+            <Symbol>%</Symbol>
+          </ValueFormat>
+          <Values isList="true" count="1">
+            <Item8 Ref="22" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+              <Expression>Avg(Sheet1.Status)</Expression>
+              <Key>4eb969284fc4472f8339485705487ef2</Key>
+              <Label>Status</Label>
+              <SeriesType>Doughnut</SeriesType>
+            </Item8>
+          </Values>
+          <Weights isList="true" count="0" />
+        </Chart2>
+        <Chart3 Ref="23" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <Area Ref="24" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
+            <InterlacingHor Ref="25" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingHor>
+            <InterlacingVert Ref="26" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingVert>
+          </Area>
+          <Arguments isList="true" count="1">
+            <Item10 Ref="27" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
+              <Expression>[Sheet1.Contracts by Industry]</Expression>
+              <Key>bcddcd9fafaa4ae08bd21991cb22e891</Key>
+              <Label>Contracts by Industry</Label>
+            </Item10>
+          </Arguments>
+          <BackColor>Transparent</BackColor>
+          <ChartConditions isList="true" count="0" />
+          <ClientRectangle>560,360,320,240</ClientRectangle>
+          <CloseValues isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
+          <CustomStyleName>Doughnt</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <EndValues isList="true" count="0" />
+          <Guid>02deeab1858d4ddeb97bcab13911dbff</Guid>
+          <HighValues isList="true" count="0" />
+          <Labels Ref="28" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
+            <Font>Arial,8</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Style>Category</Style>
+          </Labels>
+          <Legend Ref="29" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
+            <Labels Ref="30" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+              <ValueType>Value</ValueType>
+            </Labels>
+            <Title Ref="31" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+            </Title>
+          </Legend>
+          <LowValues isList="true" count="0" />
+          <Margin>3,0,3,3</Margin>
+          <Marker Ref="32" type="Stimulsoft.Dashboard.Components.Chart.StiChartMarker" isKey="true" />
+          <Name>Chart3</Name>
+          <NegativeSeriesColors />
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <ParetoSeriesColors />
+          <SeriesColors />
+          <Style>Custom</Style>
+          <Title Ref="33" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,15,Bold</Font>
+            <ForeColor>Transparent</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>CONTACTS BY INDUSTRY</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TopN Ref="34" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <TrendLines isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <ValueFormat Ref="35" type="PercentageFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <PositivePattern>1</PositivePattern>
+            <State>DecimalDigits</State>
+            <Symbol>%</Symbol>
+          </ValueFormat>
+          <Values isList="true" count="1">
+            <Item11 Ref="36" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+              <Expression>Avg(Sheet1.Industry)</Expression>
+              <Key>9515116b5a104ae1acce1e98aa6584ab</Key>
+              <Label>Industry</Label>
+              <SeriesType>Doughnut</SeriesType>
+            </Item11>
+          </Values>
+          <Weights isList="true" count="0" />
+        </Chart3>
+        <Text10 Ref="37" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <Border>None;[165:165:165];1;Solid</Border>
+          <ClientRectangle>560,320,320,40</ClientRectangle>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>30e32df03887477ab2b06a67e86dd266</Guid>
+          <Margin>3,3,3,0</Margin>
+          <Name>Text10</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>&lt;font face="Arial" size="18"&gt;&lt;text-align="Left"&gt;&lt;b&gt;BY INDUSTRY&lt;/b&gt;&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="38" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text10>
+        <Chart4 Ref="39" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <Area Ref="40" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
+            <InterlacingHor Ref="41" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingHor>
+            <InterlacingVert Ref="42" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingVert>
+          </Area>
+          <Arguments isList="true" count="1">
+            <Item14 Ref="43" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
+              <Expression>[Sheet1.Contracts by Category]</Expression>
+              <Key>9aa2173697cf4ffca838c4a8e10b10bd</Key>
+              <Label>Contracts by Category</Label>
+            </Item14>
+          </Arguments>
+          <BackColor>Transparent</BackColor>
+          <ChartConditions isList="true" count="0" />
+          <ClientRectangle>880,360,320,240</ClientRectangle>
+          <CloseValues isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
+          <CustomStyleName>Doughnt</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <EndValues isList="true" count="0" />
+          <Guid>38f8e0ab4b194382b2e1a2693a62f9f4</Guid>
+          <HighValues isList="true" count="0" />
+          <Labels Ref="44" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
+            <Font>Arial,8</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Style>Category</Style>
+          </Labels>
+          <Legend Ref="45" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
+            <Labels Ref="46" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+              <ValueType>Value</ValueType>
+            </Labels>
+            <Title Ref="47" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+            </Title>
+          </Legend>
+          <LowValues isList="true" count="0" />
+          <Margin>3,0,3,3</Margin>
+          <Marker Ref="48" type="Stimulsoft.Dashboard.Components.Chart.StiChartMarker" isKey="true" />
+          <Name>Chart4</Name>
+          <NegativeSeriesColors />
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <ParetoSeriesColors />
+          <SeriesColors />
+          <Style>Custom</Style>
+          <Title Ref="49" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,15,Bold</Font>
+            <ForeColor>Transparent</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>CONTACTS BY CATEGORY</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TopN Ref="50" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <TrendLines isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <ValueFormat Ref="51" type="PercentageFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <PositivePattern>1</PositivePattern>
+            <State>DecimalDigits</State>
+            <Symbol>%</Symbol>
+          </ValueFormat>
+          <Values isList="true" count="1">
+            <Item15 Ref="52" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+              <Expression>Avg(Sheet1.Category)</Expression>
+              <Key>71337adb814f411aaf3616a53aee5317</Key>
+              <Label>Category</Label>
+              <SeriesType>Doughnut</SeriesType>
+            </Item15>
+          </Values>
+          <Weights isList="true" count="0" />
+        </Chart4>
+        <Text11 Ref="53" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <Border>None;[165:165:165];1;Solid</Border>
+          <ClientRectangle>880,320,320,40</ClientRectangle>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>58b728cdafea4a6f8d583832bc6ff004</Guid>
+          <Margin>3,3,3,0</Margin>
+          <Name>Text11</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>&lt;font face="Arial" size="18"&gt;&lt;text-align="Left"&gt;&lt;b&gt;BY CATEGORY&lt;/b&gt;&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="54" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text11>
+        <Text8 Ref="55" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <Border>None;[165:165:165];1;Solid</Border>
+          <ClientRectangle>240,40,640,40</ClientRectangle>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>d9f15b1ff1d24ddda2a49affd5935ed2</Guid>
+          <Margin>3,3,3,0</Margin>
+          <Name>Text8</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>&lt;font face="Arial" size="18"&gt;&lt;text-align="Left"&gt;&lt;b&gt;COST vs REVENUES&lt;/b&gt;&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="56" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text8>
+        <Chart1 Ref="57" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <Area Ref="58" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
+            <InterlacingHor Ref="59" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingHor>
+            <InterlacingVert Ref="60" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingVert>
+            <XAxis Ref="61" type="Stimulsoft.Dashboard.Components.Chart.StiXChartAxis" isKey="true">
+              <Labels Ref="62" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels" isKey="true">
+                <Color>Transparent</Color>
+                <Font>Arial,8</Font>
+              </Labels>
+              <Range Ref="63" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisRange" isKey="true" />
+              <Title Ref="64" type="Stimulsoft.Dashboard.Components.Chart.StiXChartAxisTitle" isKey="true">
+                <Color>Transparent</Color>
+                <Font>Arial,12,Bold</Font>
+                <Visible>False</Visible>
+              </Title>
+            </XAxis>
+            <YAxis Ref="65" type="Stimulsoft.Dashboard.Components.Chart.StiYChartAxis" isKey="true">
+              <Labels Ref="66" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels" isKey="true">
+                <Color>Transparent</Color>
+                <Font>Arial,8</Font>
+              </Labels>
+              <Range Ref="67" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisRange" isKey="true" />
+              <Title Ref="68" type="Stimulsoft.Dashboard.Components.Chart.StiYChartAxisTitle" isKey="true">
+                <Color>Transparent</Color>
+                <Font>Arial,12,Bold</Font>
+                <Visible>False</Visible>
+              </Title>
+            </YAxis>
+          </Area>
+          <Arguments isList="true" count="1">
+            <Item19 Ref="69" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
+              <Expression>Sheet1.Year</Expression>
+              <Key>9a4bcd06eb6d45dab324bf7bc8900dbb</Key>
+              <Label>Year</Label>
+            </Item19>
+          </Arguments>
+          <BackColor>Transparent</BackColor>
+          <Border>None;[165:165:165];1;Solid</Border>
+          <ChartConditions isList="true" count="0" />
+          <ClientRectangle>240,80,640,240</ClientRectangle>
+          <CloseValues isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
+          <CustomStyleName>Bars</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <EndValues isList="true" count="0" />
+          <Guid>277c3e7395f747d5a9c0cab97cd99b3d</Guid>
+          <HighValues isList="true" count="0" />
+          <Labels Ref="70" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
+            <Font>Arial,8</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Style>Value</Style>
+          </Labels>
+          <Legend Ref="71" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
+            <Labels Ref="72" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="73" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+            </Title>
+          </Legend>
+          <LowValues isList="true" count="0" />
+          <Margin>3,0,3,3</Margin>
+          <Marker Ref="74" type="Stimulsoft.Dashboard.Components.Chart.StiChartMarker" isKey="true" />
+          <Name>Chart1</Name>
+          <NegativeSeriesColors />
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <ParetoSeriesColors />
+          <SeriesColors />
+          <Style>Custom</Style>
+          <Title Ref="75" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,15,Bold</Font>
+            <ForeColor>Transparent</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>COST vs REVENUES</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TopN Ref="76" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <TrendLines isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <ValueFormat Ref="77" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits</State>
+          </ValueFormat>
+          <Values isList="true" count="2">
+            <Item20 Ref="78" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+              <Expression>Sum([Sheet1.Revenues Growth])</Expression>
+              <Key>e635ab0e7d5f49b1978d274b0f145445</Key>
+              <Label>Revenues Growth</Label>
+              <SeriesType>StackedBar</SeriesType>
+            </Item20>
+            <Item21 Ref="79" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+              <Expression>Sum([Sheet1.Cost Growth])</Expression>
+              <Key>4d8e27169a45470d932122fd266a6abd</Key>
+              <Label>Cost Growth</Label>
+              <SeriesType>StackedBar</SeriesType>
+            </Item21>
+          </Values>
+          <Weights isList="true" count="0" />
+        </Chart1>
+        <Text2 Ref="80" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>880,40,320,40</ClientRectangle>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>4ecf7bca3ae24ee0a20c03d75107f69d</Guid>
+          <Margin>3,3,3,0</Margin>
+          <Name>Text2</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>&lt;font face="Arial" size="18"&gt;&lt;text-align="Left"&gt;&lt;b&gt;CONTRACTS to REVIEW&lt;/b&gt;&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="81" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text2>
+        <Indicator4 Ref="82" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>880,80,160,160</ClientRectangle>
+          <CustomStyleName>Tasks</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
+          <Guid>24f2bf93a61949079fc0f2084ecbbab0</Guid>
+          <IconAlignment>None</IconAlignment>
+          <IconSet>Rating</IconSet>
+          <IndicatorConditions isList="true" count="0" />
+          <Margin>3,0,3,0</Margin>
+          <Name>Indicator4</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Style>Custom</Style>
+          <Title Ref="83" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>MILESTONES</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TopN Ref="84" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <Value Ref="85" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+            <Expression>Sum(Sheet1.Milestones)</Expression>
+            <Key>4f6966e922b24b10afbeff549a306007</Key>
+            <Label>Milestones</Label>
+          </Value>
+        </Indicator4>
+        <Indicator5 Ref="86" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>1040,80,160,160</ClientRectangle>
+          <CustomStyleName>Tasks</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
+          <Guid>89e5266e6d80423e8009b8310ba7de6b</Guid>
+          <IconAlignment>None</IconAlignment>
+          <IconSet>Rating</IconSet>
+          <IndicatorConditions isList="true" count="0" />
+          <Margin>3,0,3,0</Margin>
+          <Name>Indicator5</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Style>Custom</Style>
+          <Title Ref="87" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>TASKS</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TopN Ref="88" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <Value Ref="89" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+            <Expression>Sum(Sheet1.Tasks)</Expression>
+            <Key>e8e449dd0c0f41dbac7e94fe610278fa</Key>
+            <Label>Tasks</Label>
+          </Value>
+        </Indicator5>
+        <Text3 Ref="90" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>73, 105, 126</BackColor>
+          <ClientRectangle>880,240,160,80</ClientRectangle>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>f59af55c1aa04650ae32e81aea0bcd28</Guid>
+          <Margin>3,0,3,3</Margin>
+          <Name>Text3</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>&lt;font face="Arial" size="12"&gt;&lt;text-align="Center"&gt;&lt;font-color="White"&gt;Contracts&lt;br /&gt;
+without&lt;br /&gt;
+milestones&lt;/font-color&gt;&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="91" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text3>
+        <Indicator3 Ref="92" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <Border>None;[191:191:191];1;Solid</Border>
+          <ClientRectangle>0,500,240,100</ClientRectangle>
+          <CustomStyleName>Cost</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
+          <Guid>1971bb4d4b4f46168a11b2e1bc2d661d</Guid>
+          <Icon>ArrowRightDown</Icon>
+          <IconSet>Latin</IconSet>
+          <IndicatorConditions isList="true" count="0" />
+          <Margin>3,0,3,3</Margin>
+          <Name>Indicator3</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Style>Custom</Style>
+          <TextFormat Ref="93" type="CurrencyFormat" isKey="true">
+            <DecimalDigits>2</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>0</NegativePattern>
+            <PositivePattern>0</PositivePattern>
+            <State>Abbreviation</State>
+          </TextFormat>
+          <Title Ref="94" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,15,Bold</Font>
+            <ForeColor>Transparent</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>NUMBER OF CONTACTS</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TopN Ref="95" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <Value Ref="96" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+            <Expression>Sum(Sheet1.Cost)</Expression>
+            <Key>19ae14d1b31a4612a26b0e4f8047ebbb</Key>
+            <Label>Cost</Label>
+          </Value>
+        </Indicator3>
+        <Text7 Ref="97" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <Border>None;[165:165:165];1;Solid</Border>
+          <ClientRectangle>0,460,240,40</ClientRectangle>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>61eef4ac6f3f4d9fb3a04024e15088c2</Guid>
+          <Margin>3,3,3,0</Margin>
+          <Name>Text7</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>&lt;font face="Arial" size="18"&gt;&lt;text-align="Left"&gt;&lt;b&gt;COST&lt;/b&gt;&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="98" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text7>
+        <Indicator2 Ref="99" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <Border>None;[191:191:191];1;Solid</Border>
+          <ClientRectangle>0,360,240,100</ClientRectangle>
+          <CustomStyleName>Revenues</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
+          <Guid>feca49c4365c490e9c5fb379cb45fd84</Guid>
+          <Icon>ArrowRightUp</Icon>
+          <IconSet>Latin</IconSet>
+          <IndicatorConditions isList="true" count="0" />
+          <Margin>3,0,3,3</Margin>
+          <Name>Indicator2</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Style>Custom</Style>
+          <TextFormat Ref="100" type="CurrencyFormat" isKey="true">
+            <DecimalDigits>2</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>0</NegativePattern>
+            <PositivePattern>0</PositivePattern>
+            <State>Abbreviation</State>
+          </TextFormat>
+          <Title Ref="101" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,15,Bold</Font>
+            <ForeColor>Transparent</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>NUMBER OF CONTACTS</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TopN Ref="102" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <Value Ref="103" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+            <Expression>Sum(Sheet1.Revenues)</Expression>
+            <Key>4baafcabb7c6434ca4cc916e1db8d311</Key>
+            <Label>Revenues</Label>
+          </Value>
+        </Indicator2>
+        <Text6 Ref="104" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <Border>None;[165:165:165];1;Solid</Border>
+          <ClientRectangle>0,320,240,40</ClientRectangle>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>c8718155381f4fe0b13f59a012f5cdec</Guid>
+          <Margin>3,3,3,0</Margin>
+          <Name>Text6</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>&lt;font face="Arial" size="18"&gt;&lt;text-align="Left"&gt;&lt;b&gt;REVENUES&lt;/b&gt;&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="105" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text6>
+        <Indicator1 Ref="106" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <Border>None;[191:191:191];1;Solid</Border>
+          <ClientRectangle>0,80,240,100</ClientRectangle>
+          <CustomStyleName>Contracts</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
+          <Guid>f6ade1e510274f35918f89720ea7b6c9</Guid>
+          <Icon>FileTextO</Icon>
+          <IconSet>Latin</IconSet>
+          <IndicatorConditions isList="true" count="0" />
+          <Margin>3,0,3,3</Margin>
+          <Name>Indicator1</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Style>Custom</Style>
+          <TextFormat Ref="107" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits</State>
+          </TextFormat>
+          <Title Ref="108" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,15,Bold</Font>
+            <ForeColor>Transparent</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>NUMBER OF CONTACTS</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TopN Ref="109" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <Value Ref="110" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+            <Expression>Sum(Sheet1.Number)</Expression>
+            <Key>35dd9f55192b4d0eacc7b101e5e0b92c</Key>
+            <Label>Number</Label>
+          </Value>
+        </Indicator1>
+        <Text5 Ref="111" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <Border>None;[165:165:165];1;Solid</Border>
+          <ClientRectangle>0,40,240,40</ClientRectangle>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>ae28e1f0e1bb4204b334ddcc9610cf31</Guid>
+          <Margin>3,3,3,0</Margin>
+          <Name>Text5</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>&lt;font face="Arial" size="18"&gt;&lt;text-align="Left"&gt;&lt;b&gt;CONTRACTS&lt;/b&gt;&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="112" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text5>
+        <Text12 Ref="113" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <Border>None;[165:165:165];1;Solid</Border>
+          <ClientRectangle>0,180,240,40</ClientRectangle>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>1b45d705a13b40368979f5e912e376ba</Guid>
+          <Margin>3,3,3,0</Margin>
+          <Name>Text12</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>&lt;font face="Arial" size="18"&gt;&lt;text-align="Left"&gt;&lt;b&gt;TARGET&lt;/b&gt;&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="114" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text12>
+        <Indicator6 Ref="115" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <Border>None;[191:191:191];1;Solid</Border>
+          <ClientRectangle>0,220,240,100</ClientRectangle>
+          <CustomStyleName>Cost</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
+          <Guid>666e4461d9914efaae1572cf52d0e9d8</Guid>
+          <Icon>HospitalO</Icon>
+          <IconSet>Latin</IconSet>
+          <IndicatorConditions isList="true" count="0" />
+          <Margin>3,0,3,3</Margin>
+          <Name>Indicator6</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Style>Custom</Style>
+          <TextFormat Ref="116" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits</State>
+          </TextFormat>
+          <Title Ref="117" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,15,Bold</Font>
+            <ForeColor>Transparent</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>NUMBER OF CONTACTS</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TopN Ref="118" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <Value Ref="119" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+            <Expression>Sum(Sheet1.Number+Sheet1.Tasks+Sheet1.Milestones)</Expression>
+            <Key>685e80aae5ad4bab98a9ca66114e82f0</Key>
+            <Label>Milestones</Label>
+          </Value>
+        </Indicator6>
+        <Text13 Ref="120" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>73, 105, 126</BackColor>
+          <ClientRectangle>1040,240,160,80</ClientRectangle>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>a9c5ba42d69e4b88b7fbf3ca3b9ad498</Guid>
+          <Margin>3,0,3,3</Margin>
+          <Name>Text13</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>&lt;font face="Arial" size="12"&gt;&lt;text-align="Center"&gt;&lt;font-color="White"&gt;Contracts&lt;br /&gt;
+without&lt;br /&gt;
+assigned tasks&lt;/font-color&gt;&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="121" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text13>
+      </Components>
+      <Guid>1131c199906e4be1a866fde71e069acc</Guid>
+      <Name>Dashboard1</Name>
+      <Report isRef="0" />
+    </Dashboard1>
+  </Pages>
+  <PreviewSettings>25108991</PreviewSettings>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>DashboardSummary</ReportAlias>
+  <ReportChanged>6/3/2020 4:36:03 PM</ReportChanged>
+  <ReportCreated>7/30/2019 8:45:05 PM</ReportCreated>
+  <ReportFile>D:\Stimulsoft\Stimulsoft.Reports\CloudDesigner.Web\Reports\DashboardSummary.mrt</ReportFile>
+  <ReportGuid>dd72ea99bdec4d298f83dbad246451a8</ReportGuid>
+  <ReportName>DashboardSummary</ReportName>
+  <ReportUnit>Inches</ReportUnit>
+  <ReportVersion>2020.2.3.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class DashboardSummary : Stimulsoft.Report.StiReport
+    {
+        public DashboardSummary()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="6">
+    <Doughnt Ref="122" type="Stimulsoft.Report.StiChartStyle" isKey="true">
+      <AxisLabelsColor>140, 140, 140</AxisLabelsColor>
+      <AxisLineColor>140, 140, 140</AxisLineColor>
+      <AxisTitleColor>140, 140, 140</AxisTitleColor>
+      <BasicStyleColor>White</BasicStyleColor>
+      <Border>All;Transparent;1;Solid;False;4;Black</Border>
+      <Brush>White</Brush>
+      <ChartAreaBorderColor>171, 172, 173</ChartAreaBorderColor>
+      <ChartAreaBrush>[255:255:255]</ChartAreaBrush>
+      <Conditions isList="true" count="0" />
+      <GridLinesHorColor>50, 105, 105, 105</GridLinesHorColor>
+      <GridLinesVertColor>50, 105, 105, 105</GridLinesVertColor>
+      <InterlacingHorBrush>[10:155:155:155]</InterlacingHorBrush>
+      <InterlacingVertBrush>[10:155:155:155]</InterlacingVertBrush>
+      <LegendBorderColor>225, 225, 225</LegendBorderColor>
+      <LegendBrush>[255:255:255]</LegendBrush>
+      <LegendLabelsColor>140, 140, 140</LegendLabelsColor>
+      <LegendTitleColor>DimGray</LegendTitleColor>
+      <MarkerVisible>False</MarkerVisible>
+      <Name>Doughnt</Name>
+      <SeriesLabelsBorderColor>Transparent</SeriesLabelsBorderColor>
+      <SeriesLabelsBrush>Transparent</SeriesLabelsBrush>
+      <SeriesLabelsColor>White</SeriesLabelsColor>
+      <SeriesLabelsLineColor>DimGray</SeriesLabelsLineColor>
+      <StyleColors>[80:191:140], [99:141:165], [109:197:207], [64:111:193], [31:72:126]</StyleColors>
+      <TrendLineColor>DimGray</TrendLineColor>
+    </Doughnt>
+    <Bars Ref="123" type="Stimulsoft.Report.StiChartStyle" isKey="true">
+      <AxisLabelsColor>140, 140, 140</AxisLabelsColor>
+      <AxisLineColor>140, 140, 140</AxisLineColor>
+      <AxisTitleColor>140, 140, 140</AxisTitleColor>
+      <BasicStyleColor>White</BasicStyleColor>
+      <Border>All;Transparent;1;Solid;False;4;Black</Border>
+      <Brush>White</Brush>
+      <ChartAreaBorderColor>171, 172, 173</ChartAreaBorderColor>
+      <ChartAreaBrush>[255:255:255]</ChartAreaBrush>
+      <Conditions isList="true" count="0" />
+      <GridLinesHorColor>50, 105, 105, 105</GridLinesHorColor>
+      <GridLinesVertColor>50, 105, 105, 105</GridLinesVertColor>
+      <InterlacingHorBrush>[10:155:155:155]</InterlacingHorBrush>
+      <InterlacingVertBrush>[10:155:155:155]</InterlacingVertBrush>
+      <LegendBorderColor>225, 225, 225</LegendBorderColor>
+      <LegendBrush>[255:255:255]</LegendBrush>
+      <LegendLabelsColor>140, 140, 140</LegendLabelsColor>
+      <LegendTitleColor>DimGray</LegendTitleColor>
+      <MarkerVisible>False</MarkerVisible>
+      <Name>Bars</Name>
+      <SeriesLabelsBorderColor>Transparent</SeriesLabelsBorderColor>
+      <SeriesLabelsBrush>Transparent</SeriesLabelsBrush>
+      <SeriesLabelsColor>50, 58, 69</SeriesLabelsColor>
+      <SeriesLabelsLineColor>DimGray</SeriesLabelsLineColor>
+      <StyleColors>[99:141:165], [80:191:140], [109:203:179], [242:129:97], [252:205:27]</StyleColors>
+      <TrendLineColor>DimGray</TrendLineColor>
+    </Bars>
+    <Contracts Ref="124" type="Stimulsoft.Report.StiIndicatorStyle" isKey="true">
+      <BackColor>White</BackColor>
+      <Conditions isList="true" count="0" />
+      <ForeColor>110, 198, 203</ForeColor>
+      <GlyphColor>110, 198, 203</GlyphColor>
+      <HotBackColor>240, 240, 240</HotBackColor>
+      <Name>Contracts</Name>
+      <NegativeColor>Red</NegativeColor>
+      <PositiveColor>Green</PositiveColor>
+    </Contracts>
+    <Revenues Ref="125" type="Stimulsoft.Report.StiIndicatorStyle" isKey="true">
+      <BackColor>White</BackColor>
+      <Conditions isList="true" count="0" />
+      <ForeColor>82, 190, 138</ForeColor>
+      <GlyphColor>82, 190, 138</GlyphColor>
+      <HotBackColor>240, 240, 240</HotBackColor>
+      <Name>Revenues</Name>
+      <NegativeColor>Red</NegativeColor>
+      <PositiveColor>Green</PositiveColor>
+    </Revenues>
+    <Cost Ref="126" type="Stimulsoft.Report.StiIndicatorStyle" isKey="true">
+      <BackColor>White</BackColor>
+      <Conditions isList="true" count="0" />
+      <ForeColor>99, 141, 163</ForeColor>
+      <GlyphColor>99, 141, 163</GlyphColor>
+      <HotBackColor>240, 240, 240</HotBackColor>
+      <Name>Cost</Name>
+      <NegativeColor>Red</NegativeColor>
+      <PositiveColor>Green</PositiveColor>
+    </Cost>
+    <Tasks Ref="127" type="Stimulsoft.Report.StiIndicatorStyle" isKey="true">
+      <BackColor>100, 140, 166</BackColor>
+      <Conditions isList="true" count="0" />
+      <Description>Style based on formating of 'Indicator4' component</Description>
+      <ForeColor>White</ForeColor>
+      <GlyphColor>100, 140, 166</GlyphColor>
+      <HotBackColor>240, 240, 240</HotBackColor>
+      <Name>Tasks</Name>
+      <NegativeColor>Red</NegativeColor>
+      <PositiveColor>Green</PositiveColor>
+    </Tasks>
+  </Styles>
+</StiSerializer>

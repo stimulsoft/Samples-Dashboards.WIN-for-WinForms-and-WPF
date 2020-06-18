@@ -1,0 +1,1110 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <CalculationMode>Interpretation</CalculationMode>
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <fitness Ref="2" type="Stimulsoft.Report.Dictionary.StiExcelDatabase" isKey="true">
+        <Alias>fitness</Alias>
+        <Key />
+        <Name>fitness</Name>
+        <PathData>resource://fitness</PathData>
+      </fitness>
+    </Databases>
+    <DataSources isList="true" count="1">
+      <Fitness_x0020_Stats Ref="3" type="DataTableSource" isKey="true">
+        <Alias>Fitness Stats</Alias>
+        <Columns isList="true" count="10">
+          <value>Calories,System.Double</value>
+          <value>CaloriesTarget,System.Double</value>
+          <value>Day,System.String</value>
+          <value>DayID,System.Double</value>
+          <value>DistanceMl,System.Double</value>
+          <value>DistanceMlTarget,System.Double</value>
+          <value>Steps,System.Double</value>
+          <value>StepsTarget,System.Double</value>
+          <value>Time,System.Double</value>
+          <value>TimeTarget,System.Double</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>34bc9ec155444e869df7736f1d1ffbfd</Key>
+        <Name>Fitness Stats</Name>
+        <NameInSource>fitness.Fitness Stats</NameInSource>
+      </Fitness_x0020_Stats>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Resources isList="true" count="1">
+      <value>Name=fitness, Alias=fitness, Type=Excel, Content=Wa5mKlPLSX4WPuTDd7tIHMb4dzt0mBmqG9VXi8GNh3wi77vlr_x002F_F5XeYs6unwrw0bhzC4EWFwt7fmb4jiEdi17_x002F_ddcdXu_x002F_O6qYRylgJfqOWBDcRYJ3oxxOkWoOwaoXopUqK2CfQ1iDpTVIjm25Typup8RBbqKEOzmttnMZthfwv_x002B_54lZKZV4AsdzQqrBpWBlbi9o1cGET4Au_x002B_Uh2PRHBbqH62eGfC9IW9H2bmVAT5h_x002F_W5rZ77SSFCb7B7eYnUE_x002F_zTnps16JORs4vc6LtPpasPRHXwxSjlRVFDtY1y6nnvA_x002F_h4Dzzal_x002F_bCN_x002B_MT4EIeRdgbvV45R1yZJwWaGKG0MeELtNweyqFsg91S4R9UIBChNYtKOXTAFSIGyaSgZbefjY9Q8ABcizUsOY78CGSWodiYQi64bTshmM2Uj53yPBmZbqTBOunpd4CTyKPlR9Fdb6SM6OCbi_x002F_BVn_x002F_zogHn0nrfYwzpaxzZ4GMhsxPGp_x002F_QIInZgr6_x002B_UPkvmpyzLuccPHYQa85J1H6JW0p5hjtgd4eWJXqYQFQoV9gZDfJyO_x002B_s01f5_x002B_5V_x002F_bjLSnTL72uS2YdWmgOze8WepPCDcAK3RHWdyc1mZzclNl_x002F_x_x002B_IhCH_x002B_TD0iNQFmGUwmjJGAVGNMWEDcbuqA2v31zewFwFN5C_x002B_O29AElPD3XoKd5MmaTZfNCH22WN_x002B_FiD0wPoYN4P6VZJ_x002F_vTvXIIVbDjy8lPAptDxrgpvEs_x002B_9uLlBck7hg1DMyyukvaxoHGCsL64xAzWIi3nrl_x002F_y5eHTZEQp_x002F_KXeE81KikQLuShyvqzzUF4VToEW7QdyxeNXnqNqwHqwn4_x002F_gvv80jvGozEygQa8IPVPmcoGS6fP5bZzlBJRhB9PDbrdAbMGyRsfJSBmovnk0ZeIPCnBDM7ivUXhgDN3SMhjnCD8iRzpGa4Yb8eD8_x002F_1mUkyOl7sDn1g9K_x002B_vjkWQl9_x002B_t5_x002B_NDMbJ3peA6gNJU1WLax2NM1dLN8cwAgY_x002F_GzQUlMSbjt5wwi9J_x002B_YGpFRS8ucw0G7P85fnQEHEqhpE9OxClMRh7Ju_x002B_bOLFh5fsQJcV7KkQ6do6fvvhZ0Hz9AvFTlmkaUVNU8F_x002B_2gdXCOWsf60xBVbsIKz6H2lvtXsrm0nZQpqx3Gz3wq3_x002B_FL1o_x002F_TxwY_x002F_Pf3sgpFKwE9DOS_x002F_zFRcqX7TqGX7xDzm0eoCeLFu_x002F_RhNAH1LZpJZ_x002B_aW5ec9a0mUx_x002F__x002B_4Gq1qXdGZLEO7BZJFH_x002B_0XhvURd7mDmkqQWlVP4yiJoDiIdkVmtM8GmqPwwKCCj11ivElQ4ujPV3AcuHEns_x002F_b7nRnPiQ_x002B_c5bQgPendHPgrhWyFQd5yNc_x002F_ojQ_x002F_aUAdO5F1fL_x002F_4H4jkGlE27AyG3IWnUl_x002F_Nseo5D58ffG7iV_x002B_lcGIlI7r7d3G4_x002B_LBf_x002B_Kwoe2jKY1D4TYJ4sBBm3w1kYeXAfFgrizOtWC22M0nEmh1drXvwzLifDUhBPzsfAN_x002B_rfg4gi_x002B_WUu_x002B_eoC4H8B67MnqE8rA4wH_x002B_UeAsmn91TBnqFry1gIj4aQ4b0155_x002F_ZvlDk3sC3VVStSwLkkqkItTMTOe1HXAJpJhKMxEV7i9_x002B_JhKFy_x002F_9AVMbBoLrV3IGKxJvcODRiuMebf6yOMTZl6fZ1jOmnlMvAL1DwnH4u2eSixDsxlA4p59BdQrs5K6GK51LhMDcF6AFwuXSGs7fA2LKxgJe9T2o57BsakyLrJx5Fex5z7n2YA4l2t9TRWuUsCTZ_x002F_7po3ABw_x002B_tQVzp7zD9f_x002F_2nCguQLYnWsg_x002F_4h7YPQOQNiUK7tIjB1Nt6Vr007dzoEZiFn98vErbYCqTLB6LbdSy2X1_x002F_XwKVtmYB3pQ6yy_x002F_POXeiVvFoHsbhD4AbU0BV_x002B_0eklu0BSWsB6PwRVlU_x002B_NGic80NeErxlvzNKTy_x002F_w8n0OZKyDW_x002B_RphDfFmdKnboe0AJrjQPbZNNylIw_x002B__x002B_7Sfxxd5hQaWOGBmWki6FfGg74G_x002B_8UhhHW8u_x002B_Xbl6iz8gYhmITuFO8nGRdchJ31vjcgWBb9GOiVRJqi1KVHQxlKyA5iaF9_x002B_PMRgKjFCWBD9m57m3rXUZPyInNEkbwbQpBxX7_x002B_VyVsQp49pE_x002F_r2AbERgzJtbRRKxlhLZIuQwCFrFRQKVHpOxpsjxGePlQkY4sZSZW3SxyVBD8GJmH9tlVEGqdXaQWyDt3O0RTWSTPHiYZit_x002F_5lATDAK5Mj0pi3C_x002F_bbKXyqksFzhjgH9w2EQfHVL25F887e8QJJ1r5AoZWpvVJaT_x002F_E0FsYwxT8cWX2DMcykvAIPglO0bjtb2dWvOyh986VzlwhaR7PeK4Pig8F5kQvXsuxw0Vasm42Qicyy_x002F_lhkUNFitKhbxl4hCj4VuS5SgAtuavpQWQ_x002F_XPjxOwET4Wvl52LhcBPcgLh4mRDyCzjq03HFLdqtDd9GBenFTGP30lo_x002B_zctv0pK_x002F_KuyPkaWH6RhvtzhT8WIQL_x002F_2_x002F_1res16x_x002B_fuJh7YQvdrUtnwJdME01kVAojIIYXiItRrvACHoUA1UTkucr4Thkjk_x002F_QwyeGqsXFXbYkVHDWSHX8OpNceelfDLYp2YtrbgaA1xzkIUvso_x002B_ZRHpTgE9qWuByIXscyBkEwCyCzAgiBEXLGgifrPfUuZ9CNkkEq1VJBMU9xiJtger4F0Kl7LVHwHnHbqtC0ZpVADrpEzHQJuCC4AIo_x002B_XgBd_x002B_HmwERdyhBtP5ZYcPinbgkJY8llzBcQBxHJ19G1xNKb0kRfdK3rvsma84cO8k8qAGTiKoirGwD8qlVxtAsxMWthcSp_x002F_kdOsytu6UGgndSWqspJaKeYBIteezyMLv9kxexJBwGAfXXOj3yV7TQBMo3zNFJfjWofLN2ymmeypS0lAamLeWy2lGafQnyD_x002F_G_x002B_p5ztdYXH7ydxSM4R4MW4xtSidx7ohWuMFxxbI4KL4hw_x002B_BGhe6SmyeqmWixMgOR_x002F_JI52_x002F_zJIlTYk2MCintrP0x8YRV6Xjyn48gmRLBtgE5IZ7ea_x002B_iHwv_x002F_OYU10SQSzbWezHgu8Y6UJslvnzfXCYBQv226ANHiO1T6NgAFU9n9MEWHMBy6UOP3Ioi9eOLk_x002F__x002F_GhvicGUodkRk0lYcLQ7NaxbGSFkKhS7n64tfNQ5EFN9NZZ31CgK70YNzjezrx2jWL9EjU08dqnnfsOm1Pdn_x002B_tmEbFGFSH1NHddzARLiPSxv_x002B_eMqK2AO3s7FC7tHhAeS7ydbDwmS25tBkMHCJtALvR1XN2BvLBZhSGMVG8id3tqi19rldzyfzUNi3zXdO9wP2a_x002F_tb25y7AyKZVZxSUrMljUHOydmSviRAex8hWyEC6w9pBBliXj0qrDs4vRDce6sSCjjHbUiIix1Ab1LrJnehnojYywC0QNxk8D9vQacQ7DoseJpZtfeaqiy_x002F_gAsxSOm_x002B_rXttH7tSu092TXn9Aklqk_x002F_7kTghaCeZ5ukjhtuuVzl_x002B_BqVmP57cBQf_x002B_QjgMiHOubtPfpGS_x002F_WmRmt06bdaVUPv6w4r9N_x002F_k7hliyEhCq0cPrEYvUzuDZY_x002F_cMPuPFkiD_x002F_YE8xQcszy9EVh6SB5ASfiGyF0HI0NFmsfPEtIDdXGViyVX72wCgYPnljK87IED4y2HaMz8yGlXEiDK7WAjLDU1YdagWhwhwD_x002B_s1WVrQc9h0XSNBRXswyXTDMiwdaGcXVtCVDZvqt2BsbaOhrZnUNQwt56_x002F_K3y5QhkTPMyjCFuM8PXVU3447efYo26HARG7VqLekMUHU1jQukiLnwmLuw6kyL2e2o_x002B_9CiWV5BSGqgnUq6Qrf5JS2_x002B_xLgAcWWKFYQ6vW2VAKyi0b19c9jobVQos6dNy1g8Eop23MV0QFIEOyUKThDlv_x002B_Fr6wUCQwVdpF6UMcoLzuPH_x002F_smdH4RQ7EE_x002F_eW2MP7gy0weRsQjvPZgF8nXRVW329q_x002F_BlghIHnBRE7M6H60i4qWQAPoDmRsmmVGJfSUN271Oe506rlP_x002F_XOaclN8l0yDmVZsHjGKAK7loM3Ym1F9EKt43xwqJSX1OUiJ564wuBytlB_x002B_G2GCDjrsWLU1X0t6TdRtgcg9Sir5oPUDqPC2y_x002F_INkBCIqWhcB6COj6EiYZRSBpEr_x002F_KXf6tVZkX2DAIQc0K_x002B_BjtQWUS8Ca3iN2a2yPE2IWE2RvHWL38x8wAFaSQGASGE1OoWaB6iGB8tZjXYaFu1G1qPRYFiT9s_x002B_OV8E8bMQhaFQMSdAG4Oi9_x002B_RPLcJW58aQVAr6HLvqUL60Z0NYKJwjvw6yKEjIZiOk_x002B_wJ3wuLKC2HPZ3chDte6LaDfjcfRl5VrJm_x002B_QO1q5drfpc5aie6MLb6fWK9kjQkvt2egznNZMghVsIisITdC2HWwuBnDBSjZjTbzfZJH0VRb_x002F_Pb_x002B_mmR_x002B_y29ttAJsaGINuw27EseooX9_x002F_JGGj9poe9Nx8lsrSKG926NmLw_x002F_LA4W6zHj_x002F_0UkUeKJ0WwPmM7bw8z_x002B_3KiAzncJkxznru3AqzublkQYGjC5_x002B_WLGAJsaBUxUa_x002F_95EcOgLrUZssktXZPcHrEZdzaO0Fhy8JUmHyhn1M8JLBEI5Qkb0h355UWa9qxMAM370Ba0xylXUE6uh4Yt6Y8_x002B_QCJdjVvLbpd_x002F_azfM7QgH_x002B_5iDci0QpQqjZsVYfKaM1lv5SehtuFI6NW3Nn7gX0dJFHUiV1zinzbDsQBelcU7nQgGD9ia_x002B_kob1DPwv2fs8WrMAPTBwqqHLuVlV6KeDUe2AtivaSXeEzuhPGjKFXbWJIxCcgHEdox1s84Mhl4RdtrRRjbW8CXX7UtubdL_x002B_9DKo1Sx937i3N3kRunc4Kh5CJQRI_x002B_quENWhAr5OyFsb9nme2MJkSU2Je2RinxYCKOqaXyx5LNkeIMxyRqwsr7anO8V9tQfLIuFLZFZJO7bK_x002F_AD7o_x002B_SoL_x002B_s0yC_x002F_Bt6eCmrWn2vdg_x002B_ckNpu9Mgnm7Oe2TZEq3PjtnFAg7gSbWIcx0dPQV2GYvmyrfKPX_x002F_aP01Gl5EznsVg3uQ0tuTP20H39bxwrVa6JJ3F0_x002B_4Wr9ldWmK2CSDDPRVFcMEmRyWh6d_x002B_F8yRTn06moArLdMt96wZynPigDy8alHQ8T8p_x002F_Cb8J6k38MQwzuf9nTG2g5lVeqIK2mhnI_x002F_nZ6Q0xQKRqPCJi6PX8bQeB8yH96_x002F_NWvj7LCIcMS9rijKTd4xs86IMohXujFt5G4OuTjH0wEDtTXGce6e_x002F_MMzPMTyWWWnltWzcTgtsg3aWow9YGDM1yHJAxybAHZgGCdHBlWKuihFu6R8uamwdfQM32sJB3Qhuz1V476gb5cJ6ypjrRsWcKCRwupdJI5GvEGeD_x002B_MkWWRX520eQD1HDMVlpKY39PeS3m6aYN1RuZUBJWMdRbU0D0g9NEJ6HW3_x002F_nvVoWl6MyK9W_x002B_mcKc8LR28rWnAvT_x002F_pI0uNK6f03jjQEicQbkNo13nObFyFLwOFEKQfqDQ7l71BaWzULcEWuUKuE43YSIkL40jQjATlVPe3DKgyZLQ9hSWdIyo4G3StN_x002B_Ubhyy6EnHK56KPQOs_x002B_1lxvsc4MyI4yEm69oppEWxavd5e72yhH3OT7_x002B_ZMTsZ1vg4xSTwtSi99Ye8zoBNHErIUZ8DC_x002F_Y0M58Ab6a_x002F_YgHYaQdJ9kbMLK31mlGyqsGM1o9jmzWc0GyINmUUat2izzmfMHovdxUFZnky1Wyg_x002B_pPqnO9s3S05c1U2xtlHyIATmE4EUPM8_x002B_RArfhxdJ_x002F_odtHPUbTFVvvjY12I_x002F_PG4Hk3R2BtKC463IOC31gtghqicBSjUab727Vf7Mz5COHJnxsjs4nYwIua3miTpAUS5GiY2g8q5VR2VivR6VDRjMP9lYndLwVqr9DRZ7oCQUq8NW6xXEQSmqvi9ZNaOsFoFLlEctw6khUjiP2ZI6Ujkgqc3X9uWBj2KRuNVFLwFjEBI477mNpSxmn_x002F_MDYRrVOYIyyZGyUmLcYeQB0n6BKn5_x002F_FCn_x002F_VAV4jARZLpyg_x002F_avW3vyZ3eFO_x002F_dHMOEBpzRCnhGJkj_x002F_6OFaVwrXtYMY9_x002B_DdCLVTCceFRLsZAfFtwdeGyBqM4nja8lf6nE3_x002B_8pdAFCLO27_x002F_OZfgqKfXR_x002B_kp07UZN76AWa42Ne97JDOuSCrJTjiRNZs6GdnNL8A8aN8GsRDYyU0eePib8nT7kcxCwb_x002F_kt75VtaoHbxGI2VLmx1xVjgK7LUzCGN9mdkfXwH1zWovvQ8Em3jwI7CAbDB9_x002F_NLEwbsGosGDwQDc6rfcXx78Hc4z_x002F_tihk_x002F_DvptiJLSlxajDM8WC5de1GpGRwUpoiDxFO9hchl4pKkNgToVWpoQ6Ex9MXWTk4Xm5Xvw4fKlwujgnBYHxqR9KICf7TISqebUu_x002F_GlARRURWGGM_x002F_aa6_x002B_5wvona89iv6tHvLgIEsOKjALQvrvA7w4n7qisHUbQtsMXXuA1cRgZVqwQpimr_x002B_s6KZQ8M9rEpJjJX0RSYz8Q05Ma46YxYzbeP2ODS9tLnHzkuwO8VtpIJ6NyDE_x002F_UFOyBG3Y1V9fxsVvWgGINrCllwEjNmDdTgQDLila8XSmUD1CjQOy6uIFPuB98coLyRDPfTNBS3QDjCOaMlTnhBG9qtdqaUVO2hVEiEwWgcJ_x002F_GS46C8hPMgqvBko0yu49xVZxwhEWXgq0QsoWAgPJSm4cemDBX_x002B_Dqnq4vQLpiNhT0QtOHWKsny6YyaAShOD9IKTp3i_x002B_Hvo2pGeZatNRhi9XFDhcYwMgndsCnJEtPvnVi8b73HCgwbDQbiLLPoo7aP32C4D4I39JQApUMbIWPBfhOI9hguG7jWiYFDTERN9zHu_x002B_7LAOIHT_x002F_Q2rvMnVj6MnYzokk1Q1eQN5PdG_x002F_2r_x002F_u9TP4guf2YlRul3dJSMtUptHC89_x002F_GZaCxYuA2gF86T_x002F_KdmbXcPjTGi_x002B_STOV8VlLxbYV5ydY78z3w_x002B_VH6SiIppyXJyKMWixRVkGuQE_x002F_b5mhkEqnxuN9_x002F_5FnPv2Eg_x002B_aRFK8Mc0HcpbDC3_x002F_cNGEZ0h9vpLFHdzYEOutprpr5ki41fZwMuuJJELtw0dHFyRGyEfX0rcH_x002B_aQv7_x002F_BZL1wbdk3tEdHtykVWI71bbdvXg3N62jwGabQhHeBX20oIcHawTei3mo9eJLNzdHwaQZsCa0QrJV1Omk8KjNG4Cbjjt1P2sfktvOcgMvq6Lo56PlHHmD6_x002B_j_x002F_MFDTUcp2J3qX6nmoORIzofj8Xar6LN1we31bKDVCCehEG9SOSYxSf_x002B_4SxaRCJGiCtt9gMaDIV3etSpD4OdbDAgq_x002F_X3wLo6V5dFUye3lZs89DnqefsHLRodiBiyJnlxXTrYrIlq9FUnRicWgYkbIHzRK7Iy79bUxFbjnxHx4poQY93oyrc20YhzDlfDmaN1_x002F_8tjEUiLper_x002B_i_x002B_kHG6bJxk7s3xwYFwazrn46KehxQLr3_x002F_RdlrGpFEEfZ1JGMeHF3W8OKeYdJuL1_x002F__x002F_JCkBcKO8acgk0f9LbgXD9PLwnnsDyq6DlhRa9IDWJLLhvYhr2FQ6BqxjC_x002F_VE_x002F_owjiE7zFzMO7MGUUcqruR9kMC2Ii5tip_x002F_LFXazDs_x002F_mANUI7DfRnXq_x002F_x9UXpICTlxi8oqiEeXTBGRttFwJMrufxvzckku_x002B_aApnfWuQaHHT6PQyaBhdoJAmgYSFknlBM9_x002F_9i5GiYtYSWkvotr1mKqzYqCFKr_x002F_ahEtsR237O63XMjznCE0svr_x002B_nCdDuRcgOqmyxgzIcKIbPH_x002F_sUVg_x002B_L1yAM8hUeZWt2rHQoxXqMiYyIUAH2Vr38U25Z6KfylhLlVfkJbn90KJMIR8vEOztmmHCxvLppBgbyGhgi7A3Yn3ex_x002F_c5IToTOWNLN0DAeK07hPdPl5TxBe52tG_x002F_7bK_x002F_mZUegMalLDrOOqW_x002F_zfOnPMuLV24Rf_x002F_YtWCt1d2HRQ5ried3gRhnj1My4CZI_x002F_Z4sJi_x002B_q1mR9xILt7EobPsAZBk5oeJUHgpVdOngNpiT0zhMOHgiVuGr5HFgbvQ5HkGfVBEw4_x002F_kJjKMRwsrXH3dh422mYvvd8EBbMZXzvSjiHiqHIkXXT2I_x002B_5xjiz2ujMI_x002B_cpD4VxVNltGhnA0VMt3qE7qX9TNcq5EGt_x002F_3Xxy_x002F_94CZK3DHTdAlX7oDfp2FXDxmRxXqmfZ5D3ukke1ye4Ly_x002B_ShHvAEQcPMEuPekV2AnE0UQu2Rhc3AOr5Wam4gLIDZDm1_x002F_SlbENd5zZ7P6TWNFUo77B0m9QnfpQLL8_x002F_IKFA_x002F_HxBs9FKU_x002F_6NtyfqObVCg20qNVgPKhkggkF3Z_x002F_UM6X3QwxyBnVrzHqEtbVUCEkCitsVoNHrZxd0I8ApptyRU4AWJPVF5L2p1HA_x002F_5295kX8wySyOBhZnK4xSYI8sSl1EEjXgg7SeV2L8unGktltiwif_x002F_OmI_x002B_Hf8gJa_x002B_TL1zxqUkzcqY8nDYbh5p9wlnNhI52Y6xGQqIrWZvcVjTYT1Q5U_x002F_fy82wOzIHccXGm5JsTY2Ah6evt8BSoP4Y2WQX1yRAxZw2kUSeGDFwGdCHfIGDwc_x002F_X8k37_x002B_1fff_x002B_Snf3qSHCJV2TsQpRM1v3hkmFcCymtHJyzm_x002B_H23FjaK9COGWPSIR1OYfW9a5nmo0kXDBmK2bCg3PSQkqbrwdubZ1K964rxCoe44_x002F_e2dxGhus5ZmRRsYGN7Wcyhc0_x002B_aOpg4aiMIeYoicwKc3Llp_x002F_JJpqe_x002F_mJC1uBOnd6wXG7i_x002B_PVHnhf1hn4i5E0T3lSXxlDdP7i_x002B_fzd_x002B_bcVN0iSW_x002F_IJ1X6Ce2bCAVa5CcQln2AVbuP8OYmvcD_x002B_2LcJPhVjvSCXABybHkBMCiTlIhAiwZZ8VazpQeuPl3a1yNApkkiQRo_x002F_VPMfWGawp09qk5J4bXTYqC1SmqcsgRntOF_x002F_B6xypm6CIRwl96Xkx7kD4AIccSXhxKJDf_x002B_P7vyxouM6cXp_x002F_6fODQ9lNxea3Qzcj0vFJGAbsLxFMFtnDf5VV_x002B_Dte_x002F_BuegGCqCesRnejKNm_x002F_FaGTUCB1qNHVBigItWuI0Z1Z5oEkagy6EC99R7FQncpryJq3zHqtBI2RQVQmFIKcvfyXRa6Ivr0RdboZf_x002B_HkECQkLeukk7VbEUE8FwoWy_x002B_Xjwa_x002B_9dcnJYKhH_x002F_5UnEraYfW8YMg4iiMwrm9iZZEEQoAuvGPRsaXzdrwLpJc57K_x002B_feVkg5ehN_x002B_42CYLElLUjLR3r2r6QBYBMrOUlMNNY7NGPpryPDln_x002B_P5hS_x002B_cD3ECHYwsc8m8G8RDtg3f4mj_x002F_LUB8dtv2PNG_x002B_gh1lZu98Tgndp0mZpR4uecAesJZHjDW3msiBjK9MVMEgHzBCRGryV35o_x002B_zxy0SNzZP0qwdLr_x002F_2j_x002F_6AHXUCvB2ppd5jirmgcyIGch_x002F_c2Dkc7d7HjE6u_x002F_leCEJC7zqyIZHQNFEOiRiyIWrbcK9FoLA7KDrGNY8_x002F_0ntyNDd3_x002B_pscHXgBOPp0brBMVNgriY1Qs8MYoweF81kprjZuVzPN66Vl27c8lOO_x002B_tp_x002F_F0Ux5z74AVLg9BGEKdTAS_x002B_8L3BnC3VhU2zj2XijH233ZEsTmZidcuDUvkIGbmn2SVVekGD6_x002F_GEY5Mf4BkB4cl0jSbD_x002F_KsEga1KcS0n1pcdsZ9MkUZBBdwu9oixb7O6bwLUtDn9MF8J6JVgdILSsFNoIIl0_x002B_oxRa_x002F_xIKYge9HwxWQNbg3lpk1jTqVSO7wr2QZnqXLcM4wfgT0_x002F_sE1RH5rN4FYDY_x002F_rWcM_x002B_JQGMIJnsI46BNFRqtWSBJkxNaZSEkd59jKwtpr8A98IAEjRaiVjpQOTpJodNwb081KYnmi7N_x002F_dD72MxgEe4v0OyxwPZcegaY_x002F_w4ads_x002B_BVbGjr_x002B_1auAxTzmm6vAvDhuun4TX_x002F_flx32_x002B_abGiUicy63KbxnN8L_x002F_VhalRtb_x002F_Q_x002B_zUDpXkLSzMewLmjQEd7XqO19bIbA2dp7E3tpzPx9SJG3yrqG2yBsl6jcBR_x002F_mbQM24haMczC0ItaS4hvUBmn7Mk_x002F_l_x002F_Lrtf_x002F_pIWpNhOOzlEafYz88MaZmvEMJY6X_x002F_T056DkIRbvRkJQOWV27bOM5986GKqDiutuAi1XQjaApycaSGImm_x002B_VGuuHZxt6OH5HTNbB07MdVSaYz6GwV5Xw8_x002F_JgnEIJF370yWcSY_x002F_bsTMx2kPcMI9Fi9KRSkhLy4yKjnOp_x002B_6ndcPYt7FpKphjrWGrEvZjJbS9_x002F_ZaKn3WhiG6jFS0vsr1tFVRYeRFKWEJEVFY7gGVAm31oohme8_x002B_0CSgRya58E_x002F_LmsGtiRcHkZJOtceieom1tCQUxCAsjHr8RsLjdtJm8492S0QKoHhaqxzjST_x002B_1T2q5JbetKAr3NUkF0HJlzGtVskAss2kru_x002B_2jIcNhO2bEUuUcm4QuYM8102CfLeWGZeitFxGQOIpWBPOlTEoc4MVMCdpfXpwypvAINguPSTBcvlw4FakBolDGmkhmMqqFGzSKOZ6lhj0DAkND2ljQXLkyjyRNY_x002B_z78mDfwYudvXFsO1aomK3P7JMaBYV_x002F_OC4dcXMmb9lXqEKy5tWmU6ZKT_x002B_UAcaM7mJlP0kx9vWPcprNCYjmf5hXsiQONAJtNEyNVRnAy6RPlYpNtZuW5BplHReA7I9ZqO8Zhh_x002F_f5bh8X5UtpYT_x002B_1NuK5wdcwH99d0kYUtshj2VURZ3</value>
+    </Resources>
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>c812ab54b26b490bb7c3695e60edabc2</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <FitnessStats Ref="4" type="Stimulsoft.Dashboard.Components.StiDashboard" isKey="true">
+      <Alias>Fitness Stats</Alias>
+      <BackColor>Transparent</BackColor>
+      <Components isList="true" count="17">
+        <Chart1 Ref="5" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <Area Ref="6" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
+            <InterlacingHor Ref="7" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingHor>
+            <InterlacingVert Ref="8" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingVert>
+            <XAxis Ref="9" type="Stimulsoft.Dashboard.Components.Chart.StiXChartAxis" isKey="true">
+              <Labels Ref="10" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels" isKey="true">
+                <Color>Transparent</Color>
+                <Font>Arial,8</Font>
+              </Labels>
+              <Range Ref="11" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisRange" isKey="true" />
+              <Title Ref="12" type="Stimulsoft.Dashboard.Components.Chart.StiXChartAxisTitle" isKey="true">
+                <Color>Transparent</Color>
+                <Font>Arial,12,Bold</Font>
+                <Visible>False</Visible>
+              </Title>
+            </XAxis>
+            <YAxis Ref="13" type="Stimulsoft.Dashboard.Components.Chart.StiYChartAxis" isKey="true">
+              <Labels Ref="14" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels" isKey="true">
+                <Color>Transparent</Color>
+                <Font>Arial,8</Font>
+              </Labels>
+              <Range Ref="15" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisRange" isKey="true" />
+              <Title Ref="16" type="Stimulsoft.Dashboard.Components.Chart.StiYChartAxisTitle" isKey="true">
+                <Color>Transparent</Color>
+                <Font>Arial,12,Bold</Font>
+                <Visible>False</Visible>
+              </Title>
+            </YAxis>
+          </Area>
+          <Arguments isList="true" count="1">
+            <Item5 Ref="17" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
+              <Expression>[Fitness Stats.Day]</Expression>
+              <Key>70f98b9925ef4f5d9f6e2938d8540d2b</Key>
+              <Label>Day</Label>
+            </Item5>
+          </Arguments>
+          <BackColor>Transparent</BackColor>
+          <ChartConditions isList="true" count="0" />
+          <ClientRectangle>0,320,1200,280</ClientRectangle>
+          <CloseValues isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
+          <CustomStyleName>StepsByDay</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <EndValues isList="true" count="0" />
+          <Guid>9befffccdf774614af400dd879244594</Guid>
+          <HighValues isList="true" count="0" />
+          <Labels Ref="18" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
+            <Font>Arial,8</Font>
+            <ForeColor>Transparent</ForeColor>
+          </Labels>
+          <Legend Ref="19" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
+            <Labels Ref="20" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="21" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+            </Title>
+          </Legend>
+          <LowValues isList="true" count="0" />
+          <Margin>3,3,3,3</Margin>
+          <Marker Ref="22" type="Stimulsoft.Dashboard.Components.Chart.StiChartMarker" isKey="true" />
+          <Name>Chart1</Name>
+          <NegativeSeriesColors />
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <ParetoSeriesColors />
+          <SeriesColors />
+          <Style>Custom</Style>
+          <Title Ref="23" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Chart</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TopN Ref="24" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <TrendLines isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <ValueFormat Ref="25" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
+          <Values isList="true" count="1">
+            <Item6 Ref="26" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+              <Expression>Sum([Fitness Stats.Steps])</Expression>
+              <Key>1744aeb9c76249d98970ef91b8ed0c0e</Key>
+              <Label>Steps</Label>
+            </Item6>
+          </Values>
+          <Weights isList="true" count="0" />
+        </Chart1>
+        <Progress1 Ref="27" type="Stimulsoft.Dashboard.Components.Progress.StiProgressElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>0,40,300,60</ClientRectangle>
+          <CustomStyleName>Steps</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13,Bold</Font>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>7e9ea3ecc99e46df812d40616d43ca81</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Mode>DataBars</Mode>
+          <Name>Progress1</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <SeriesColors />
+          <Style>Custom</Style>
+          <Target Ref="28" type="Stimulsoft.Dashboard.Components.Progress.StiTargetProgressMeter" isKey="true">
+            <Expression>Sum([Fitness Stats.StepsTarget])</Expression>
+            <Key>ee3dc4879a8847bd9425442b70da1684</Key>
+            <Label>StepsTarget</Label>
+          </Target>
+          <Title Ref="29" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Progress</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TopN Ref="30" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <Value Ref="31" type="Stimulsoft.Dashboard.Components.Progress.StiValueProgressMeter" isKey="true">
+            <Expression>Sum([Fitness Stats.Steps])</Expression>
+            <Key>1bea8e99d65f4e138c9d81e9fabf64e8</Key>
+            <Label>Steps</Label>
+          </Value>
+        </Progress1>
+        <Progress2 Ref="32" type="Stimulsoft.Dashboard.Components.Progress.StiProgressElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>300,40,300,60</ClientRectangle>
+          <CustomStyleName>Calories</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13,Bold</Font>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>c54a7c5e8cfe49029627e67a6d10b816</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Mode>DataBars</Mode>
+          <Name>Progress2</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <SeriesColors />
+          <Style>Custom</Style>
+          <Target Ref="33" type="Stimulsoft.Dashboard.Components.Progress.StiTargetProgressMeter" isKey="true">
+            <Expression>Sum([Fitness Stats.CaloriesTarget])</Expression>
+            <Key>b12c002e02744ef99ea75f6fef80ba1d</Key>
+            <Label>CaloriesTarget</Label>
+          </Target>
+          <Title Ref="34" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Progress</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TopN Ref="35" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <Value Ref="36" type="Stimulsoft.Dashboard.Components.Progress.StiValueProgressMeter" isKey="true">
+            <Expression>Sum([Fitness Stats.Calories])</Expression>
+            <Key>d1b0d83c475e48c3a8bc5bd5f95ff81c</Key>
+            <Label>Calories</Label>
+          </Value>
+        </Progress2>
+        <Progress3 Ref="37" type="Stimulsoft.Dashboard.Components.Progress.StiProgressElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>600,40,300,60</ClientRectangle>
+          <CustomStyleName>Distance</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13,Bold</Font>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>46f2d38306214cdc9a4209220f235ed6</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Mode>DataBars</Mode>
+          <Name>Progress3</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <SeriesColors />
+          <Style>Custom</Style>
+          <Target Ref="38" type="Stimulsoft.Dashboard.Components.Progress.StiTargetProgressMeter" isKey="true">
+            <Expression>Sum([Fitness Stats.DistanceMlTarget])</Expression>
+            <Key>7decab81ce2945f59a32af570b6acaee</Key>
+            <Label>DistanceMlTarget</Label>
+          </Target>
+          <Title Ref="39" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Progress</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TopN Ref="40" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <Value Ref="41" type="Stimulsoft.Dashboard.Components.Progress.StiValueProgressMeter" isKey="true">
+            <Expression>Sum([Fitness Stats.DistanceMl])</Expression>
+            <Key>7cf7e723545d4792a5d57016def43cf6</Key>
+            <Label>DistanceMl</Label>
+          </Value>
+        </Progress3>
+        <Progress4 Ref="42" type="Stimulsoft.Dashboard.Components.Progress.StiProgressElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>900,40,300,60</ClientRectangle>
+          <CustomStyleName>Time</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13,Bold</Font>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>9e7f8e4cc5894efbb3353a51f8cc9cb3</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Mode>DataBars</Mode>
+          <Name>Progress4</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <SeriesColors />
+          <Style>Custom</Style>
+          <Target Ref="43" type="Stimulsoft.Dashboard.Components.Progress.StiTargetProgressMeter" isKey="true">
+            <Expression>Sum([Fitness Stats.TimeTarget])</Expression>
+            <Key>d89c7a583d8043599e7343b46eeb7cde</Key>
+            <Label>TimeTarget</Label>
+          </Target>
+          <Title Ref="44" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Progress</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TopN Ref="45" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <Value Ref="46" type="Stimulsoft.Dashboard.Components.Progress.StiValueProgressMeter" isKey="true">
+            <Expression>Sum([Fitness Stats.Time])</Expression>
+            <Key>0a79cfb0dcd94d188f6f8760d335ebc8</Key>
+            <Label>Time</Label>
+          </Value>
+        </Progress4>
+        <Gauge1 Ref="47" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <CalculationMode>Custom</CalculationMode>
+          <ClientRectangle>0,100,300,160</ClientRectangle>
+          <CustomStyleName>StepsGauge</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>a28559200bfb475bb0861197fcfa3847</Guid>
+          <Labels Ref="48" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeLabels" isKey="true">
+            <Visible>False</Visible>
+          </Labels>
+          <Margin>3,3,3,3</Margin>
+          <Maximum>6000</Maximum>
+          <Minimum>0</Minimum>
+          <Name>Gauge1</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Ranges isList="true" count="3">
+            <Item12 Ref="49" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>Red</Color>
+              <End>33</End>
+              <EndExpression>33</EndExpression>
+            </Item12>
+            <Item13 Ref="50" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>Yellow</Color>
+              <End>66</End>
+              <EndExpression>66</EndExpression>
+              <Start>33</Start>
+              <StartExpression>33</StartExpression>
+            </Item13>
+            <Item14 Ref="51" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>Green</Color>
+              <Start>66</Start>
+              <StartExpression>66</StartExpression>
+            </Item14>
+          </Ranges>
+          <Style>Custom</Style>
+          <Title Ref="52" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Steps</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <Type>HalfCircular</Type>
+          <UserSorts isList="true" count="0" />
+          <Value Ref="53" type="Stimulsoft.Dashboard.Components.Gauge.StiValueGaugeMeter" isKey="true">
+            <Expression>Avg([Fitness Stats.Steps])</Expression>
+            <Key>24735413bf9040448204f0515f8dd719</Key>
+            <Label>Steps</Label>
+          </Value>
+          <ValueFormat Ref="54" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
+        </Gauge1>
+        <Gauge2 Ref="55" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <CalculationMode>Custom</CalculationMode>
+          <ClientRectangle>300,100,300,160</ClientRectangle>
+          <CustomStyleName>CaloriesGauge</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>5cfb8d04aae544559d1e6fe82f39043e</Guid>
+          <Labels Ref="56" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeLabels" isKey="true">
+            <Visible>False</Visible>
+          </Labels>
+          <Margin>3,3,3,3</Margin>
+          <Maximum>2000</Maximum>
+          <Minimum>0</Minimum>
+          <Name>Gauge2</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Ranges isList="true" count="3">
+            <Item16 Ref="57" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>Red</Color>
+              <Start>66</Start>
+              <StartExpression>66</StartExpression>
+            </Item16>
+            <Item17 Ref="58" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>Yellow</Color>
+              <End>66</End>
+              <EndExpression>66</EndExpression>
+              <Start>33</Start>
+              <StartExpression>33</StartExpression>
+            </Item17>
+            <Item18 Ref="59" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>Green</Color>
+              <End>33</End>
+              <EndExpression>33</EndExpression>
+            </Item18>
+          </Ranges>
+          <Style>Custom</Style>
+          <Title Ref="60" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Calories</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <Type>HalfCircular</Type>
+          <UserSorts isList="true" count="0" />
+          <Value Ref="61" type="Stimulsoft.Dashboard.Components.Gauge.StiValueGaugeMeter" isKey="true">
+            <Expression>Median([Fitness Stats.Calories])</Expression>
+            <Key>0f4d123aa21e4cfeb2487a9932e3d6e5</Key>
+            <Label>Calories</Label>
+          </Value>
+          <ValueFormat Ref="62" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
+        </Gauge2>
+        <Gauge3 Ref="63" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <CalculationMode>Custom</CalculationMode>
+          <ClientRectangle>600,100,300,160</ClientRectangle>
+          <CustomStyleName>DistanceGauge</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>3dcc3bf4bcd44c4c85d427ee6ba25b2b</Guid>
+          <Labels Ref="64" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeLabels" isKey="true">
+            <Visible>False</Visible>
+          </Labels>
+          <Margin>3,3,3,3</Margin>
+          <Maximum>7</Maximum>
+          <Minimum>0</Minimum>
+          <Name>Gauge3</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Ranges isList="true" count="3">
+            <Item20 Ref="65" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>Red</Color>
+              <End>33</End>
+              <EndExpression>33</EndExpression>
+            </Item20>
+            <Item21 Ref="66" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>Yellow</Color>
+              <End>66</End>
+              <EndExpression>66</EndExpression>
+              <Start>33</Start>
+              <StartExpression>33</StartExpression>
+            </Item21>
+            <Item22 Ref="67" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>Green</Color>
+              <Start>66</Start>
+              <StartExpression>66</StartExpression>
+            </Item22>
+          </Ranges>
+          <Style>Custom</Style>
+          <Title Ref="68" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Distance</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <Type>HalfCircular</Type>
+          <UserSorts isList="true" count="0" />
+          <Value Ref="69" type="Stimulsoft.Dashboard.Components.Gauge.StiValueGaugeMeter" isKey="true">
+            <Expression>Median([Fitness Stats.DistanceMl])</Expression>
+            <Key>43fb5e6c55864858b747a7b9b9c52174</Key>
+            <Label>DistanceMl</Label>
+          </Value>
+          <ValueFormat Ref="70" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
+        </Gauge3>
+        <Gauge4 Ref="71" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <CalculationMode>Custom</CalculationMode>
+          <ClientRectangle>900,100,300,160</ClientRectangle>
+          <CustomStyleName>TimeGauge</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>895f381ad30449c090ea0d4d98fb4bdb</Guid>
+          <Labels Ref="72" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeLabels" isKey="true">
+            <Visible>False</Visible>
+          </Labels>
+          <Margin>3,3,3,3</Margin>
+          <Maximum>2</Maximum>
+          <Minimum>0</Minimum>
+          <Name>Gauge4</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Ranges isList="true" count="3">
+            <Item24 Ref="73" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>Red</Color>
+              <End>33</End>
+              <EndExpression>33</EndExpression>
+            </Item24>
+            <Item25 Ref="74" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>Yellow</Color>
+              <End>66</End>
+              <EndExpression>66</EndExpression>
+              <Start>33</Start>
+              <StartExpression>33</StartExpression>
+            </Item25>
+            <Item26 Ref="75" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>Green</Color>
+              <Start>66</Start>
+              <StartExpression>66</StartExpression>
+            </Item26>
+          </Ranges>
+          <Style>Custom</Style>
+          <Title Ref="76" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Time</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <Type>HalfCircular</Type>
+          <UserSorts isList="true" count="0" />
+          <Value Ref="77" type="Stimulsoft.Dashboard.Components.Gauge.StiValueGaugeMeter" isKey="true">
+            <Expression>Median([Fitness Stats.Time])</Expression>
+            <Key>035b92b4030b40e883ef7b7f1f23a9af</Key>
+            <Label>Time</Label>
+          </Value>
+          <ValueFormat Ref="78" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
+        </Gauge4>
+        <Text1 Ref="79" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>0,0,300,40</ClientRectangle>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>1f3502dfafbf4ae18a299eb2a061f3d1</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Name>Text1</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>&lt;font face="Arial" size="20"&gt;&lt;text-align="Center"&gt;STEPS&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="80" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text1>
+        <Text2 Ref="81" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>300,0,300,40</ClientRectangle>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>9f35ca4c362c45d4b7644b776c36fd63</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Name>Text2</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>&lt;font face="Arial" size="20"&gt;&lt;text-align="Center"&gt;CALORIES&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="82" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text2>
+        <Text3 Ref="83" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>600,0,300,40</ClientRectangle>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>013ec1bee62d4d04a77ee81b1e612aeb</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Name>Text3</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>&lt;font face="Arial" size="20"&gt;&lt;text-align="Center"&gt;DISTANCE&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="84" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text3>
+        <Text4 Ref="85" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>900,0,300,40</ClientRectangle>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>244c8c5623ce4c22930b54cff4b235e9</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Name>Text4</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>&lt;font face="Arial" size="20"&gt;&lt;text-align="Center"&gt;TIME&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="86" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text4>
+        <Indicator1 Ref="87" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>0,260,300,60</ClientRectangle>
+          <CustomStyleName>StepsIndicator</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
+          <Guid>bc84b0cdc76747efa9220201a0f4b4b9</Guid>
+          <Icon>StreetView</Icon>
+          <IconSet>Rating</IconSet>
+          <IndicatorConditions isList="true" count="0" />
+          <Margin>3,3,3,3</Margin>
+          <Name>Indicator1</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Style>Custom</Style>
+          <TextFormat Ref="88" type="NumberFormat" isKey="true">
+            <DecimalDigits>2</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </TextFormat>
+          <Title Ref="89" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Total Steps</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TopN Ref="90" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <Value Ref="91" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+            <Expression>Sum([Fitness Stats.Steps])</Expression>
+            <Key>5eaf58c002ba4ca7b4f2d64aec97442a</Key>
+            <Label>Steps</Label>
+          </Value>
+        </Indicator1>
+        <Indicator2 Ref="92" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>300,260,300,60</ClientRectangle>
+          <CustomStyleName>CaloriesIndicator</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
+          <Guid>b8784eb7f9544792b8ddcb6934001b17</Guid>
+          <Icon>Refresh</Icon>
+          <IconSet>Rating</IconSet>
+          <IndicatorConditions isList="true" count="0" />
+          <Margin>3,3,3,3</Margin>
+          <Name>Indicator2</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Style>Custom</Style>
+          <TextFormat Ref="93" type="NumberFormat" isKey="true">
+            <DecimalDigits>2</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </TextFormat>
+          <Title Ref="94" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Total Steps</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TopN Ref="95" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <Value Ref="96" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+            <Expression>Sum([Fitness Stats.Calories])</Expression>
+            <Key>ea3d0729319d485788ca12be47f6667f</Key>
+            <Label>Calories</Label>
+          </Value>
+        </Indicator2>
+        <Indicator3 Ref="97" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>600,260,300,60</ClientRectangle>
+          <CustomStyleName>DistanceIndicator</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
+          <Guid>1b619087b43a454e9cefcab720b21e7b</Guid>
+          <Icon>LineChart</Icon>
+          <IconSet>Rating</IconSet>
+          <IndicatorConditions isList="true" count="0" />
+          <Margin>3,3,3,3</Margin>
+          <Name>Indicator3</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Style>Custom</Style>
+          <TextFormat Ref="98" type="NumberFormat" isKey="true">
+            <DecimalDigits>2</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits</State>
+          </TextFormat>
+          <Title Ref="99" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Total Steps</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TopN Ref="100" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <Value Ref="101" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+            <Expression>Sum([Fitness Stats.DistanceMl])</Expression>
+            <Key>c2ec0868c6af400298c12e6bd1d5848e</Key>
+            <Label>DistanceMl</Label>
+          </Value>
+        </Indicator3>
+        <Indicator4 Ref="102" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>900,260,300,60</ClientRectangle>
+          <CustomStyleName>TimeIndicator</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
+          <Guid>a61d5ec96db64a4db2ea048156e727e6</Guid>
+          <Icon>ClockO</Icon>
+          <IconSet>Rating</IconSet>
+          <IndicatorConditions isList="true" count="0" />
+          <Margin>3,3,3,3</Margin>
+          <Name>Indicator4</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Style>Custom</Style>
+          <TextFormat Ref="103" type="NumberFormat" isKey="true">
+            <DecimalDigits>2</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits</State>
+          </TextFormat>
+          <Title Ref="104" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Total Steps</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TopN Ref="105" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <Value Ref="106" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+            <Expression>Sum([Fitness Stats.Time])</Expression>
+            <Key>108a5e9b1f2642d3adc784075d010399</Key>
+            <Label>Time</Label>
+          </Value>
+        </Indicator4>
+      </Components>
+      <Guid>c9c59a2fe0a748ceac6ae6f3626cede9</Guid>
+      <Name>FitnessStats</Name>
+      <Report isRef="0" />
+      <Style>DarkGray</Style>
+    </FitnessStats>
+  </Pages>
+  <PreviewSettings>25108991</PreviewSettings>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>DashboardFitnessAndHealthStats</ReportAlias>
+  <ReportAuthor>Stimulsoft</ReportAuthor>
+  <ReportChanged>6/17/2020 4:50:03 PM</ReportChanged>
+  <ReportCreated>4/24/2019 8:59:31 PM</ReportCreated>
+  <ReportFile>D:\Stimulsoft\Stimulsoft.Reports\CloudDesigner.Web\Reports\DashboardFitnessAndHealthStats.mrt</ReportFile>
+  <ReportGuid>cab5b80c334d404eadf100dbfba87233</ReportGuid>
+  <ReportName>DashboardFitnessAndHealthStats</ReportName>
+  <ReportUnit>Inches</ReportUnit>
+  <ReportVersion>2020.3.2.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class DashboardFitnessAndHealthStats : Stimulsoft.Report.StiReport
+    {
+        public DashboardFitnessAndHealthStats()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="13">
+    <StepsByDay Ref="107" type="Stimulsoft.Report.StiChartStyle" isKey="true">
+      <AxisLabelsColor>White</AxisLabelsColor>
+      <AxisLineColor>140, 140, 140</AxisLineColor>
+      <AxisTitleColor>White</AxisTitleColor>
+      <BasicStyleColor>White</BasicStyleColor>
+      <Border>None;Transparent;1;Solid;False;4;Black</Border>
+      <Brush>[89:91:101]</Brush>
+      <ChartAreaBorderColor>Transparent</ChartAreaBorderColor>
+      <ChartAreaBrush>[89:91:101]</ChartAreaBrush>
+      <Conditions isList="true" count="0" />
+      <GridLinesHorColor>50, 105, 105, 105</GridLinesHorColor>
+      <GridLinesVertColor>50, 105, 105, 105</GridLinesVertColor>
+      <InterlacingHorBrush>[10:155:155:155]</InterlacingHorBrush>
+      <InterlacingVertBrush>[10:155:155:155]</InterlacingVertBrush>
+      <LegendBorderColor>Transparent</LegendBorderColor>
+      <LegendBrush>Transparent</LegendBrush>
+      <LegendLabelsColor>White</LegendLabelsColor>
+      <LegendTitleColor>White</LegendTitleColor>
+      <Name>StepsByDay</Name>
+      <SeriesLabelsBorderColor>Transparent</SeriesLabelsBorderColor>
+      <SeriesLabelsBrush>White</SeriesLabelsBrush>
+      <SeriesLabelsColor>White</SeriesLabelsColor>
+      <SeriesLabelsLineColor>DimGray</SeriesLabelsLineColor>
+      <StyleColors>[92:199:207], [253:135:37], [172:82:240], [254:209:68]</StyleColors>
+      <TrendLineColor>DimGray</TrendLineColor>
+    </StepsByDay>
+    <Steps Ref="108" type="Stimulsoft.Report.StiProgressStyle" isKey="true">
+      <BackColor>89, 91, 101</BackColor>
+      <BandColor>LightGray</BandColor>
+      <Conditions isList="true" count="0" />
+      <ForeColor>White</ForeColor>
+      <Name>Steps</Name>
+      <SeriesColors>[92:199:207], [52:60:73], [79:115:122], [207:211:221]</SeriesColors>
+      <TrackColor>58, 82, 99</TrackColor>
+    </Steps>
+    <Calories Ref="109" type="Stimulsoft.Report.StiProgressStyle" isKey="true">
+      <BackColor>89, 91, 101</BackColor>
+      <BandColor>LightGray</BandColor>
+      <Conditions isList="true" count="0" />
+      <ForeColor>White</ForeColor>
+      <Name>Calories</Name>
+      <SeriesColors>[253:135:37], [52:60:73], [79:115:122], [207:211:221]</SeriesColors>
+      <TrackColor>58, 82, 99</TrackColor>
+    </Calories>
+    <Distance Ref="110" type="Stimulsoft.Report.StiProgressStyle" isKey="true">
+      <BackColor>89, 91, 101</BackColor>
+      <BandColor>LightGray</BandColor>
+      <Conditions isList="true" count="0" />
+      <ForeColor>White</ForeColor>
+      <Name>Distance</Name>
+      <SeriesColors>[172:82:240], [52:60:73], [79:115:122], [207:211:221]</SeriesColors>
+      <TrackColor>58, 82, 99</TrackColor>
+    </Distance>
+    <Time Ref="111" type="Stimulsoft.Report.StiProgressStyle" isKey="true">
+      <BackColor>89, 91, 101</BackColor>
+      <BandColor>LightGray</BandColor>
+      <Conditions isList="true" count="0" />
+      <ForeColor>White</ForeColor>
+      <Name>Time</Name>
+      <SeriesColors>[254:209:68], [52:60:73], [79:115:122], [207:211:221]</SeriesColors>
+      <TrackColor>58, 82, 99</TrackColor>
+    </Time>
+    <StepsGauge Ref="112" type="Stimulsoft.Report.StiGaugeStyle" isKey="true">
+      <BorderColor>Transparent</BorderColor>
+      <Brush>[89:91:101]</Brush>
+      <Conditions isList="true" count="0" />
+      <ForeColor>221, 221, 221</ForeColor>
+      <LinearBarBorderBrush>EmptyBrush</LinearBarBorderBrush>
+      <LinearBarBrush>[92:199:207]</LinearBarBrush>
+      <LinearBarEmptyBorderBrush>EmptyBrush</LinearBarEmptyBorderBrush>
+      <LinearBarEmptyBrush>EmptyBrush</LinearBarEmptyBrush>
+      <LinearScaleBrush>[112:173:71]</LinearScaleBrush>
+      <MarkerBrush>[211:211:213]</MarkerBrush>
+      <Name>StepsGauge</Name>
+      <NeedleBorderBrush>EmptyBrush</NeedleBorderBrush>
+      <NeedleBorderWidth>1</NeedleBorderWidth>
+      <NeedleBrush>[211:211:213]</NeedleBrush>
+      <NeedleCapBorderBrush>[211:211:213]</NeedleCapBorderBrush>
+      <NeedleCapBrush>[255:255:255]</NeedleCapBrush>
+      <RadialBarBorderBrush>EmptyBrush</RadialBarBorderBrush>
+      <RadialBarBrush>[92:199:207]</RadialBarBrush>
+      <RadialBarEmptyBorderBrush>EmptyBrush</RadialBarEmptyBorderBrush>
+      <RadialBarEmptyBrush>[107:110:117]</RadialBarEmptyBrush>
+      <TargetColor>Black</TargetColor>
+      <TickLabelMajorFont>Arial,10</TickLabelMajorFont>
+      <TickLabelMajorTextBrush>[255:255:255]</TickLabelMajorTextBrush>
+      <TickLabelMinorFont>Arial,9</TickLabelMinorFont>
+      <TickLabelMinorTextBrush>[255:255:255]</TickLabelMinorTextBrush>
+      <TickMarkMajorBorder>EmptyBrush</TickMarkMajorBorder>
+      <TickMarkMajorBorderWidth>1</TickMarkMajorBorderWidth>
+      <TickMarkMajorBrush>EmptyBrush</TickMarkMajorBrush>
+      <TickMarkMinorBorder>EmptyBrush</TickMarkMinorBorder>
+      <TickMarkMinorBorderWidth>1</TickMarkMinorBorderWidth>
+      <TickMarkMinorBrush>EmptyBrush</TickMarkMinorBrush>
+    </StepsGauge>
+    <CaloriesGauge Ref="113" type="Stimulsoft.Report.StiGaugeStyle" isKey="true">
+      <BorderColor>Transparent</BorderColor>
+      <Brush>[89:91:101]</Brush>
+      <Conditions isList="true" count="0" />
+      <ForeColor>221, 221, 221</ForeColor>
+      <LinearBarBorderBrush>EmptyBrush</LinearBarBorderBrush>
+      <LinearBarBrush>[92:199:207]</LinearBarBrush>
+      <LinearBarEmptyBorderBrush>EmptyBrush</LinearBarEmptyBorderBrush>
+      <LinearBarEmptyBrush>EmptyBrush</LinearBarEmptyBrush>
+      <LinearScaleBrush>[112:173:71]</LinearScaleBrush>
+      <MarkerBrush>[211:211:213]</MarkerBrush>
+      <Name>CaloriesGauge</Name>
+      <NeedleBorderBrush>EmptyBrush</NeedleBorderBrush>
+      <NeedleBorderWidth>1</NeedleBorderWidth>
+      <NeedleBrush>[211:211:213]</NeedleBrush>
+      <NeedleCapBorderBrush>[211:211:213]</NeedleCapBorderBrush>
+      <NeedleCapBrush>[255:255:255]</NeedleCapBrush>
+      <RadialBarBorderBrush>EmptyBrush</RadialBarBorderBrush>
+      <RadialBarBrush>[253:135:37]</RadialBarBrush>
+      <RadialBarEmptyBorderBrush>EmptyBrush</RadialBarEmptyBorderBrush>
+      <RadialBarEmptyBrush>[107:110:117]</RadialBarEmptyBrush>
+      <TargetColor>Black</TargetColor>
+      <TickLabelMajorFont>Arial,10</TickLabelMajorFont>
+      <TickLabelMajorTextBrush>[255:255:255]</TickLabelMajorTextBrush>
+      <TickLabelMinorFont>Arial,9</TickLabelMinorFont>
+      <TickLabelMinorTextBrush>[255:255:255]</TickLabelMinorTextBrush>
+      <TickMarkMajorBorder>EmptyBrush</TickMarkMajorBorder>
+      <TickMarkMajorBorderWidth>1</TickMarkMajorBorderWidth>
+      <TickMarkMajorBrush>EmptyBrush</TickMarkMajorBrush>
+      <TickMarkMinorBorder>EmptyBrush</TickMarkMinorBorder>
+      <TickMarkMinorBorderWidth>1</TickMarkMinorBorderWidth>
+      <TickMarkMinorBrush>EmptyBrush</TickMarkMinorBrush>
+    </CaloriesGauge>
+    <DistanceGauge Ref="114" type="Stimulsoft.Report.StiGaugeStyle" isKey="true">
+      <BorderColor>Transparent</BorderColor>
+      <Brush>[89:91:101]</Brush>
+      <Conditions isList="true" count="0" />
+      <ForeColor>221, 221, 221</ForeColor>
+      <LinearBarBorderBrush>EmptyBrush</LinearBarBorderBrush>
+      <LinearBarBrush>[92:199:207]</LinearBarBrush>
+      <LinearBarEmptyBorderBrush>EmptyBrush</LinearBarEmptyBorderBrush>
+      <LinearBarEmptyBrush>EmptyBrush</LinearBarEmptyBrush>
+      <LinearScaleBrush>[112:173:71]</LinearScaleBrush>
+      <MarkerBrush>[211:211:213]</MarkerBrush>
+      <Name>DistanceGauge</Name>
+      <NeedleBorderBrush>EmptyBrush</NeedleBorderBrush>
+      <NeedleBorderWidth>1</NeedleBorderWidth>
+      <NeedleBrush>[211:211:213]</NeedleBrush>
+      <NeedleCapBorderBrush>[211:211:213]</NeedleCapBorderBrush>
+      <NeedleCapBrush>[255:255:255]</NeedleCapBrush>
+      <RadialBarBorderBrush>EmptyBrush</RadialBarBorderBrush>
+      <RadialBarBrush>[172:82:240]</RadialBarBrush>
+      <RadialBarEmptyBorderBrush>EmptyBrush</RadialBarEmptyBorderBrush>
+      <RadialBarEmptyBrush>[107:110:117]</RadialBarEmptyBrush>
+      <TargetColor>Black</TargetColor>
+      <TickLabelMajorFont>Arial,10</TickLabelMajorFont>
+      <TickLabelMajorTextBrush>[255:255:255]</TickLabelMajorTextBrush>
+      <TickLabelMinorFont>Arial,9</TickLabelMinorFont>
+      <TickLabelMinorTextBrush>[255:255:255]</TickLabelMinorTextBrush>
+      <TickMarkMajorBorder>EmptyBrush</TickMarkMajorBorder>
+      <TickMarkMajorBorderWidth>1</TickMarkMajorBorderWidth>
+      <TickMarkMajorBrush>EmptyBrush</TickMarkMajorBrush>
+      <TickMarkMinorBorder>EmptyBrush</TickMarkMinorBorder>
+      <TickMarkMinorBorderWidth>1</TickMarkMinorBorderWidth>
+      <TickMarkMinorBrush>EmptyBrush</TickMarkMinorBrush>
+    </DistanceGauge>
+    <TimeGauge Ref="115" type="Stimulsoft.Report.StiGaugeStyle" isKey="true">
+      <BorderColor>Transparent</BorderColor>
+      <Brush>[89:91:101]</Brush>
+      <Conditions isList="true" count="0" />
+      <ForeColor>221, 221, 221</ForeColor>
+      <LinearBarBorderBrush>EmptyBrush</LinearBarBorderBrush>
+      <LinearBarBrush>[92:199:207]</LinearBarBrush>
+      <LinearBarEmptyBorderBrush>EmptyBrush</LinearBarEmptyBorderBrush>
+      <LinearBarEmptyBrush>EmptyBrush</LinearBarEmptyBrush>
+      <LinearScaleBrush>[112:173:71]</LinearScaleBrush>
+      <MarkerBrush>[211:211:213]</MarkerBrush>
+      <Name>TimeGauge</Name>
+      <NeedleBorderBrush>EmptyBrush</NeedleBorderBrush>
+      <NeedleBorderWidth>1</NeedleBorderWidth>
+      <NeedleBrush>[211:211:213]</NeedleBrush>
+      <NeedleCapBorderBrush>[211:211:213]</NeedleCapBorderBrush>
+      <NeedleCapBrush>[255:255:255]</NeedleCapBrush>
+      <RadialBarBorderBrush>EmptyBrush</RadialBarBorderBrush>
+      <RadialBarBrush>[254:209:68]</RadialBarBrush>
+      <RadialBarEmptyBorderBrush>EmptyBrush</RadialBarEmptyBorderBrush>
+      <RadialBarEmptyBrush>[107:110:117]</RadialBarEmptyBrush>
+      <TargetColor>Black</TargetColor>
+      <TickLabelMajorFont>Arial,10</TickLabelMajorFont>
+      <TickLabelMajorTextBrush>[255:255:255]</TickLabelMajorTextBrush>
+      <TickLabelMinorFont>Arial,9</TickLabelMinorFont>
+      <TickLabelMinorTextBrush>[255:255:255]</TickLabelMinorTextBrush>
+      <TickMarkMajorBorder>EmptyBrush</TickMarkMajorBorder>
+      <TickMarkMajorBorderWidth>1</TickMarkMajorBorderWidth>
+      <TickMarkMajorBrush>EmptyBrush</TickMarkMajorBrush>
+      <TickMarkMinorBorder>EmptyBrush</TickMarkMinorBorder>
+      <TickMarkMinorBorderWidth>1</TickMarkMinorBorderWidth>
+      <TickMarkMinorBrush>EmptyBrush</TickMarkMinorBrush>
+    </TimeGauge>
+    <StepsIndicator Ref="116" type="Stimulsoft.Report.StiIndicatorStyle" isKey="true">
+      <BackColor>89, 91, 101</BackColor>
+      <Conditions isList="true" count="0" />
+      <ForeColor>221, 221, 221</ForeColor>
+      <GlyphColor>92, 199, 207</GlyphColor>
+      <HotBackColor>104, 106, 116</HotBackColor>
+      <Name>StepsIndicator</Name>
+      <NegativeColor>221, 85, 85</NegativeColor>
+      <PositiveColor>LimeGreen</PositiveColor>
+    </StepsIndicator>
+    <CaloriesIndicator Ref="117" type="Stimulsoft.Report.StiIndicatorStyle" isKey="true">
+      <BackColor>89, 91, 101</BackColor>
+      <Conditions isList="true" count="0" />
+      <ForeColor>221, 221, 221</ForeColor>
+      <GlyphColor>253, 135, 37</GlyphColor>
+      <HotBackColor>104, 106, 116</HotBackColor>
+      <Name>CaloriesIndicator</Name>
+      <NegativeColor>221, 85, 85</NegativeColor>
+      <PositiveColor>LimeGreen</PositiveColor>
+    </CaloriesIndicator>
+    <DistanceIndicator Ref="118" type="Stimulsoft.Report.StiIndicatorStyle" isKey="true">
+      <BackColor>89, 91, 101</BackColor>
+      <Conditions isList="true" count="0" />
+      <ForeColor>221, 221, 221</ForeColor>
+      <GlyphColor>172, 82, 240</GlyphColor>
+      <HotBackColor>104, 106, 116</HotBackColor>
+      <Name>DistanceIndicator</Name>
+      <NegativeColor>221, 85, 85</NegativeColor>
+      <PositiveColor>LimeGreen</PositiveColor>
+    </DistanceIndicator>
+    <TimeIndicator Ref="119" type="Stimulsoft.Report.StiIndicatorStyle" isKey="true">
+      <BackColor>89, 91, 101</BackColor>
+      <Conditions isList="true" count="0" />
+      <ForeColor>221, 221, 221</ForeColor>
+      <GlyphColor>254, 209, 68</GlyphColor>
+      <HotBackColor>104, 106, 116</HotBackColor>
+      <Name>TimeIndicator</Name>
+      <NegativeColor>221, 85, 85</NegativeColor>
+      <PositiveColor>LimeGreen</PositiveColor>
+    </TimeIndicator>
+  </Styles>
+</StiSerializer>

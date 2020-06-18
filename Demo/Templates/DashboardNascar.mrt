@@ -1,0 +1,553 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <CalculationMode>Interpretation</CalculationMode>
+  <Culture>en-US</Culture>
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <NASCAR Ref="2" type="Stimulsoft.Report.Dictionary.StiExcelDatabase" isKey="true">
+        <Alias>NASCAR</Alias>
+        <Key />
+        <Name>NASCAR</Name>
+        <PathData>resource://NASCAR</PathData>
+      </NASCAR>
+    </Databases>
+    <DataSources isList="true" count="1">
+      <_x0032_017 Ref="3" type="DataTableSource" isKey="true">
+        <Alias>2017</Alias>
+        <Columns isList="true" count="15">
+          <value>_x0023_,System.Double</value>
+          <value>AverageSpeed,Average_x0020_Speed,System.Double</value>
+          <value>Cars,System.Double</value>
+          <value>CautionFlagLaps,Caution_x0020_Flag_x0020_Laps,System.Double</value>
+          <value>CautionFlags,Caution_x0020_Flags,System.Double</value>
+          <value>Date,System.DateTime</value>
+          <value>LeadChanges,Lead_x0020_Changes,System.Double</value>
+          <value>MilesRun,Miles_x0020_Run,System.Double</value>
+          <value>Model,System.String</value>
+          <value>PoleSpeed,Pole_x0020_Speed,System.Object</value>
+          <value>Site,System.String</value>
+          <value>StartingPosition,Starting_x0020_Position,System.Double</value>
+          <value>State,System.String</value>
+          <value>TrackLength,Track_x0020_Length,System.Double</value>
+          <value>Winners,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>d720155c4d73402aabfc6ec11d7d8aa8</Key>
+        <Name>2017</Name>
+        <NameInSource>NASCAR.2017</NameInSource>
+      </_x0032_017>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Resources isList="true" count="1">
+      <value>Name=NASCAR, Alias=NASCAR, Type=Excel, Content=b7NvoU4d8YQJeOCyKhZN_x002B_QOmUIw3w3ptF1Zrvo83rMihLPqKKwdUrqsVkqP51uCGIrwtCW6Bl374NVRx933y7bvf_x002F_653CQfPjAaLasSS1M9NdY7BiKU7fRSoIiKQWdLsZ8KlpbQfWIGDygMSomU_x002B_09VeMidYmsqFVhGB9PUtV2G2Uip5liEBpXi_x002F_AmBTKuQBEts16cBK4AIlBrLMErB_x002F_0J_x002F_qMGguaPn_x002F_py14bK_x002B_KONVfCjJratAKv3kUDKLLany5vDF_x002F_FbpF1DARha59mlXGGm_x002F_8nszPrtFnlCnqEFhLjmQjJ76KzdygJvLcY8K5OYiEOdxqe79DyWB4uS32gtQ4s5h6vbcG_x002B_gANXUnbTHSRuAz_x002B_yVfaaN5Le8_x002F_iOFMtVh0EKYnxQoL0ytxos_x002B_odoaFVwLZV9gpTkD7RJT4Q5W6sNDP4WbeuOEOw8RBnpCBTanxVoo_x002B_JuGRxOgluKL_x002F_dC5tCKd1JsP6KgAH7jh36fsF3RLbb_x002F_YJr3WD_x002F_Z6fmIlhikxFEkcERYKlhMt7Vbw8hvIwx7EacxhHU7VVZ3IQ2XY9AnZZ_x002B_EMU_x002B_A_x002F_flfFgWt_x002B_nn2ck_x002F_ROOViKGCuLkfjx4E2CXedfwvcenx7AHDL4U0cqlahIuZsnIfvoblM3TJ5t_x002F_0p6X8SX1G_x002F_58jMaQoLk2u5wdIFgVqurAWRIQmsQU6NE02yC0MWrleGSejeKMyPtqpCx5wpihDkmpvuq2otPpFQ4b_x002B_UFxBHHbP9snCOymH0eK4RQzo54jtmtAFbYqWonSqdJPcvooxX_x002F_V2CO1Q1Q_x002F_FRNrbAg0sq1AQclmhvkZ8XpUq7eZfeaS14oiVypwsFBxqRMY3LhDLJf31pG0mb1O_x002B__x002F_TAPIR4_x002B_kk_x002B_NA1YWacWSI4RabLJYPpN8RSJ28HoplQZsPI_x002F_ESfPH5cY8FdzHU3LPhF39YOuk72ak3LJ7iDwU_x002F__x002B_QcrNKRzUI2YOd0lFaessnT9KQgubt5r4vkKZeYBodfSNwFnVRbI_x002B_HjrVHPjOtwEwz_x002B_Q9JJMqmw_x002B_Byg9OF1PuW0ybo2k3ZHYjTVfgeeidrN1HP_x002B_AnUKFyTrH5AwpJgGHaJhWL5lw3HX7zNu91JBx5dkIwX73294fJS_x002F_WmJc3xzNgDpCzYu4F8aVXBfLuuuh3zRugizBZ3E5y0tkYFOcle_x002B_jjH6d8LkxYR6ZBEUuHZNsmcRa_x002F_vDbIOFgEUX_x002B_xDk9t5LWhYrGD90ojTQH_x002F__x002F_QKxzN7NRKlkn4YlgZ7SR2LEo2BhbBQ4axSW_x002F_aOCoraGocmqtr3btyw0Qw_x002B_sO1eXBM2rKK2x36wkpLgzefy3Jp_x002B_jX1E7FniARa_x002F_bEkbO2lJVxKhx3MktPkdY89POwL1XNyhP2aNrYfS7rHwwQd3xHeye7QeTizaoGkDFPxu23Q36KB8UyCOKyKJZNnqYH2P4V7mySTjYJc5kTUdEj5l6DBXCvHsHP9X8Umxatn4THDavG2U_x002B_eWDePOLh2xkjxH4Pobc2f8CkDOMzpN1MC2LtbG4NaQdul6JVp8l5Hk_x002F_lq3HIM4foZX1TUWcUxbt5G5mNawoL5pzS9u2mjAknk_x002B_pg6TuRzg_x002B_fY1U8ASK_x002F_bxIJ1XKfxQ32_x002F_iJ0ntS_x002B_vp1XIDB977jXnMNZ9R43pN7NKbIXS49a2lifcn3F2zfxFbPm1UxcbtnLa7ZshGsZZaJUfkFFiooJ5WN_x002F_zxQ_x002F_7ws4JQs1d_x002B_QADVAmXXNQ_x002B_4YDoiqeJNmIs6IV86U0oGCfC_x002B_59RD0WMkb_x002B_gy_x002B_VpAk5VC5_x002B_fv_x002F_mFb5EyrHTT4jH7T0cXhEEB6B7s6Y_x002B_C1qrY1lFuM8ipHMgUrZPvBgoxaA9NYOtTqycPSBkSNaBhFxmKzQyfF_x002B_N6bm4vzRavwHArqc5xnjNjZ6ZDD4xGKC4XKuOGN_x002F_BZ3y9J_x002F_4wCdiNHiAld8X4S6oJ_x002B_joB4qQuuCJu4E51QFvc0ip5s7FfDm_x002F_cs_x002F_KjgvGK99IcxWS8upvqsrz9Px5lZf4dMNRi2Q18JiWSv48Z_x002F_jOo27WJbXZKmZ1O9MYe_x002F_RwzK11cO8tCO2kwwI329ZcYuJhANnSZaTEqMZZSiqQEnQVQ34wnlD8jkhmRCDMZi4_x002F_jdqs7okzcr4ZfPmLIAphRO6abTWYCmxCu_x002B_eFgwHS9cqlZF859UhqJ7IQGxyOoS01DAQvUhHU6Zs1EdcK1T_x002B_WXFLBozuc4l_x002B__x002F_4yI84kRXvBz1JiqNVSqZfdlhvroFABb8xThoLE_x002F_Zq7f4vC8vAHcMJO2qoxKNYrKaUo5DXTxSzFM5I7BLJ_x002B_jeKCQKCo9yb9e2wYNeQf1ff5kuFxdHraugNf1nCuJszogQS_x002B_5MQXw1c27Z2sLGlUZn52BwKpEcIHVW02Ir1AvifS2kp1cu25vdd8oDXa_x002F_kmPvHUAy7jQJHEwnxz3Ps_x002F_IMMlJTaVwymV8yyjWED5tg6JIdgginTdZEOvV8VmF5cJsLrtWZifeTNrMwfKbYYKDUwoxjk_x002F_IUr0USMxmHWC9H5g6_x002B_66ggaFjgcaDysAmLk9Pm9wvuwiwrGPR_x002B_UZk_x002F_El_x002B_FcOHgkRL7AkGkyzQSmOg2NaNPhyMKbFiHxSrBtWP9LqACKS9sznrzNlaS_x002B_dZ7U6d9ceXTZXAeDcwfOKFevcTW_x002B_DNefalMQ8c4bVc5TsDBcBx7nz7LAN1A_x002B_YU50Ycfe2SQQ_x002B_TZIB_x002B_TPwh29Ha_x002B_FHEh_x002B_ntRlP57fJNQO1UpIkAjz3CDp3NneVwSZO0qfskNe3_x002B_uCA_x002F_eCMuH5KbbPjoXGNUG_x002B_xajSiCyH6fRMiIlYWAG8p8DcnCOA0Yjcmi7j3QB4yBMjBp4mUtK7mnoWDtubjw7CvebdhpbkNsrlXfO_x002B_9lI_x002F_R_x002F_GLAWuTGHBZgZHNP_x002B_SooeG2rT501_x002B_u7FdMAJtblCeizRtJQxlx0g3A7WNLqF7yfMaj4vWD98EVAI_x002B_E4ABuj0MDzdMKbuz83bNhgp_x002B_2cx4voQPS4nJi0nWNoomHHVCqT403c4Juv_x002F_5sC1FDQaiF3_x002F_5rNUlLGVvfO4HBLB4Vvajd0pHd1vQogKDjeH429GrPkLzg6H8Wr3rL4y3iz0IVKhpzwsLxRGcKAHRSsd6JKcWTtsnv_x002B_joUki0LZDd8f5g9ScjzPh8x3_x002F_RvcPfAkEK_x002B_1WGoOItiwX9C2RmWP8vVnf_x002F_SYohe9gNc6tqj_x002F_8IVGJF22ck6SZiCnvKdp2xr3uGgg18uIMVuA4Yn4PeDIK19psE5xWKQ9Th2dHgGAwsNtZ5v98uVqaf9Voyzrlg98Fq3WY9W9W03o2DG0No_x002B_0FTk8fkdItKWwkPdvMAW2XLGe2SMloWuWM_x002B_dGNMcr_x002F_wpMo0rtG1XqfPEE7cckv6mg_x002F__x002B_kvcEjdQc_x002F_hVrKw7mYUMGg9CGOgFp5df_x002F_lGwdrCEY7rCZ9clb1skgQW6pFzRXD_x002F_R2KNdk4p6PhyPGjQJ6EvdR683NWbhFXvpaM6ThWXBa8KzFmDzGkcAyxQu_x002B_d_x002F_m8a6tUBYFnX084Klr96_x002F_gsZDx5Mw3G7OCzS8pqAQ_x002B_U_x002B_HwF4_x002B__x002F_CD_x002B_RxL1dfLcdyctWONGAGYtUTRwMBZqjifwzApq8h_x002F_aTIYp7OXCWCBnxESLpUZlq25Yi11MpTLWwrv6rjwGI3ScIJSO69lHCTTYsMh6MfB19OpHDBRLzxfhifcUMPa8xYX9IGJyC3BiaKqjADDnyoLm8bGn5UCd_x002B_SuP7pIqZHoD8blfKUdl5X75E_x002F_z1nyeQjWnqmJUqtkCFWgOmMGS8vFNyrZo8_x002F_xW574wOlh7ctbxv9pzbiaSICFOoDuSzWqpBUAAH1EJrPjHfe0opBbZwu2eciVyfx_x002F_v5JsJRYO7EGh2aEq5L6OYjNZDC0rUO_x002B_aLkuTmIB6f47PXr1ZI_x002B_UimStZ28ijAC7Jgiu5p2naxqHMEEu24ny_x002F_DJpWe6u59hplvLSGUFen_x002B_weKBtbfO_x002B_dhpGSnKs0C_x002B_u5ZHR6p1w1qeH01W56kJoUpRk0OD15F6O1avWpDeFZZUTCX7IOygaAL9lSYblAuLp8fjudoJ7OFbBkg3_x002F__x002F_y5OQsoyQQ3RQSuyfYG4vaPHHzJKDaUzMrB6hBLYgHy1uIu_x002F_wpihh8Oy9p3kWj1TGU7sbn4d2ZvEUDXArCTm7BGLOjpXtd0AlASJOzYKPQQL2oUMEskUKGIrpVCqjeYbdaAjxLmvDlUrY_x002F_cB2pJR97loDvuhFKfsiL4_x002F_NJVGbOWfq6DdHreJMUb1XK9vb73I8vCxG5VzoIUL_x002F_GaNRWMoeCVQUEjd1O_x002F_kLTCbXDhbyzDCaKb7IgGYBm0YeW2jKvlV6R8BUo82b44FfpQei4ExXZA_x002B_AF5sRnnhUtuu0_x002B_m4OLlrNe9kl_x002F_t79dkfT_x002F_N4aiPHZXDDEr63tv7j2x4JJQxlbKlegt5IcXiUGpVztd4ColUkZmbAxWjx2BVTCnLLP9tBmF1luigpibIFtbmDk4mLXtYItY9UJNKgJG7t6HIHHiLFHqUvL_x002B_mSt5m8IN7NKbMod42sbQZJdivUkAnYovNyEH5gOJUxK0SwzeiQMlh4_x002F_i1Cbd_x002F_U1rIYscIZQVLE4ymcelUhLvtL1nJiUApgX9J6_x002F_LcuYQkbRUjTdq1jMx74dSZ4V2gI2Gw4eLbmn93WXFwLktw_x002F_1egYmyWkdhB4o5EiA2rw1oK8sq2sRRPAQjkmiItRzTWWyPB7vn3cEfHe09O2vuTLKOPKTOR0qMsGXL5uVd5lj_x002F_vD5O0gm68FQ9uXicRx7Sp7kGC7lh1EIJ1nGacoGkQaJJMnXtibAmUmuISiycl7kfmSZeid_x002F__x002B_xpqIqVhd9Z0zRtQByTTjkNNb0bQsEjGqpzZLHwJea2DnQxZVFCuq87Sp4sqKg6fxjj1UFiRqKX7QT71hJhdthjIGDRxhURxMWkuFwhm_x002F_e9FoDW6OLEJk1_x002F_uuHQ9k18CuVpfqIrput7815KEZa0kTLNa4I91WRwKrnskhpRBQTC5DafKDjseWDuubp8R_x002B_CBefihvh_x002F_s4bgIw4fhxsC3JBe4ryEgRWx6xi3Je4GdINnyB1NzLG95x0xcP_x002B_LZ2oWsgW6pAfejBb_x002F_K1uJvN67VxBmrnXThXO_x002F_6SZ0DggE24L1hdA8fXDXzBHNxxo42PsBKtGdROMH_x002B_D_x002B_GqyJlAldLvZUg4Sbt72SLFtfLnm9XMl1Rv1Cr2rQGQAS8OXSCCPq2F0MCUBcmDEhIkv_x002B_Rx_x002F_1KWDG66M_x002F_cgsoMiqhryH4sxt55vRJPlATjEIY4wWf_x002F_2IMDwQWZQEhvYQwuoRJ9Ev8E6atnnAhT6tF9Ltk90F_x002B_DH6oGoq_x002B_iiMg6kPpq3Mr_x002F_tg0DwSZ1PlF3m2ClwA9Yd3dM_x002B_0YcOUdfQnBk2kzpcXpwLYADIutT55vEVkiHozySb360_x002F_Panku_x002F_Kv8lpTqeJXKTsokTq712Or58fipeZ6OEtafhKU_x002B_v0fgeL7XEPvRa0hp9hyZh7SNL0jg163x_x002B_tWKxDeMDZ0LWQIE34c_x002B__x002F_G3Ui9z9cDjI2IUvVoKkRugFo3d1fNNa9R_x002F_Aoyqz6J1VhCXXN2IPlWRFpXGO_x002F_Mv82zgJCMUuptGMthgAnU84Jsof2dGD9dTBC_x002F_drCISuXxvNn0O4GKMeVHh_x002B_nnGb_x002F_D0AcDLSx1Jq89_x002B_Tkg5M1BBpRP09Z1nl5BEK6Ok80l4QQMfnBlUf6Sr_x002B_AtfNyn14sjVI4GPa4vXihYclF0zukzyhYAcqO1M2jPRRVylLDQXDqgNrb2SDRkEUaNJNCu0lVkUsR5MrjOB0BEgeIxWfPeBdg2AtR74qBEbRAQgcJEPPg0J7wov1iQu8tV2VMMXSChizDrCG7gdWWz_x002F_AIKhkdjfUbCmapkqS8yv5_x002B_fGRhuqoDwI24y8Mx158LrK7Ry2da87yBjz2_x002B_awLol4EGhjsF42zfZJ4tzg1YEjfs7VVGo5YgAIHde9_x002F_0l0zJUyNO6JzbiUGsRYIzu9CXYSG_x002B_isZp1YCZAIO7UPCLDmj1zUWAz6PSsgUCirxz1zsI1WOvYXWugvbMzZscWfKvJb3TVk9QtZtgcYbwsYsTWWgVh7XN0QOIwwLknvsdJv39GvBNoCZn0_x002F__x002B_btFI_x002F_Gh2mvvCd7zT10MZvtEk5Yf2JqVTT74vWrNgw3qC4lnXfmUWgm8UkGyyLzIN3IXN9e8VZFfdevOleya2PcwJY3sWv7u7TvfeYM9CH7K6ERWe1IL2BQBUdrpSDjFcm1Dr5no1ASbCzQW7Wm5jrZZGGFsVcZ4pTzy2OYSaGenEoVq1BmgUlRw3iUkrWI3DoBgoHPbB3MKsr1McMPxU6a4s6_x002F_JxUid8J619p3mt8qG_x002B_8jcSDlmNeisB05e5K3kEL_x002B_2UUXEdhzarZy9VZig_x002B_PSG1aRYyqab_x002B_osbwGqZAZgWyqCDK5CQ6BbgiP_x002F_dhNjdYXQk9RZxuvU7jVv2Qj8Vbu8QaQETx4S_x002F_vmQCcJJDT6AnlJ98_x002B_6QysrBls4fr_x002B_L7v_x002F_fzKhzVen1dGRsf8xDGgPRijW6fs9QMBrCEYmjyIUT3HJRFSa6PBWYxTJPfN7QhCNelwFX1cHHl4g874bKXbCzDCtPUOB1eQbW4Qa1NlrwKSyaSjzLj5qNIiYeayYoDv73pNvbraM29bs82LvZlimbf2ehofV6_x002F_c_x002F_ZmRJDbPdLkD0SEJCcs_x002B_v5VUsMob_x002B_uumOQlVEu94iVPMWw_x002B_7fw_x002F_z5hqleW7mzDpQDRZAaoDxaSAf3r9nQ7oriDreUUVcItA_x002B_78HEkzfUPFQ8_x002B_rwynoVWRl5ezVTR1ypMo2lmRjFJS7geC1VHSZqcYCBMtvYAAWauKK14UwchxzBvkPsZf7yTC334Gvo7vQRIK190aF9yKMCRcZczjYtiV_x002B_dB060_x002F_UTBMmklyoP_x002F_E25XEjwcO0zgGrUTBupaBR0ZdthZlY88Naz1vjvnvJ0GRG_x002F__x002B_tTWFef9OI7_x002F_Axtzm_x002B_gBAWcwSY2nRwqY5z_x002F_w6LMR41ralCCD6T7MZizR94ix28KDpwisfg_x002F_VM4OZDqmb0e2euW_x002B_w6AQjcC2V3uKHZzdrUkNv0OtGFwzghekEwJlG4QIZpcKviNNiIWL7aT0TowLAN9aXP7uZg0dDpzGAHR0EL_x002B_ra3ia0wGGKagjBe2Sr_x002F_mSVVQx_x002B_rc4OtlBnjijpmXuCFGwLeWxJLRJqZH_x002F_J_x002F__x002F_kDvDJ5bScO64PIzpuLE9LGAnBEi6RAqppwJIRfZBy8uR5vLL6_x002B_dGJ4lB2NOsDL6LJFAlcIg5UNU1kJqtcuc3LBaI4QjDAjizLRKAOiCBYn_x002B_yEo73FpapfKtVSn3fLz12HG_x002B_gZuvNOzY40z6IgfLHuan1W_x002B_6ETKu3w1FwZd4U3EkjVv2_x002B_r9hrmrm4uBp_x002F_zFl9sXz_x002F_6nCLun3bThCRPuZ7XZu1mjp4L1XTM2gAewDgKwjUOwH8du_x002B_esXMfR8DE2z2z37V9UaEjUbQQbv7rA5sePNKCnyhnyFSHtPObAEX9_x002F_jYn8ZdVAMLMia7C3WJdSF4WE7HQzc3fqJXZPkAy4YZDF0cGOSSTAy8C2IVeMx477uFMWoP_x002F_Z5QXyrusVBCreFxVkaxyuorG65yT17pPHRmtmYN_x002B_YUkCTwPq5bZzlJ0BGRdT5Z2mad4ncNh730xz_x002B_edTstuJDBaBdsExBnXhomEIhznCJZ9MNaipZQ2Tc8XoFsNipib3cUMPoxHtnU_x002B_Yo2uIaqX3THsOf3OzQxZD0ECjurSvsOSuBCBwWOsNR1P_x002B_P_x002B_hTLclZ8UlNccQhKjz_x002F_lyTlExCEZbl2QWFHdjMJhcvBK5lgfPmpLoq0AW1GGM_x002B_08mLh1ygWBnR5OxO4IpPu0_x002B_kMBZ_x002B_9Fw8OhMUWBPcfAVumITzvvE8bf95yVR7YAoP7TyZ4vjen66bqRiA5Ei2vZ_x002B_9AqkGa9c0rurPnzQGimdZoQkEk13FTzJT5uIggM2kC3_x002B_6kHMQxM4nkYpAUcnR1Q8BcJCGv4Wf1JoDGZ1s5SHQNEcQXej2gXzIPy_x002B_ToGMRf5e_x002F_UIcwthKFq4MzjSm_x002B_d2xFvDJz9zWJB0QURIVZVuLUtFqIQFOE5BEl1t1oeKHxiY24BH62KWpVwTlXFlCEXpB9kMBVmKspmeOjNOSeCWGMuB5_x002B_ThM4gsPQJRGyVHMts625JI7jTQpoA4bwzzPvuHPravHJcJQuGPfn6ihFQgN0aOWxNTvDxT_x002B_50vWhQOvHpBybv66c6Trkm5253gfN4pd0r0IL9QyoSX1HOw9Be73HJcbNioIUmuTJFyFRyKccxZV6LMzB7taMouSFmPuYzVsCnMQhn64XMnau_x002F_Jx9dPunvvxDgX6fVquEcPrXw6UzXe2c4p1CIMj80fA1EKMmSAMyUTXBxj7aH2owpE_x002F_hzYW83BYCj_x002F_u8RtGgtZOmGFOVT9eJTp3pXNU7yrTqEmSmk4F_x002F__x002F_LidHu7HbOI_x002B__x002B_VinjBQWoTummKGeLzzbbAnycOa4ZWgrPup2DFFVwIB86xUdJ2dPaAQu6fMbgbBtxoZOyoVJKUywuudhHG7kR1CtUEmGyME8j2aQhEXR5Gg6peAmZMUEluCiKuwSRKY_x002B_c6I2umFYEWCLGmFbWVTRCTevXkPYYm7QPRQAjM0nVtIhHgg9rOZqghhg093MiAEIQclr1HQjzbSvnQOUMTTftIFFOgpDPvQTceu9QAELCYH3qJ28hDF2gYOiRPLWKWXtsZueUs0pYRkgzEJT3umQrXdClMD4cGdcBmNfgpHsCTzXv7C1CIJAw0PbCK9NblRYEmzhCpFaoH3AO6hff3vwoO8n361_x002F_bymboOf5x6XADnXyR_x002F_OtdGP8jaXFX80zYNKWh2V_x002B__x002F_lHFX_x002B_2Uza8wkxCso9lrVtwBDHf2vHPQUE2opTQJ8hex5hJJytjaTgssJQfP2pJtif_x002F_Qtyp553efZiOs8e5926x5DvJy_x002B_Xsa5FuP_x002F_Bu1QZJuZlZJt0zfiDozyVJ3BI_x002F_T5_x002F_4vbdXHw1_x002B_1xKxwczoqbjqXA8YwqbX6ICHOCrIbww96T5e2u2U_x002B_vhMnN70pzGeX797UuIYzY_x002B_HGpcOh69iepQwpuTT5SOXbhXnF6hUuH8Z4VBR09Rruo3szrNWQ_x002B_hRk3FsbdsDYGBrV7gQsQF38GPAUMETeCBi89pK9gCZKC0H7Q4PCWbXILZRfvMqJui45U3I18oVseFOZZeXQ4dEnkdQzbn3sFAFkBShoIhb0Faz0aUqvsCeivpwZyNWzSnkT50JrG0H2NNwoU9MXcAyyQrEUU1wuc2LJOf2XCL8M_x002F_uh8X7SxTz3uDIXj_x002F_yTFYh_x002F_VBylBEHgZ_x002B_3Q6zHD3Bxawuoa_x002F_qchnmHY17IiK7KmXkew_x002B_AOIl_x002B_Fa3zgG52LZgBq2F7UJaLpUI6K6EThkS4z0YzLY3jFn6wu4pwTFTTu_x002F_z2LI77axBnpk_x002F_ZCE_x002B_2wF_x002B_Ph4gt4umv8FNghLHYVAAnTRKRkoO33wCov_x002F_aV54FE3RJmtF1JeSkCT_x002F__x002B_OwrQ2ZlslEJYPy0XSgvSXI2Z2pGAwVjSVVNbT3iv9A4wdJX8PVQDmEUCnhcYTWHM9_x002B_x_x002F_wn5NJ3D515_x002B_p8Vdk_x002F_LewVArgDnWP9l2467gXJtaxigusE9hTQRlGxJqxWZkRyjzPXLxKhqju_x002B_WASZcOgvIgcXu18tZFDNKOWNsMV4NdaA2bUfQSfyO8SzGCsF_x002B_hDj8R73PfpqMVQccahhcaguMZGK_x002B_ywKsGE5Zr6TR_x002B_5fejyBiiGw2XDb74bpGckTHCmtgni1EfnZcRzzTyjXJ2uGDHnSsb6r7Yqg9X1TvH72wB1eiU05fhs80zvSOrg_x002B_aHd3vNeRsTfLS72UiCerwG79qrXGyBHKvjQWV6WAomLFJzhf7elmK2D_x002F_njlXcD9T1M7EcrgVGqQl_x002F_uiv_x002F__x002F_c0o5Q2MpH6SnmYEdr_x002B_ejSSNgOyzqIAMWta0aPxUj0T_x002F_8EnC3slmXymdPJdj79Fs44TvIKpUe7_x002F_nFP97xfFSuwayleKsU7WZsQoPCPNEsB6F6fmtjDTHeXgQD7wKCv_x002F_mWH8AYpcJ0kSugoCrKhn_x002B_0CQuFmG_x002B_M_x002B_FNJ2zfKl_x002F_saKdhZ_x002F_4hegHT1Pd_x002F_98K5DSFJhMfORbtLibZdw98NSzq8v85B8j3_x002F_ullg_x002B_bXg_x002F_jeFQ9CQXhE3p2mEMKnQ_x002F_V6KypZvfPGhCkvsIGP3fUVC2PNUpo_x002F_jM69fOOUL00OkrVF7gLbBhQxx4OtrSCrGR6u3R59laphAO17KK5qs7Npb_x002B_09iuhVGesKyE4mzy58nurnyEaMt_x002F_ls6uQvXgpHUjMVVrfOOauJmtakUvjaMIuQTQ3PSJKACFFhcnRO1eHxNIPHQOCKPec0K7SmiaB948hNCgq_x002F_FxlQozHLXYXuGLT9q2hqVDhbHs9LXJ9IJH4Xe_x002B_jU0EeQTqM_x002F_ORpPBQHuzRHA_x002F_EdgbTwZeR_x002F_GF9fRahrZOPOMl3cadhKgoofpccBZDtrZh2MiqvS9AI1WaqH_x002F__x002F_YnqUAqjE34RZYbGa6VqmIkEKxGa5asDqzoob5T55FW5HwJEbCo9r6VY6x2TKj2RsxbNtazjtLdbtfcK_x002B_d67gFl56TI12TT8QxlK5CxuA1ObO2b_x002F_CHx_x002F_CBdhdyMrBdwmgk1PXTmrUN7vtphGSpHw0xPPBvmPsuYDt3HaSUcQ5RaVwyMtls3gBdbCQGv9oQrEyxOINzQDHZvO1t6GcEsHCZSoa2WX7mmUAzbLJ5jAmsCyA1nmTnm97I0Ed0HRjcWiXHYazbFKFrDnmd6ZaCS8_x002F_Jm3FLKxO42sOmIN4yIr6YrcrRz0tHhNY_x002F_7aeCLDDlqsD89BywwaTQkuJ_x002F_kkVvitR5l6yytkf_x002F_UoQmFZuDi_x002F_6skPsciFuGD9WcNck2DdaaOhSRg9MduUWUD5Au4xp31fXgBHimdygXHIe_x002B_JqgFjIimOgB7QEu0dLIglELMg8EfXlO_x002F_TENtWjYIfjeduX_x002B__x002F__x002B_3kiIg6qe2RqbpMY8dR1jHoGg5QhAByxNwpZzG2KYcyvNThvo_x002B_3bc5mSwrRgEaGBeOd28zyoNZp4lzmv0e3COfBjyeJlC_x002B_U_x002B_pE9Smua_x002F_ePPNhbFXQqFA4Ui5OVm6Mrc9Xao8Kbl0A9rMgyIzhR2wNJqsySj6LZpOLd8sT4Jq4SNkiaEWpwbRS7Lddoni0IylEVJCM2GldneKRQcXrBCTnJYUh_x002F_HSeqbhHi0KTcUuWdzuSuQ60DsoyVH3jqZgx_x002B_aabzB1cMn1qRBgutTGFlXq_x002B_MhsxmXgvDKEHDmdDBR_x002B_XigXZxOoFLVTTCpZrZFN4ABwKsCHIwX55LwgD7CHp4RzouCZz6ZlyE4wkQVwPBjOhFV0nkaQPUa12x7ZO9UuZ1_x002B_T0WDwVq1TlNlCybAUAmBbPFRK8CqDtgILv4PApuLGb7BzwVLGPVcRgS4JIy4bNdu_x002B_z3kMwDD50RfDp8ZfKkXKiz3HF6zKejD1FnBpe5gRD0ZSbtjtP4FcRfddNAfpewPOZGX2_x002B__x002B_4wM5sAWsnQj74qi0mjrG3ekDBa6H62Hb_x002B_Qe0nD5_x002F_8Qey9Nuvc_x002F_CNpH8_x002F_E1kCJzeeZgktmc0sZNqPgFnqNoUcf5SBN_x002B_TmSi4FFAT_x002F_4N1LdYVQGM05Ji_x002F_CQyQEz67DTd3oTnI39Y9DboxDKlW4dqDsy_x002B_s8EexRWdn07YRufTWvLuhpyggd2n1_x002B__x002F_QjNWmlhoWp9pn1KPV2PFn_x002F_oGuhE2fqXwqsXGbs_x002F_RHbgvYmDHE0yLejkc6XRfX90FYeLtQf5XUAQX6b_x002B_6aHZ98zztCadV746Rq1RJpsDuJM50LN4bOM47mM_x002B_crdCTeGCswXtJbSwfcJoSYjPvOYiEyB_x002B_bTMyDMVKJU_x002B_jF29lp_x002B_IQld7GBhkXba4SvM3eVRbPhUQkPi1YXuI4VYuzBynL9uOVhiqXhgLiZd1pmdCJOKTUGRrkdqECByzSKXDGWNFCV_x002B__x002F_6mqrqJdGmK7BSVz7xtIKbz4Ozak32oaC6l3bwFEe1an4aQ6u4eiIH9prtkIymQHRFSm98FCtW6h8InECY7ga1zXaUgLGM_x002F_Jnx1a1dkxrUlbspF_x002F_KHvBGstU4EtxhZfAzFtojGYWarQmeycLJ8P591OV62AbQvBcOJUBUH4_x002F_CxBpFMfIab0dJpEF5kLliFL6_x002B_eJSDmdX0x3x_x002B_AhTo3RMH5IJ9qsdiHAubwhk4cFKK3jxpC_x002B_2CZpbfmi1n2eEr_x002F_jffyMEUO5PDgVVcbR2Rx3qINydOBWBsIcET4a_x002F_BxPWNHoedBMDSXSpohqupfvWPDQa2Ad_x002B_s6at8jMudZVmVAFToFT4_x002F_SAsh1t3jsd9GlYP_x002F_4HGvtOCFkzJ_x002B_GZRkI2fN0RuqTrbg7BT8HocLPtXQM7p4XH2322gsxMOQqQe5C81NnJKHyj09xHViw42kmvXkWvuaQqAY9Up2oY470F3H2AR0ITwRnUq4Yy8Oxp2aidxkM6ftmaMnUgvAlKMQWlPaGP62yrZoeO1KvA0AGtgs5fnARCVapT1hxI1HNFLKylFwrXgkqLXK9yn2Q_x002B_UcT_x002B_PmJhXmzG1_x002B_wcu_x002B_nIg3wiQJrRtBfLlDy_x002B_N_x002B_Slm88zKwMBbmPtyw7ce_x002F_5JvrZYB_x002B_EFzDS8WnaIskIguIGVZTKHQjfY9bu8X2qlk1G7sJxm5Zq5HAnXHJkBFCUhO8B0Pl6bOcy4yGsFpz1eJCPJCDmzdog_x002B_APQShPFdcuwIfpNOCpvSI3g_x002F_v1aY1JWfRgcQWXHjUQ8moydbk64caiHCe8l9JcLLoRTFHzFVQ_x002B_vRTMwPCTVAJnlDY8BV38epj6YFLh6Te7l63Yk2baxe3G_x002F_e8LAz2KVfAwJbJRdiMMgbIqhtRirM8mVHDTn4t3uhWRNzyGB9b87RIpEnfsDBAqFRV8lL5kKJPep9Vh8D3mnt6S0tPqPAsJmyF0Q9cEina6ZaX2J_x002F_2e4tzul5n3hSUkblr6oDqQpG5bqUuYEwU856pq_x002F_eSSofc2icUl3NmAwCVzCAvDd1eXGIbMhds_x002B_BNcd8bmq6PHKA12r5_x002B__x002F_DW52fmNiioZaxM_x002B_B8GwEs154mx2DMw1YogFSXrkUST1ZMC7_x002B_Q5lpfc2Fp3orRFvK4XX9JdMJHedTuD3ENkYAW_x002F_ERGxTY6HavXHYeTh6xP4AdNpNcDk3sDnPpbc13oWZnskZVmVlQrPeVE4OgZlGb8t0Isw4eYtiKc_x002B_m0F8QU_x002B__x002F_FHpnwRdI3AXK8tCCT34DdwXQbz2cOim7_x002B_UNeOUh6stwSiMSJpAH2r27_x002B_vlCMJrrBznrUDPGOCOC1rOxdYMgawYsHpekbgcuVv0Z2ziG3yO6f9HI1_x002F_ZWhlUGpCUR8DjgBCG1ueijieveUQ5mzGaA9KpQewj83sU_x002B_xVghb1FgGCC53hEsxxTD737BCLlRcEyreTz9QqEU86kZBE6LRlYhFDJpTp8cTPkbqbW9RhtySib0L3jtQBNb7e1ANKuwe_x002F_hcMoBSGd4wHiqWZ7mFQbwroa65vysQRVu_x002F_zdy4h3jalxdMiFy7A5bbSrbnqfAHdm8dcyyx_x002F_HoEjcsYGw9sDbhEZYqTNsyGmTMn13j0zYywazPbTRI9N59yLZT9tXhdp7zGwLEpYCKR3j8r5PoK6C7pVlIrZak2nZVUQEqCDGEXWNajg5ifEabJZfsJZJe3ng2CxJ_x002B_uuspHAV2z3CBiFejHx2CTzKP_x002F_WIw9FMR5Th_x002B_GRu7tZ1jM4kT1T3EPrI_x002F_gvimBiyttwNpk7fNX7_x002F_cIcQ9_x002B_qqpoWAoM_x002F_xP7WJ1wLSauetV4Yp31pXNl40Uxrhhjz3SCMJxfjsBRcJRg_x002B_8ZnA14VXPTSjJKOmklhgDfUGTIpGjYe8lTgbuW2VOfalKoL0koq5xRN04r1fumCQ_x002B_TkPBebbL4MYCU_x002F_V2x76BinL_x002F_mjiag9iBRwEZF3wOrnrK2eRDHkiPfsHdT5fGplwjyfMdToPrWHIfAZqG6TRsWKRkZZF_x002F_702Iqev7Nn0T4BfyhbpqXqGwNyu4e6zYUwgcMyI7K5YQGZAb9lOVq6orZFfHmqZyK09bjNrtbND1Y4dw88S2qqv_x002B_HbQwiPpBa5oJZmir8y0sqvJ75Itc7dwel0B20k4uS9m2l_x002F__x002B_CUExR1pJRdgqyQlB39GPQLLO2jkRBKw7E90Iq3Le0685vjaDx2LL6UQSr_x002B_A3pFQdIm1FHOlWij3O7xZbN3U0VI1JCKCw37lNrg_x002F_KC22gTsLBIBLqBZR09wkaYLX9NFAI6i0HZJB1vZ0YzPt03u_x002F_xtD_x002F_v1H8nQyAEW8yCeG41Z3TzSdwKHGJx3udBctYd7rovoEhTzxHduwu8OfhERROeRCAC03Ot_x002F_cnKpqoM8u0x6w_x002B_lGXh3TjteU5HJWqBIgXIudfEKolYMags8jCYvsB_x002B_D5XMpznIhdBF0IcZY_x002F_2dIYvzq3D9oURHgK6fcDux0fd69DIrUmh0lCkzMEcrMhOp3YkivWXz87HlroF6mRsqtURP_x002F_EeN1hWNkNZJgXxx5EI8YT_x002F_l14YzOCucuhvwzpqlshsmjT42VOJxoRuSXu_x002F_QW9NmzUnkq1Ud6QP0HGzHRhzXOcMv4ljW5G3FV9zuZZHBfRom1ER1SVp8Iu_x002F_nCl0aN_x002B_55ARrELbRaaeaxkov5cVqLRD3ZEYNCTyS6ECJYPINQ11HS_x002F_YQ_x002B_foEavxt2I3RP2RCOEt221gVSAHEu16EU5t1iQs_x002F_X4bwigGiIPc9u_x002F_CGD4ii5rzQlRKqlzbo4aa_x002F_ArlQNo8J3bHXz0EuT0mZJZhIK2m_x002B_cqbbYgm4Ouv2Kb6haOWeUtWbR5SHyg_x002F_SfxQwsal_x002B_uiD1eJ5Q1GIdLL3MbXPjvceVGfMKBOHyXD_x002B_oYgpeUCOyMr8YgSA5uYcKMFfJ56dDeO_x002B_NO5mi8jv0X6FsXb8Fz2yeY9CqBDyJy0XAQn_x002F_IlGTuSD6Gg97phbIOq3KTx2r2kTUFSmlNxr_x002F_m0B7qVVOKVxr5ZNR9NmoLBADME0sDHI5AU1PJO9iphzu6wj68aIZfG9ajyDi1psAOKFuKER_x002F_8z4rtMhhqoLHZRrNgILFmGUMxhm6RS49XoZJJGkNTf9te_x002F_SUIvCj37AJhKb9UKaP5LPCdqGbxNxnh_x002B_FnLQHVLmSZe7XpGAglcUKX4NeD2TY2XkkpP1pSkVCj_x002B_JhyG_x002F_iFQbvWtuBtanrVJAoLg1saB7xT_x002B_X4jgVBlJSc7n9LM5rKGgL_x002F_GYRaKuzCuQpDYw4Gl5SWYXbxAdJwOKZDiV5yLcE3dkkKu4Tid9POFEuem9BZpvTOKXm8G2ZmW0BRBjSJzhM7hVnVnxr8Qu1aoOGP7KSdlTl7MxpmdgZWuefs2_x002F_kn9wepPkksBfgOPiLVwBHxmFQI5P_x002F_cov7haPLhkBCLf0SS_x002F_Q6cd3Gzp2RMR82IfmmzaccqF3wsHW1SE0ezu2REWXpdO24b764639qxZMjFzLZW_x002B_KTpIsEsif4qy_x002B_ZIS0X2A8fHCB6MiDkMKU8JGHspaKnf_x002B_5VgZOvvbxq_x002F__x002F_EUKgOomoNUYBl_x002B_whKCukR8A7IwurJfr4z1xVYnU2RZEi5urhWGjcEuVUbGW4O_x002F_5TOHvpqB4xDlgVFcKNH0Vf3OYAU5e52_x002B_1fPBTUxVL7_x002F_59ldF6icMMr5_x002F_miWM5XqP_x002F_4QgW3UCGow85_x002B_e3HHzq7vZbm4HKy0ujQsx3MNENv7rOs6PzjJq_x002B_1yGEJUYwv0X7aJ4npC3Ic1IUYXFBnQLkJkSi4BrVfxIo8T4J3RKsn65x0IvciYVtuQqLIvZ5vYu2IiKT6OXVfwLLo_x002B_hYtSQ_x002B_W_x002F_hJqwcEpXlA8tkh0yeP2huzBPbaoTIPxrUasyyiW6WF06QsjWl8TtLTRyd6IinigZrwwwmsOLlRFPSH3_x002F_T4PzHJEz9GF4c37BKhu_x002F_tUEH1qYjEoPXsjeq5yLbgNfO1UAKnjpUx3Oze2jjaR_x002F_B_x002B_PxGDh9zlvZU_x002B_TMqYiracsyj_x002B_xym0khj0YRyL9DjiRF_x002B_TalygU2CZX1m_x002F_Gz9c9y_x002B_FQKFa9vUzIrWpHKCOlcLQ8Ym0kj51oclV062U8NrkRGIdR9zavZFha53ke1Ba2YnJMPCiKWz6ETlWTSHxo8ksdFUwjcOwxlP4VW6NW8amySShx1vrkaDBge0UJfZLfHBxNoxWIQ5M_x002F__x002F_lAyHo5I7k72tQVHysBdMSfcPqyVyALHJCTI1juNTq54PwUTlrVGkSs6JZ4VaSlnpqZWyRo7SkVapMFZaoPjBL5r3bjHG_x002B_o0UbpodcdXmM0JrFckagSdRgFQP_x002B_8rdsQG0td62PGGVGEGYW_x002B_HzdjxQIUtYpfu_x002F_M_x002B_yFXDG6PBFFpgAyr19HwD1bV48YwMDAdoA0sqLJtclRgW_x002F_jcFd18TPyY6FBHlfGR2MCZ_x002B_CLB7ae_x002B_w8LljbqDwKjgcaxfjxWszcTOGk7pduPp2HQekucGNKnkwZVXGW1b38sUM7kNTMuZm8CxrzSO_x002F_Ivry4GCAvsNta9ThzhvV91tdiei7pmS1J17PoGZ0fixZcmysLOQyGnVysRggm5iHVQcx6W9QBTteiXS_x002B_OGDk6dophqvtGg_x002B_UqDcPpcvzMVjeyzlfGppu5kYwLDYgGm5UteOvSa_x002F_mPUK_x002F_LgCKbjORMQu1oMveVi5SNRfEFmSwwEvutICU6_x002B_jI34xP7KG1svJGB7uZXjVOWGygTRL9_x002B_EK8LX4GZOPuogC_x002F_6Bsq5Z_x002B_lvGgv9KT8TyDMBqHEBNYkfNrN9EzofiHypwtP6hmTyZHdFcim0i5IyesmR91HfEfYrMxaCZRV1o7X7G59hAwCGrML5M_x002F_ZJ9GSM_x002F_5NbM8tMWz7ERUNtjxkgWfVuKeB6GT0JuV5oTmVt_x002F_aTBk7XGl0im8zTpDbac0lEwa3VtdI0M2sBcJDqkE17wjKn4eYekxcWcPIjU93YM4vX2g2sgXSs0WvKRpImK4su_x002F_XieRHJOdoAMoAlRUB93CXHARsPSTt94HbacUj0_x002B_kXw3kTmgKRUm95wIwX8Zwjf6OyE4mRuwefHGv6BY3QT8PxDpirBSRboDYFag1mgP1YYm3Q_x002B_Cv0sLe6fwBoFE7e_x002B_RMut0WimFJe6M_x002B_Wba5UbEJIveNzXUhvONPofy1Xk7g7ja5W1lUvIvoCw3jsm_x002F_TGrr6SCPFvtMM1iVOUW_x002B_2DeGzY4odMrtRvl5tOV83_x002F_NHkdAX_x002F_OWRmf_x002F_Q5NFbaGyL2YjakYYbjuDnVW_x002B_5PtmbeVP7Jgi7du9mn3I3eaejDx_x002B_0a84Iw_x002B_YRZb_x002F_K035Sww60u7klj8SYQdfXBrOEoC_x002B_5WTEuK3_x002F_h_x002B_wvRMoAmtBv6xk7VfNna3N1hc27k6R6slSeqliwZ0e4lbDnLMsCai1iJSyl_x002F_NDPXTT_x002B_3B8aG1CGCX5aG4YTLm7QaJAtNfMVGl8pocSi1u_x002F_1kGfmuyrhYEQH4xCE1vmQpBxGCh2egG7CmpuEwYq3lT8O5_x002B_YKGS0pS_x002B_RIRNrKrH7BVtKmEfCP6E7s0PF68gZ0UqqtRp24xRfTG2298ysrj4wWea0Sb_x002B_4sB3dDgRwT4HeDMJ0kO_x002B_YJMzk_x002F_w_x003D__x003D_</value>
+    </Resources>
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>447eb542958a40fdb52badb145eea089</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Dashboard1 Ref="4" type="Stimulsoft.Dashboard.Components.StiDashboard" isKey="true">
+      <Alias>Nascar</Alias>
+      <BackColor>Transparent</BackColor>
+      <Components isList="true" count="8">
+        <RegionMap1 Ref="5" type="Stimulsoft.Dashboard.Components.RegionMap.StiRegionMapElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>0,60,720,320</ClientRectangle>
+          <DataFilters isList="true" count="0" />
+          <DataFrom>DataColumns</DataFrom>
+          <Guid>ff2c10a582374339a7bf259f5bd01ef2</Guid>
+          <KeyMeter Ref="6" type="Stimulsoft.Dashboard.Components.RegionMap.StiKeyMapMeter" isKey="true">
+            <Expression>[2017.State]</Expression>
+            <Key>0629e8bc444b4fc49dc28ecf345f4fd4</Key>
+          </KeyMeter>
+          <MapIdent>USA</MapIdent>
+          <MapType>Heatmap</MapType>
+          <Margin>3,3,3,3</Margin>
+          <Name>RegionMap1</Name>
+          <NameMeter Ref="7" type="Stimulsoft.Dashboard.Components.RegionMap.StiNameMapMeter" isKey="true">
+            <Expression>[2017.Site]</Expression>
+            <Key>e2f82f06b8114bf1abd7f5f8f68e4403</Key>
+          </NameMeter>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <ShowName>Short</ShowName>
+          <Title Ref="8" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,15.75,Regular,Point,False,204</Font>
+            <ForeColor>Transparent</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>Site Map</Text>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <ValueMeter Ref="9" type="Stimulsoft.Dashboard.Components.RegionMap.StiValueMapMeter" isKey="true">
+            <Expression>[2017.MilesRun]</Expression>
+            <Key>17157325108f438385a591a1d4fedad6</Key>
+            <Label>Miles Run</Label>
+          </ValueMeter>
+        </RegionMap1>
+        <Table2017 Ref="10" type="Stimulsoft.Dashboard.Components.Table.StiTableElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>0,380,720,220</ClientRectangle>
+          <Columns isList="true" count="15">
+            <Item6 Ref="11" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
+              <Expression>Sum([2017.#])</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <HorAlignment>Right</HorAlignment>
+              <Key>6f0c8b6dba7d4fe6b38f039c59696347</Key>
+              <TextFormat Ref="12" type="NumberFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits</State>
+                <UseGroupSeparator>False</UseGroupSeparator>
+              </TextFormat>
+            </Item6>
+            <Item7 Ref="13" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
+              <Expression>Sum([2017.AverageSpeed])</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <HorAlignment>Right</HorAlignment>
+              <Key>9f14c66e8c5b4c05973e42949875619b</Key>
+              <Label>Average Speed</Label>
+              <TextFormat Ref="14" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+            </Item7>
+            <Item8 Ref="15" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
+              <Expression>Sum([2017.Cars])</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <HorAlignment>Right</HorAlignment>
+              <Key>10de1e68e5064fc3b7c7e6a088c0ae6c</Key>
+              <TextFormat Ref="16" type="NumberFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits</State>
+              </TextFormat>
+            </Item8>
+            <Item9 Ref="17" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
+              <Expression>Sum([2017.CautionFlagLaps])</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <HorAlignment>Right</HorAlignment>
+              <Key>a6732709255f4c5a9947aceb49a85dbd</Key>
+              <Label>Caution Flag Laps</Label>
+              <TextFormat Ref="18" type="NumberFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits</State>
+              </TextFormat>
+            </Item9>
+            <Item10 Ref="19" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
+              <Expression>Sum([2017.CautionFlags])</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <HorAlignment>Right</HorAlignment>
+              <Key>2ecd991680fe495f8a68db67c2a98048</Key>
+              <Label>Caution Flags</Label>
+              <TextFormat Ref="20" type="NumberFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits</State>
+              </TextFormat>
+            </Item10>
+            <Item11 Ref="21" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
+              <Expression>[2017.Date]</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <HorAlignment>Center</HorAlignment>
+              <Key>7eb3279960e74837a0773b1cbbcf1659</Key>
+              <TextFormat Ref="22" type="DateFormat" isKey="true" />
+            </Item11>
+            <Item12 Ref="23" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
+              <Expression>Sum([2017.LeadChanges])</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <HorAlignment>Right</HorAlignment>
+              <Key>a2d11663410743e6b396a7ffa2088616</Key>
+              <Label>Lead Changes</Label>
+              <TextFormat Ref="24" type="NumberFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits</State>
+              </TextFormat>
+            </Item12>
+            <Item13 Ref="25" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
+              <Expression>Sum([2017.MilesRun])</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <HorAlignment>Right</HorAlignment>
+              <Key>fbc32b2545fe4d01bf0a7bff4e67d9b4</Key>
+              <Label>Miles Run</Label>
+              <TextFormat isRef="14" />
+            </Item13>
+            <Item14 Ref="26" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
+              <Expression>[2017.Model]</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <Key>e00f19b6fc3f4d499aa2bf88c1b3f1d2</Key>
+            </Item14>
+            <Item15 Ref="27" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
+              <Expression>[2017.PoleSpeed]</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <Key>8b29941ea4ff439d9dcc37333108883d</Key>
+              <Label>Pole Speed</Label>
+            </Item15>
+            <Item16 Ref="28" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
+              <Expression>[2017.Site]</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <Key>963518fa9ef54433a840b8541ea39184</Key>
+            </Item16>
+            <Item17 Ref="29" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
+              <Expression>Sum([2017.StartingPosition])</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <HorAlignment>Right</HorAlignment>
+              <Key>17c160df55534792a0737bfb913d6760</Key>
+              <Label>Starting Position</Label>
+              <TextFormat Ref="30" type="NumberFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+                <State>DecimalDigits</State>
+              </TextFormat>
+            </Item17>
+            <Item18 Ref="31" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
+              <Expression>[2017.State]</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <Key>523ed0520630490e9430ed3899e57fec</Key>
+            </Item18>
+            <Item19 Ref="32" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
+              <Expression>Sum([2017.TrackLength])</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <HorAlignment>Right</HorAlignment>
+              <Key>b5b362bb600b4a7882b3f559241d3429</Key>
+              <Label>Track Length</Label>
+              <TextFormat isRef="14" />
+            </Item19>
+            <Item20 Ref="33" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
+              <Expression>[2017.Winners]</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <Key>1ed30fb535924edd994eb9aee6d6c314</Key>
+            </Item20>
+          </Columns>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <FooterFont>Arial,10</FooterFont>
+          <FooterForeColor>Transparent</FooterForeColor>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>e9d0b6fd1efb46228c044300c62061d7</Guid>
+          <HeaderFont>Arial,10</HeaderFont>
+          <HeaderForeColor>Transparent</HeaderForeColor>
+          <Margin>3,3,3,3</Margin>
+          <Name>Table2017</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Title Ref="34" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,15.75,Regular,Point,False,204</Font>
+            <ForeColor>Transparent</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>Race Table</Text>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserFilters isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+        </Table2017>
+        <Gauge1 Ref="35" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>720,260,480,120</ClientRectangle>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>cd088d5a356b482191d2a4b7da276911</Guid>
+          <Labels Ref="36" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeLabels" isKey="true">
+            <Visible>False</Visible>
+          </Labels>
+          <Margin>3,3,3,3</Margin>
+          <Maximum>100</Maximum>
+          <Minimum>0</Minimum>
+          <Name>Gauge1</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Ranges isList="true" count="3">
+            <Item22 Ref="37" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>Red</Color>
+              <End>33</End>
+              <EndExpression>33</EndExpression>
+            </Item22>
+            <Item23 Ref="38" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>Yellow</Color>
+              <End>66</End>
+              <EndExpression>66</EndExpression>
+              <Start>33</Start>
+              <StartExpression>33</StartExpression>
+            </Item23>
+            <Item24 Ref="39" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>Green</Color>
+              <Start>66</Start>
+              <StartExpression>66</StartExpression>
+            </Item24>
+          </Ranges>
+          <RangeType>Color</RangeType>
+          <Series Ref="40" type="Stimulsoft.Dashboard.Components.Gauge.StiSeriesGaugeMeter" isKey="true">
+            <Expression>[2017.Model]</Expression>
+            <Key>6cca1ef45c814c4d815c9e10c3551209</Key>
+          </Series>
+          <Title Ref="41" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,15.75,Regular,Point,False,204</Font>
+            <ForeColor>Transparent</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>Pole Speed</Text>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <Value Ref="42" type="Stimulsoft.Dashboard.Components.Gauge.StiValueGaugeMeter" isKey="true">
+            <Expression>Sum([2017.PoleSpeed])</Expression>
+            <Key>eee49479642b44a990def80cda1b4e37</Key>
+            <Label>Pole Speed</Label>
+          </Value>
+          <ValueFormat Ref="43" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
+        </Gauge1>
+        <Gauge2 Ref="44" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>720,140,480,120</ClientRectangle>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>ed97aa73e97546d9b1370969738ec35e</Guid>
+          <Labels Ref="45" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeLabels" isKey="true">
+            <Visible>False</Visible>
+          </Labels>
+          <Margin>3,3,3,3</Margin>
+          <Maximum>100</Maximum>
+          <Minimum>0</Minimum>
+          <Name>Gauge2</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Ranges isList="true" count="3">
+            <Item26 Ref="46" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>Red</Color>
+              <End>33</End>
+              <EndExpression>33</EndExpression>
+            </Item26>
+            <Item27 Ref="47" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>Yellow</Color>
+              <End>66</End>
+              <EndExpression>66</EndExpression>
+              <Start>33</Start>
+              <StartExpression>33</StartExpression>
+            </Item27>
+            <Item28 Ref="48" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>Green</Color>
+              <Start>66</Start>
+              <StartExpression>66</StartExpression>
+            </Item28>
+          </Ranges>
+          <RangeType>Color</RangeType>
+          <Series Ref="49" type="Stimulsoft.Dashboard.Components.Gauge.StiSeriesGaugeMeter" isKey="true">
+            <Expression>[2017.Model]</Expression>
+            <Key>3fdae6473e034355a33cabd65a6f3eb9</Key>
+          </Series>
+          <Title Ref="50" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,15.75,Regular,Point,False,204</Font>
+            <ForeColor>Transparent</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>Average Speed</Text>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <Value Ref="51" type="Stimulsoft.Dashboard.Components.Gauge.StiValueGaugeMeter" isKey="true">
+            <Expression>Sum([2017.AverageSpeed])</Expression>
+            <Key>a8e61f0f21084527bbcd79eb6f91e889</Key>
+            <Label>Average Speed</Label>
+          </Value>
+          <ValueFormat Ref="52" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
+        </Gauge2>
+        <Text1 Ref="53" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>0,0,1200,60</ClientRectangle>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>f9e93f31e1e446528cc187b641ec4e1a</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Name>Text1</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>&lt;font face="Arial" size="36"&gt;&lt;text-align="Center"&gt;&lt;i&gt;&lt;font-color="#7F7F7F"&gt; &lt;/font-color&gt;&lt;font-color="White"&gt;Monster Energy NASCAR Cup Series &lt;/font-color&gt;&lt;/i&gt;&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="54" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text1>
+        <DatePicker1 Ref="55" type="Stimulsoft.Dashboard.Components.DatePicker.StiDatePickerElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>720,100,480,40</ClientRectangle>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,9.75</Font>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>15c2d45f7d6146b6a186fbdf744a09d2</Guid>
+          <InitialRangeSelectionSource>Variable</InitialRangeSelectionSource>
+          <Margin>3,3,3,3</Margin>
+          <Name>DatePicker1</Name>
+          <Padding>5,0,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <SelectionMode>AutoRange</SelectionMode>
+          <TextFormat Ref="56" type="DateFormat" isKey="true" />
+          <ValueMeter Ref="57" type="Stimulsoft.Dashboard.Components.DatePicker.StiValueDatePickerMeter" isKey="true">
+            <Expression>[2017.Date]</Expression>
+            <Key>f66dae5935854e2daef1a41377c10ee0</Key>
+          </ValueMeter>
+        </DatePicker1>
+        <Text2 Ref="58" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>720,60,480,40</ClientRectangle>
+          <ForeColor>White</ForeColor>
+          <Guid>922b64e3990346ba972978589dc318d0</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Name>Text2</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>&lt;font face="Arial" size="22"&gt;&lt;text-align="Center"&gt;Race Calendar&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="59" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text2>
+        <Indicator1 Ref="60" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>720,380,480,220</ClientRectangle>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
+          <Guid>d383699809e4405faee83ab56cb65491</Guid>
+          <Icon>Flag</Icon>
+          <IconSet>Square</IconSet>
+          <IndicatorConditions isList="true" count="0" />
+          <Margin>3,3,3,3</Margin>
+          <Name>Indicator1</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Series Ref="61" type="Stimulsoft.Dashboard.Components.Indicator.StiSeriesIndicatorMeter" isKey="true">
+            <Expression>[2017.CautionFlagLaps]</Expression>
+            <Key>f02b00149aa24d9e861d58a28a9430f7</Key>
+            <Label>Caution Flag Laps</Label>
+          </Series>
+          <TextFormat Ref="62" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits</State>
+          </TextFormat>
+          <Title Ref="63" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,15.75,Regular,Point,False,204</Font>
+            <ForeColor>Transparent</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>Cauntion Flags by Race</Text>
+          </Title>
+          <TopN Ref="64" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <Value Ref="65" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+            <Expression>Sum([2017.CautionFlagLaps])</Expression>
+            <Key>cdb5564d3c70405f8a8dd77c39343cf1</Key>
+            <Label>Caution Flag Laps</Label>
+          </Value>
+        </Indicator1>
+      </Components>
+      <Guid>8c3192b3f7044828aba7ad0f099dd8e2</Guid>
+      <Name>Dashboard1</Name>
+      <Report isRef="0" />
+      <Style>DarkGray</Style>
+    </Dashboard1>
+  </Pages>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>DashboardNascar</ReportAlias>
+  <ReportChanged>6/17/2020 4:50:24 PM</ReportChanged>
+  <ReportCreated>6/18/2018 2:05:14 PM</ReportCreated>
+  <ReportFile>D:\Stimulsoft\Stimulsoft.Reports\CloudDesigner.Web\Reports\DashboardNascar.mrt</ReportFile>
+  <ReportGuid>c6c8fc31659d4c308bdfdfb99c657225</ReportGuid>
+  <ReportName>DashboardNascar</ReportName>
+  <ReportUnit>Inches</ReportUnit>
+  <ReportVersion>2020.3.2.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class DashboardNascar : Stimulsoft.Report.StiReport
+    {
+        public DashboardNascar()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>

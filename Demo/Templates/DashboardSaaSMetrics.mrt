@@ -1,0 +1,753 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <CalculationMode>Interpretation</CalculationMode>
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <SaaS Ref="2" type="Stimulsoft.Report.Dictionary.StiExcelDatabase" isKey="true">
+        <Alias>SaaS</Alias>
+        <Key />
+        <Name>SaaS</Name>
+        <PathData>resource://SaaS</PathData>
+      </SaaS>
+    </Databases>
+    <DataSources isList="true" count="1">
+      <SaaS Ref="3" type="DataTableSource" isKey="true">
+        <Alias>SaaS</Alias>
+        <Columns isList="true" count="18">
+          <value>Month,System.String</value>
+          <value>New_x0020_MRR,System.Double</value>
+          <value>Lost_x0020_MRR,System.Double</value>
+          <value>Net_x0020_new_x0020_MRR,System.Double</value>
+          <value>Visitors,System.Double</value>
+          <value>Signups,System.Double</value>
+          <value>Paying_x0020_Customers,System.Double</value>
+          <value>CAC,System.Double</value>
+          <value>MRR,System.Double</value>
+          <value>Conversion,System.Object</value>
+          <value>LTV,System.Double</value>
+          <value>Customers,System.Double</value>
+          <value>GRPayingCustomers,System.Object</value>
+          <value>GRVisitors,System.Object</value>
+          <value>GRSignups,System.Object</value>
+          <value>GRCustomers,System.Object</value>
+          <value>LTV_x002F_CAC,System.Double</value>
+          <value>MonthID,System.Double</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>9188adf8fef242b2ab05d5419064623f</Key>
+        <Name>SaaS</Name>
+        <NameInSource>SaaS.SaaS</NameInSource>
+      </SaaS>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Resources isList="true" count="1">
+      <value>Name=SaaS, Alias=SaaS, Type=Excel, Content=j4vkeTI59TD2NWJ8cdBPbwuoJB0u3PgcUYaca9VUKWZUrQqUQBDJntFBTlKL5nuvT1ww6dmKHDypHx9UnkoV8owaq059CsGSA6CpgqPg4051keilX_x002F_IEovHuiw9gH7MwuSmEuR9flAgaR7j7p1Uz9luTbv8OBHN81jZSI2JGSVj1kNuox41jyRwDIraMTQBd0QVKqhVRiZ4IyA2GqmsQPb7TeU7wJ0G80H6y0aYW6eBEqIhRr2N64W16N_x002F_DIP_x002F_6D0DrTaB1J1_x002F_pHfNlZP3d3PJfZn_x002F_KDM5U56E4Rk9RD_x002B_5h9IjJLkizzVPJArJ8mOz49D8JcVwJ96r3TASLDLblpRTvUpMGwyXod8Ut2p5Ah3RtzoD0k42S4pqLGqr823zcPiHVOaxms4vmPubn0jvo53NyQRJD5GUk0qCG1QdrWdG_x002F_CbfNM0RTowt_x002F_89TkQa3yADxFy5oGh9Gvx4vPDdKlSmAeasMYuPxfHUpGpHKT4zRfJ_x002F_s4eLQfIVACFDMKVhr0iYPz0x2ZoZhP_x002F_TVzlcfntxwC7cLAYyorkYviuncI_x002F_4KW_x002B_8XSDnm5UwKztSIRhZjheHnfygHF1_x002F_35RyroOdx0yh_x002B_8FhzSfeoI13sIC_x002F_vSUbn2RA8lvnLh4iJDFdLiw8QkU7ayXbwNmKv0n4RCWy8GRIf_x002B_wSiBW1cJg3a69utFEmTORckYlu1vJDFDvdlhOEZencKh2WEOUtpMrF4u3q7GruRFOpqU5GsoLEQATrTdt4LMhH_x002B_GfdA1sb5Qet3_x002F_N38xgVUXQPIcPdaqt8EbcYCM79LNIYA0WhYW6STYm8ci7CGiwPB_x002F_6v7ickDLYAJyf2zFrtGZ19M0k948SmVRcmfJLn938DCMTn0McBgYJaBQ86W_x002F_aPaFeTfp9Vr_x002B_mXk3Qa8kiiut_x002B_JgeJcEzv56cXVluPJxOe2p5n2xTNGZweBjGzzJu2ECwTeQB65Vh7hUQjoXpvG14Nn3_x002F_ZT7Puv2zL2i1116CsJrfsZgF1t6V_x002B_Wv0V6xLK_x002B_ZG7FChuiyxhT4KUavyIAsTun7oUTxF2l2v_x002F_VJXPBCq2x4R1KFCWoXp_x002F_KKQe04czZJ9GuqPBV9lej6eYN1eT748mcdBLR1PAxvwOeTUz_x002B_WWDzg_x002B_3pAQaXK5UiDd1RDfhfNoKT2IwcYiHpwqWuDMnc6ToCyF5KSBQOXDm1uv6mMgniujX_x002B_I03NDr97rgfhnDCcVC2aCKAcVVAszFtLhYgsOwtzwuWSxJPwfnf_x002F_p2kFf3alSFo6HczhmD3Hwjo39a7zVn030HQgGkV16puajxUWYe2gCNaaSJoMQfpxtIMNUq1qh6GHKYT7oN5TuggLWxCJdwL8997A0M6tCh7n9UZVvwUBnc4bhq4yZcPWDD77fB7LfW4ZIOkSgPzytjid2vcqFgN36_x002F_MBUX64UdO0XlGeGvVe_x002F_TbvwZH_x002F_KGKtlRod3Z_x002B_t9X7VeRY8WLzZYR_x002B_IC7PPN77blfkxxfBwhDLUP6hMK7YAX_x002B_qGk6GdsWSTdH9MxHqqWpkNHoJFI1LYEJN2vG4JvFog13TxHjYVNFKTpfl2OaZy4jc_x002F_SOu3Oi5y8TpB3HN5S03tKXvy5_x002B_wn5AENa6URgbI_x002F_Z31x5_x002B_33qvUDOG3lkqwz49PBoW7qIVqo8xrKYWyQ3DgF3BrPQBzEaCih8KCVuWFA0HqmuiT0yF4JGMHXjFhd7Bgr1llHe4ImDSMTwW7ZdJK3ifu5xSG5ouvxXwY2n_x002B_PBW30aMv45_x002B_GueKvOliAm9ahCFyVGfFP4oNujIkFo6J179pn3DSFVB2gZpgkdUQauwrn0wB49vJCtu6U5_x002F_YFPx2YjT01an8s9lG_x002B_0NByCFb67HgWGpxQCGDgrPdKw81cNgoTvDwEeG3MDKdde_x002B_PdWg3_x002F_gj7KQf94kDOIgiFbYhRcJBemwdvFIW4huYmT3fEfP8Uk68LWaaQ5yzsMCRQOX2DHx4ciRDBBBT_x002B_yzMX880CCVQJ6ULS7IonykGJCM6I8G6fr8h30aN8E_x002F_x2WhcAplNIbDwtoQ_x002B_SFc84IBqyAY0vdhxKpKCd6WEFef3BbxJh_x002F_0eXyUU85rBur64no4Xp0Bxfgqd0XH0cnA1WaGoGwq_x002B_oob6pBfVWkA6KaP0WyYRpBULthE7wNk8UjQBdL5e1Js7gJ2jSHAqRjhJSAAhcMxw_x002B_Rn4sfpp0GLyn5RJc4CtYbJRTg_x002F_NzF_x002B_LKCh3ANPC5BF2rWaYuPmR1JfoZppiBuCOYhU0_x002F_ZGsizU3Xq8OBI64gQncCX_x002F_QMGer3DCFgVto59Ml6mXvatLQVvLwQxCx25BM0BqHhLtnEnxqgyUvAKSlvSFyAfduiJxmRd5Olz7PrkF1O_x002F_E6ZyO7DmUi2lxFo3jHsugnBpiy9Ua3pjsMeQeiXAzM08DWdMT_x002B_BaosTMaGd616a3E0Z1_x002F__x002F_sccflbeKpyHzZ5_x002F_Kf6Q0p9JiDbzJ2ev65VyAM50_x002B_CZH3oTMh96jsywPKMZYZsVorxLgGThBXpgoTfqU2qpttb8HrpLpw5_x002B_GuZD7uOPOSfY0XAqIL0zWh91aOmVqkaJPBQr3_x002F_0iBjJoMpLrCKkxmNguG5WA0BStgpljStYtNe3ytk7BcG_x002F_jd9riszFOMPsvxrfKvyk3ISbJrcDozjZ_x002B_LFmHWHAWrKDezG8wNBKRw5CZ91fOEjA0gUsxDbXaEv3ke7EHiEww9TRMIwHLrifrWM9RN4lFPSFYseaonPD9BcccEyrZILLs2bxhTqvOc5qtgkAiU3NC3dPSjJA_x002F__x002F_xRUKntHSbmFxV5D5ViFJUHYBgGYL3wtXVP2XSZ3ItsQCcBeBxyZFq09cxQETM7if0FiUhBa3HY4OQwVC3p6llVdumpreiztjAoZPN7M_x002B_swEiyfuAEMIO_x002B_I50nvFeSJmZmG7PEZP6VFfS58QOZGRQesmZ_x002F_Goo7k5AzenRtN9H0OKEMKk9YRv4J0IayWM1auzmy9GRc69WmlwCPCXmIieJeCClQ6FairbG0tcNlXe3eafa2K2f905x9sV2_x002B_iwuBdNgBdzp5pvz0BPiy4zdLaG9iGeYEkIM2kLUDvYH1JlAc5RjqGYrfbVPTOFKE13yIabhIsLbyHLSXuopDD_x002F_5bJ2_x002B_kSoom_x002F_vNwZQmHMgkcv_x002B_cCq10duvfRxJWzYczAraEHWjL6ppbtzrlR44fVPG5ra7GzpelwOZVdTgOJJSRchNY3ElxCggbCs1BMp89zvdM78b8g8L9Advpuf2fCYWNRohmtCDStxhgEdWrltaejKNdSUXxDTbiLjVIwszGM5dUf5vYs0S_x002B_cNQhuFQgCSR4TqJ3kQrstRKi6Fcu6jRHSUebeEgKj0_x002B_Q7QVwwxVFAq6_x002F_4MVEg_x002F_WsFq67XIitGnADn4okvaSy0WNCXZMyeQR6iI0TyxSBKkPOAkvVsYSql2lClO42dC7Ft9bmHw2dQX_x002F_fmfLEjgk3koXeBkCS7NT4Ea32bm61nk_x002B_BUM39YqiJ9WPyVO6wFPnF0aOKPM9kHRuDHpxIpGFmbadiHa1cYs20IGLBW7E_x002F_IQMm6gBDeH3q_x002F_ClTgZG0_x002B_e6_x002F_14TmJRIdR9W3ehRiyR6YADW_x002F__x002B_EynauyjTV2VF_x002B_AeBNsmu0VjLRlNf2yvUIvQzr7IdX92XwrZa2SvgOt3BqR8ECs1FVaXbK3y13xUtXybDKQx0zyqedkSyQOf7nsz_x002B_oaNHZpOty7AZkssZVktV1vF1Vs_x002F_2P4ps1KUV5OAjM0IY8OmWq21IGgAwnDVMvt8UNCjRFLjMJx58a4sTEs5C93W7s_x002F_IB0e60EopBTy6EA7VU52MwST1jhbbewqmy3gAS2uIT68Fi_x002F_w1U3PMfsh7kALSQiwg_x002F_RbVbUXuwd4unwohIaqStmQOyrKUfSn7D6L2vX4CPSFff2jyIcOuhiAYVqNhcl3w5T55NDb12NaDXdoiD7CmwxM8b_x002F_xxDTSS9uSz1YJk3gQVPaiys16SsVaSiYycETrMdKJ8jE6MQ8WCGqPHEeuM3XKwgaFnez9wOzds83_x002B_azo8PT9PFk5oKCNIa1dS9QHF1Jw1FzR_x002B_z6s4PnXn1RmgT7YHuUdVNnZdEcCAEJIJC_x002B__x002B_Pj2jeXTnOE_x002B_FbdRn_x002B_r23vOdV9lOkk_x002B_HRBoehL9RdNp4maykCuX_x002B_2MZEJOAd8NQ7aCog6TwfYb_x002B_Za5_x002B_Q608PPxN7vMKfVv4Dfsx4y0gA645cVxn2MJ8CJMTvvajCPiOUjwxiZTPgWoQffykNOmrS0h56D1cJ4WlImDKEq4_x002F_lQB_x002B_EvY9Eo_x002B_Vc_x002F_vqoMbXpyNA8ydNCBlvr4lZdEVSF92J0q8Pw_x002F_iXCADE0TFRNwgcRJlqBKtwSMxri0YjfLifwRI6XmUDh1Tk9coJ8riaMPKPjOdvs_x002F_MJf5znIDWAnEuYu_x002B_U8orn9TL3TPixgRzGTccoLcGObpIKCp0AusDNvyyeF2qlVxY_x002B_zeO5a8y3dzQhUe1NtQGPjS60dXdcDXVSjFxLubslePEreXJxePHimVPUdZDxsfZq4qbYaxSMgQUKNdBmcsREWtkHIvFmDokQ61jqf349aEVuTF9ch9CDnxw3IKdDm85NKEEdMIMlgzMHtt4ll_x002F_UDbn_x002F_qlVGOdhTCA97my8VIpJOhVaSJauZKzqexsjDwK_x002F_Exp6MR96_x002B_hvD7ioVKwTrSMS_x002F_M7EOjr_x002B_iv6XG4fR5UEk5MeLrAM_x002F_BDZaReRRKpYOb_x002B_OD1A4ksxDGs5gmG4m0MbXSjQiyWKnpCuRHqwFluHArowdxpNu9c7fLTMM1u9FLYjn8z4nQjiVUzTd2Yhx3cLt7VNSnxLt_x002B_cTFUh4smIGI84uubZu2KGPP3NkWk0d3QjD1hhguzmopDQ2EYDEP_x002B_8pN00Q7ogcIJNG7ElzdERVZHW6X_x002F_ieDdsIZukB6dIFHzq_x002F_yl_x002B_4aVRgnjFSYzSgh_x002B_sg5QwFhggsG_x002B_QAJsTOEaHbYC_x002B_lLYdN36KfBlK2SeM6ddoCx19L_x002F_bZEkxdqZskrwJQL5xyD4icuX7YlW3cvabClR_x002B_p1IOCDBmj5nb0hqOEQwtGI7WdQheGkZYD0D5m9OVf3p8WGtqZuOQvsElIHgM0dChsUPhFfviHNLaGyUs_x002F_tdutk4bIXd8XWzuG1CuApR2uK5BJo7X9c7XGjsueMqUMt1Fm8nNsjaqyJ3IO1pXHjXni4f1_x002B_aRhRmpZ6nJlSASL5tzJGbbkq3EZMm2zNfscUc1EEjCOt_x002B_jjS9R28bcgwN_x002F_52yT5CPgCA93RcxJYDLz6aA0drnzCp1Pp0aHx93jnSC0RGW6WwNiPlxD5wA_x002B_dLUf7vXn_x002F_hS1EwKl7lBBU05_x002F_zNMTGKuUGSW2vaO1aarY1L9a6FBno1azbNzTPwIrc6zMdA2vRMkXgWZFSlHxEbxKFmd_x002F_8SnSNuX4E897rVVSmiGHaK1cY6r0shVInn34ZmAomyJp0QZ4q9AduD6STzvzzOdN2TQlZpgIuhzG6LP_x002F_bqfhh4veBaCvUwSNjXYuvXlXWzbAoYC4BFwitCfbSixx_x002B_fhZuIswHqNYa5wPXFkiiqhRuG3BO_x002F_kop2RoLWLBUT0KZFDA5nkCAUdpNYPmcr3VUBp2xHQXUaPsmJ_x002F_K_x002B_ed6rE5T8vRJVRBSnvunsC6h1BOmfJ23fpQyVgCNa3bk51iC6GRag1jQEi99SpODqz7wX8pAIT06upsMisYYXGyf7jbErg7WY8tKhCm9rvM8dQQMfqVG_x002F_kWwcGBBlGo_x002B_x2R6YEPQwH0NmqHDY10_x002F_E4TXQEwXr9j4VAMNJHZqyW6WmNGUmtTX9kzUL0fNqF3pyqSOH_x002B_4Tw_x002B_U8s6eXUIITPU5ZEE7xNJ1TjYK6640zQvw0HKBgge3bBPojeWzxqrSnUYKpoHKwSJYNaEvq_x002B_zon3n2qX0Etlr6eqw1czxixTnX6L2WnGcOjSfqSIRL6_x002F_fvNvZz_x002B_5cX8R8lIopgXSSW2LUTClOsygXAeGcGyz3WTMDMApOeJAj5xo6P9GyhUH23yZF0mrOtfX1oVlD0O5ITKkxV_x002B_nXO2FPRGwEUPND_x002F_DsGFary_x002B_LW6Yee1SLthXPdaL58fPzSSdoPHkIDv47Eo7fLyWMnh4W9h_x002F_kFkXdEMdQrav_x002F_UM8SeV9Vj2uV7xkl1yj6e6hTgODz1HFss8vIYJpAzrzEhm2423h30lrcVVTDppttah_x002F_WiotY3oHAeU5wEh6OdP07_x002F_iF9_x002B_5DEFoJ72pHUOItfDJKWV3mPxKzPWihKevv87bvOk3jZ2q5m3zbw39iyo5OPKpavQ5nhYCc24ys4Kt17JBvPicb7IKw2xM_x002F_fa7WLbg4QXzLUY_x002B_a_x002F_EujVQ5f_x002B_APn54xEXRFJrqgBw4PUhFPC5ERzYw3HWyYVv2uDjNkaeoX_x002F_0zu8zwUSVd7rxDM2Jwi_x002F_GUc_x002B_9UFPYShzkHPK59cwLq89WBEmj7O8Gtuth_x002F_Y5L1wqBNF5DcVgdLhTTAocA1E1ZMSI_x002B_qJhMi6xSMArY0w0SHsMYtR_x002B_VVHUy0aRHrBZfXeqiTVAUQwHhW5gDuXefJdVSMEDS3ZszB6BS3D_x002F_iWyV6TE68Oq6A7nuo9gi9FEZiMLaxaNVESOs0ixK1QygHYev6YRYCWPoszYvZK288nndcVyqPGLS2Verz6Q9KHe2wb7fpkvW5A063g8OG9hueL521mBzJUpdC4tKVL2PWMWDNxbG_x002B_V5WoQXmpyKpITSg3XEPpiD0ZuepZlGLNvDRMvfjVO_x002B_lELvAn_x002F_glHWT7E42y2DVAX_x002B_VCTpWVL_x002B_cpA5nECkA1S6tAiS7xLq67TZmTjc6cYxQWUUXb1QObdG_x002B_7T2f9IEA3z8vY7h99YjqbNeZvYMqbjfCpmbJeXr_x002F_BpY5Bpa3ZukMnSOEhQU78OHEeFMd86s3wnIWeEM7QGCfyTNmafa4KR1LCalhY5q3DbKMN3wTbb051kSZS_x002F_oLT_x002F_ycm3RIuNQg3zwtJnKY_x002B_jyTvtUJAdtZt_x002B_VnyBRiz_x002F_6sFedfZjgmN_x002F_UE9XWq2KyvwcWpamp9lVFIWfsvrsJb3IsKE6r2C5AwuujcOcvt2l_x002B_F5hQASGsVytSSTDxU4KBxdF6x0fARaCWBo3t237U8KLJBQB6eaNCsNzMU_x002B_BJeScOymeT3mowK7DpR_x002F_7j7KiPuPezrnHDi4CirgwUeOX0oImPEKCEJSFY4Y8nHCbEmE1kHyBAKJNTMTpw16xSP7LSEzzOTCAXY7_x002F_roXm4wJljOZ_x002B_4WsYUg5WUagRkNT0cTUEN4V7D1wTy_x002B_01ADMM7DqsWL0HHxWQsxUSSfkKaaw5_x002B_GyT97HZdQ2Tw7UFOfPujNpZGr3ME8ONmayFZpJCPnKVs1CtPRcCnzUN6dd7ptsy0WJA7MYcP2Qd1JZUDTZXO_x002F_DIS6d86c9kd_x002B_RklxIEmPeq47nAq09v_x002F_5dMkvfArxh5NVikAGKeCuZ0Xi7DiamH9G32E8v_x002F_SfK6f8_x002B_zQsyUeHM73dpdppludRoZwFUi8_x002B_cWMYF7Isqv5gmgTOWScyJ7BmAS3hFH1iYK5nDumFqEugjo_x002B_BOmtIGX5x4r9NLaeIh7keBSaX6lMqXbiQgQHuKxnMu1mMYsq5SjMjuWLfUemb1zBQ1WxGOxj87Nx58_x002F_FQNJDNZAWFnGf9dMk8w_x002B_LMlCbyHA1coRAgWsnEnCYg69FRf67DFDSY67Fj7_x002F_QRbdn9qXaQm_x002B_Z_x002B_KWn5zG2cbRUfc5mRy9qzJztpIZhOoFOYW6KrEEXfdB4nxaFI1LL5u7KL98xD4NDjlkzRwXt_x002F_SvrFtcgkEcnw_x002F_6chkAlNL3rucw_x002F__x002F_EcNpeLzbtMTDH92_x002B_oq6o0LvNTqCpV8Hth3KgSg_x002B_GCFrxhHhrfZZQZspekWQWbBFRJlHGhbeRVGL_x002F_MxLHZmPfFKCIHgi7uILbT4PEikseWGrtIuz4MQt0V3cTBpFL0vogNxR_x002F_RoAPo8uDmaP7ghG3VLq6E6Lh81i9YSW_x002F_r0gTZmppi7quXJr6D3ieO8J12WF3hspsc0Ul1rjO5rNucdjKy_x002B_GFZpXYPLP2tx_x002B_vidpZBylO_x002B_uVsEpmyWMvu79oL1arkD7R10oOn8O2p1rS_x002F_t7Topl0ukeWjfVOvGqas_x002B_ry28WHtQxewKhL7yRU0tqsGo6PHJoC2_x002F_GWkpkb56VQko2W0lWJ8jDddBDI0dsZR0vNd6cOrVvzerfcJc1Iq9VFyehIXkVNPzXSKflksciMW2gHCmdT_x002F_QrpIApY2xPcMt0PJng8xtWXMmji8fpRsngFP1iiX5rrOrv_x002F_cI3KufT0va2s_x002B_GyPYbsci_x002B_JjyC7wVjs_x002F_bH2VAv1DxgCM1_x002F_7rJoUKMv4h8MonEDSXLexl1AUEc6ffNp_x002B_H1h0KmlGGKrgscT1U_x002B_zrCpPM4tHB49nrF3nKLwNUVmgX7HEvgthaVzMt8xQ0xK5ADbrjqCoM8V3KcXNlejJlRilKQQDcpVHl6zSH2gAh9wUzZX0MkvjtB_x002F_dQPSST2yDE4rIEarRYVp908ANYl5rw7x_x002B_VzcNXAm1mMkQwvKB0dl3wtXdbznRisOMDtyhOOtwFz3ho_x002F_33DTpnUXYH6O9Fcba6E0uc2U99V93Ms0N0z4EqkFBh4vck2FsXwrtlMF0caiHS5aUGyWMRNX_x002B_h8QmBtMROBrRDPLFoTOSfbviE_x002B_bkxT48gViL77hg13lXSLaJ3S9_x002F_yEKqXkIfnuLpFUhrxsxdAzdYuMv8NTojjt3RLq9RvOQQeEoPUn71_x002F_cC4yOkoYrk254cZYXbuudTHKaofHfwfLs3zE_x002B_5oY9B5PVKYffFlP_x002B_W7DSyQzGQ3AW_x002F_SG_x002F_PVEM4v2r3KI3wZC8Nt3ZgwLnfbtVB1j8JgTbPyGh22f8ghtn1oN6_x002B_yLevF8tJlQan4l_x002B_gyyth9vHf_x002B__x002F_OKsELzwUkF2pxlDW0p8uitqu4Qx53rtMPLTu70pQZsdYadb2L_x002B_NC8wByvUn8vx8MFeH5qFPgJ5brMRCzGozEYM6yCuPt48iJD9wGHg2RBQMimjAI5VA66r93VLL0MHUpurXTEv_x002B_btxzK1FTuYmQyePWK88zLYBtVLGr5j415jw1qy2UgZN_x002F_ciTmjh0zKN6UrvNNLZkZ_x002B__x002B_f7vgJhcnk8qbxtlFJaBFS2hGCDjt0rodrbADgAjKz0svyIFM3SVtXKR1svCNTvhbGtRq4QU7j34wNHe_x002F_2L2Os014R2iHH9I2cqEgRw0hXwyHvKOU1ffhsLBadE2htlxpqOVhd5RyBwTZXR3A5kMo9P5JJU490SG2bOmO6LhyWVZ21X8VePzBkUvFq_x002F_kTyKhs5wwmbiIyDUUds03gzCuO1QjYaZWq3GbJs3vlwN8nFLn6LG4RUD2J3JZC9GlzWZ3KhQ8UbV_x002F_tw31xxc8Nb5eVipaYgJuShEI0Ejyq23Unu6_x002B_uKXVAygfr_x002B_MovkbBC25Siz7nG2Xj1KJxjz3kwNqESalJCd7xNpkyJxba9LafFMQGlt7s6r1RnqGA1hJ0IZivVZ1iULKCaC5ZcyxUlhIMAjijfVQRCrUWcI5qZAvl8ejE_x002F_ctEGKd956jiglJZnKY7wufInO7wjb04t_x002F_HhahV_x002F_SWNmVB9VVDXGZyLT0kpeC4DkOQHB7G1Us3lf0keLIFiNBDsgrTZd1Nv2Oo2Gcr59bPO7ovQd0AelL_x002F__x002F_zOhFwHzKxJBxwcegfyWjW_x002F_O2G4GVMFlbmjW6d1T6aBZqjbdg6uhp6vhiQ4RCytmvdi3EeMg4jfNRparzJlSU_x002F_T95MVUtr_x002B_3mlz4F_x002F_KEpXF9ml1t9nLo3VcnW6pYE5v0aQQo7NKL7zMIysydkkg_x002B_aslfamPjub1lA69ie_x002B_PVD_x002F_65mLimJ9RoDPv2pKORbCqEnoCjq5m0Vc823cuqnAi5RUrxufctDoHXRJb0WL6z4m_x002B__x002B_nFIxc9CupafnfTArR_x002B_MaRwOm6SKzkLiI7pp0XmmkEWUgO_x002F_GVR8s1B5UcY2ehdFg5C_x002B_uMcf35ID5_x002B_MWntvASddOCVO9XpNUFjcdQdBvtKeger5UabrFPFskDMu2l56YZu9IWOl8RiwQvb8jDw3GRHA9qSsA6QwBKperTAJ9k47OILrIC28QbAvgE4K1DKhO3CJH9ROE29RzAWF_x002F_fe6mbyVdWSdlB01YK7f34_x002B_5OtD9DJjHwDfo1XUmc9PX8lcR0LWKRiBNPOIbxmLQ2rNd1M0037U06JhrSfy5MtRHC1mS16_x002B_QIf6E35s_x002F_KWuyfEeBKT3DxIAJ6DUqWVc5_x002F_QZdR7ObeR9lgyFfc_x002F_qHUGLwoTFUVNmt5hQExMPA_x002B_sMFr_x002F_SxKx06eKDDx_x002B_Z2u_x002F_f061CaIR3i2K1Bv0t4Rdu_x002B_f6YZQANITtOMUqj9ShO5_x002F_0EmE8tlemmLCRku9RFgP_x002B_pwF14PxwMPYWp0Pr2fG23BScH2CqaH4HzIrxwwJdZ3w6KHjmWH96hlolq3yol8S45ZEdsOuy_x002F_slIPQPrMse4WRyJINJWBID9a_x002F_bkAx_x002F_REsL48LfLEKlJsC5FVIyaZxLRWkZdi7_x002F_Vq9dnB9r7E_x002B_1v5_x002B_Uwc_x002F_O6UuKvWnE0JHGQJrzjsA9_x002F_Zbn7ZROdFNozlbiiTSkHdZlL4Az_x002F_bpXy33_x002B_NKzTCOzOKX2ZOgyjbPUMTSrAiQKysjcGe49KYtZZcgyhWekRdSbasMzWzL3RrXupNI0sdreWIt_x002B_nCD65bwd8fa514WnH45wAwFTUXEZM_x002F_YJmxLA3QB2CQ_x002F_b_x002F_dc1ccP_x002F_odxv0UAWs0rlRrrcGrvosc3Slk_x002F_DQm3mqs9JU2vk5B6_x002F_ziBBBPnAiSqUpi9G9KgDCgEP297u8Ypyt9BbPw2mEnJ7JGzqUwvLtyWSmOGyu_x002B_0BiYQ7jKkIK2tcB_x002F_xyj2Nb_x002F_vM3ITXGhSFB7pOAcqF_x002F_w8fnSHeXUynH9IbFZsFLNu1Gz0RDIeyTm67e9n3M5H7PNIYB43BpyC3d4Y9BtIkmaCNifSSjQul30epVwti2KDjpG4dpqT2NPth7_x002B_SszhcVs1WGkhQOa4eQZ4tCjCwCDDVCWkGKBurB5XgVc8hkVFCflARUOZSRYcQWnXUAM8QotcLk9PXoJhZ3klAqsSsB_x002F_3IqwmPn0LZ1fbarY_x002F__x002F_MJbhV_x002B_LkEWLJWFgkejo_x002F_UF6cOU9Q85Y3gkX08n0nTrRbCiERjUn9ueNYU8Gq0FOYHNym5KqDwVSu2gLHhf4CrI32P20WEBPpHghoWuHStQNPhCTziOxNqMGauEX1dCDWnm10tDfzs4I2u1gNNKONoIENLzr_x002B_twBaL03vsh68_x002B_q40gD7uh0GrgMihJA2b073gFm6kikK729_x002F_nc18EE8CBZBkYdXHH6pVvcj1_x002F_Smjc9TfU3E_x002F_HnbZiRy2suRft6asZwHgAK7MQodLt2zEql7MLLmZUtTLhw48aLGKAdGWKV2aLjD2gRUf52rx6_x002F_Jlu4g8xqXwEpdXh0hYPYkoNyuACFQ6RyB7MW9wA02_x002F_lQ2z8j5YRlpJ5pBwHHo8zFxYBDE3yDTr_x002B_DwixqJhtnulqUyaNr9LBV_x002F_9WicJ0kqDBErZhTZ3bEk_x002B_n3Sog9U0iz12fyNU0G_x002F_EmEznH6EZMXiVAK50ybzQFqlALYa0qbGUtzCwfmokdhZxYk8iJHgYoMA7MBEqVApO_x002B_Lj7DF_x002F__x002B_BAlEnIiZhhnCsZmR74iHvNugd3Gl3XDUPgwbfjNsNWxOSsf_x002F_Xm47_x002B_e7LPkg_x002F_VDwj_x002B_6wMx06DBDAbKZlCSyX7DV3u_x002B_hXDlgPk0nD_x002F_fzCm25F1eAc7dOYzEZfL9YyWnW9wUw8f_x002F_N2raSJ0XNR0YXDDrSsh1HWaqa7jpZC_x002B_EyXjLSNbRfJqepEqX9L0qvUG1_x002B_ZtSbwt8VPtm1D4vz_x002B_oFz1qworCJbyaIYjOCF1YUnXMjBhhC1Btv_x002F_Fwp5QGuNOSG4yAP5YzCVUkb_x002B_LhdJJAJTofW8OE66HHTgb2OOqhV1HqZdO0_x002B_8aI4Plhuk3ul6UcRqt8JzmUsgaa18kiIKJxBHr0WOmB3IKPMJeuOT1i1qPCNabpwrrnNbezSx9zs9P0_x002F_G2_x002B_mBAnS0QepTrBI6495axlt9qvyU6bDW9S02wfUbIHgN5VUh3mGNWkiztJIHS5NVcHM3pP4d6Zn1NWpZEsgRqrAY7VhYo9A_x002B_zqgiTNHNLbu5rfHf_x002B_rp6DbditPJjHxt1zr7qLV16zNo5TlMCZLi4UACVzYSjVzPugmG9TzGx7VBAMY_x002B_ON6cOq_x002B_EEtYKxCr08H4LFHafIxdN4RIbm_x002B_uX8CjesNk30XLF3fXChuOZDMzNkkMfai9gfJOH_x002B_cvY1Usd5BfZqLonU_x002F_fNp72red_x002B_yIt0_x002F_L90ecO2hKHOyO7TVdNQYAInfasWMfrdFPpjVvK4HauQG3LY9mT0Svwbnrx3WDNwdRpcVb_x002B_E_x002F_0A6WgHoldIOzSoCdm2jaGirh3EE505gLp_x002F_kCZYJ_x002F_C47vA0tJY25ROoNK4c1TdUNEbAnEe3Eh1vxrrJZiebClLRGoN9_x002F_YN1mjQSG1sawCDf4238z2x9_x002F_dyuZjR6sCGD9ek3TfIX0rgG5L_x002B_ZUz4SfOp5lPTs20CWeqWY0nYHPWuvtTFoOiY8pJ30E4rZqG3yCGoYzJGauNAWB_x002B_ZTEhgQgD7r7_x002B_qAVWbS5jgtKU_x002F_bvHQAQubRkNSZqq3qgPvuL922_x002B_yTdnVSWL2hp7PYEGTBZWC8YZsoZAWg_x002B_gsLRNUcCO3vsEVvmGDALDiHPT7e8WakKBbh7nC_x002F__x002F_M0BY0n3bbFDfoki0GfcNHFuL7WDcsayumVqAGnK4o8TfBvbYnlCEbGm9KLNQvuYPHwkRSseMb5_x002B_0RWRfo8btLuzLsnF2k4I160TUGeZlYjPR2XqvC2_x002F_23n8tidIiMVMMNYO6Ymz_x002B_AB40o_x002B_jubxNgjmIjnMsso7h69ab2U1tQQQjG5l2EPmpAY4J2WDKq5dublyU6Y_x002B__x002B__x002B_KFJNq_x002B_lecBFK_x002F_KMO1PuR8lyn8bpn9UpwBb17G2ZKPHNfgAbKsS8DldWjF1_x002B_ZpY73s1Q4bGRdaIj8UuaR7_x002B_SLlUs17pe4TbrRr0no5FqlkLYfGiL_x002B_snznISL1yvld8vKR0YWgueH2lPOrZQhcMuqq4VqrCxTjUkNe_x002F_Vxc6vzkewczK5UeCZhTf568My37RefoSb3vutdIqdmdCGc8zn6ur5rf4K_x002B_0jjVJs73bQVaD8d_x002F_GSYfqha4bj_x002F_IB5SSjHmYz2SSEIQyFqeQvwGWxDLfeGEYpwJcYMuqto1ZlBRlFjaLihDDFbfrOYMxA2G_x002F_PcSPjR19manTi_x002F_O2xdXAhcFxXo6gRi_x002B_Nw7fLUy07fiupT0JQ5wN1OMpooMp3k8pE64qoNNGZ4YtpK8OiyfdvMENy5P4iU5BVYhBytMFXfuwUk1ObwfnzISQG1ct4W8UW8NumFLO5EWxFCc6qGOTm_x002F_6ukkcw6KT7Hymgi2vjLiEiUpNrzLXjiGL1S3nSaWR3GZELG9Zi8_x002B_IjdS8L8dMDlp4gGYp1tuMITE9gd1jbi7o_x002B_Rrv99C7Z3TJ5L22yaos8A8rPwKu2P6pcP4LzDRcjRqLvRVkuSeN3JbGREs08HuWwQ_x002F_f7D0Q_x002B_c7Mj0p3ZBLowp5_x002B_oZD4H_x002F_KLvU_x002B_v8Z0ckPBKmcSi5DyvOe_x002F_JW4GxmlC1_x002B_VarrlDaRlhLXAmSzB3_x002B_BJGdlLRt00989xoGeyg2x_x002F_gbNyQjEsuNVu_x002F_CQzxhb_x002F_caoyxnRIRt5VWn9TTrs_x002B_DBBdRGlr5LsyA3E_x002B_FUPbjrLXgP96aY2E_x002F_5aE2HX1_x002B_f21ZFzPnyQsm9t6Lpm_x002B_VBqUdGu2iLocwwUKPO2bjn6Nj8as8Xfyj_x002F_yK</value>
+    </Resources>
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>bf08aa8eac4745769d33ea700ad783b5</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Dashboard1 Ref="4" type="Stimulsoft.Dashboard.Components.StiDashboard" isKey="true">
+      <Alias>SaaS Metrics</Alias>
+      <BackColor>Transparent</BackColor>
+      <Components isList="true" count="10">
+        <Text2 Ref="5" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>34, 49, 68</BackColor>
+          <ClientRectangle>0,0,1200,40</ClientRectangle>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>3e9a87381cec4d5b81ad6077b3029803</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Name>Text2</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Text>&lt;font face="Arial" size="36"&gt;&lt;text-align="Center"&gt;SaaS Metrics&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="6" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text2>
+        <Progress1 Ref="7" type="Stimulsoft.Dashboard.Components.Progress.StiProgressElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>680,40,520,240</ClientRectangle>
+          <CustomStyleName>Style2</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>2044b0d817d3415c9971d02993ba4e7d</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Name>Progress1</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <SeriesColors />
+          <Style>Custom</Style>
+          <Target Ref="8" type="Stimulsoft.Dashboard.Components.Progress.StiTargetProgressMeter" isKey="true">
+            <Expression>Sum(SaaS.Visitors)</Expression>
+            <Key>9f179a842801450ab52ab1503a1ef76c</Key>
+            <Label>Visitors</Label>
+          </Target>
+          <Title Ref="9" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>White</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>Conversion</Text>
+          </Title>
+          <TopN Ref="10" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <Value Ref="11" type="Stimulsoft.Dashboard.Components.Progress.StiValueProgressMeter" isKey="true">
+            <Expression>Sum(SaaS.Signups)</Expression>
+            <Key>537464e5b13542689e672585d932b337</Key>
+            <Label>Signups</Label>
+          </Value>
+        </Progress1>
+        <Indicator8 Ref="12" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>160,40,520,240</ClientRectangle>
+          <CustomStyleName>Style1</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
+          <Guid>adc659045b2d49b38790d67694bf2360</Guid>
+          <Icon>ManWoman</Icon>
+          <IconSet>Rating</IconSet>
+          <IndicatorConditions isList="true" count="0" />
+          <Margin>3,3,3,3</Margin>
+          <Name>Indicator8</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Style>Custom</Style>
+          <TextFormat Ref="13" type="CurrencyFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>0</NegativePattern>
+            <PositivePattern>0</PositivePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </TextFormat>
+          <Title Ref="14" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>White</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>MRR</Text>
+          </Title>
+          <TopN Ref="15" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <Value Ref="16" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+            <Expression>Avg(SaaS.MRR)</Expression>
+            <Key>774c0192373345c5a42ddb322e1f3edc</Key>
+            <Label>MRR</Label>
+          </Value>
+        </Indicator8>
+        <Gauge3 Ref="17" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <CalculationMode>Custom</CalculationMode>
+          <ClientRectangle>160,280,120,320</ClientRectangle>
+          <CustomStyleName>Style3</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>f2f62f80e5a94dae8e879adea392c47a</Guid>
+          <Labels Ref="18" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeLabels" isKey="true" />
+          <Margin>3,3,3,3</Margin>
+          <Maximum>70000</Maximum>
+          <Minimum>0</Minimum>
+          <Name>Gauge3</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Ranges isList="true" count="3">
+            <Item8 Ref="19" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>243, 89, 89</Color>
+              <End>33</End>
+              <EndExpression>33</EndExpression>
+            </Item8>
+            <Item9 Ref="20" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>255, 202, 119</Color>
+              <End>66</End>
+              <EndExpression>66</EndExpression>
+              <Start>33</Start>
+              <StartExpression>33</StartExpression>
+            </Item9>
+            <Item10 Ref="21" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>133, 212, 191</Color>
+              <Start>66</Start>
+              <StartExpression>66</StartExpression>
+            </Item10>
+          </Ranges>
+          <RangeType>Color</RangeType>
+          <Style>Custom</Style>
+          <Title Ref="22" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>White</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>New MRR</Text>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <Type>Linear</Type>
+          <UserSorts isList="true" count="0" />
+          <Value Ref="23" type="Stimulsoft.Dashboard.Components.Gauge.StiValueGaugeMeter" isKey="true">
+            <Expression>Avg([SaaS.New MRR])</Expression>
+            <Key>bc98230f8e574db88019dbd76e366c62</Key>
+            <Label>New MRR</Label>
+          </Value>
+          <ValueFormat Ref="24" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
+        </Gauge3>
+        <Gauge4 Ref="25" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <CalculationMode>Custom</CalculationMode>
+          <ClientRectangle>280,280,200,320</ClientRectangle>
+          <CustomStyleName>Style4</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>4c1df35ccc9241a8b545dae9f02cf919</Guid>
+          <Labels Ref="26" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeLabels" isKey="true">
+            <Visible>False</Visible>
+          </Labels>
+          <Margin>3,3,3,3</Margin>
+          <Maximum>70000</Maximum>
+          <Minimum>0</Minimum>
+          <Name>Gauge4</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Ranges isList="true" count="3">
+            <Item12 Ref="27" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>249, 89, 89</Color>
+              <End>33</End>
+              <EndExpression>33</EndExpression>
+            </Item12>
+            <Item13 Ref="28" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>250, 197, 120</Color>
+              <End>66</End>
+              <EndExpression>66</EndExpression>
+              <Start>33</Start>
+              <StartExpression>33</StartExpression>
+            </Item13>
+            <Item14 Ref="29" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>129, 213, 190</Color>
+              <Start>66</Start>
+              <StartExpression>66</StartExpression>
+            </Item14>
+          </Ranges>
+          <RangeType>Color</RangeType>
+          <Style>Custom</Style>
+          <Title Ref="30" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>White</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>Net new MRR</Text>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <Type>HalfCircular</Type>
+          <UserSorts isList="true" count="0" />
+          <Value Ref="31" type="Stimulsoft.Dashboard.Components.Gauge.StiValueGaugeMeter" isKey="true">
+            <Expression>Avg([SaaS.Net new MRR])</Expression>
+            <Key>402b90ea7a914311a2e559146d2fb0e6</Key>
+            <Label>Net new MRR</Label>
+          </Value>
+          <ValueFormat Ref="32" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
+        </Gauge4>
+        <ListBox1 Ref="33" type="Stimulsoft.Dashboard.Components.ListBox.StiListBoxElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>0,40,160,560</ClientRectangle>
+          <CustomStyleName>Style5</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,8</Font>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>9160cff6e53046a2bdad27c57ed3bb88</Guid>
+          <KeyMeter Ref="34" type="Stimulsoft.Dashboard.Components.ListBox.StiKeyListBoxMeter" isKey="true">
+            <Expression>SaaS.MonthID</Expression>
+            <Key>37958d90af0342c7b65ad7d07dc7ad6e</Key>
+            <Label>MonthID</Label>
+          </KeyMeter>
+          <Margin>3,3,3,3</Margin>
+          <Name>ListBox1</Name>
+          <NameMeter Ref="35" type="Stimulsoft.Dashboard.Components.ListBox.StiNameListBoxMeter" isKey="true">
+            <Expression>SaaS.Month</Expression>
+            <Key>84c3658bbf5b454e8a572c1bccadcff1</Key>
+            <Label>Month</Label>
+          </NameMeter>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <ShowAllValue>True</ShowAllValue>
+          <Style>Custom</Style>
+          <Title Ref="36" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>List Box</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="1">
+            <Item16 Ref="37" type="Stimulsoft.Data.Engine.StiDataSortRule" isKey="true">
+              <Key>MonthID</Key>
+            </Item16>
+          </TransformSorts>
+        </ListBox1>
+        <Gauge1 Ref="38" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <CalculationMode>Custom</CalculationMode>
+          <ClientRectangle>480,280,200,320</ClientRectangle>
+          <CustomStyleName>Style4</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>1268095d193d4908a034b3b30b8c9255</Guid>
+          <Labels Ref="39" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeLabels" isKey="true">
+            <Visible>False</Visible>
+          </Labels>
+          <Margin>3,3,3,3</Margin>
+          <Maximum>0</Maximum>
+          <Minimum>-7000</Minimum>
+          <Name>Gauge1</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <RangeMode>Value</RangeMode>
+          <Ranges isList="true" count="3">
+            <Item18 Ref="40" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>129, 213, 190</Color>
+              <End>-2500</End>
+              <EndExpression>-2500</EndExpression>
+            </Item18>
+            <Item19 Ref="41" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>250, 197, 120</Color>
+              <End>-5000</End>
+              <EndExpression>-5000</EndExpression>
+              <Start>-2500</Start>
+              <StartExpression>-2500</StartExpression>
+            </Item19>
+            <Item20 Ref="42" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>249, 89, 89</Color>
+              <End>-7000</End>
+              <EndExpression>-7000</EndExpression>
+              <Start>-5000</Start>
+              <StartExpression>-5000</StartExpression>
+            </Item20>
+          </Ranges>
+          <RangeType>Color</RangeType>
+          <Style>Custom</Style>
+          <Title Ref="43" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>White</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>Lost MRR</Text>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <Type>HalfCircular</Type>
+          <UserSorts isList="true" count="0" />
+          <Value Ref="44" type="Stimulsoft.Dashboard.Components.Gauge.StiValueGaugeMeter" isKey="true">
+            <Expression>Avg([SaaS.Lost MRR])</Expression>
+            <Key>6657fef296da4edfb8d54759f6dc775d</Key>
+            <Label>Lost MRR</Label>
+          </Value>
+          <ValueFormat Ref="45" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
+        </Gauge1>
+        <Gauge5 Ref="46" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <CalculationMode>Custom</CalculationMode>
+          <ClientRectangle>680,280,120,320</ClientRectangle>
+          <CustomStyleName>Style3</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>0947ea26381046f9ab77fd46e2abad55</Guid>
+          <Labels Ref="47" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeLabels" isKey="true" />
+          <Margin>3,3,3,3</Margin>
+          <Maximum>7000</Maximum>
+          <Minimum>0</Minimum>
+          <Name>Gauge5</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Ranges isList="true" count="3">
+            <Item22 Ref="48" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>243, 89, 89</Color>
+              <End>33</End>
+              <EndExpression>33</EndExpression>
+            </Item22>
+            <Item23 Ref="49" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>255, 202, 119</Color>
+              <End>66</End>
+              <EndExpression>66</EndExpression>
+              <Start>33</Start>
+              <StartExpression>33</StartExpression>
+            </Item23>
+            <Item24 Ref="50" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>133, 212, 191</Color>
+              <Start>66</Start>
+              <StartExpression>66</StartExpression>
+            </Item24>
+          </Ranges>
+          <RangeType>Color</RangeType>
+          <Style>Custom</Style>
+          <Title Ref="51" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>White</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>Visitors</Text>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <Type>Linear</Type>
+          <UserSorts isList="true" count="0" />
+          <Value Ref="52" type="Stimulsoft.Dashboard.Components.Gauge.StiValueGaugeMeter" isKey="true">
+            <Expression>Avg(SaaS.Visitors)</Expression>
+            <Key>a3adbc6a0ba34dc581b05f5904605ab6</Key>
+            <Label>Visitors</Label>
+          </Value>
+          <ValueFormat Ref="53" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
+        </Gauge5>
+        <Gauge2 Ref="54" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <CalculationMode>Custom</CalculationMode>
+          <ClientRectangle>800,280,200,320</ClientRectangle>
+          <CustomStyleName>Style4</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>6b5361cf36ed48ce86afde2f27fa743c</Guid>
+          <Labels Ref="55" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeLabels" isKey="true">
+            <Visible>False</Visible>
+          </Labels>
+          <Margin>3,3,3,3</Margin>
+          <Maximum>1000</Maximum>
+          <Minimum>0</Minimum>
+          <Name>Gauge2</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Ranges isList="true" count="3">
+            <Item26 Ref="56" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>249, 89, 89</Color>
+              <End>33</End>
+              <EndExpression>33</EndExpression>
+            </Item26>
+            <Item27 Ref="57" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>250, 197, 120</Color>
+              <End>66</End>
+              <EndExpression>66</EndExpression>
+              <Start>33</Start>
+              <StartExpression>33</StartExpression>
+            </Item27>
+            <Item28 Ref="58" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>129, 213, 190</Color>
+              <Start>66</Start>
+              <StartExpression>66</StartExpression>
+            </Item28>
+          </Ranges>
+          <RangeType>Color</RangeType>
+          <Style>Custom</Style>
+          <Title Ref="59" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>White</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>Signups</Text>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <Type>HalfCircular</Type>
+          <UserSorts isList="true" count="0" />
+          <Value Ref="60" type="Stimulsoft.Dashboard.Components.Gauge.StiValueGaugeMeter" isKey="true">
+            <Expression>Avg(SaaS.Signups)</Expression>
+            <Key>42b4deccebde4a66bd4ff554b329185c</Key>
+            <Label>Signups</Label>
+          </Value>
+          <ValueFormat Ref="61" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
+        </Gauge2>
+        <Gauge6 Ref="62" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <CalculationMode>Custom</CalculationMode>
+          <ClientRectangle>1000,280,200,320</ClientRectangle>
+          <CustomStyleName>Style4</CustomStyleName>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>70bdce83c6e243b4aa9d0346ea5988ca</Guid>
+          <Labels Ref="63" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeLabels" isKey="true">
+            <Visible>False</Visible>
+          </Labels>
+          <Margin>3,3,3,3</Margin>
+          <Maximum>100</Maximum>
+          <Minimum>0</Minimum>
+          <Name>Gauge6</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Ranges isList="true" count="3">
+            <Item30 Ref="64" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>249, 89, 89</Color>
+              <End>33</End>
+              <EndExpression>33</EndExpression>
+            </Item30>
+            <Item31 Ref="65" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>250, 197, 120</Color>
+              <End>66</End>
+              <EndExpression>66</EndExpression>
+              <Start>33</Start>
+              <StartExpression>33</StartExpression>
+            </Item31>
+            <Item32 Ref="66" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+              <Color>129, 213, 190</Color>
+              <Start>66</Start>
+              <StartExpression>66</StartExpression>
+            </Item32>
+          </Ranges>
+          <RangeType>Color</RangeType>
+          <Style>Custom</Style>
+          <Title Ref="67" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>White</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>Customers</Text>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <Type>HalfCircular</Type>
+          <UserSorts isList="true" count="0" />
+          <Value Ref="68" type="Stimulsoft.Dashboard.Components.Gauge.StiValueGaugeMeter" isKey="true">
+            <Expression>Avg([SaaS.Paying Customers])</Expression>
+            <Key>af21394cd21f4832a062b6e96f290658</Key>
+            <Label>Paying Customers</Label>
+          </Value>
+          <ValueFormat Ref="69" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
+        </Gauge6>
+      </Components>
+      <Guid>6f8b7e00b35140da9113cd724134ed9d</Guid>
+      <Name>Dashboard1</Name>
+      <Report isRef="0" />
+      <Style>Silver</Style>
+    </Dashboard1>
+  </Pages>
+  <PreviewSettings>25108991</PreviewSettings>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>DashboardSaaSMetrics</ReportAlias>
+  <ReportAuthor>Stimulsoft</ReportAuthor>
+  <ReportChanged>6/18/2020 8:54:49 AM</ReportChanged>
+  <ReportCreated>7/11/2019 5:07:42 PM</ReportCreated>
+  <ReportFile>D:\Stimulsoft\Stimulsoft.Reports\CloudDesigner.Web\Reports\DashboardSaaSMetrics.mrt</ReportFile>
+  <ReportGuid>78fb77e1525c4438854ee4a4ed79fa5d</ReportGuid>
+  <ReportName>DashboardSaaSMetrics</ReportName>
+  <ReportUnit>Inches</ReportUnit>
+  <ReportVersion>2020.3.1.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class DashboardSaaSMetrics : Stimulsoft.Report.StiReport
+    {
+        public DashboardSaaSMetrics()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="5">
+    <Style1 Ref="70" type="Stimulsoft.Report.StiIndicatorStyle" isKey="true">
+      <BackColor>34, 49, 68</BackColor>
+      <Conditions isList="true" count="0" />
+      <Description>Style based on formating of 'Indicator8' component</Description>
+      <ForeColor>White</ForeColor>
+      <GlyphColor>255, 196, 109</GlyphColor>
+      <HotBackColor>249, 161, 29</HotBackColor>
+      <Name>Style1</Name>
+      <NegativeColor>221, 85, 85</NegativeColor>
+      <PositiveColor>LimeGreen</PositiveColor>
+    </Style1>
+    <Style2 Ref="71" type="Stimulsoft.Report.StiProgressStyle" isKey="true">
+      <BackColor>34, 49, 68</BackColor>
+      <BandColor>132, 214, 191</BandColor>
+      <Conditions isList="true" count="0" />
+      <Description>Style based on formating of 'Progress1' component</Description>
+      <ForeColor>White</ForeColor>
+      <Name>Style2</Name>
+      <SeriesColors>[249:179:111], [211:211:213], [107:110:117], [74:76:85]</SeriesColors>
+      <TrackColor>56, 71, 92</TrackColor>
+    </Style2>
+    <Style3 Ref="72" type="Stimulsoft.Report.StiGaugeStyle" isKey="true">
+      <BorderColor>Transparent</BorderColor>
+      <Brush>[34:49:68]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description>Style based on formating of 'Gauge3' component</Description>
+      <ForeColor>221, 221, 221</ForeColor>
+      <LinearBarBorderBrush>EmptyBrush</LinearBarBorderBrush>
+      <LinearBarBrush>[219:123:70]</LinearBarBrush>
+      <LinearBarEmptyBorderBrush>EmptyBrush</LinearBarEmptyBorderBrush>
+      <LinearBarEmptyBrush>EmptyBrush</LinearBarEmptyBrush>
+      <LinearScaleBrush>[34:49:68]</LinearScaleBrush>
+      <MarkerBrush>Yellow</MarkerBrush>
+      <Name>Style3</Name>
+      <NeedleBorderBrush>EmptyBrush</NeedleBorderBrush>
+      <NeedleBorderWidth>1</NeedleBorderWidth>
+      <NeedleBrush>Blue</NeedleBrush>
+      <NeedleCapBorderBrush>[211:211:213]</NeedleCapBorderBrush>
+      <NeedleCapBrush>Red</NeedleCapBrush>
+      <RadialBarBorderBrush>EmptyBrush</RadialBarBorderBrush>
+      <RadialBarBrush>[219:123:70]</RadialBarBrush>
+      <RadialBarEmptyBorderBrush>EmptyBrush</RadialBarEmptyBorderBrush>
+      <RadialBarEmptyBrush>[107:110:117]</RadialBarEmptyBrush>
+      <TargetColor>Black</TargetColor>
+      <TickLabelMajorFont>Arial,10</TickLabelMajorFont>
+      <TickLabelMajorTextBrush>[255:255:255]</TickLabelMajorTextBrush>
+      <TickLabelMinorFont>Arial,9</TickLabelMinorFont>
+      <TickLabelMinorTextBrush>[255:255:255]</TickLabelMinorTextBrush>
+      <TickMarkMajorBorder>EmptyBrush</TickMarkMajorBorder>
+      <TickMarkMajorBorderWidth>1</TickMarkMajorBorderWidth>
+      <TickMarkMajorBrush>EmptyBrush</TickMarkMajorBrush>
+      <TickMarkMinorBorder>EmptyBrush</TickMarkMinorBorder>
+      <TickMarkMinorBorderWidth>1</TickMarkMinorBorderWidth>
+      <TickMarkMinorBrush>EmptyBrush</TickMarkMinorBrush>
+    </Style3>
+    <Style4 Ref="73" type="Stimulsoft.Report.StiGaugeStyle" isKey="true">
+      <BorderColor>Transparent</BorderColor>
+      <Brush>[34:49:68]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description>Style based on formating of 'Gauge4' component</Description>
+      <ForeColor>221, 221, 221</ForeColor>
+      <LinearBarBorderBrush>EmptyBrush</LinearBarBorderBrush>
+      <LinearBarBrush>[219:123:70]</LinearBarBrush>
+      <LinearBarEmptyBorderBrush>EmptyBrush</LinearBarEmptyBorderBrush>
+      <LinearBarEmptyBrush>EmptyBrush</LinearBarEmptyBrush>
+      <LinearScaleBrush>[34:49:68]</LinearScaleBrush>
+      <MarkerBrush>[211:211:213]</MarkerBrush>
+      <Name>Style4</Name>
+      <NeedleBorderBrush>EmptyBrush</NeedleBorderBrush>
+      <NeedleBorderWidth>1</NeedleBorderWidth>
+      <NeedleBrush>[211:211:213]</NeedleBrush>
+      <NeedleCapBorderBrush>[211:211:213]</NeedleCapBorderBrush>
+      <NeedleCapBrush>[255:255:255]</NeedleCapBrush>
+      <RadialBarBorderBrush>EmptyBrush</RadialBarBorderBrush>
+      <RadialBarBrush>[49:127:147]</RadialBarBrush>
+      <RadialBarEmptyBorderBrush>EmptyBrush</RadialBarEmptyBorderBrush>
+      <RadialBarEmptyBrush>[107:110:117]</RadialBarEmptyBrush>
+      <TargetColor>Black</TargetColor>
+      <TickLabelMajorFont>Arial,10</TickLabelMajorFont>
+      <TickLabelMajorTextBrush>[255:255:255]</TickLabelMajorTextBrush>
+      <TickLabelMinorFont>Arial,9</TickLabelMinorFont>
+      <TickLabelMinorTextBrush>[255:255:255]</TickLabelMinorTextBrush>
+      <TickMarkMajorBorder>EmptyBrush</TickMarkMajorBorder>
+      <TickMarkMajorBorderWidth>1</TickMarkMajorBorderWidth>
+      <TickMarkMajorBrush>EmptyBrush</TickMarkMajorBrush>
+      <TickMarkMinorBorder>EmptyBrush</TickMarkMinorBorder>
+      <TickMarkMinorBorderWidth>1</TickMarkMinorBorderWidth>
+      <TickMarkMinorBrush>EmptyBrush</TickMarkMinorBrush>
+    </Style4>
+    <Style5 Ref="74" type="Stimulsoft.Report.StiDialogStyle" isKey="true">
+      <BackColor>34, 49, 68</BackColor>
+      <Conditions isList="true" count="0" />
+      <Description>Style based on formating of 'ListBox1' component</Description>
+      <Font>Arial,8</Font>
+      <ForeColor>White</ForeColor>
+      <GlyphColor>219, 123, 70</GlyphColor>
+      <HotBackColor>220, 136, 11</HotBackColor>
+      <HotForeColor>238, 238, 238</HotForeColor>
+      <HotGlyphColor>238, 238, 238</HotGlyphColor>
+      <HotSelectedBackColor>255, 173, 120</HotSelectedBackColor>
+      <HotSelectedForeColor>238, 238, 238</HotSelectedForeColor>
+      <HotSelectedGlyphColor>221, 221, 221</HotSelectedGlyphColor>
+      <Name>Style5</Name>
+      <SelectedBackColor>219, 123, 70</SelectedBackColor>
+      <SelectedForeColor>238, 238, 238</SelectedForeColor>
+      <SelectedGlyphColor>238, 238, 238</SelectedGlyphColor>
+      <SeparatorColor>102, 211, 211, 213</SeparatorColor>
+    </Style5>
+  </Styles>
+</StiSerializer>
