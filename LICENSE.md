@@ -39,7 +39,7 @@ SOFTWARE may include certain files ("Redistributables") intended for distributio
 ### REDISTRIBUTABLES
 The following files are considered redistributables under this DLA:
 
-**Stimulsoft Ultimate**
+#### Stimulsoft Ultimate
 
 **.NET**  
 Stimulsoft.Base.dll  
@@ -162,7 +162,7 @@ Stimulsoft_ViewerFx.swc
 Stimulsoft_ViewerFx_Debug.swc  
 All .xml localization files
 
-**Stimulsoft Reports.Web**  
+#### Stimulsoft Reports.Web
 Stimulsoft.Base.dll  
 Stimulsoft.Data.dll  
 Stimulsoft.Map.dll  
@@ -176,7 +176,7 @@ Stimulsoft.Report.WebDesign.dll
 Stimulsoft.System.dll  
 All .xml localization files
 
-**Stimulsoft Reports.Net**  
+#### Stimulsoft Reports.Net
 Stimulsoft.Base.dll  
 Stimulsoft.Controls.dll  
 Stimulsoft.Controls.Win.dll  
@@ -193,7 +193,7 @@ Stimulsoft.Report.Web.dll
 Stimulsoft.Report.Win.dll  
 All .xml localization files
 
-**Stimulsoft Reports.Wpf**  
+#### Stimulsoft Reports.Wpf
 Stimulsoft.Base.dll  
 Stimulsoft.Client.Designer.dll  
 Stimulsoft.Data.dll  
@@ -219,7 +219,7 @@ Stimulsoft.Report.WpfDesign.Design.dll
 Stimulsoft.Report.Xbap.dll  
 All .xml localization files
 
-**Stimulsoft Reports.Silverlight**  
+#### Stimulsoft Reports.Silverlight
 Stimulsoft.Base.dll  
 Stimulsoft.Base.SL.dll  
 Stimulsoft.Controls.SL.dll  
@@ -233,7 +233,7 @@ Stimulsoft.Report.WebSL.dll
 Stimulsoft.Report.WebDesignSL.dll  
 All .xml localization files
 
-**Stimulsoft Reports.UWP**  
+#### Stimulsoft Reports.UWP
 Stimulsoft.Base.UWP.dll  
 Stimulsoft.Controls.UWP.dll  
 Stimulsoft.Helper.UWP.dll  
@@ -243,7 +243,7 @@ Stimulsoft.Report.UWP.dll
 Stimulsoft.Report.Viewer.UWP.dll  
 All .xml localization files
 
-**Stimulsoft Reports.JS**  
+#### Stimulsoft Reports.JS
 stimulsoft.designer.js  
 stimulsoft.designer.pack.js  
 stimulsoft.reports.js  
@@ -256,11 +256,11 @@ stimulsoft.reports.d.ts
 All .css styles files  
 All .xml localization files
 
-**Stimulsoft Reports.Java**  
+#### Stimulsoft Reports.Java
 All .jar product files  
 All .xml localization files
 
-**Stimulsoft Reports.PHP**  
+#### Stimulsoft Reports.PHP
 designer.html  
 viewer.html  
 DesignerFx_PHP.swf  
@@ -278,14 +278,14 @@ stimulsoft.viewer.pack.js
 All .php product files  
 All .xml localization files
 
-**Stimulsoft Reports.Flex**  
+#### Stimulsoft Reports.Flex
 Stimulsoft_DesignerFx.swc  
 Stimulsoft_DesignerFx_Debug.swc  
 Stimulsoft_ViewerFx.swc  
 Stimulsoft_ViewerFx_Debug.swc  
 All .xml localization files
 
-**Stimulsoft Dashboards.JS**  
+#### Stimulsoft Dashboards.JS
 stimulsoft.dashboards.js  
 stimulsoft.dashboards.pack.js  
 stimulsoft.designer.js  
@@ -300,7 +300,7 @@ stimulsoft.reports.d.ts
 All .css styles files  
 All .xml localization files
 
-**Stimulsoft Dashboards.WEB**  
+#### Stimulsoft Dashboards.WEB
 Stimulsoft.Base.dll  
 Stimulsoft.Dashboard.dll  
 Stimulsoft.Dashboard.Drawing.dll  
@@ -317,7 +317,7 @@ Stimulsoft.Report.WebDesign.dll
 Stimulsoft.System.dll  
 All .xml localization files
 
-**Stimulsoft Dashboards.WIN**  
+#### Stimulsoft Dashboards.WIN
 Stimulsoft.Base.dll  
 Stimulsoft.Controls.dll  
 Stimulsoft.Controls.Win.dll  
