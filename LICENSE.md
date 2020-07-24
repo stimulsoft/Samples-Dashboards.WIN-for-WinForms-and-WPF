@@ -16,7 +16,7 @@ All SOFTWARE is licensed, not sold.
 You may install and use one copy of the SOFTWARE, including any and all source code if provided, or any prior version legally licensed for the same operating system, on a single computer. You acknowledge and agree that the SOFTWARE in source code if provided form remains a confidential trade secret of STIMULSOFT.
 
 You may transfer all of your rights to use the SOFTWARE to another person, provided that you transfer to that person all of the software and documentation provided in this package (including this license agreement), and transfer or destroy all copies in any form. Remember, once you transfer the SOFTWARE, you no longer have any right to use it, and the person to whom it is transferred may use it only in accordance with the copyright law, international treaty, and this license.
- 
+
 ### RESTRICTIONS
 You may not rent, lease, lend, copy, modify, sub-license, time-share, electronically transmit or receive the SOFTWARE, except as provided in this license, or as directed by STIMULSOFT. You may alter the source code of the SOFTWARE, excluding file names and copyright inscriptions, for the purpose of your use as authorized by this Agreement, but you may not otherwise translate, reverse engineer, decompile or disassemble or otherwise alter the SOFTWARE or its documentation.
 
@@ -62,7 +62,7 @@ Stimulsoft.Report.Helper.dll
 Stimulsoft.Report.Web.dll  
 Stimulsoft.Report.Win.dll  
 All .xml localization files
- 
+
 **.NET Core**  
 Stimulsoft.Base.dll  
 Stimulsoft.Dashboard.dll  
@@ -242,7 +242,7 @@ Stimulsoft.Report.Design.UWP.dll
 Stimulsoft.Report.UWP.dll  
 Stimulsoft.Report.Viewer.UWP.dll  
 All .xml localization files
- 
+
 **Stimulsoft Reports.JS**  
 stimulsoft.designer.js  
 stimulsoft.designer.pack.js  
@@ -284,7 +284,7 @@ Stimulsoft_DesignerFx_Debug.swc
 Stimulsoft_ViewerFx.swc  
 Stimulsoft_ViewerFx_Debug.swc  
 All .xml localization files
- 
+
 **Stimulsoft Dashboards.JS**  
 stimulsoft.dashboards.js  
 stimulsoft.dashboards.pack.js  
@@ -347,7 +347,7 @@ All title and copyrights in and to the SOFTWARE (including but not limited to an
 
 ### THIRD PARTY
 The SOFTWARE contains third party software which is subject to additional notices and terms and conditions. Such required third party software notices and additional terms and conditions are located at [Third Party](THIRD-PARTY.md) and are made a part of the incorporated by reference into this DLA. DEVELOPER acknowledges and agrees that certain third-party software which is not incorporated into the SOFTWARE may be required in order for DEVELOPER to use or enjoy the full benefit of the SOFTWARE. DEVELOPER shall be fully responsible for obtaining a lawful copy of such software. DEVELOPER use of such separately acquired third party software shall be in accordance with any terms and conditions of the license agreement provided with such software.
- 
+
 ### INSTALLATION AND USE
 The license granted in this DLA for you to create your own compiled programs and distributes your programs and the Redistributables (if any), is subject to all of the following conditions:
 
@@ -364,7 +364,7 @@ Without prejudice to any other rights or remedies, STIMULSOFT will terminate thi
 
 ### LIMITED WARRANTY
 NO WARRANTIES. STIMULSOFT expressly disclaims any warranty for the SOFTWARE.  THE SOFTWARE AND ANY RELATED DOCUMENTATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE, OR NONINFRINGEMENT. THE ENTIRE RISK ARISING OUT OF USE OR PERFORMANCE OF THE SOFTWARE REMAINS WITH YOU.  To the maximum extent permitted by applicable law, in no event shall STIMULSOFT be liable for any special, incidental, indirect, or consequential damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or any other pecuniary loss) arising out of the use of or inability to use the SOFTWARE or the provision of or failure to provide Support Services, even if STIMULSOFT has been advised of the possibility of such damages.
- 
+
 ### SUPPORT SERVICES
 STIMULSOFT may provide you with support services related to the SOFTWARE ("SUPPORT SERVICES"). Use of SUPPORT SERVICES is governed by the STIMULSOFT policies and programs described in the user manual, in "online" documentation and / or other STIMULSOFT-provided materials. Any supplemental SOFTWARE code provided to you as part of the SUPPORT SERVICES shall be considered part of the SOFTWARE and subject to the terms and conditions of this DLA. With respect to technical information you provide to STIMULSOFT as part of the SUPPORT SERVICES, STIMULSOFT may use such information for its business purposes, including for SOFTWARE support and development. STIMULSOFT will not utilize such technical information in a form that personally identifies you.
 
