@@ -1,15 +1,18 @@
-# WinForms C# samples for Stimulsoft Dashboards.WIN
+# WinForms ans WPF C# samples for Stimulsoft Dashboards.WIN
 
-#### This repository contains the source code of the examples of usage Stimulsoft Dashboards.WIN product in the Windows Forms applications, using C# code and WinForms components.
+#### This repository contains the source code of the examples of usage Stimulsoft Dashboards.WIN product in the Windows Forms and Windows Presentation Foundation applications, using C# code and WinForms or WPF components.
 
 # Overview
 This repository has many examples (Visual Studio Projects) each in different folders:
+* Add a Custom Function
+* Asynchronous Export
 * Demo
 * Edit Dashboard in the Designer
 * Export Dashboard
 * Register Data for Dashboard Template
 * Runtime Dashboard Creation
-* Show Dashboard in the Viewer
+* Show Dashboard in the WPF Viewer
+* Show Dashboard in the WinForms Viewer
 
 They are all combined in a Visual Studio solution (.sln-file).
 
@@ -17,7 +20,7 @@ They are all combined in a Visual Studio solution (.sln-file).
 In order to start simply open the Visual Studio solution file in the IDE Visual Studio and run the required project as Startup Project. The required libraries will be automatically downloaded from NuGet repository.
 
 # Stimulsoft Dashboards.WIN
-Stimulsoft Dashboards.WIN is a set of components using which you can add analytics to your application. Dashboards are designed for WinForms technology. Data can be rendered using various widgets from tables and charts to arrow gauges. Stimulsoft Dashboards.WIN supports a variety of data sources such as SQL, CSV, JSON, and others.
+Stimulsoft Dashboards.WIN is a set of components using which you can add analytics to your application. Dashboards are designed for WinForms and WPF technologies. Data can be rendered using various widgets from tables and charts to arrow gauges. Stimulsoft Dashboards.WIN supports a variety of data sources such as SQL, CSV, JSON, and others.
 
 You can try the [Live Demo](https://demo.stimulsoft.com/#Net/DashboardChristmas)
 
