@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2036
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{AA8F61DE-19BE-4CB7-AF71-076C07A5D27B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Show Dashboard in the Viewer", "Show Dashboard in the Viewer\Show Dashboard in the Viewer.csproj", "{107CFFC4-B8C9-453B-97CE-8A64BB38FF32}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Show Dashboard in the WinForms Viewer", "Show Dashboard in the WinForms Viewer\Show Dashboard in the WinForms Viewer.csproj", "{107CFFC4-B8C9-453B-97CE-8A64BB38FF32}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Edit Dashboard in the Designer", "Edit Dashboard in the Designer\Edit Dashboard in the Designer.csproj", "{BAB61E0A-43D4-4EED-9020-84ECE978937F}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Add a Custom Function", "Add a Custom Function\Add a Custom Function.csproj", "{4E693727-1C04-45B6-8655-132A5298EA42}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous Export", "Asynchronous Export\Asynchronous Export.csproj", "{637BE8CD-B5B7-498A-8A71-CED2AD876B96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Show Dashboard in the WPF Viewer", "Show Dashboard in the WPF Viewer\Show Dashboard in the WPF Viewer.csproj", "{03BF903A-8A7F-47EB-B749-B8BA8E434901}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{637BE8CD-B5B7-498A-8A71-CED2AD876B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{637BE8CD-B5B7-498A-8A71-CED2AD876B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{637BE8CD-B5B7-498A-8A71-CED2AD876B96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03BF903A-8A7F-47EB-B749-B8BA8E434901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03BF903A-8A7F-47EB-B749-B8BA8E434901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03BF903A-8A7F-47EB-B749-B8BA8E434901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03BF903A-8A7F-47EB-B749-B8BA8E434901}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
