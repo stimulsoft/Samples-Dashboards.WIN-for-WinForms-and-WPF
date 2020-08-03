@@ -71,6 +71,7 @@ Stimulsoft.Dashboard.Export.dll
 Stimulsoft.Data.dll  
 Stimulsoft.Map.dll  
 Stimulsoft.Report.dll  
+Stimulsoft.Report.Angular.dll  
 Stimulsoft.Report.Check.dll  
 Stimulsoft.Report.Helper.dll  
 Stimulsoft.Report.Mvc.NetCore.dll  
@@ -87,6 +88,7 @@ Stimulsoft.Dashboard.Export.dll
 Stimulsoft.Data.dll  
 Stimulsoft.Map.dll  
 Stimulsoft.Report.dll  
+Stimulsoft.Report.Angular.dll  
 Stimulsoft.Report.Check.dll  
 Stimulsoft.Report.Helper.dll  
 Stimulsoft.Report.Mvc.dll  
@@ -123,20 +125,13 @@ Stimulsoft.Report.Xbap.dll
 All .xml localization files
 
 **JS**  
-stimulsoft.designer.js  
-stimulsoft.designer.pack.js  
-stimulsoft.reports.js  
-stimulsoft.reports.pack.js  
-stimulsoft.reports.maps.js  
-stimulsoft.reports.maps.pack.js  
-stimulsoft.viewer.js  
-stimulsoft.viewer.pack.js   
-stimulsoft.reports.d.ts  
-All .css styles files  
+All stimulsoft.\*.js scripts files  
+All stimulsoft.\*.ts definitions files  
+All stimulsoft.\*.css styles files  
 All .xml localization files
 
 **Java**  
-All .jar product files  
+All stimulsoft-\*.jar product files   
 All .xml localization files
 
 **PHP**  
@@ -144,22 +139,14 @@ designer.html
 viewer.html  
 DesignerFx_PHP.swf  
 ViewerFx_PHP.swf  
-stimulsoft.designer.js  
-stimulsoft.designer.pack.js  
-stimulsoft.reports.js  
-stimulsoft.reports.pack.js  
-stimulsoft.reports.maps.js  
-stimulsoft.reports.maps.pack.js  
-stimulsoft.viewer.js  
-stimulsoft.viewer.pack.js  
+All stimulsoft.\*.js scripts files  
+All stimulsoft.\*.ts definitions files  
+All stimulsoft.\*.css styles files  
 All .php product files  
 All .xml localization files
 
 **Flex**  
-Stimulsoft_DesignerFx.swc  
-Stimulsoft_DesignerFx_Debug.swc  
-Stimulsoft_ViewerFx.swc  
-Stimulsoft_ViewerFx_Debug.swc  
+Stimulsoft_\*.swc flex files  
 All .xml localization files
 
 #### Stimulsoft Reports.Web
@@ -167,6 +154,7 @@ Stimulsoft.Base.dll
 Stimulsoft.Data.dll  
 Stimulsoft.Map.dll  
 Stimulsoft.Report.dll  
+Stimulsoft.Report.Angular.dll  
 Stimulsoft.Report.Check.dll  
 Stimulsoft.Report.Helper.dll  
 Stimulsoft.Report.Mvc.dll  
@@ -244,20 +232,13 @@ Stimulsoft.Report.Viewer.UWP.dll
 All .xml localization files
 
 #### Stimulsoft Reports.JS
-stimulsoft.designer.js  
-stimulsoft.designer.pack.js  
-stimulsoft.reports.js  
-stimulsoft.reports.pack.js  
-stimulsoft.reports.maps.js  
-stimulsoft.reports.maps.pack.js  
-stimulsoft.viewer.js  
-stimulsoft.viewer.pack.js  
-stimulsoft.reports.d.ts  
-All .css styles files  
+All stimulsoft.\*.js scripts files  
+All stimulsoft.\*.ts definitions files  
+All stimulsoft.\*.css styles files  
 All .xml localization files
 
 #### Stimulsoft Reports.Java
-All .jar product files  
+All stimulsoft-\*.jar product files  
 All .xml localization files
 
 #### Stimulsoft Reports.PHP
@@ -265,39 +246,20 @@ designer.html
 viewer.html  
 DesignerFx_PHP.swf  
 ViewerFx_PHP.swf  
-stimulsoft.dashboards.js  
-stimulsoft.dashboards.pack.js  
-stimulsoft.designer.js  
-stimulsoft.designer.pack.js  
-stimulsoft.reports.js  
-stimulsoft.reports.pack.js  
-stimulsoft.reports.maps.js  
-stimulsoft.reports.maps.pack.js  
-stimulsoft.viewer.js  
-stimulsoft.viewer.pack.js  
+All stimulsoft.\*.js scripts files  
+All stimulsoft.\*.ts definitions files  
+All stimulsoft.\*.css styles files  
 All .php product files  
 All .xml localization files
 
 #### Stimulsoft Reports.Flex
-Stimulsoft_DesignerFx.swc  
-Stimulsoft_DesignerFx_Debug.swc  
-Stimulsoft_ViewerFx.swc  
-Stimulsoft_ViewerFx_Debug.swc  
+Stimulsoft_\*.swc flex files  
 All .xml localization files
 
 #### Stimulsoft Dashboards.JS
-stimulsoft.dashboards.js  
-stimulsoft.dashboards.pack.js  
-stimulsoft.designer.js  
-stimulsoft.designer.pack.js  
-stimulsoft.reports.js  
-stimulsoft.reports.pack.js  
-stimulsoft.reports.maps.js  
-stimulsoft.reports.maps.pack.js  
-stimulsoft.viewer.js  
-stimulsoft.viewer.pack.js  
-stimulsoft.reports.d.ts  
-All .css styles files  
+All stimulsoft.\*.js scripts files  
+All stimulsoft.\*.ts definitions files  
+All stimulsoft.\*.css styles files  
 All .xml localization files
 
 #### Stimulsoft Dashboards.WEB
