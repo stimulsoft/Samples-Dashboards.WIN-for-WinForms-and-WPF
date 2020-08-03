@@ -146,7 +146,7 @@ All .php product files
 All .xml localization files
 
 **Flex**  
-Stimulsoft_\*.swc flex files  
+All Stimulsoft_\*.swc flex files  
 All .xml localization files
 
 #### Stimulsoft Reports.Web
@@ -253,7 +253,7 @@ All .php product files
 All .xml localization files
 
 #### Stimulsoft Reports.Flex
-Stimulsoft_\*.swc flex files  
+All Stimulsoft_\*.swc flex files  
 All .xml localization files
 
 #### Stimulsoft Dashboards.JS
