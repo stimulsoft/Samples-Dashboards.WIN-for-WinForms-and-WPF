@@ -31,12 +31,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.buttonDesign = new System.Windows.Forms.Button();
             this.buttonShow = new System.Windows.Forms.Button();
+            this.buttonExport = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonDesign
             // 
             this.buttonDesign.Location = new System.Drawing.Point(165, 10);
-            this.buttonDesign.Margin = new System.Windows.Forms.Padding(1);
+            this.buttonDesign.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.buttonDesign.Name = "buttonDesign";
             this.buttonDesign.Size = new System.Drawing.Size(147, 34);
             this.buttonDesign.TabIndex = 5;
@@ -47,7 +48,7 @@
             // buttonShow
             // 
             this.buttonShow.Location = new System.Drawing.Point(10, 10);
-            this.buttonShow.Margin = new System.Windows.Forms.Padding(1);
+            this.buttonShow.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.buttonShow.Name = "buttonShow";
             this.buttonShow.Size = new System.Drawing.Size(146, 34);
             this.buttonShow.TabIndex = 4;
@@ -55,11 +56,23 @@
             this.buttonShow.UseVisualStyleBackColor = true;
             this.buttonShow.Click += new System.EventHandler(this.buttonShow_Click);
             // 
+            // buttonExport
+            // 
+            this.buttonExport.Location = new System.Drawing.Point(10, 53);
+            this.buttonExport.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.buttonExport.Name = "buttonExport";
+            this.buttonExport.Size = new System.Drawing.Size(146, 34);
+            this.buttonExport.TabIndex = 6;
+            this.buttonExport.Text = "Create and Export";
+            this.buttonExport.UseVisualStyleBackColor = true;
+            this.buttonExport.Click += new System.EventHandler(this.buttonExport_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(484, 271);
+            this.Controls.Add(this.buttonExport);
             this.Controls.Add(this.buttonDesign);
             this.Controls.Add(this.buttonShow);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -77,6 +90,7 @@
 
         private System.Windows.Forms.Button buttonDesign;
         private System.Windows.Forms.Button buttonShow;
+        private System.Windows.Forms.Button buttonExport;
     }
 }
 
