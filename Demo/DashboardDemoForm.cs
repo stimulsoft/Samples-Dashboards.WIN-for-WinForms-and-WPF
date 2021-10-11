@@ -73,10 +73,8 @@ namespace Demo
             var report = reports[listBoxDashboards.SelectedIndex];
 
             var dashboard = report.Pages[0] as StiDashboard;
-            BackColor = dashboard != null ? StiDashboardStyleHelper.GetDashboardBackColor(dashboard, true) : SystemColors.Control;
-            listBoxDashboards.Colors.BackColor = dashboard != null ? StiDashboardStyleHelper.GetDashboardBackColor(dashboard, true) : Color.White;
+            this.BackColor = dashboard != null ? StiDashboardStyleHelper.GetDashboardBackColor(dashboard, true) : SystemColors.Control;
             listBoxDashboards.Colors.ForeColor = dashboard != null ? StiDashboardStyleHelper.GetForeColor(dashboard) : Color.DimGray;
-            listBoxDashboards.Invalidate();
 
             Report = report;
         }
