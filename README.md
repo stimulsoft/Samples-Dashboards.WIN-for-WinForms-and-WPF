@@ -4,15 +4,15 @@
 
 # Overview
 This repository has many examples (Visual Studio Projects) each in different folders:
-* Add a Custom Function
-* Asynchronous Export
+* Adding a Custom Function to the Designer
+* Exporting a Dashboard Asynchronously
 * Demo
-* Edit Dashboard in the Designer
-* Export Dashboard
-* Register Data for Dashboard Template
-* Runtime Dashboard Creation
-* Show Dashboard in the WPF Viewer
-* Show Dashboard in the WinForms Viewer
+* Editing a Dashboard in the Designer
+* Exporting a Dashboard
+* Registering a Data for Dashboard Template
+* Creating Dashboard at Runtime
+* Showing a Dashboard in the WPF Viewer
+* Showing a Dashboard in the Viewer
 
 They are all combined in a Visual Studio solution (.sln-file).
 
