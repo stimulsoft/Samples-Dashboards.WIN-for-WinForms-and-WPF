@@ -1,6 +1,6 @@
 # WinForms and WPF C# samples for Stimulsoft Dashboards.WIN
 
-#### This repository contains the source code of the examples of usage Stimulsoft Dashboards.WIN product in the Windows Forms and Windows Presentation Foundation applications, using C# code and WinForms or WPF components.
+#### This repository contains the source code of the examples of usage Stimulsoft Dashboards.WIN product in the Windows Forms and Windows Presentation Foundation applications, using C# code and WinForms or WPF components. The product is fully compatible with .NET Framework 4.5.2, 4.6, 4.7, and 4.8 versions.
 
 # Overview
 This repository has many examples (Visual Studio Projects) each in different folders:
