@@ -1,4 +1,6 @@
-﻿using Stimulsoft.Dashboard.Components;
+﻿using Stimulsoft.Base.Drawing;
+using Stimulsoft.Controls.Wpf.Helpers;
+using Stimulsoft.Dashboard.Components;
 using Stimulsoft.Dashboard.Viewer;
 using Stimulsoft.Report;
 using Stimulsoft.Report.Dashboard.Styles;
@@ -75,6 +77,12 @@ namespace Demo
             var dashboard = report.Pages[0] as StiDashboard;
             this.BackColor = dashboard != null ? StiDashboardStyleHelper.GetDashboardBackColor(dashboard, true) : SystemColors.Control;
             listBoxDashboards.Colors.ForeColor = dashboard != null ? StiDashboardStyleHelper.GetForeColor(dashboard) : Color.DimGray;
+
+            if (this.BackColor.Equals(listBoxDashboards.Colors.GlyphColor))
+            {
+                listBoxDashboards.Colors.GlyphColor = StiColorUtils.Dark(listBoxDashboards.Colors.GlyphColor, 40);
+                listBoxDashboards.Colors.HotGlyphColor = StiColorUtils.Dark(listBoxDashboards.Colors.GlyphColor, 30);
+            }
 
             Report = report;
         }
