@@ -77,12 +77,9 @@ namespace Demo
             var dashboard = report.Pages[0] as StiDashboard;
             this.BackColor = dashboard != null ? StiDashboardStyleHelper.GetDashboardBackColor(dashboard, true) : SystemColors.Control;
             listBoxDashboards.Colors.ForeColor = dashboard != null ? StiDashboardStyleHelper.GetForeColor(dashboard) : Color.DimGray;
-
-            if (this.BackColor.Equals(listBoxDashboards.Colors.GlyphColor))
-            {
-                listBoxDashboards.Colors.GlyphColor = StiColorUtils.Dark(listBoxDashboards.Colors.GlyphColor, 40);
-                listBoxDashboards.Colors.HotGlyphColor = StiColorUtils.Dark(listBoxDashboards.Colors.GlyphColor, 30);
-            }
+            listBoxDashboards.Colors.HotForeColor = StiColorUtils.Dark(listBoxDashboards.Colors.ForeColor, 60);
+            listBoxDashboards.Colors.GlyphColor = listBoxDashboards.Colors.ForeColor;
+            listBoxDashboards.Colors.HotGlyphColor = listBoxDashboards.Colors.HotForeColor;
 
             Report = report;
         }
@@ -104,7 +101,7 @@ namespace Demo
                 report.Load(file.FullName);
 
                 reports.Add(report);
-                listBoxDashboards.Items.Add(Path.GetFileNameWithoutExtension(file.FullName).Remove(0, 9));
+                listBoxDashboards.Items.Add(" " + Path.GetFileNameWithoutExtension(file.FullName).Remove(0, 9));
             }
         }
 

@@ -41,12 +41,13 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.listBoxDashboards.BackColor = System.Drawing.Color.Transparent;
+            this.listBoxDashboards.Cursor = System.Windows.Forms.Cursors.Default;
             this.listBoxDashboards.ForeColor = System.Drawing.Color.DimGray;
             this.listBoxDashboards.IsTransparent = true;
-            this.listBoxDashboards.Location = new System.Drawing.Point(6, 35);
-            this.listBoxDashboards.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.listBoxDashboards.Location = new System.Drawing.Point(12, 67);
+            this.listBoxDashboards.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listBoxDashboards.Name = "listBoxDashboards";
-            this.listBoxDashboards.Size = new System.Drawing.Size(260, 409);
+            this.listBoxDashboards.Size = new System.Drawing.Size(520, 787);
             this.listBoxDashboards.TabIndex = 0;
             this.listBoxDashboards.SelectedIndexChanged += new System.EventHandler(this.Reports_SelectedIndexChanged);
             // 
@@ -55,19 +56,19 @@
             this.panelReports.Controls.Add(this.buttonEditDashboard);
             this.panelReports.Controls.Add(this.listBoxDashboards);
             this.panelReports.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelReports.Location = new System.Drawing.Point(5, 5);
-            this.panelReports.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelReports.Location = new System.Drawing.Point(10, 10);
+            this.panelReports.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelReports.Name = "panelReports";
-            this.panelReports.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.panelReports.Size = new System.Drawing.Size(266, 451);
+            this.panelReports.Padding = new System.Windows.Forms.Padding(12, 12, 12, 12);
+            this.panelReports.Size = new System.Drawing.Size(532, 867);
             this.panelReports.TabIndex = 0;
             // 
             // buttonEditDashboard
             // 
-            this.buttonEditDashboard.Location = new System.Drawing.Point(6, 4);
-            this.buttonEditDashboard.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonEditDashboard.Location = new System.Drawing.Point(12, 8);
+            this.buttonEditDashboard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonEditDashboard.Name = "buttonEditDashboard";
-            this.buttonEditDashboard.Size = new System.Drawing.Size(260, 24);
+            this.buttonEditDashboard.Size = new System.Drawing.Size(520, 46);
             this.buttonEditDashboard.TabIndex = 1;
             this.buttonEditDashboard.Text = "Edit Dashboard";
             this.buttonEditDashboard.UseVisualStyleBackColor = true;
@@ -75,15 +76,15 @@
             // 
             // DashboardDemoForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(794, 461);
+            this.ClientSize = new System.Drawing.Size(1588, 887);
             this.Controls.Add(this.panelReports);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.MinimumSize = new System.Drawing.Size(805, 485);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MinimumSize = new System.Drawing.Size(1584, 867);
             this.Name = "DashboardDemoForm";
-            this.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Padding = new System.Windows.Forms.Padding(10, 10, 10, 10);
             this.Text = "Dashboards Demo";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panelReports.ResumeLayout(false);
