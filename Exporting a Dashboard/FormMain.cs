@@ -46,7 +46,7 @@ namespace Exporting_a_Dashboard
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
                 var stream = new FileStream(saveFileDialog.FileName, FileMode.OpenOrCreate);
-                report.ExportDocument(StiExportFormat.Excel2007, stream);
+                report.ExportDocument(StiExportFormat.Excel, stream);
                 stream.Close();
             }
         }

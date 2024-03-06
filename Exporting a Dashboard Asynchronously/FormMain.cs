@@ -47,7 +47,7 @@ namespace Exporting_a_Dashboard_Asynchronously
             {
                 labelStatus.Text = "Exporting...";
 
-                await Report.ExportDocumentAsync(StiExportFormat.Excel2007, saveFileDialog.FileName);
+                await Report.ExportDocumentAsync(StiExportFormat.Excel, saveFileDialog.FileName);
 
                 labelStatus.Text = "";
             }
