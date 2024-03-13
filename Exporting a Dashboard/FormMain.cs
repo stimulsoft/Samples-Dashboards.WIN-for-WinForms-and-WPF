@@ -32,7 +32,7 @@ namespace Exporting_a_Dashboard
             saveFileDialog.FileName = report.ReportName + ".pdf";
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
-                var stream = new FileStream(saveFileDialog.FileName, FileMode.OpenOrCreate);
+                var stream = new FileStream(saveFileDialog.FileName, FileMode.Create);
                 report.ExportDocument(StiExportFormat.Pdf, stream);
                 stream.Close();
             }
@@ -45,7 +45,7 @@ namespace Exporting_a_Dashboard
             saveFileDialog.FileName = report.ReportName + ".xlsx";
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
-                var stream = new FileStream(saveFileDialog.FileName, FileMode.OpenOrCreate);
+                var stream = new FileStream(saveFileDialog.FileName, FileMode.Create);
                 report.ExportDocument(StiExportFormat.Excel, stream);
                 stream.Close();
             }
@@ -58,7 +58,7 @@ namespace Exporting_a_Dashboard
             saveFileDialog.FileName = report.ReportName + ".png";
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
-                var stream = new FileStream(saveFileDialog.FileName, FileMode.OpenOrCreate);
+                var stream = new FileStream(saveFileDialog.FileName, FileMode.Create);
                 report.ExportDocument(StiExportFormat.ImagePng, stream);
                 stream.Close();
             }
