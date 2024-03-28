@@ -88,8 +88,8 @@ namespace Creating_Dashboard_at_Runtime
         private void buttonExport_Click(object sender, EventArgs e)
         {
             var dashboard = CreateTemplate();
-            dashboard.ExportDocument(StiExportFormat.Excel2007, "Dashboard.xlsx");
-            MessageBox.Show("The dashboard is saved as a file '/bin/Dashboard.xlsx'");
+            dashboard.ExportDocument(StiExportFormat.Excel, "Dashboard.xlsx");
+            MessageBox.Show("The dashboard is saved as a file '/bin/Debug/Dashboard.xlsx'");
         }
     }
 }
