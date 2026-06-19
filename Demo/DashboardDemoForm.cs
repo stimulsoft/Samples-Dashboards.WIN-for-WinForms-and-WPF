@@ -22,11 +22,11 @@ namespace Demo
         {
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
 
             InitializeComponent();
-            
+
             new StiDashboard();
 
             Icon = StiOptions.Viewer.Windows.ViewerIcon ?? StiAppIcons.GetIcon();
@@ -93,7 +93,7 @@ namespace Demo
 
             reports.Clear();
             listBoxDashboards.Items.Clear();
-            
+
             var files = dir.GetFiles("*.mrt");
             foreach (var file in files)
             {

@@ -26,7 +26,7 @@ namespace Adding_a_Custom_Function_to_the_Designer
         {
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
 
             InitializeComponent();

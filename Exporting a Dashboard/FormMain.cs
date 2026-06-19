@@ -11,7 +11,7 @@ namespace Exporting_a_Dashboard
         {
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
 
             InitializeComponent();
@@ -28,7 +28,7 @@ namespace Exporting_a_Dashboard
         private void buttonPdf_Click(object sender, EventArgs e)
         {
             var report = GetTemplate();
-            
+
             saveFileDialog.FileName = report.ReportName + ".pdf";
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
